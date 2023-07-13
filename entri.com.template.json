@@ -9,5 +9,1151 @@
   "syncPubKeyDomain": "goentri.com",
   "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
   "sharedProviderName": true,
-  "records": [{"type": "CNAME", "host": "www", "pointsTo": "%webSitePointsToBigcartel%", "groupId": "a1Bigcartel", "ttl": 3600}, {"groupId": "a1Bigcartel", "type": "REDIR301", "target": "%target%", "host": "@"}, {"type": "CNAME", "host": "%subdomainBigcartel%", "groupId": "a2Bigcartel", "pointsTo": "%webSitePointsToBigcartel%", "ttl": 3600}, {"groupId": "a1ClickFunnels", "type": "CNAME", "host": "%websiteHostClickFunnels%", "pointsTo": "%clusterValueClickFunnels%", "ttl": 3600}, {"groupId": "a1ClickFunnels", "type": "REDIR301", "target": "%target%", "host": "@"}, {"groupId": "a1ClickFunnels", "type": "TXT", "host": "@", "data": "clickfunnels-domain-verification=%verificationValueClickFunnels%", "ttl": 3600}, {"groupId": "a2ClickFunnels", "type": "TXT", "host": "%websiteIdClickFunnels%", "data": "%keyValueClickFunnels%", "ttl": 3600}, {"groupId": "a3ClickFunnels", "type": "CNAME", "host": "%websiteHostClickFunnels%", "pointsTo": "%clusterValueClickFunnels%", "ttl": 3600}, {"groupId": "a3ClickFunnels", "type": "REDIR301", "target": "%target%", "host": "@"}, {"groupId": "a3ClickFunnels", "type": "TXT", "host": "@", "data": "clickfunnels-domain-verification=%verificationValueClickFunnels%", "ttl": 3600}, {"groupId": "a3ClickFunnels", "type": "TXT", "host": "%websiteIdClickFunnels%", "data": "%keyValueClickFunnels%", "ttl": 3600}, {"groupId": "a1ClickFunnels", "type": "CNAME", "host": "%webSiteHostClickFunnels%", "pointsTo": "target.clickfunnels.com", "ttl": 3600}, {"groupId": "a2ClickFunnels", "type": "REDIR301", "target": "%target%", "host": "@"}, {"type": "TXT", "host": "_crisp", "data": "%txtCrisp%", "ttl": 14400, "groupId": "a1Crisp"}, {"type": "CNAME", "host": "@", "pointsTo": "custom.crisp.help.", "ttl": 3600, "groupId": "a1Crisp"}, {"type": "TXT", "host": "_crisp", "data": "%txtCrisp%", "ttl": 14400, "groupId": "a1Crisp"}, {"type": "CNAME", "host": "@", "pointsTo": "custom.crisp.watch.", "ttl": 3600, "groupId": "a1Crisp"}, {"type": "TXT", "host": "entri", "data": "entri-sample-txt-record", "ttl": 3600, "groupId": "a1Demo"}, {"type": "TXT", "host": "%dkimHostDKIM Helper%._domainkey", "data": "%dkimValueDKIM Helper%", "ttl": 14400, "groupId": "a1DKIM Helper"}, {"type": "CNAME", "host": "@", "pointsTo": "%mappingValueDuda Subdomains%", "ttl": 3600, "groupId": "a1Duda Subdomains"}, {"type": "CNAME", "host": "www", "pointsTo": "%mappingValueDuda%", "ttl": 3600, "groupId": "a1Duda"}, {"type": "A", "host": "@", "pointsTo": "%primaryIpDuda%", "ttl": 3600, "groupId": "a1Duda"}, {"type": "A", "host": "@", "pointsTo": "%fallbackIpDuda%", "ttl": 3600, "groupId": "a1Duda"}, {"groupId": "a1Durable", "type": "TXT", "host": "%dkimHostDurable%", "data": "%dkimValueDurable%", "ttl": 3600}, {"groupId": "a1Durable", "type": "CNAME", "host": "www", "pointsTo": "%mappingValueDurable%", "ttl": 3600}, {"groupId": "a1Durable", "type": "A", "host": "@", "pointsTo": "%primaryIpDurable%", "ttl": 3600}, {"groupId": "a2Durable", "type": "CNAME", "host": "www", "pointsTo": "%mappingValueDurable%", "ttl": 3600}, {"groupId": "a2Durable", "type": "A", "host": "@", "pointsTo": "%primaryIpDurable%", "ttl": 3600}, {"groupId": "a1EventCreate", "type": "CNAME", "host": "www", "pointsTo": "domainsecure.eventcreate.com", "ttl": 3600}, {"groupId": "a1EventCreate", "type": "REDIR301", "target": "%target%", "host": "@"}, {"groupId": "a2EventCreate", "type": "CNAME", "host": "%returnPathHostEventCreate%", "pointsTo": "%returnPathPointsToEventCreate%", "ttl": 3600}, {"groupId": "a2EventCreate", "type": "TXT", "host": "%dkimHostEventCreate%", "data": "%dkimValueEventCreate%", "ttl": 3600}, {"groupId": "a2EventCreate", "type": "REDIR301", "target": "%target%", "host": "@"}, {"groupId": "a3EventCreate", "type": "CNAME", "host": "www", "pointsTo": "domainsecure.eventcreate.com", "ttl": 3600}, {"groupId": "a3EventCreate", "type": "CNAME", "host": "%returnPathHostEventCreate%", "pointsTo": "%returnPathPointsToEventCreate%", "ttl": 3600}, {"groupId": "a3EventCreate", "type": "TXT", "host": "%dkimHostEventCreate%", "data": "%dkimValueEventCreate%", "ttl": 3600}, {"groupId": "a3EventCreate", "type": "REDIR301", "target": "%target%", "host": "@"}, {"type": "CNAME", "host": "%CnameHost1Fairmint%", "pointsTo": "%webSitePointsTo1Fairmint%", "ttl": 3600, "groupId": "a1Fairmint"}, {"type": "CNAME", "host": "%CnameHost2Fairmint%", "pointsTo": "%webSitePointsTo2Fairmint%", "ttl": 3600, "groupId": "a1Fairmint"}, {"type": "CNAME", "host": "%CnameHost3Fairmint%", "pointsTo": "%webSitePointsTo3Fairmint%", "ttl": 3600, "groupId": "a1Fairmint"}, {"type": "CNAME", "host": "%CnameHost4Fairmint%", "pointsTo": "%webSitePointsTo4Fairmint%", "ttl": 3600, "groupId": "a1Fairmint"}, {"type": "CNAME", "host": "%CnameHost5Fairmint%", "pointsTo": "%webSitePointsTo5Fairmint%", "ttl": 3600, "groupId": "a1Fairmint"}, {"type": "CNAME", "host": "%websiteHost1Folk%", "pointsTo": "%mappingValue1Folk%", "ttl": 3600, "groupId": "a1Folk"}, {"type": "CNAME", "host": "%websiteHost2Folk%", "pointsTo": "%mappingValue2Folk%", "ttl": 3600, "groupId": "a1Folk"}, {"type": "CNAME", "host": "%websiteHost3Folk%", "pointsTo": "%mappingValue3Folk%", "ttl": 3600, "groupId": "a1Folk"}, {"type": "A", "host": "@", "pointsTo": "%ipFourthwall%", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "www", "pointsTo": "@", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "%sendgridHostFourthwall%", "pointsTo": "%sendgridValueFourthwall%", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "%sendgridHostDomainKey1Fourthwall%", "pointsTo": "%sendgridHostDomainKeyValue1Fourthwall%", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "%sendgridHostDomainKey2Fourthwall%", "pointsTo": "%sendgridHostDomainKeyValue2Fourthwall%", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "zendesk1._domainkey.support", "pointsTo": "zendesk1._domainkey.zendesk.com.", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "zendesk2._domainkey.support", "pointsTo": "zendesk2._domainkey.zendesk.com.", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "zendesk1.support", "pointsTo": "mail1.zendesk.com.", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "zendesk2.support", "pointsTo": "mail2.zendesk.com.", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "zendesk3.support", "pointsTo": "mail3.zendesk.com.", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "CNAME", "host": "zendesk4.support", "pointsTo": "mail4.zendesk.com.", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "TXT", "host": "zendeskverification.support", "data": "%zendeskverificationFourthwall%", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "TXT", "host": "_dmarc.support", "data": "v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@fourthwall.com", "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "SPFM", "host": "support", "spfRules": "include:_spf.google.com include:mail.zendesk.com include:spf.improvmx.com include:sendgrid.net", "groupId": "a1Fourthwall"}, {"type": "MX", "host": "support", "pointsTo": "mx1.improvmx.com.", "priority": 10, "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "MX", "host": "support", "pointsTo": "mx2.improvmx.com.", "priority": 10, "ttl": 3600, "groupId": "a1Fourthwall"}, {"type": "A", "host": "@", "groupId": "a1Gamma", "pointsTo": "%primaryIpGamma%", "ttl": 3600}, {"type": "A", "host": "@", "groupId": "a1Gamma", "pointsTo": "%primaryIp2Gamma%", "ttl": 3600}, {"type": "CNAME", "host": "%cnamehostGamma%", "groupId": "a2Gamma", "pointsTo": "%cnamePointsToGamma%", "ttl": 3600}, {"type": "A", "host": "@", "pointsTo": "%ipGoSite%", "ttl": 3600, "groupId": "a1GoSite"}, {"type": "CNAME", "host": "www", "pointsTo": "@", "ttl": 3600, "groupId": "a1GoSite"}, {"type": "A", "host": "%websiteHost1Hostinger%", "pointsTo": "%mappingValue1Hostinger%", "ttl": 3600, "groupId": "a1Hostinger"}, {"type": "A", "host": "%websiteHost2Hostinger%", "pointsTo": "%mappingValue2Hostinger%", "ttl": 3600, "groupId": "a1Hostinger"}, {"type": "CNAME", "host": "%websiteHost3Hostinger%", "pointsTo": "%mappingValue3Hostinger%", "ttl": 3600, "groupId": "a1Hostinger"}, {"type": "CNAME", "host": "www", "pointsTo": "%cnamePointsToHotmart Subdomains%", "ttl": 3600, "groupId": "a1Hotmart Subdomains"}, {"type": "A", "host": "@", "pointsTo": "%primaryIpHotmart%", "ttl": 3600, "groupId": "a1Hotmart"}, {"type": "CNAME", "host": "www", "pointsTo": "%cnamePointsToHotmart%", "ttl": 3600, "groupId": "a1Hotmart"}, {"type": "TXT", "host": "_dmarc", "data": "%dmarcValueInstantly%", "ttl": 3600, "groupId": "a1Instantly"}, {"type": "SPFM", "host": "@", "spfRules": "include:%thirdPartyDomainInstantly%", "groupId": "a1Instantly"}, {"type": "A", "host": "@", "pointsTo": "52.21.250.168", "ttl": 3600, "groupId": "a1JerseyWatch"}, {"type": "CNAME", "host": "%webSiteHostJerseyWatch%", "pointsTo": "%webSitePointsToJerseyWatch%", "ttl": 3600, "groupId": "a1JerseyWatch"}, {"type": "CNAME", "host": "@", "pointsTo": "%mappingValueJute%", "ttl": 300, "groupId": "a1Jute"}, {"type": "TXT", "host": "_dmarc", "data": "v=DMARC1; p=quarantine; pct=90; sp=none", "ttl": 3600, "groupId": "a1Mailshake"}, {"type": "SPFM", "host": "@", "spfRules": "include:%thirdPartyDomainMailshake%", "groupId": "a1Mailshake"}, {"type": "A", "host": "@", "pointsTo": "174.138.108.26", "ttl": 3600, "groupId": "a1MightySites"}, {"type": "CNAME", "host": "www", "pointsTo": "sites.mightysites.com", "ttl": 3600, "groupId": "a1MightySites"}, {"type": "TXT", "host": "%host_txt1Mixo%", "data": "%txt1Mixo%", "ttl": 3600, "groupId": "a1Mixo"}, {"type": "TXT", "host": "%host_txt2Mixo%", "data": "%txt2Mixo%", "ttl": 3600, "groupId": "a1Mixo"}, {"type": "CNAME", "host": "%host_cnameMixo%", "pointsTo": "%value_cnameMixo%", "ttl": 3600, "groupId": "a1Mixo"}, {"type": "REDIR301", "target": "%target%", "host": "@", "groupId": "a1Mixo"}, {"type": "A", "host": "@", "pointsTo": "%shopIpMoteefe%", "ttl": 600, "groupId": "a1Moteefe"}, {"type": "CNAME", "host": "www", "pointsTo": "%shopDomainMoteefe%", "ttl": 3600, "groupId": "a1Moteefe"}, {"type": "CNAME", "host": "s1._domainkey", "pointsTo": "%s1DomainKeyMoteefe%", "ttl": 3600, "groupId": "a1Moteefe"}, {"type": "CNAME", "host": "s2._domainkey", "pointsTo": "%s2DomainKeyMoteefe%", "ttl": 3600, "groupId": "a1Moteefe"}, {"type": "CNAME", "host": "%emDomainHostMoteefe%", "pointsTo": "%emDomainValueMoteefe%", "ttl": 3600, "groupId": "a1Moteefe"}, {"type": "TXT", "host": "zendeskverification", "data": "%zendeskverificationKeyMoteefe%", "ttl": 3600, "groupId": "a1Moteefe"}, {"type": "SPFM", "spfRules": "mx include:spf.improvmx.com include:mail.zendesk.com", "host": "@", "groupId": "a1Moteefe"}, {"type": "MX", "host": "@", "pointsTo": "mx1.improvmx.com", "ttl": 3600, "priority": 10, "groupId": "a1Moteefe"}, {"type": "MX", "host": "@", "pointsTo": "mx2.improvmx.com", "ttl": 3600, "priority": 20, "groupId": "a1Moteefe"}, {"type": "A", "host": "@", "pointsTo": "75.2.60.5", "ttl": 300, "groupId": "a1Nicesite"}, {"type": "CNAME", "host": "www", "pointsTo": "@", "ttl": 300, "groupId": "a1Nicesite"}, {"type": "CNAME", "host": "@", "pointsTo": "%mappingValueNostra%", "ttl": 3600, "groupId": "a1Nostra"}, {"type": "CNAME", "host": "www", "pointsTo": "@", "ttl": 3600, "groupId": "a1Owner"}, {"type": "A", "host": "@", "pointsTo": "%ipOwner%", "ttl": 3600, "groupId": "a1Owner"}, {"type": "A", "host": "@", "pointsTo": "%ipPitchlane%", "ttl": 600, "groupId": "a1Pitchlane"}, {"type": "CNAME", "host": "@", "pointsTo": "%cnamePointstoPitchlaneSubdomains%", "ttl": 600, "groupId": "a1PitchlaneSubdomains"}, {"type": "A", "host": "@", "pointsTo": "%ipPostcard%", "ttl": 3600, "groupId": "a1Postcard"}, {"type": "CNAME", "host": "%webSiteHostPostcard%", "pointsTo": "%webSitePointsToPostcard%", "ttl": 3600, "groupId": "a1Postcard"}, {"type": "CNAME", "host": "%customDomain1Prometheus%", "pointsTo": "%websitePointsTo1Prometheus%", "groupId": "a1Prometheus", "ttl": 3600}, {"type": "CNAME", "host": "%customDomain2Prometheus%", "pointsTo": "%websitePointsTo2Prometheus%", "groupId": "a1Prometheus", "ttl": 3600}, {"type": "A", "host": "hw", "pointsTo": "%websitePointsTo3Prometheus%", "groupId": "a1Prometheus", "ttl": 3600}, {"type": "TXT", "host": "%hostValuePrometheus%", "data": "%customValuePrometheus%", "groupId": "a1Prometheus", "ttl": 3600}, {"type": "CNAME", "host": "%customDomain1Prometheus%", "pointsTo": "%websitePointsTo1Prometheus%", "groupId": "a2Prometheus", "ttl": 3600}, {"type": "CNAME", "host": "%customDomain2Prometheus%", "pointsTo": "%websitePointsTo2Prometheus%", "groupId": "a2Prometheus", "ttl": 3600}, {"type": "A", "host": "hw", "pointsTo": "%websitePointsTo3Prometheus%", "groupId": "a2Prometheus", "ttl": 3600}, {"type": "CNAME", "host": "%customDomain4Prometheus%", "pointsTo": "%websitePointsTo4Prometheus%", "groupId": "a2Prometheus", "ttl": 3600}, {"type": "TXT", "host": "%hostValuePrometheus%", "data": "%customValuePrometheus%", "groupId": "a2Prometheus", "ttl": 3600}, {"type": "A", "host": "@", "pointsTo": "75.2.60.5", "ttl": 300, "groupId": "a1Realnice"}, {"type": "CNAME", "host": "www", "pointsTo": "@", "ttl": 300, "groupId": "a1Realnice"}, {"type": "CNAME", "host": "checkout", "pointsTo": "%cnameValueRebillion%", "ttl": 3600, "groupId": "a1Rebillion"}, {"type": "CNAME", "host": "%awsDinamicHostRebillion%", "pointsTo": "%keyValueRebillion%", "ttl": 3600, "groupId": "a1Rebillion"}, {"type": "A", "host": "%websiteHostRebrandlySubdomains%", "pointsTo": "%ipValueRebrandlySubdomains%", "ttl": 3600, "groupId": "a1RebrandlySubdomains"}, {"type": "A", "host": "@", "pointsTo": "%ipRebrandly%", "ttl": 3600, "groupId": "a1Rebrandly"}, {"type": "A", "host": "www", "pointsTo": "%ipRebrandly%", "ttl": 3600, "groupId": "a1Rebrandly"}, {"type": "A", "host": "%subdomainRevenueroll%", "pointsTo": "%ipsubdomainRevenueroll%", "ttl": 300, "groupId": "a1Revenueroll"}, {"type": "A", "host": "@", "pointsTo": "%ipSprwt.io%", "ttl": 3600, "groupId": "a1Sprwt.io"}, {"type": "CNAME", "host": "%customDomainSprwt.io%", "pointsTo": "%websitePointsToSprwt.io%", "ttl": 3600, "groupId": "a1Sprwt.io"}, {"type": "TXT", "host": "@", "data": "v=spf1 include:amazonses.com include:_spf.google.com ~all", "ttl": 3600, "groupId": "a1Sprwt.io"}, {"type": "A", "host": "@", "pointsTo": "%ipSquareup%", "ttl": 600, "groupId": "a1Squareup"}, {"type": "CNAME", "host": "www", "pointsTo": "@", "ttl": 600, "groupId": "a1Squareup"}, {"type": "A", "host": "@", "pointsTo": "%ipSquareupSubdomains%", "ttl": 600, "groupId": "a1SquareupSubdomains"}, {"type": "CNAME", "host": "www", "pointsTo": "@", "ttl": 600, "groupId": "a1SquareupSubdomains"}, {"type": "CNAME", "host": "%customDomainThe.com%", "groupId": "a1The.com", "pointsTo": "%websitePointsToThe.com%", "ttl": 3600}, {"type": "TXT", "groupId": "a1The.com", "host": "%hostValueThe.com%", "data": "%customValueThe.com%", "ttl": 3600}, {"type": "TXT", "host": "%customHostThe.com%", "groupId": "a1The.com", "data": "%verificationValueThe.com%", "ttl": 3600}, {"type": "CNAME", "host": "%customDomainThe.com%", "groupId": "a2The.com", "pointsTo": "%websitePointsToThe.com%", "ttl": 3600}, {"type": "CNAME", "host": "%customDomainThe.com%", "groupId": "a3The.com", "pointsTo": "%websitePointsToThe.com%", "ttl": 3600}, {"type": "TXT", "groupId": "a3The.com", "host": "%hostValueThe.com%", "data": "%customValueThe.com%", "ttl": 3600}, {"type": "A", "host": "@", "pointsTo": "%ipValueThe.com%", "groupId": "a1The.com", "ttl": 3600}, {"type": "CNAME", "host": "www", "groupId": "a1The.com", "pointsTo": "%websitePointsToThe.com%", "ttl": 3600}, {"type": "TXT", "groupId": "a1The.com", "host": "%hostValueThe.com%", "data": "%customValueThe.com%", "ttl": 3600}, {"type": "TXT", "host": "%customHostThe.com%", "groupId": "a1The.com", "data": "%verificationValueThe.com%", "ttl": 3600}, {"type": "A", "host": "@", "pointsTo": "%ipValueThe.com%", "groupId": "a2The.com", "ttl": 3600}, {"type": "CNAME", "host": "www", "groupId": "a2The.com", "pointsTo": "%websitePointsToThe.com%", "ttl": 3600}, {"type": "A", "host": "@", "pointsTo": "%ipValueThe.com%", "groupId": "a3The.com", "ttl": 3600}, {"type": "CNAME", "host": "www", "groupId": "a3The.com", "pointsTo": "%websitePointsToThe.com%", "ttl": 3600}, {"type": "TXT", "groupId": "a3The.com", "host": "%hostValueThe.com%", "data": "%customValueThe.com%", "ttl": 3600}, {"type": "CNAME", "host": "%webSiteHostThe.com%", "pointsTo": "%webSitePointsToThe.com%", "ttl": 3600, "groupId": "a1The.com"}, {"type": "CNAME", "host": "%sslNameVerificationThe.com%.%webSiteHostThe.com%", "pointsTo": "%sslValueVerificationThe.com%", "ttl": 3600, "groupId": "a1The.com"}, {"type": "REDIR301", "target": "%target%", "host": "@", "groupId": "a1The.com"}, {"type": "CNAME", "host": "%CnameHost1Tiiny.host%", "groupId": "a1Tiiny.host", "pointsTo": "%webSitePointsTo1Tiiny.host%", "ttl": 3600}, {"type": "CNAME", "host": "%CnameHost2Tiiny.host%", "groupId": "a1Tiiny.host", "pointsTo": "%webSitePointsTo2Tiiny.host%", "ttl": 3600}, {"type": "REDIR301", "target": "%taÒrget%", "groupId": "a1Tiiny.host", "host": "@"}, {"type": "CNAME", "host": "%CnameHost1Tiiny.host%", "groupId": "a2Tiiny.host", "pointsTo": "%webSitePointsTo1Tiiny.host%", "ttl": 3600}, {"type": "CNAME", "host": "%CnameHost2Tiiny.host%", "groupId": "a2Tiiny.host", "pointsTo": "%webSitePointsTo2Tiiny.host%", "ttl": 3600}, {"type": "A", "host": "%websiteHost1Tiiny.host%", "pointsTo": "%mappingValue1Tiiny.host%", "groupId": "a2Tiiny.host", "ttl": 3600}, {"type": "CNAME", "host": "%CnameHost1Tiiny.host%", "groupId": "a3Tiiny.host", "pointsTo": "%webSitePointsTo1Tiiny.host%", "ttl": 3600}, {"type": "CNAME", "host": "%CnameHost2Tiiny.host%", "groupId": "a3Tiiny.host", "pointsTo": "%webSitePointsTo2Tiiny.host%", "ttl": 3600}, {"type": "CNAME", "host": "%CnameHost3Tiiny.host%", "groupId": "a3Tiiny.host", "pointsTo": "%webSitePointsTo3Tiiny.host%", "ttl": 3600}, {"type": "A", "host": "%websiteHost1Tiiny.host%", "pointsTo": "%mappingValue1Tiiny.host%", "groupId": "a3Tiiny.host", "ttl": 3600}, {"type": "CNAME", "host": "@", "pointsTo": "%mappingValueUnbounce%", "ttl": 600, "groupId": "a1Unbounce"}, {"type": "A", "host": "@", "pointsTo": "%ipVendo%", "groupId": "a1Vendo", "ttl": 3600}, {"type": "CNAME", "host": "%sendgridAliasHostVendo%", "pointsTo": "%sendgridAliasPointsToVendo%", "groupId": "a2Vendo", "ttl": 3600}, {"type": "CNAME", "host": "%sendgridDomainKeyHost1Vendo%", "pointsTo": "%sendgridDomainKeyPointsTo1Vendo%", "groupId": "a2Vendo", "ttl": 3600}, {"type": "CNAME", "host": "%sendgridDomainKeyHost2Vendo%", "pointsTo": "%sendgridDomainKeyPointsTo2Vendo%", "groupId": "a2Vendo", "ttl": 3600}, {"type": "CNAME", "host": "@", "pointsTo": "%mappingValueVendoSubdomains%", "ttl": 600, "groupId": "a1VendoSubdomains"}, {"type": "TXT", "host": "@", "data": "%txtVerilinks%", "ttl": 3600, "groupId": "a1Verilinks"}, {"type": "A", "host": "@", "pointsTo": "%primaryIpWebflow%", "ttl": 3600, "groupId": "a1Webflow"}, {"type": "A", "host": "@", "pointsTo": "%primaryIp2Webflow%", "ttl": 3600, "groupId": "a1Webflow"}, {"type": "CNAME", "host": "www", "pointsTo": "%cnamePointsToWebflow%", "ttl": 3600, "groupId": "a1Webflow"}]
+  "records": [
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "%webSitePointsToBigcartel%",
+        "groupId": "a1Bigcartel",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a1Bigcartel",
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@"
+      },
+      {
+        "type": "CNAME",
+        "host": "%subdomainBigcartel%",
+        "groupId": "a2Bigcartel",
+        "pointsTo": "%webSitePointsToBigcartel%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a1ClickFunnels",
+        "type": "CNAME",
+        "host": "%websiteHostClickFunnels%",
+        "pointsTo": "%clusterValueClickFunnels%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a1ClickFunnels",
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@"
+      },
+      {
+        "groupId": "a1ClickFunnels",
+        "type": "TXT",
+        "host": "@",
+        "data": "clickfunnels-domain-verification=%verificationValueClickFunnels%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a2ClickFunnels",
+        "type": "TXT",
+        "host": "%websiteIdClickFunnels%",
+        "data": "%keyValueClickFunnels%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a3ClickFunnels",
+        "type": "CNAME",
+        "host": "%websiteHostClickFunnels%",
+        "pointsTo": "%clusterValueClickFunnels%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a3ClickFunnels",
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@"
+      },
+      {
+        "groupId": "a3ClickFunnels",
+        "type": "TXT",
+        "host": "@",
+        "data": "clickfunnels-domain-verification=%verificationValueClickFunnels%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a3ClickFunnels",
+        "type": "TXT",
+        "host": "%websiteIdClickFunnels%",
+        "data": "%keyValueClickFunnels%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a1ClickFunnels",
+        "type": "CNAME",
+        "host": "%webSiteHostClickFunnels%",
+        "pointsTo": "target.clickfunnels.com",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a2ClickFunnels",
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@"
+      },
+      {
+        "type": "TXT",
+        "host": "_crisp",
+        "data": "%txtCrisp%",
+        "ttl": 14400,
+        "groupId": "a1Crisp"
+      },
+      {
+        "type": "CNAME",
+        "host": "@",
+        "pointsTo": "custom.crisp.help.",
+        "ttl": 3600,
+        "groupId": "a1Crisp"
+      },
+      {
+        "type": "TXT",
+        "host": "_crisp",
+        "data": "%txtCrisp%",
+        "ttl": 14400,
+        "groupId": "a1Crisp"
+      },
+      {
+        "type": "CNAME",
+        "host": "@",
+        "pointsTo": "custom.crisp.watch.",
+        "ttl": 3600,
+        "groupId": "a1Crisp"
+      },
+      {
+        "type": "TXT",
+        "host": "entri",
+        "data": "entri-sample-txt-record",
+        "ttl": 3600,
+        "groupId": "a1Demo"
+      },
+      {
+        "type": "TXT",
+        "host": "%dkimHostDKIM Helper%._domainkey",
+        "data": "%dkimValueDKIM Helper%",
+        "ttl": 14400,
+        "groupId": "a1DKIM Helper"
+      },
+      {
+        "type": "CNAME",
+        "host": "@",
+        "pointsTo": "%mappingValueDuda Subdomains%",
+        "ttl": 3600,
+        "groupId": "a1Duda Subdomains"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "%mappingValueDuda%",
+        "ttl": 3600,
+        "groupId": "a1Duda"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%primaryIpDuda%",
+        "ttl": 3600,
+        "groupId": "a1Duda"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%fallbackIpDuda%",
+        "ttl": 3600,
+        "groupId": "a1Duda"
+      },
+      {
+        "groupId": "a1Durable",
+        "type": "TXT",
+        "host": "%dkimHostDurable%",
+        "data": "%dkimValueDurable%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a1Durable",
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "%mappingValueDurable%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a1Durable",
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%primaryIpDurable%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a2Durable",
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "%mappingValueDurable%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a2Durable",
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%primaryIpDurable%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a1EventCreate",
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "domainsecure.eventcreate.com",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a1EventCreate",
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@"
+      },
+      {
+        "groupId": "a2EventCreate",
+        "type": "CNAME",
+        "host": "%returnPathHostEventCreate%",
+        "pointsTo": "%returnPathPointsToEventCreate%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a2EventCreate",
+        "type": "TXT",
+        "host": "%dkimHostEventCreate%",
+        "data": "%dkimValueEventCreate%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a2EventCreate",
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@"
+      },
+      {
+        "groupId": "a3EventCreate",
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "domainsecure.eventcreate.com",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a3EventCreate",
+        "type": "CNAME",
+        "host": "%returnPathHostEventCreate%",
+        "pointsTo": "%returnPathPointsToEventCreate%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a3EventCreate",
+        "type": "TXT",
+        "host": "%dkimHostEventCreate%",
+        "data": "%dkimValueEventCreate%",
+        "ttl": 3600
+      },
+      {
+        "groupId": "a3EventCreate",
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@"
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost1Fairmint%",
+        "pointsTo": "%webSitePointsTo1Fairmint%",
+        "ttl": 3600,
+        "groupId": "a1Fairmint"
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost2Fairmint%",
+        "pointsTo": "%webSitePointsTo2Fairmint%",
+        "ttl": 3600,
+        "groupId": "a1Fairmint"
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost3Fairmint%",
+        "pointsTo": "%webSitePointsTo3Fairmint%",
+        "ttl": 3600,
+        "groupId": "a1Fairmint"
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost4Fairmint%",
+        "pointsTo": "%webSitePointsTo4Fairmint%",
+        "ttl": 3600,
+        "groupId": "a1Fairmint"
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost5Fairmint%",
+        "pointsTo": "%webSitePointsTo5Fairmint%",
+        "ttl": 3600,
+        "groupId": "a1Fairmint"
+      },
+      {
+        "type": "CNAME",
+        "host": "%websiteHost1Folk%",
+        "pointsTo": "%mappingValue1Folk%",
+        "ttl": 3600,
+        "groupId": "a1Folk"
+      },
+      {
+        "type": "CNAME",
+        "host": "%websiteHost2Folk%",
+        "pointsTo": "%mappingValue2Folk%",
+        "ttl": 3600,
+        "groupId": "a1Folk"
+      },
+      {
+        "type": "CNAME",
+        "host": "%websiteHost3Folk%",
+        "pointsTo": "%mappingValue3Folk%",
+        "ttl": 3600,
+        "groupId": "a1Folk"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipFourthwall%",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "@",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "%sendgridHostFourthwall%",
+        "pointsTo": "%sendgridValueFourthwall%",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "%sendgridHostDomainKey1Fourthwall%",
+        "pointsTo": "%sendgridHostDomainKeyValue1Fourthwall%",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "%sendgridHostDomainKey2Fourthwall%",
+        "pointsTo": "%sendgridHostDomainKeyValue2Fourthwall%",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "zendesk1._domainkey.support",
+        "pointsTo": "zendesk1._domainkey.zendesk.com.",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "zendesk2._domainkey.support",
+        "pointsTo": "zendesk2._domainkey.zendesk.com.",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "zendesk1.support",
+        "pointsTo": "mail1.zendesk.com.",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "zendesk2.support",
+        "pointsTo": "mail2.zendesk.com.",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "zendesk3.support",
+        "pointsTo": "mail3.zendesk.com.",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "CNAME",
+        "host": "zendesk4.support",
+        "pointsTo": "mail4.zendesk.com.",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "TXT",
+        "host": "zendeskverification.support",
+        "data": "%zendeskverificationFourthwall%",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "TXT",
+        "host": "_dmarc.support",
+        "data": "v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@fourthwall.com",
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "SPFM",
+        "host": "support",
+        "spfRules": "include:_spf.google.com include:mail.zendesk.com include:spf.improvmx.com include:sendgrid.net",
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "MX",
+        "host": "support",
+        "pointsTo": "mx1.improvmx.com.",
+        "priority": 10,
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "MX",
+        "host": "support",
+        "pointsTo": "mx2.improvmx.com.",
+        "priority": 10,
+        "ttl": 3600,
+        "groupId": "a1Fourthwall"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "groupId": "a1Gamma",
+        "pointsTo": "%primaryIpGamma%",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "groupId": "a1Gamma",
+        "pointsTo": "%primaryIp2Gamma%",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%cnamehostGamma%",
+        "groupId": "a2Gamma",
+        "pointsTo": "%cnamePointsToGamma%",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipGoSite%",
+        "ttl": 3600,
+        "groupId": "a1GoSite"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "@",
+        "ttl": 3600,
+        "groupId": "a1GoSite"
+      },
+      {
+        "type": "A",
+        "host": "%websiteHost1Hostinger%",
+        "pointsTo": "%mappingValue1Hostinger%",
+        "ttl": 3600,
+        "groupId": "a1Hostinger"
+      },
+      {
+        "type": "A",
+        "host": "%websiteHost2Hostinger%",
+        "pointsTo": "%mappingValue2Hostinger%",
+        "ttl": 3600,
+        "groupId": "a1Hostinger"
+      },
+      {
+        "type": "CNAME",
+        "host": "%websiteHost3Hostinger%",
+        "pointsTo": "%mappingValue3Hostinger%",
+        "ttl": 3600,
+        "groupId": "a1Hostinger"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "%cnamePointsToHotmart Subdomains%",
+        "ttl": 3600,
+        "groupId": "a1Hotmart Subdomains"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%primaryIpHotmart%",
+        "ttl": 3600,
+        "groupId": "a1Hotmart"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "%cnamePointsToHotmart%",
+        "ttl": 3600,
+        "groupId": "a1Hotmart"
+      },
+      {
+        "type": "TXT",
+        "host": "_dmarc",
+        "data": "%dmarcValueInstantly%",
+        "ttl": 3600,
+        "groupId": "a1Instantly"
+      },
+      {
+        "type": "SPFM",
+        "host": "@",
+        "spfRules": "include:%thirdPartyDomainInstantly%",
+        "groupId": "a1Instantly"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "52.21.250.168",
+        "ttl": 3600,
+        "groupId": "a1JerseyWatch"
+      },
+      {
+        "type": "CNAME",
+        "host": "%webSiteHostJerseyWatch%",
+        "pointsTo": "%webSitePointsToJerseyWatch%",
+        "ttl": 3600,
+        "groupId": "a1JerseyWatch"
+      },
+      {
+        "type": "CNAME",
+        "host": "@",
+        "pointsTo": "%mappingValueJute%",
+        "ttl": 300,
+        "groupId": "a1Jute"
+      },
+      {
+        "type": "TXT",
+        "host": "_dmarc",
+        "data": "v=DMARC1; p=quarantine; pct=90; sp=none",
+        "ttl": 3600,
+        "groupId": "a1Mailshake"
+      },
+      {
+        "type": "SPFM",
+        "host": "@",
+        "spfRules": "include:%thirdPartyDomainMailshake%",
+        "groupId": "a1Mailshake"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "174.138.108.26",
+        "ttl": 3600,
+        "groupId": "a1MightySites"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "sites.mightysites.com",
+        "ttl": 3600,
+        "groupId": "a1MightySites"
+      },
+      {
+        "type": "TXT",
+        "host": "%host_txt1Mixo%",
+        "data": "%txt1Mixo%",
+        "ttl": 3600,
+        "groupId": "a1Mixo"
+      },
+      {
+        "type": "TXT",
+        "host": "%host_txt2Mixo%",
+        "data": "%txt2Mixo%",
+        "ttl": 3600,
+        "groupId": "a1Mixo"
+      },
+      {
+        "type": "CNAME",
+        "host": "%host_cnameMixo%",
+        "pointsTo": "%value_cnameMixo%",
+        "ttl": 3600,
+        "groupId": "a1Mixo"
+      },
+      {
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@",
+        "groupId": "a1Mixo"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%shopIpMoteefe%",
+        "ttl": 600,
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "%shopDomainMoteefe%",
+        "ttl": 3600,
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "CNAME",
+        "host": "s1._domainkey",
+        "pointsTo": "%s1DomainKeyMoteefe%",
+        "ttl": 3600,
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "CNAME",
+        "host": "s2._domainkey",
+        "pointsTo": "%s2DomainKeyMoteefe%",
+        "ttl": 3600,
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "CNAME",
+        "host": "%emDomainHostMoteefe%",
+        "pointsTo": "%emDomainValueMoteefe%",
+        "ttl": 3600,
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "TXT",
+        "host": "zendeskverification",
+        "data": "%zendeskverificationKeyMoteefe%",
+        "ttl": 3600,
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "SPFM",
+        "spfRules": "mx include:spf.improvmx.com include:mail.zendesk.com",
+        "host": "@",
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "MX",
+        "host": "@",
+        "pointsTo": "mx1.improvmx.com",
+        "ttl": 3600,
+        "priority": 10,
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "MX",
+        "host": "@",
+        "pointsTo": "mx2.improvmx.com",
+        "ttl": 3600,
+        "priority": 20,
+        "groupId": "a1Moteefe"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "75.2.60.5",
+        "ttl": 300,
+        "groupId": "a1Nicesite"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "@",
+        "ttl": 300,
+        "groupId": "a1Nicesite"
+      },
+      {
+        "type": "CNAME",
+        "host": "@",
+        "pointsTo": "%mappingValueNostra%",
+        "ttl": 3600,
+        "groupId": "a1Nostra"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "@",
+        "ttl": 3600,
+        "groupId": "a1Owner"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipOwner%",
+        "ttl": 3600,
+        "groupId": "a1Owner"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipPitchlane%",
+        "ttl": 600,
+        "groupId": "a1Pitchlane"
+      },
+      {
+        "type": "CNAME",
+        "host": "@",
+        "pointsTo": "%cnamePointstoPitchlaneSubdomains%",
+        "ttl": 600,
+        "groupId": "a1PitchlaneSubdomains"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipPostcard%",
+        "ttl": 3600,
+        "groupId": "a1Postcard"
+      },
+      {
+        "type": "CNAME",
+        "host": "%webSiteHostPostcard%",
+        "pointsTo": "%webSitePointsToPostcard%",
+        "ttl": 3600,
+        "groupId": "a1Postcard"
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomain1Prometheus%",
+        "pointsTo": "%websitePointsTo1Prometheus%",
+        "groupId": "a1Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomain2Prometheus%",
+        "pointsTo": "%websitePointsTo2Prometheus%",
+        "groupId": "a1Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "hw",
+        "pointsTo": "%websitePointsTo3Prometheus%",
+        "groupId": "a1Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "host": "%hostValuePrometheus%",
+        "data": "%customValuePrometheus%",
+        "groupId": "a1Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomain1Prometheus%",
+        "pointsTo": "%websitePointsTo1Prometheus%",
+        "groupId": "a2Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomain2Prometheus%",
+        "pointsTo": "%websitePointsTo2Prometheus%",
+        "groupId": "a2Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "hw",
+        "pointsTo": "%websitePointsTo3Prometheus%",
+        "groupId": "a2Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomain4Prometheus%",
+        "pointsTo": "%websitePointsTo4Prometheus%",
+        "groupId": "a2Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "host": "%hostValuePrometheus%",
+        "data": "%customValuePrometheus%",
+        "groupId": "a2Prometheus",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "75.2.60.5",
+        "ttl": 300,
+        "groupId": "a1Realnice"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "@",
+        "ttl": 300,
+        "groupId": "a1Realnice"
+      },
+      {
+        "type": "CNAME",
+        "host": "checkout",
+        "pointsTo": "%cnameValueRebillion%",
+        "ttl": 3600,
+        "groupId": "a1Rebillion"
+      },
+      {
+        "type": "CNAME",
+        "host": "%awsDinamicHostRebillion%",
+        "pointsTo": "%keyValueRebillion%",
+        "ttl": 3600,
+        "groupId": "a1Rebillion"
+      },
+      {
+        "type": "A",
+        "host": "%websiteHostRebrandlySubdomains%",
+        "pointsTo": "%ipValueRebrandlySubdomains%",
+        "ttl": 3600,
+        "groupId": "a1RebrandlySubdomains"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipRebrandly%",
+        "ttl": 3600,
+        "groupId": "a1Rebrandly"
+      },
+      {
+        "type": "A",
+        "host": "www",
+        "pointsTo": "%ipRebrandly%",
+        "ttl": 3600,
+        "groupId": "a1Rebrandly"
+      },
+      {
+        "type": "A",
+        "host": "%subdomainRevenueroll%",
+        "pointsTo": "%ipsubdomainRevenueroll%",
+        "ttl": 300,
+        "groupId": "a1Revenueroll"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipSprwt.io%",
+        "ttl": 3600,
+        "groupId": "a1Sprwt.io"
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomainSprwt.io%",
+        "pointsTo": "%websitePointsToSprwt.io%",
+        "ttl": 3600,
+        "groupId": "a1Sprwt.io"
+      },
+      {
+        "type": "TXT",
+        "host": "@",
+        "data": "v=spf1 include:amazonses.com include:_spf.google.com ~all",
+        "ttl": 3600,
+        "groupId": "a1Sprwt.io"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipSquareup%",
+        "ttl": 600,
+        "groupId": "a1Squareup"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "@",
+        "ttl": 600,
+        "groupId": "a1Squareup"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipSquareupSubdomains%",
+        "ttl": 600,
+        "groupId": "a1SquareupSubdomains"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "@",
+        "ttl": 600,
+        "groupId": "a1SquareupSubdomains"
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomainThe.com%",
+        "groupId": "a1The.com",
+        "pointsTo": "%websitePointsToThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "groupId": "a1The.com",
+        "host": "%hostValueThe.com%",
+        "data": "%customValueThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "host": "%customHostThe.com%",
+        "groupId": "a1The.com",
+        "data": "%verificationValueThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomainThe.com%",
+        "groupId": "a2The.com",
+        "pointsTo": "%websitePointsToThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%customDomainThe.com%",
+        "groupId": "a3The.com",
+        "pointsTo": "%websitePointsToThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "groupId": "a3The.com",
+        "host": "%hostValueThe.com%",
+        "data": "%customValueThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipValueThe.com%",
+        "groupId": "a1The.com",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "groupId": "a1The.com",
+        "pointsTo": "%websitePointsToThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "groupId": "a1The.com",
+        "host": "%hostValueThe.com%",
+        "data": "%customValueThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "host": "%customHostThe.com%",
+        "groupId": "a1The.com",
+        "data": "%verificationValueThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipValueThe.com%",
+        "groupId": "a2The.com",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "groupId": "a2The.com",
+        "pointsTo": "%websitePointsToThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipValueThe.com%",
+        "groupId": "a3The.com",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "groupId": "a3The.com",
+        "pointsTo": "%websitePointsToThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "TXT",
+        "groupId": "a3The.com",
+        "host": "%hostValueThe.com%",
+        "data": "%customValueThe.com%",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%webSiteHostThe.com%",
+        "pointsTo": "%webSitePointsToThe.com%",
+        "ttl": 3600,
+        "groupId": "a1The.com"
+      },
+      {
+        "type": "CNAME",
+        "host": "%sslNameVerificationThe.com%.%webSiteHostThe.com%",
+        "pointsTo": "%sslValueVerificationThe.com%",
+        "ttl": 3600,
+        "groupId": "a1The.com"
+      },
+      {
+        "type": "REDIR301",
+        "target": "%target%",
+        "host": "@",
+        "groupId": "a1The.com"
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost1Tiiny.host%",
+        "groupId": "a1Tiiny.host",
+        "pointsTo": "%webSitePointsTo1Tiiny.host%",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost2Tiiny.host%",
+        "groupId": "a1Tiiny.host",
+        "pointsTo": "%webSitePointsTo2Tiiny.host%",
+        "ttl": 3600
+      },
+      {
+        "type": "REDIR301",
+        "target": "%taÒrget%",
+        "groupId": "a1Tiiny.host",
+        "host": "@"
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost1Tiiny.host%",
+        "groupId": "a2Tiiny.host",
+        "pointsTo": "%webSitePointsTo1Tiiny.host%",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost2Tiiny.host%",
+        "groupId": "a2Tiiny.host",
+        "pointsTo": "%webSitePointsTo2Tiiny.host%",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "%websiteHost1Tiiny.host%",
+        "pointsTo": "%mappingValue1Tiiny.host%",
+        "groupId": "a2Tiiny.host",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost1Tiiny.host%",
+        "groupId": "a3Tiiny.host",
+        "pointsTo": "%webSitePointsTo1Tiiny.host%",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost2Tiiny.host%",
+        "groupId": "a3Tiiny.host",
+        "pointsTo": "%webSitePointsTo2Tiiny.host%",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%CnameHost3Tiiny.host%",
+        "groupId": "a3Tiiny.host",
+        "pointsTo": "%webSitePointsTo3Tiiny.host%",
+        "ttl": 3600
+      },
+      {
+        "type": "A",
+        "host": "%websiteHost1Tiiny.host%",
+        "pointsTo": "%mappingValue1Tiiny.host%",
+        "groupId": "a3Tiiny.host",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "@",
+        "pointsTo": "%mappingValueUnbounce%",
+        "ttl": 600,
+        "groupId": "a1Unbounce"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%ipVendo%",
+        "groupId": "a1Vendo",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%sendgridAliasHostVendo%",
+        "pointsTo": "%sendgridAliasPointsToVendo%",
+        "groupId": "a2Vendo",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%sendgridDomainKeyHost1Vendo%",
+        "pointsTo": "%sendgridDomainKeyPointsTo1Vendo%",
+        "groupId": "a2Vendo",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "%sendgridDomainKeyHost2Vendo%",
+        "pointsTo": "%sendgridDomainKeyPointsTo2Vendo%",
+        "groupId": "a2Vendo",
+        "ttl": 3600
+      },
+      {
+        "type": "CNAME",
+        "host": "@",
+        "pointsTo": "%mappingValueVendoSubdomains%",
+        "ttl": 600,
+        "groupId": "a1VendoSubdomains"
+      },
+      {
+        "type": "TXT",
+        "host": "@",
+        "data": "%txtVerilinks%",
+        "ttl": 3600,
+        "groupId": "a1Verilinks"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%primaryIpWebflow%",
+        "ttl": 3600,
+        "groupId": "a1Webflow"
+      },
+      {
+        "type": "A",
+        "host": "@",
+        "pointsTo": "%primaryIp2Webflow%",
+        "ttl": 3600,
+        "groupId": "a1Webflow"
+      },
+      {
+        "type": "CNAME",
+        "host": "www",
+        "pointsTo": "%cnamePointsToWebflow%",
+        "ttl": 3600,
+        "groupId": "a1Webflow"
+      }
+    ]
 }
