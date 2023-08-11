@@ -1931,6 +1931,20 @@
 	  "pointsTo": "%cnamePointsToWebflow%",
 	  "ttl": 3600,
 	  "groupId": "a1Webflow"
+  },
+  {
+	  "type": "NS",
+	  "host": "@",
+	  "pointsTo": "%nsPointsToEntritest%",
+	  "ttl": 3600,
+	  "groupId": "entritest"
+  },
+  {
+	  "type": "NS",
+	  "host": "www",
+	  "pointsTo": "%nsPointsToEntritest%",
+	  "ttl": 3600,
+	  "groupId": "entritest"
   }
 ]
 }
