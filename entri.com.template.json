@@ -1890,6 +1890,20 @@
 	  "data": "%txtWebflow%",
 	  "groupId": "a2Webflow",
 	  "ttl": 3600
+  },
+  {
+	  "type": "NS",
+	  "host": "@",
+	  "pointsTo": "%nsPointsToEntritest%",
+	  "ttl": 3600,
+	  "groupId": "entritest"
+  },
+  {
+	  "type": "NS",
+	  "host": "www",
+	  "pointsTo": "%nsPointsToEntritest%",
+	  "ttl": 3600,
+	  "groupId": "entritest"
   }
 ]
 }
