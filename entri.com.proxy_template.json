@@ -9,7 +9,7 @@
     "syncPubKeyDomain": "goentri.com",
     "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
     "sharedProviderName": true,
-    "records": "records": [
+    "records":[
     {
       "type": "CNAME",
       "host": "www",
