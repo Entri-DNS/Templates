@@ -1958,33 +1958,15 @@
         },
         {
             "type": "A",
-            "host": "%websiteHost%",
-            "pointsTo": "%mappingValue%",
-            "groupId": "a1",
-            "ttl": 3600
+            "host": "@",
+            "pointsTo": "75.2.60.5",
+            "ttl": 300
         },
         {
             "type": "CNAME",
-            "host": "%CnameHost%",
-            "groupId": "a1",
-            "pointsTo": "%webSitePointsTo%",
-            "ttl": 3600
-        },
-        {
-            "type": "MX",
-            "host": "%mxHost1%",
-            "pointsTo": "%mx1%",
-            "groupId": "a2",
-            "priority": 10,
-            "ttl": 3600
-        },
-        {
-            "type": "MX",
-            "host": "%mxHost2%",
-            "pointsTo": "%mx2%",
-            "groupId": "a2",
-            "priority": 20,
-            "ttl": 3600
+            "host": "www",
+            "pointsTo": "@",
+            "ttl": 300
         }
     ]
 }
