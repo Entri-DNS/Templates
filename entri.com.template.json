@@ -704,6 +704,69 @@
         },
         {
             "type": "CNAME",
+            "host": "%cnameHost1Kajabi%",
+            "pointsTo": "%cnameValue1Kajabi%",
+            "groupId": "a1Kajabi",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost2Kajabi%",
+            "pointsTo": "%cnameValue2Kajabi%",
+            "groupId": "a1Kajabi",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%dkimHostKajabi%",
+            "data": "%dkimValueKajabi%",
+            "groupId": "a1Kajabi",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "host": "kjbm",
+            "spfRules": "include:mailgun.org",
+            "groupId": "a1Kajabi"
+        },
+        {
+            "type": "MX",
+            "host": "kjbm",
+            "pointsTo": "mxa.mailgun.org",
+            "priority": 10,
+            "groupId": "a1Kajabi",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "host": "kjbm",
+            "pointsTo": "mxb.mailgun.org",
+            "priority": 10,
+            "groupId": "a1Kajabi",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a2Kajabi",
+            "type": "CNAME",
+            "host": "www",
+            "pointsTo": "%cnameRootDomainKajabi%",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a2Kajabi",
+            "type": "REDIR301",
+            "target": "%target%",
+            "host": "@"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost3Kajabi%",
+            "pointsTo": "%cnameValue3Kajabi%",
+            "groupId": "a3Kajabi",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
             "host": "www",
             "groupId": "a1Leadpages",
             "pointsTo": "%pointstoDomainLeadpages%",
@@ -1957,66 +2020,31 @@
             "ttl": 3600
         },
         {
-            "type": "CNAME",
-            "host": "%cnameHost1%",
-            "pointsTo": "%cnameValue1%",
+            "type": "A",
+            "host": "@",
             "groupId": "a1",
+            "pointsTo": "%primaryIp%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a1",
+            "pointsTo": "%primaryIp2%",
             "ttl": 3600
         },
         {
             "type": "CNAME",
-            "host": "%cnameHost2%",
-            "pointsTo": "%cnameValue2%",
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "host": "%dkimHost%",
-            "data": "%dkimValue%",
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
-            "type": "SPFM",
-            "host": "kjbm",
-            "spfRules": "include:mailgun.org",
-            "groupId": "a1"
-        },
-        {
-            "type": "MX",
-            "host": "kjbm",
-            "pointsTo": "mxa.mailgun.org",
-            "priority": 10,
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
-            "type": "MX",
-            "host": "mxb.mailgun.org",
-            "pointsTo": "mxb.mailgun.org",
-            "priority": 10,
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
+            "host": "%cnamehost%",
             "groupId": "a2",
-            "type": "CNAME",
-            "host": "www",
-            "pointsTo": "%cnameRootDomain%",
+            "pointsTo": "%cnamePointsTo%",
             "ttl": 3600
         },
         {
-            "groupId": "a2",
-            "type": "REDIR301",
-            "target": "%target%",
-            "host": "@"
-        },
-        {
-            "type": "CNAME",
-            "host": "%cnameHost3%",
-            "pointsTo": "%cnameValue3%",
+            "type": "A",
+            "host": "@",
             "groupId": "a3",
+            "pointsTo": "%primaryIp%",
             "ttl": 3600
         }
     ]
