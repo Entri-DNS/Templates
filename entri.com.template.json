@@ -2020,31 +2020,9 @@
             "ttl": 3600
         },
         {
-            "type": "A",
-            "host": "@",
-            "groupId": "a1",
-            "pointsTo": "%primaryIp%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "@",
-            "groupId": "a1",
-            "pointsTo": "%primaryIp2%",
-            "ttl": 3600
-        },
-        {
             "type": "CNAME",
-            "host": "%cnamehost%",
-            "groupId": "a2",
+            "host": "%cnameHost%",
             "pointsTo": "%cnamePointsTo%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "@",
-            "groupId": "a3",
-            "pointsTo": "%primaryIp%",
             "ttl": 3600
         }
     ]
