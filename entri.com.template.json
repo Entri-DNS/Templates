@@ -581,6 +581,13 @@
         {
             "type": "A",
             "host": "@",
+            "groupId": "a3Gamma",
+            "pointsTo": "%primaryIpGamma%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
             "pointsTo": "%ipGoSite%",
             "ttl": 3600,
             "groupId": "a1GoSite"
@@ -1908,6 +1915,13 @@
         {
             "type": "CNAME",
             "host": "@",
+            "pointsTo": "%cnamePointsToSubdomainToast_subdomain%",
+            "ttl": 3600,
+            "groupId": "a1Toast_subdomain"
+        },
+        {
+            "type": "CNAME",
+            "host": "@",
             "pointsTo": "%mappingValueUnbounce%",
             "ttl": 600,
             "groupId": "a1Unbounce"
@@ -2022,7 +2036,15 @@
         {
             "type": "CNAME",
             "host": "%cnameHost%",
+            "groupId": "a1",
             "pointsTo": "%cnamePointsTo%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a2",
+            "pointsTo": "%primaryIp%",
             "ttl": 3600
         }
     ]
