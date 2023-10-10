@@ -1280,6 +1280,27 @@
         },
         {
             "type": "CNAME",
+            "host": "%cnameHostStunning%",
+            "groupId": "a1Stunning",
+            "pointsTo": "%cnamePointsToStunning%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a2Stunning",
+            "pointsTo": "%primaryIpStunning%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "@",
+            "pointsTo": "%cnamePointsToStunning_subdomains%",
+            "ttl": 3600,
+            "groupId": "a1Stunning_subdomains"
+        },
+        {
+            "type": "CNAME",
             "host": "www",
             "pointsTo": "%subdomainPointsTo1Supertape%",
             "groupId": "a1Supertape",
@@ -2034,17 +2055,37 @@
             "ttl": 3600
         },
         {
-            "type": "CNAME",
-            "host": "%cnameHost%",
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%ipAdress%",
             "groupId": "a1",
-            "pointsTo": "%cnamePointsTo%",
             "ttl": 3600
         },
         {
             "type": "A",
             "host": "@",
+            "pointsTo": "%ipAdress2%",
+            "groupId": "a1",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "target": "%target%",
             "groupId": "a2",
-            "pointsTo": "%primaryIp%",
+            "host": "@"
+        },
+        {
+            "type": "A",
+            "host": "www",
+            "pointsTo": "%ipAdress%",
+            "groupId": "a3",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%Cnamehost%",
+            "pointsTo": "%Cnamevalue%",
+            "groupId": "a4",
             "ttl": 3600
         }
     ]
