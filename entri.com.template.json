@@ -951,7 +951,7 @@
         {
             "type": "SPFM",
             "host": "@",
-            "spfRules": "include:spf0001.neo.space",
+            "spfRules": "include:%thirdPartyDomainNeo%",
             "groupId": "a1Neo"
         },
         {
@@ -960,6 +960,27 @@
             "groupId": "a2Neo",
             "data": "%domainVerificationNeo%",
             "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%domainkeyHostNeo%",
+            "data": "%keyValueNeo%",
+            "groupId": "a3Neo",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "host": "@",
+            "pointsTo": "%mxPointsto1Neo%",
+            "groupId": "a3Neo",
+            "priority": 10,
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "host": "@",
+            "spfRules": "include:%thirdPartyDomainNeo%",
+            "groupId": "a3Neo"
         },
         {
             "type": "A",
@@ -1028,6 +1049,13 @@
             "type": "A",
             "host": "@",
             "pointsTo": "%ipAdressPodup%",
+            "groupId": "a1Podup",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%ipAdress2Podup%",
             "groupId": "a1Podup",
             "ttl": 3600
         },
@@ -2055,37 +2083,24 @@
             "ttl": 3600
         },
         {
-            "type": "A",
-            "host": "@",
-            "pointsTo": "%ipAdress%",
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "@",
-            "pointsTo": "%ipAdress2%",
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
-            "type": "REDIR301",
-            "target": "%target%",
-            "groupId": "a2",
-            "host": "@"
-        },
-        {
-            "type": "A",
-            "host": "www",
-            "pointsTo": "%ipAdress%",
-            "groupId": "a3",
-            "ttl": 3600
-        },
-        {
             "type": "CNAME",
-            "host": "%Cnamehost%",
-            "pointsTo": "%Cnamevalue%",
-            "groupId": "a4",
+            "host": "%cnameHost%",
+            "groupId": "a1",
+            "pointsTo": "%cnamePointsTo%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a2",
+            "pointsTo": "%primaryIp%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a2",
+            "pointsTo": "%primaryIp2%",
             "ttl": 3600
         }
     ]
