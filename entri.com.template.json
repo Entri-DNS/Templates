@@ -1260,6 +1260,76 @@
         {
             "type": "A",
             "host": "@",
+            "groupId": "a1Showit",
+            "pointsTo": "%ipAdressShowit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "%aRecordhostShowit%",
+            "groupId": "a1Showit",
+            "pointsTo": "%ipAdressShowit%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "groupId": "a1Showit",
+            "pointsTo": "@",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a2Showit",
+            "pointsTo": "%ipAdressShowit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "www",
+            "groupId": "a2Showit",
+            "pointsTo": "%ipAdressShowit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "%aRecordhostShowit%",
+            "groupId": "a2Showit",
+            "pointsTo": "%ipAdress2Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a3Showit",
+            "pointsTo": "%ipAdressShowit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a3Showit",
+            "pointsTo": "%ipAdress2Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "%aRecordhostShowit%",
+            "groupId": "a3Showit",
+            "pointsTo": "%ipAdress3Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "groupId": "a3Showit",
+            "pointsTo": "%cnamePointsToShowit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
             "pointsTo": "%ipSprwt%",
             "ttl": 3600,
             "groupId": "a1Sprwt"
@@ -2090,74 +2160,12 @@
             "ttl": 3600
         },
         {
-            "type": "A",
+            "type": "CAA",
             "host": "@",
-            "groupId": "a1",
-            "pointsTo": "%ipAdress%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "%host%",
-            "groupId": "a1",
-            "pointsTo": "%ipAdress%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "host": "www",
-            "groupId": "a1",
-            "pointsTo": "@",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "@",
-            "groupId": "a2",
-            "pointsTo": "%ipAdress%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "www",
-            "groupId": "a2",
-            "pointsTo": "%ipAdress%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "%aRecordhost%",
-            "groupId": "a2",
-            "pointsTo": "%ipAdress2%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "@",
-            "groupId": "a3",
-            "pointsTo": "%ipAdress%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "@",
-            "groupId": "a3",
-            "pointsTo": "%ipAdress2%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "%host%",
-            "groupId": "a3",
-            "pointsTo": "%ipAdress3%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "host": "www",
-            "groupId": "a3",
-            "pointsTo": "%cnamePointsTo%",
-            "ttl": 3600
+            "pointsTo": "%caaPointsTo%",
+            "ttl": 3600,
+            "tag": "%tag%",
+            "flags": 0
         }
     ]
 }
