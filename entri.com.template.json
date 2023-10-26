@@ -2160,12 +2160,10 @@
             "ttl": 3600
         },
         {
-            "type": "CAA",
+            "type": "CNAME",
             "host": "@",
-            "pointsTo": "%caaPointsTo%",
-            "ttl": 3600,
-            "tag": "%tag%",
-            "flags": 0
+            "pointsTo": "%mappingValue%",
+            "ttl": 3600
         }
     ]
 }
