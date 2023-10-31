@@ -1005,6 +1005,13 @@
         },
         {
             "type": "CNAME",
+            "host": "@",
+            "pointsTo": "%mappingValueOptimizing%",
+            "ttl": 3600,
+            "groupId": "a1Optimizing"
+        },
+        {
+            "type": "CNAME",
             "host": "www",
             "pointsTo": "@",
             "ttl": 3600,
@@ -2161,8 +2168,36 @@
         },
         {
             "type": "CNAME",
+            "host": "www",
+            "groupId": "a1",
+            "pointsTo": "%cnamePointsTo%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "target": "%target%",
+            "groupId": "a1",
+            "host": "@"
+        },
+        {
+            "type": "A",
             "host": "@",
-            "pointsTo": "%mappingValue%",
+            "groupId": "a2",
+            "pointsTo": "%primaryIp%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a2",
+            "pointsTo": "%primaryIp2%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "groupId": "a2",
+            "pointsTo": "%cnamePointsTo%",
             "ttl": 3600
         }
     ]
