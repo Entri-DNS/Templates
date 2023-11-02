@@ -100,15 +100,36 @@
         {
             "type": "CNAME",
             "host": "www",
+            "groupId": "a1Clickmax",
             "pointsTo": "%cnamePointsToClickmax%",
-            "ttl": 3600,
-            "groupId": "a1Clickmax"
+            "ttl": 3600
         },
         {
             "type": "REDIR301",
             "target": "%target%",
+            "groupId": "a1Clickmax",
+            "host": "@"
+        },
+        {
+            "type": "A",
             "host": "@",
-            "groupId": "a1Clickmax"
+            "groupId": "a2Clickmax",
+            "pointsTo": "%primaryIpClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a2Clickmax",
+            "pointsTo": "%primaryIp2Clickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "groupId": "a2Clickmax",
+            "pointsTo": "%cnamePointsToClickmax%",
+            "ttl": 3600
         },
         {
             "type": "TXT",
@@ -2168,36 +2189,16 @@
         },
         {
             "type": "CNAME",
-            "host": "www",
+            "host": "%cnameHost1%",
+            "pointsTo": "%cnamePointsto1%",
             "groupId": "a1",
-            "pointsTo": "%cnamePointsTo%",
-            "ttl": 3600
-        },
-        {
-            "type": "REDIR301",
-            "target": "%target%",
-            "groupId": "a1",
-            "host": "@"
-        },
-        {
-            "type": "A",
-            "host": "@",
-            "groupId": "a2",
-            "pointsTo": "%primaryIp%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "host": "@",
-            "groupId": "a2",
-            "pointsTo": "%primaryIp2%",
             "ttl": 3600
         },
         {
             "type": "CNAME",
-            "host": "www",
-            "groupId": "a2",
-            "pointsTo": "%cnamePointsTo%",
+            "host": "%cnameHost2%",
+            "pointsTo": "%cnamePointsto2%",
+            "groupId": "a1",
             "ttl": 3600
         }
     ]
