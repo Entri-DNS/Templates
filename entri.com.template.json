@@ -815,6 +815,20 @@
             "ttl": 3600
         },
         {
+            "type": "CNAME",
+            "host": "%cnameHost1Lodgea%",
+            "pointsTo": "%cnamePointsto1Lodgea%",
+            "ttl": 3600,
+            "groupId": "a1Lodgea"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost2Lodgea%",
+            "pointsTo": "%cnamePointsto2Lodgea%",
+            "ttl": 3600,
+            "groupId": "a1Lodgea"
+        },
+        {
             "type": "TXT",
             "host": "_dmarc",
             "data": "v=DMARC1; p=quarantine; pct=90; sp=none",
@@ -2188,17 +2202,9 @@
             "ttl": 3600
         },
         {
-            "type": "CNAME",
-            "host": "%cnameHost1%",
-            "pointsTo": "%cnamePointsto1%",
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "host": "%cnameHost2%",
-            "pointsTo": "%cnamePointsto2%",
-            "groupId": "a1",
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%primaryIp%",
             "ttl": 3600
         }
     ]
