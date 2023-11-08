@@ -2081,6 +2081,13 @@
             "groupId": "a13Toast"
         },
         {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%primaryIpToast_arecord%",
+            "ttl": 3600,
+            "groupId": "a1Toast_arecord"
+        },
+        {
             "type": "CNAME",
             "host": "@",
             "pointsTo": "%cnamePointsToSubdomainToast_subdomain%",
@@ -2204,7 +2211,45 @@
         {
             "type": "A",
             "host": "@",
-            "pointsTo": "%primaryIp%",
+            "pointsTo": "%pointstoIp%",
+            "groupId": "a1",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost1%",
+            "pointsTo": "%cnamePointsto1%",
+            "groupId": "a1",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "host": "@",
+            "spfRules": "include:mailgun.org",
+            "groupId": "a2",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%dkimhost%",
+            "data": "%dkimhostpointsto%",
+            "groupId": "a2",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "host": "@",
+            "pointsTo": "mxa.mailgun.org",
+            "priority": 10,
+            "groupId": "a3",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "host": "@",
+            "pointsTo": "mxb.mailgun.org",
+            "priority": 10,
+            "groupId": "a3",
             "ttl": 3600
         }
     ]
