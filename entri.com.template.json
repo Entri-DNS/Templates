@@ -11,6 +11,50 @@
     "sharedProviderName": true,
     "records": [
         {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%pointstoIpB12%",
+            "groupId": "a1B12",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost1B12%",
+            "pointsTo": "%cnamePointsto1B12%",
+            "groupId": "a1B12",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "host": "@",
+            "spfRules": "include:mailgun.org",
+            "groupId": "a2B12",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%dkimhostB12%",
+            "data": "%dkimhostpointstoB12%",
+            "groupId": "a2B12",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "host": "@",
+            "pointsTo": "mxa.mailgun.org",
+            "priority": 10,
+            "groupId": "a3B12",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "host": "@",
+            "pointsTo": "mxb.mailgun.org",
+            "priority": 10,
+            "groupId": "a3B12",
+            "ttl": 3600
+        },
+        {
             "type": "CNAME",
             "host": "www",
             "pointsTo": "%webSitePointsToBigcartel%",
@@ -2219,21 +2263,21 @@
             "type": "CNAME",
             "host": "%cnameHost1%",
             "pointsTo": "%cnamePointsto1%",
-            "groupId": "a1",
+            "groupId": "a2",
             "ttl": 3600
         },
         {
             "type": "SPFM",
             "host": "@",
             "spfRules": "include:mailgun.org",
-            "groupId": "a2",
+            "groupId": "a3",
             "ttl": 3600
         },
         {
             "type": "TXT",
             "host": "%dkimhost%",
             "data": "%dkimhostpointsto%",
-            "groupId": "a2",
+            "groupId": "a4",
             "ttl": 3600
         },
         {
@@ -2241,7 +2285,7 @@
             "host": "@",
             "pointsTo": "mxa.mailgun.org",
             "priority": 10,
-            "groupId": "a3",
+            "groupId": "a5",
             "ttl": 3600
         },
         {
@@ -2249,7 +2293,7 @@
             "host": "@",
             "pointsTo": "mxb.mailgun.org",
             "priority": 10,
-            "groupId": "a3",
+            "groupId": "a5",
             "ttl": 3600
         }
     ]
