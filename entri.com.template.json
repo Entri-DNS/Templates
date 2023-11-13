@@ -2260,10 +2260,10 @@
             "ttl": 3600
         },
         {
-            "type": "TXT",
-            "host": "%hostTxt%",
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%primaryIp%",
             "groupId": "a2",
-            "data": "%verificationTxt%",
             "ttl": 3600
         }
     ]
