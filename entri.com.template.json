@@ -2253,18 +2253,16 @@
             "ttl": 3600
         },
         {
-            "type": "CNAME",
-            "host": "%hostDomain%",
-            "groupId": "a1",
-            "pointsTo": "%pointstoDomain%",
-            "ttl": 3600
-        },
-        {
             "type": "A",
             "host": "@",
-            "pointsTo": "%primaryIp%",
-            "groupId": "a2",
-            "ttl": 3600
+            "pointsTo": "%ipAdress%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "pointsTo": "%cnamePointsTo%",
+            "ttl": 300
         }
     ]
 }
