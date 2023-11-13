@@ -2253,47 +2253,17 @@
             "ttl": 3600
         },
         {
-            "type": "A",
-            "host": "@",
-            "pointsTo": "%pointstoIp%",
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
             "type": "CNAME",
-            "host": "%cnameHost1%",
-            "pointsTo": "%cnamePointsto1%",
-            "groupId": "a2",
-            "ttl": 3600
-        },
-        {
-            "type": "SPFM",
-            "host": "@",
-            "spfRules": "include:mailgun.org",
-            "groupId": "a3",
+            "host": "%hostDomain%",
+            "groupId": "a1",
+            "pointsTo": "%pointstoDomain%",
             "ttl": 3600
         },
         {
             "type": "TXT",
-            "host": "%dkimhost%",
-            "data": "%dkimhostpointsto%",
-            "groupId": "a4",
-            "ttl": 3600
-        },
-        {
-            "type": "MX",
-            "host": "@",
-            "pointsTo": "mxa.mailgun.org",
-            "priority": 10,
-            "groupId": "a5",
-            "ttl": 3600
-        },
-        {
-            "type": "MX",
-            "host": "@",
-            "pointsTo": "mxb.mailgun.org",
-            "priority": 10,
-            "groupId": "a5",
+            "host": "%hostTxt%",
+            "groupId": "a2",
+            "data": "%verificationTxt%",
             "ttl": 3600
         }
     ]
