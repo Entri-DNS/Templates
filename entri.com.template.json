@@ -21,21 +21,21 @@
             "type": "CNAME",
             "host": "%cnameHost1B12%",
             "pointsTo": "%cnamePointsto1B12%",
-            "groupId": "a1B12",
+            "groupId": "a2B12",
             "ttl": 3600
         },
         {
             "type": "SPFM",
             "host": "@",
             "spfRules": "include:mailgun.org",
-            "groupId": "a2B12",
+            "groupId": "a3B12",
             "ttl": 3600
         },
         {
             "type": "TXT",
             "host": "%dkimhostB12%",
             "data": "%dkimhostpointstoB12%",
-            "groupId": "a2B12",
+            "groupId": "a4B12",
             "ttl": 3600
         },
         {
@@ -43,7 +43,7 @@
             "host": "@",
             "pointsTo": "mxa.mailgun.org",
             "priority": 10,
-            "groupId": "a3B12",
+            "groupId": "a5B12",
             "ttl": 3600
         },
         {
@@ -51,7 +51,7 @@
             "host": "@",
             "pointsTo": "mxb.mailgun.org",
             "priority": 10,
-            "groupId": "a3B12",
+            "groupId": "a5B12",
             "ttl": 3600
         },
         {
@@ -72,6 +72,34 @@
             "host": "%subdomainBigcartel%",
             "groupId": "a2Bigcartel",
             "pointsTo": "%webSitePointsToBigcartel%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%hostDomainBily_ai%",
+            "groupId": "a1Bily_ai",
+            "pointsTo": "%pointstoDomainBily_ai%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%hostTxtBily_ai%",
+            "groupId": "a2Bily_ai",
+            "data": "%verificationTxtBily_ai%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%hostDomainBloom%",
+            "groupId": "a1Bloom",
+            "pointsTo": "%pointstoDomainBloom%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%primaryIpBloom%",
+            "groupId": "a2Bloom",
             "ttl": 3600
         },
         {
@@ -1273,14 +1301,14 @@
         {
             "type": "A",
             "host": "@",
-            "pointsTo": "75.2.60.5",
+            "pointsTo": "%ipAdressRealnice%",
             "ttl": 300,
             "groupId": "a1Realnice"
         },
         {
             "type": "CNAME",
             "host": "www",
-            "pointsTo": "@",
+            "pointsTo": "%cnamePointsToRealnice%",
             "ttl": 300,
             "groupId": "a1Realnice"
         },
@@ -2253,16 +2281,67 @@
             "ttl": 3600
         },
         {
-            "type": "A",
-            "host": "@",
-            "pointsTo": "%ipAdress%",
-            "ttl": 300
+            "type": "CNAME",
+            "host": "%cnameHost1%",
+            "pointsTo": "%cnameValue1%",
+            "groupId": "a1",
+            "ttl": 3600
         },
         {
             "type": "CNAME",
+            "host": "%cnameHost2%",
+            "pointsTo": "%cnameValue2%",
+            "groupId": "a1",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%dkimHost%",
+            "data": "%dkimValue%",
+            "groupId": "a1",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "host": "kjbm",
+            "spfRules": "include:mailgun.org",
+            "groupId": "a1"
+        },
+        {
+            "type": "MX",
+            "host": "kjbm",
+            "pointsTo": "mxa.mailgun.org",
+            "priority": 10,
+            "groupId": "a1",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "host": "kjbm",
+            "pointsTo": "mxb.mailgun.org",
+            "priority": 20,
+            "groupId": "a1",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a2",
+            "type": "CNAME",
             "host": "www",
-            "pointsTo": "%cnamePointsTo%",
-            "ttl": 300
+            "pointsTo": "%cnameRootDomain%",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a2",
+            "type": "REDIR301",
+            "target": "%target%",
+            "host": "@"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost3%",
+            "pointsTo": "%cnameValue3%",
+            "groupId": "a3",
+            "ttl": 3600
         }
     ]
 }
