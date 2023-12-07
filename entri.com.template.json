@@ -157,6 +157,19 @@
             "ttl": 3600
         },
         {
+            "type": "SPFM",
+            "host": "@",
+            "spfRules": "include:mailer.myclickfunnels.com",
+            "groupId": "a4Clickfunnels"
+        },
+        {
+            "groupId": "a4Clickfunnels",
+            "type": "TXT",
+            "host": "%dmarcHostClickfunnels%",
+            "data": "%dmarcValue2Clickfunnels%",
+            "ttl": 3600
+        },
+        {
             "groupId": "a1Clickfunnelsv1",
             "type": "CNAME",
             "host": "%webSiteHostClickfunnelsv1%",
@@ -2281,67 +2294,34 @@
             "ttl": 3600
         },
         {
-            "groupId": "a1",
-            "type": "CNAME",
-            "host": "%websiteHost%",
-            "pointsTo": "%clusterValue%",
-            "ttl": 3600
-        },
-        {
-            "groupId": "a1",
-            "type": "REDIR301",
-            "target": "%target%",
-            "host": "@"
-        },
-        {
-            "groupId": "a1",
             "type": "TXT",
             "host": "@",
             "data": "clickfunnels-domain-verification=%verificationValue%",
+            "groupId": "a1",
             "ttl": 3600
         },
         {
+            "type": "CNAME",
+            "host": "%websitehost%",
+            "pointsTo": "%clusterValue%",
+            "groupId": "a1",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%websiteId%._domainkey.%websitehost%",
+            "data": "%keyValue%",
             "groupId": "a2",
-            "type": "TXT",
-            "host": "%websiteId%",
-            "data": "%keyValue%",
-            "ttl": 3600
-        },
-        {
-            "groupId": "a3",
-            "type": "CNAME",
-            "host": "%websiteHost%",
-            "pointsTo": "%clusterValue%",
-            "ttl": 3600
-        },
-        {
-            "groupId": "a3",
-            "type": "REDIR301",
-            "target": "%target%",
-            "host": "@"
-        },
-        {
-            "groupId": "a3",
-            "type": "TXT",
-            "host": "@",
-            "data": "clickfunnels-domain-verification=%verificationValue%",
-            "ttl": 3600
-        },
-        {
-            "groupId": "a3",
-            "type": "TXT",
-            "host": "%websiteId%",
-            "data": "%keyValue%",
             "ttl": 3600
         },
         {
             "type": "SPFM",
             "host": "@",
             "spfRules": "include:mailer.myclickfunnels.com",
-            "groupId": "a4"
+            "groupId": "a3"
         },
         {
-            "groupId": "a4",
+            "groupId": "a3",
             "type": "TXT",
             "host": "%dmarcHost%",
             "data": "%dmarcValue2%",
