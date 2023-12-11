@@ -2294,37 +2294,15 @@
             "ttl": 3600
         },
         {
-            "type": "TXT",
-            "host": "@",
-            "data": "clickfunnels-domain-verification=%verificationValue%",
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
             "type": "CNAME",
-            "host": "%websitehost%",
-            "pointsTo": "%clusterValue%",
-            "groupId": "a1",
+            "host": "www",
+            "pointsTo": "%cnameValue%",
             "ttl": 3600
         },
         {
-            "type": "TXT",
-            "host": "%websiteId%._domainkey.%websitehost%",
-            "data": "%keyValue%",
-            "groupId": "a2",
-            "ttl": 3600
-        },
-        {
-            "type": "SPFM",
+            "type": "A",
             "host": "@",
-            "spfRules": "include:mailer.myclickfunnels.com",
-            "groupId": "a3"
-        },
-        {
-            "groupId": "a3",
-            "type": "TXT",
-            "host": "%dmarcHost%",
-            "data": "%dmarcValue2%",
+            "pointsTo": "%ipAdress%",
             "ttl": 3600
         }
     ]
