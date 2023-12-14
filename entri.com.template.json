@@ -2295,14 +2295,20 @@
         },
         {
             "type": "CNAME",
-            "host": "www",
-            "pointsTo": "%cnameValue%",
+            "host": "%cnameHotst1%",
+            "pointsTo": "%cnameValue1%",
             "ttl": 3600
         },
         {
-            "type": "A",
-            "host": "@",
-            "pointsTo": "%ipAdress%",
+            "type": "CNAME",
+            "host": "%cnameHotst2%",
+            "pointsTo": "%cnameValue2%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHotst3%",
+            "pointsTo": "%cnameValue3%",
             "ttl": 3600
         }
     ]
