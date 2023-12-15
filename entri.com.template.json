@@ -2295,21 +2295,23 @@
         },
         {
             "type": "CNAME",
-            "host": "%cnameHotst1%",
-            "pointsTo": "%cnameValue1%",
+            "host": "%cnameHost%",
+            "pointsTo": "%cnameValue%",
+            "groupId": "a1",
             "ttl": 3600
         },
         {
             "type": "CNAME",
-            "host": "%cnameHotst2%",
-            "pointsTo": "%cnameValue2%",
+            "host": "%cnameHost%",
+            "pointsTo": "%cnameValue%",
+            "groupId": "a2",
             "ttl": 3600
         },
         {
-            "type": "CNAME",
-            "host": "%cnameHotst3%",
-            "pointsTo": "%cnameValue3%",
-            "ttl": 3600
+            "type": "REDIR301",
+            "target": "%target%",
+            "groupId": "a2",
+            "host": "@"
         }
     ]
 }
