@@ -782,6 +782,40 @@
             "ttl": 3600
         },
         {
+            "type": "CNAME",
+            "host": "%cnameHostI360%",
+            "pointsTo": "%cnameValueI360%",
+            "groupId": "a1I360",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHostI360%",
+            "pointsTo": "%cnameValueI360%",
+            "groupId": "a2I360",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "target": "%target%",
+            "groupId": "a2I360",
+            "host": "@"
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "pointsTo": "%cnameValueInita%",
+            "ttl": 3600,
+            "groupId": "a1Inita"
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%ipAdressInita%",
+            "ttl": 3600,
+            "groupId": "a1Inita"
+        },
+        {
             "type": "TXT",
             "host": "_dmarc",
             "data": "%dmarcValueInstantly%",
@@ -1453,6 +1487,27 @@
             "groupId": "a3Showit",
             "pointsTo": "%cnamePointsToShowit%",
             "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHotst1Smtp2go%",
+            "pointsTo": "%cnameValue1Smtp2go%",
+            "ttl": 3600,
+            "groupId": "a1Smtp2go"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHotst2Smtp2go%",
+            "pointsTo": "%cnameValue2Smtp2go%",
+            "ttl": 3600,
+            "groupId": "a1Smtp2go"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHotst3Smtp2go%",
+            "pointsTo": "%cnameValue3Smtp2go%",
+            "ttl": 3600,
+            "groupId": "a1Smtp2go"
         },
         {
             "type": "A",
@@ -2294,24 +2349,10 @@
             "ttl": 3600
         },
         {
-            "type": "CNAME",
-            "host": "%cnameHost%",
-            "pointsTo": "%cnameValue%",
-            "groupId": "a1",
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%primaryIp%",
             "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "host": "%cnameHost%",
-            "pointsTo": "%cnameValue%",
-            "groupId": "a2",
-            "ttl": 3600
-        },
-        {
-            "type": "REDIR301",
-            "target": "%target%",
-            "groupId": "a2",
-            "host": "@"
         }
     ]
 }
