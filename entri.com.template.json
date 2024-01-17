@@ -934,6 +934,13 @@
             "ttl": 3600
         },
         {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%primaryIpLetsmobility%",
+            "ttl": 3600,
+            "groupId": "a1Letsmobility"
+        },
+        {
             "type": "CNAME",
             "host": "%cnameHost1Lodgea%",
             "pointsTo": "%cnamePointsto1Lodgea%",
@@ -2350,23 +2357,14 @@
         },
         {
             "type": "CNAME",
-            "host": "%sel1%._domainkey",
-            "pointsTo": "%host1%",
-            "groupId": "a1",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "host": "%sel2%._domainkey",
-            "pointsTo": "%host2%",
-            "groupId": "a2",
+            "host": "%cnameHost%",
+            "pointsTo": "%cnameValue%",
             "ttl": 3600
         },
         {
             "type": "TXT",
-            "host": "_dmarc",
-            "data": "%data%",
-            "groupId": "a3",
+            "host": "%txtHost%",
+            "data": "%txt%",
             "ttl": 3600
         }
     ]
