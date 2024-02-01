@@ -2356,16 +2356,16 @@
             "ttl": 3600
         },
         {
-            "type": "CNAME",
-            "host": "%cnameHost%",
-            "pointsTo": "%cnameValue%",
-            "ttl": 3600
+            "type": "A",
+            "host": "@",
+            "pointsTo": "75.2.60.5",
+            "ttl": 300
         },
         {
-            "type": "TXT",
-            "host": "%txtHost%",
-            "data": "%txt%",
-            "ttl": 3600
+            "type": "CNAME",
+            "host": "www",
+            "pointsTo": "@",
+            "ttl": 300
         }
     ]
 }
