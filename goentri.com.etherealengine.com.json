@@ -1,0 +1,27 @@
+{
+  "providerId": "goentri.com",
+  "providerName": "Entri",
+  "serviceId": "etherealengine",
+  "serviceName": "Etherealengine",
+  "version": 1,
+  "logoUrl": "https://cdn.goentri.com/logo.svg",
+  "description": "Allows user to easily set up domain using Entri",
+  "syncPubKeyDomain": "goentri.com",
+  "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
+  "variableDescription": "",
+  "sharedProviderName": true,
+  "records": [
+    {
+      "type": "CNAME",
+      "host": "www",
+      "pointsTo": "d70fea1aog2hco.cloudfront.net",
+      "ttl": 3600
+    },
+    {
+      "type": "CNAME",
+      "host": "_7a1acf92f8f753299325c777bff623c6 ",
+      "pointsTo": "_bc3887e35be16e98c3616b2bebd73c13.mhbtsbpdnt.acm-validations.aws.",
+      "ttl": 3600
+    }
+  ]
+}
