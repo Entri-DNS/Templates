@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-provider",
     "serviceName": "ThirdPartyProvider",
-    "version": 2,
+    "version": 4,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "syncPubKeyDomain": "goentri.com",
@@ -2356,16 +2356,28 @@
             "ttl": 3600
         },
         {
-            "type": "A",
-            "host": "@",
-            "pointsTo": "75.2.60.5",
-            "ttl": 300
+            "type": "CNAME",
+            "host": "%cnameHost%",
+            "pointsTo": "%cnameValue%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%hostTxt%",
+            "data": "%valueTxt%",
+            "ttl": 3600
         },
         {
             "type": "CNAME",
-            "host": "www",
-            "pointsTo": "@",
-            "ttl": 300
+            "host": "%cnameHost1%",
+            "pointsTo": "%cnameValue%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost2%",
+            "pointsTo": "%cnameValue%",
+            "ttl": 3600
         }
     ]
 }
