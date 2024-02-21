@@ -2357,8 +2357,20 @@
         },
         {
             "type": "CNAME",
-            "host": "@",
+            "host": "%hostCname%",
             "pointsTo": "%valueCname%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%hostCname2%",
+            "pointsTo": "%valueCname2%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "_dmarc",
+            "data": "v=DMARC1; p=none",
             "ttl": 3600
         }
     ]
