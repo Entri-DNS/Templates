@@ -2357,26 +2357,8 @@
         },
         {
             "type": "CNAME",
-            "host": "%cnameHost%",
-            "pointsTo": "%cnameValue%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "host": "%hostTxt%",
-            "data": "%valueTxt%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "host": "%cnameHost1%",
-            "pointsTo": "%cnameValue%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "host": "%cnameHost2%",
-            "pointsTo": "%cnameValue%",
+            "host": "@",
+            "pointsTo": "%valueCname%",
             "ttl": 3600
         }
     ]
