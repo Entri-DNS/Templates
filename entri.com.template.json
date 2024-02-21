@@ -2356,21 +2356,31 @@
             "ttl": 3600
         },
         {
+            "groupId": "a1",
             "type": "CNAME",
-            "host": "%hostCname%",
-            "pointsTo": "%valueCname%",
+            "host": "%hostCname1%",
+            "pointsTo": "%valueCname%1",
             "ttl": 3600
         },
         {
+            "groupId": "a1",
             "type": "CNAME",
             "host": "%hostCname2%",
             "pointsTo": "%valueCname2%",
             "ttl": 3600
         },
         {
+            "groupId": "a1",
+            "type": "CNAME",
+            "host": "%hostCname3%",
+            "pointsTo": "%valueCname3%",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a2",
             "type": "TXT",
             "host": "_dmarc",
-            "data": "v=DMARC1; p=none",
+            "data": "%dmarc%",
             "ttl": 3600
         }
     ]
