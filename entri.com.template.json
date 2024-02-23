@@ -2421,21 +2421,21 @@
 	{
 		"type": "TXT",
 		"host": "@",
-		"pointsTo": "%brevoCodeBrevo%",
+		"data": "%brevoCodeBrevo%",
 		"groupId": "a1Brevo",
 		"ttl": 300
 	},
 	{
 		"type": "TXT",
 		"host": "_dmarc",
-		"pointsTo": "v=DMARC1;p=none;rua=mailto:rua@dmarc.brevo.com",
+		"data": "v=DMARC1;p=none;rua=mailto:rua@dmarc.brevo.com",
 		"groupId": "a2Brevo",
 		"ttl": 300
 	},
 	{
 		"type": "TXT",
 		"host": "%dkimHostBrevo%",
-		"pointsTo": "%dkimValueBrevo%",
+		"data": "%dkimValueBrevo%",
 		"groupId": "a3Brevo",
 		"ttl": 300
 	},
@@ -2589,28 +2589,28 @@
 	{
 		"type": "CNAME",
 		"host": "jedari-sender",
-		"value": "u29003521.wl022.sendgrid.net",
+		"pointsTo": "u29003521.wl022.sendgrid.net",
 		"ttl": 300,
 		"groupId": "a1Jedari"
 	},
 	{
 		"type": "CNAME",
 		"host": "s1._domainkey",
-		"value": "s1.domainkey.u29003521.wl022.sendgrid.net",
+		"pointsTo": "s1.domainkey.u29003521.wl022.sendgrid.net",
 		"ttl": 300,
 		"groupId": "a1Jedari"
 	},
 	{
 		"type": "CNAME",
 		"host": "s2._domainkey",
-		"value": "s2.domainkey.u29003521.wl022.sendgrid.net",
+		"pointsTo": "s2.domainkey.u29003521.wl022.sendgrid.net",
 		"ttl": 300,
 		"groupId": "a1Jedari"
 	},
 	{
 		"type": "TXT",
 		"host": "_dmarc",
-		"value": "v=DMARC1; p=none;",
+		"data": "v=DMARC1; p=none;",
 		"ttl": 300,
 		"groupId": "a1Jedari"
 	},
@@ -2659,28 +2659,28 @@
 	{
 		"type": "CNAME",
 		"host": "jedari-sender",
-		"value": "u29003521.wl022.sendgrid.net",
+		"pointsTo": "u29003521.wl022.sendgrid.net",
 		"ttl": 300,
 		"groupId": "a1JedariSubdomains"
 	},
 	{
 		"type": "CNAME",
 		"host": "s1._domainkey",
-		"value": "s1.domainkey.u29003521.wl022.sendgrid.net",
+		"pointsTo": "s1.domainkey.u29003521.wl022.sendgrid.net",
 		"ttl": 300,
 		"groupId": "a1JedariSubdomains"
 	},
 	{
 		"type": "CNAME",
 		"host": "s2._domainkey",
-		"value": "s2.domainkey.u29003521.wl022.sendgrid.net",
+		"pointsTo": "s2.domainkey.u29003521.wl022.sendgrid.net",
 		"ttl": 300,
 		"groupId": "a1JedariSubdomains"
 	},
 	{
 		"type": "TXT",
 		"host": "_dmarc",
-		"value": "v=DMARC1; p=none;",
+		"data": "v=DMARC1; p=none;",
 		"ttl": 300,
 		"groupId": "a1JedariSubdomains"
 	},
@@ -2793,21 +2793,21 @@
 	{
 		"type": "TXT",
 		"host": "_dmarc",
-		"pointsTo": "%dmarcValueNovel%",
+		"data": "%dmarcValueNovel%",
 		"groupId": "a1Novel",
 		"ttl": 300
 	},
 	{
 		"type": "TXT",
 		"host": "%dkimHostNovel%",
-		"pointsTo": "%dkimValueNovel%",
+		"data": "%dkimValueNovel%",
 		"groupId": "a2Novel",
 		"ttl": 300
 	},
 	{
 		"type": "SPFM",
 		"host": "%spfHostNovel%",
-		"value": "include:mailgun.org ~all",
+		"spfRules": "include:mailgun.org ~all",
 		"groupId": "a3Novel",
 		"ttl": 300
 	},
@@ -2892,7 +2892,7 @@
 	{
 		"type": "TXT",
 		"host": "_dmarc",
-		"pointsTo": "%dmarcOntraport%",
+		"data": "%dmarcOntraport%",
 		"groupId": "a4Ontraport",
 		"ttl": 300
 	},
@@ -2982,7 +2982,7 @@
 	},
 	{
 		"type": "CNAME",
-		"host": "@",
+		"host": "%hostCnameWebstudio%",
 		"pointsTo": "%valueCnameWebstudio%",
 		"ttl": 3600,
 		"groupId": "a1Webstudio"
@@ -3008,5 +3008,5 @@
 		"ttl": 3600,
 		"groupId": "a1Wpengine"
 	}
-]
+]}
 	
