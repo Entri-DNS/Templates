@@ -2356,10 +2356,71 @@
             "ttl": 3600
         },
         {
+            "groupId": "a1",
             "type": "CNAME",
+            "host": "%websiteHost%",
+            "pointsTo": "%clusterValue%",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a1",
+            "type": "REDIR301",
+            "target": "%target%",
+            "host": "@"
+        },
+        {
+            "groupId": "a1",
+            "type": "TXT",
             "host": "@",
-            "pointsTo": "cname.userled.io",
-            "ttl": 300
+            "data": "clickfunnels-domain-verification=%verificationValue%",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a2",
+            "type": "TXT",
+            "host": "%websiteId%",
+            "data": "%keyValue%",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a3",
+            "type": "CNAME",
+            "host": "%websiteHost%",
+            "pointsTo": "%clusterValue%",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a3",
+            "type": "REDIR301",
+            "target": "%target%",
+            "host": "@"
+        },
+        {
+            "groupId": "a3",
+            "type": "TXT",
+            "host": "@",
+            "data": "clickfunnels-domain-verification=%verificationValue%",
+            "ttl": 3600
+        },
+        {
+            "groupId": "a3",
+            "type": "TXT",
+            "host": "%websiteId%",
+            "data": "%keyValue%",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "host": "@",
+            "spfRules": "%spfVariable%",
+            "groupId": "a4"
+        },
+        {
+            "groupId": "a4",
+            "type": "TXT",
+            "host": "%dmarcHost%",
+            "data": "%dmarcValue2%",
+            "ttl": 3600
         }
     ]
 }
