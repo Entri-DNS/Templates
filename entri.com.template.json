@@ -159,7 +159,7 @@
 	{
 		"type": "SPFM",
 		"host": "@",
-		"spfRules": "include:mailer.myclickfunnels.com",
+		"spfRules": "%spfValue%",
 		"groupId": "a4Clickfunnels"
 	},
 	{
@@ -2331,7 +2331,7 @@
 		"groupId": "a1Activecampaign",
 		"type": "CNAME",
 		"host": "%hostCname1Activecampaign%",
-		"pointsTo": "%valueCnameActivecampaign%1",
+		"pointsTo": "%valueCname1Activecampaign%",
 		"ttl": 3600
 	},
 	{
