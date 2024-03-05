@@ -159,7 +159,7 @@
 	{
 		"type": "SPFM",
 		"host": "@",
-		"spfRules": "include:mailer.myclickfunnels.com",
+		"spfRules": "%spfValue%",
 		"groupId": "a4Clickfunnels"
 	},
 	{
@@ -1066,7 +1066,7 @@
 	},
 	{
 		"type": "SPFM",
-		"spfRules": "mx include:spf.improvmx.com include:mail.zendesk.com",
+		"spfRules": "v=spf1 mx include:spf.improvmx.com include:mail.zendesk.com ~all",
 		"host": "@",
 		"groupId": "a1Moteefe"
 	},
@@ -1112,7 +1112,7 @@
 	{
 		"type": "SPFM",
 		"host": "@",
-		"spfRules": "include:%thirdPartyDomainNeo%",
+		"spfRules": "v=spf1 %thirdPartyDomainNeo% -all",
 		"groupId": "a1Neo"
 	},
 	{
@@ -2331,7 +2331,7 @@
 		"groupId": "a1Activecampaign",
 		"type": "CNAME",
 		"host": "%hostCname1Activecampaign%",
-		"pointsTo": "%valueCnameActivecampaign%1",
+		"pointsTo": "%valueCname1Activecampaign%",
 		"ttl": 3600
 	},
 	{
@@ -2807,7 +2807,7 @@
 	{
 		"type": "SPFM",
 		"host": "%spfHostNovel%",
-		"spfRules": "include:mailgun.org ~all",
+		"spfRules": "v=spf1 include:mailgun.org ~all",
 		"groupId": "a3Novel",
 		"ttl": 300
 	},
@@ -2997,14 +2997,14 @@
 	{
 		"type": "A",
 		"host": "@",
-		"data": "%ipValueWpengine%",
+		"pointsTo": "%ipValueWpengine%",
 		"ttl": 3600,
 		"groupId": "a1Wpengine"
 	},
 	{
 		"type": "A",
 		"host": "@",
-		"data": "%ipValue2Wpengine%",
+		"pointsTo": "%ipValue2Wpengine%",
 		"ttl": 3600,
 		"groupId": "a1Wpengine"
 	}
