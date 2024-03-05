@@ -9,6 +9,7 @@
 	"syncPubKeyDomain": "goentri.com",
 	"syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
 	"sharedProviderName": true,
+	"shared": true,
 	"records": [
 	{
 		"type": "A",
@@ -2470,7 +2471,7 @@
 	{
 		"type": "A",
 		"host": "@",
-		"data": "%ipValueClinicsites%",
+		"pointsTo": "%ipValueClinicsites%",
 		"ttl": 3600,
 		"groupId": "a1Clinicsites"
 	},
@@ -2722,7 +2723,7 @@
 	{
 		"type": "A",
 		"host": "@",
-		"data": "%ipValueLynkspot%",
+		"pointsTo": "%ipValueLynkspot%",
 		"ttl": 3600,
 		"groupId": "a1Lynkspot"
 	},
