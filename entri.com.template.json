@@ -183,6 +183,181 @@
         },
         {
             "type": "CNAME",
+            "groupId": "a5Clickfunnels",
+            "host": "%hostValue2a5Clickfunnels%",
+            "pointsTo": "%dataValue2a5Clickfunnels%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Clickfunnels",
+            "host": "%hostValue3a5Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue3a5Clickfunnels%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a5Clickfunnels",
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "%dataValue4a5Clickfunnels%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Clickfunnels",
+            "host": "%hostValue5a6Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue5a6Clickfunnels%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a6Clickfunnels",
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "%dataValue6a6Clickfunnels%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Clickfunnels",
+            "host": "%hostValue7a7Clickfunnels%",
+            "pointsTo": "%dataValue7a7Clickfunnels%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Clickfunnels",
+            "host": "%hostValue8a7Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue8a7Clickfunnels%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Clickfunnels",
+            "host": "%hostValue9a7Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue9a7Clickfunnels%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a7Clickfunnels",
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "%dataValue10a7Clickfunnels%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a8Clickfunnels",
+            "host": "%hostValue11a8Clickfunnels%",
+            "pointsTo": "%dataValue11a8Clickfunnels%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Clickfunnels",
+            "host": "%hostValue12a8Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue12a8Clickfunnels%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Clickfunnels",
+            "host": "%hostValue13a8Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue13a8Clickfunnels%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Clickfunnels",
+            "host": "%hostValue14a8Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue14a8Clickfunnels%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a8Clickfunnels",
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "%dataValue15a8Clickfunnels%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Clickfunnels",
+            "host": "%hostValue16a9Clickfunnels%",
+            "pointsTo": "%dataValue16a9Clickfunnels%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Clickfunnels",
+            "host": "%hostValue17a9Clickfunnels%",
+            "pointsTo": "%dataValue17a9Clickfunnels%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Clickfunnels",
+            "host": "%hostValue18a9Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue18a9Clickfunnels%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a10Clickfunnels",
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "%dataValue19a10Clickfunnels%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Clickfunnels",
+            "host": "%hostValue20a11Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue20a11Clickfunnels%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Clickfunnels",
+            "host": "%hostValue21a11Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue21a11Clickfunnels%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a11Clickfunnels",
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "%dataValue22a11Clickfunnels%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a12Clickfunnels",
+            "host": "%hostValue23a12Clickfunnels%",
+            "pointsTo": "%dataValue23a12Clickfunnels%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a12Clickfunnels",
+            "host": "%hostValue24a12Clickfunnels%",
+            "ttl": 3600,
+            "data": "%dataValue24a12Clickfunnels%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a13Clickfunnels",
+            "host": "%hostValue25a13Clickfunnels%",
+            "pointsTo": "%dataValue25a13Clickfunnels%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a14Clickfunnels",
+            "host": "@",
+            "ttl": 0,
+            "target": "%target%"
+        },
+        {
+            "type": "CNAME",
             "groupId": "a1Clickfunnelsv1",
             "host": "%webSiteHostClickfunnelsv1%",
             "pointsTo": "target.clickfunnels.com",
@@ -837,6 +1012,20 @@
             "ttl": 3600
         },
         {
+            "type": "A",
+            "groupId": "a2Inita",
+            "host": "www",
+            "pointsTo": "%ipAdress1Inita%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3Inita",
+            "host": "@",
+            "pointsTo": "%ipAdress3Inita%",
+            "ttl": 3600
+        },
+        {
             "type": "TXT",
             "groupId": "a1Instantly",
             "host": "_dmarc",
@@ -935,6 +1124,101 @@
             "host": "%cnameHost3Kajabi%",
             "pointsTo": "%cnameValue3Kajabi%",
             "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Kajabi",
+            "host": "%cnameHost1Kajabi%",
+            "pointsTo": "%cnameValue1Kajabi%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Kajabi",
+            "host": "%cnameHost2Kajabi%",
+            "pointsTo": "%cnameValue2Kajabi%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Kajabi",
+            "host": "%txtHost1Kajabi%",
+            "ttl": 3600,
+            "data": "%txtValue1Kajabi%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Kajabi",
+            "host": "%txtHost2Kajabi%",
+            "ttl": 3600,
+            "data": "%txtValue2Kajabi%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a4Kajabi",
+            "host": "kjbm",
+            "ttl": 3600,
+            "spfRules": "include:mailgun.org"
+        },
+        {
+            "type": "MX",
+            "groupId": "a4Kajabi",
+            "host": "kjbm",
+            "pointsTo": "mxa.mailgun.org",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a4Kajabi",
+            "host": "kjbm",
+            "pointsTo": "mxb.mailgun.org",
+            "ttl": 3600,
+            "priority": 20
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Kajabi",
+            "host": "%cnameHost1Kajabi%",
+            "pointsTo": "%cnameValue1Kajabi%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Kajabi",
+            "host": "%txtHost1Kajabi%",
+            "ttl": 3600,
+            "data": "%txtValue1Kajabi%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Kajabi",
+            "host": "%txtHost2Kajabi%",
+            "ttl": 3600,
+            "data": "%txtValue2Kajabi%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a5Kajabi",
+            "host": "kjbm",
+            "ttl": 3600,
+            "spfRules": "include:mailgun.org"
+        },
+        {
+            "type": "MX",
+            "groupId": "a5Kajabi",
+            "host": "kjbm",
+            "pointsTo": "mxa.mailgun.org",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a5Kajabi",
+            "host": "kjbm",
+            "pointsTo": "mxb.mailgun.org",
+            "ttl": 3600,
+            "priority": 20
         },
         {
             "type": "CNAME",
@@ -1453,14 +1737,14 @@
             "ttl": 3600
         },
         {
-            "type": "TXT",
+            "type": "SPFM",
             "groupId": "a2Sendmarc",
             "essential": "OnApply",
             "host": "@",
             "ttl": 3600,
-            "data": "%thirdPartyDomainSendmarc%",
             "txtConflictMatchingMode": "Prefix",
-            "txtConflictMatchingPrefix": "v=spf1"
+            "txtConflictMatchingPrefix": "v=spf1",
+            "spfRules": "%thirdPartyDomainSendmarc%"
         },
         {
             "type": "A",
@@ -1530,6 +1814,202 @@
             "groupId": "a3Showit",
             "host": "www",
             "pointsTo": "%cnamePointsToShowit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a4Showit",
+            "host": "%hostValue2a4Showit%",
+            "pointsTo": "%dataValue2a4Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a4Showit",
+            "host": "%hostValue3a4Showit%",
+            "pointsTo": "%dataValue3a4Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a4Showit",
+            "host": "%hostValue4a4Showit%",
+            "pointsTo": "%dataValue4a4Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a4Showit",
+            "host": "%hostValue5a4Showit%",
+            "pointsTo": "%dataValue5a4Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a4Showit",
+            "host": "%hostValue6a4Showit%",
+            "pointsTo": "%dataValue6a4Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a5Showit",
+            "host": "%hostValue7a5Showit%",
+            "pointsTo": "%dataValue7a5Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a6Showit",
+            "host": "%hostValue8a6Showit%",
+            "pointsTo": "%dataValue8a6Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a6Showit",
+            "host": "%hostValue9a6Showit%",
+            "pointsTo": "%dataValue9a6Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a6Showit",
+            "host": "%hostValue10a6Showit%",
+            "pointsTo": "%dataValue10a6Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a6Showit",
+            "host": "%hostValue11a6Showit%",
+            "pointsTo": "%dataValue11a6Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a7Showit",
+            "host": "%hostValue12a7Showit%",
+            "pointsTo": "%dataValue12a7Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a7Showit",
+            "host": "%hostValue13a7Showit%",
+            "pointsTo": "%dataValue13a7Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Showit",
+            "host": "%hostValue14a7Showit%",
+            "pointsTo": "%dataValue14a7Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a8Showit",
+            "host": "%hostValue15a8Showit%",
+            "pointsTo": "%dataValue15a8Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a8Showit",
+            "host": "%hostValue16a8Showit%",
+            "pointsTo": "%dataValue16a8Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a8Showit",
+            "host": "%hostValue17a8Showit%",
+            "pointsTo": "%dataValue17a8Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a8Showit",
+            "host": "%hostValue18a8Showit%",
+            "pointsTo": "%dataValue18a8Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a8Showit",
+            "host": "%hostValue19a8Showit%",
+            "pointsTo": "%dataValue19a8Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Showit",
+            "host": "%hostValue20a9Showit%",
+            "pointsTo": "%dataValue20a9Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a10Showit",
+            "host": "%hostValue21a10Showit%",
+            "pointsTo": "%dataValue21a10Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a10Showit",
+            "host": "%hostValue22a10Showit%",
+            "pointsTo": "%dataValue22a10Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a10Showit",
+            "host": "%hostValue23a10Showit%",
+            "pointsTo": "%dataValue23a10Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a10Showit",
+            "host": "%hostValue24a10Showit%",
+            "pointsTo": "%dataValue24a10Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a11Showit",
+            "host": "%hostValue25a11Showit%",
+            "pointsTo": "%dataValue25a11Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a11Showit",
+            "host": "%hostValue26a11Showit%",
+            "pointsTo": "%dataValue26a11Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a11Showit",
+            "host": "%hostValue27a11Showit%",
+            "pointsTo": "%dataValue27a11Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a12Showit",
+            "host": "%hostValue28a12Showit%",
+            "pointsTo": "%dataValue28a12Showit%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a12Showit",
+            "host": "%hostValue29a12Showit%",
+            "pointsTo": "%dataValue29a12Showit%",
             "ttl": 3600
         },
         {
@@ -2945,6 +3425,216 @@
             "data": "%dmarcOntraport%"
         },
         {
+            "type": "A",
+            "groupId": "a5Ontraport",
+            "host": "%hostValue2a5Ontraport%",
+            "pointsTo": "%dataValue2a5Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Ontraport",
+            "host": "%hostValue3a5Ontraport%",
+            "pointsTo": "%dataValue3a5Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Ontraport",
+            "host": "%hostValue4a5Ontraport%",
+            "pointsTo": "%dataValue4a5Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Ontraport",
+            "host": "%hostValue5a6Ontraport%",
+            "pointsTo": "%dataValue5a6Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Ontraport",
+            "host": "%hostValue6a6Ontraport%",
+            "pointsTo": "%dataValue6a6Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a7Ontraport",
+            "host": "%hostValue7a7Ontraport%",
+            "pointsTo": "%dataValue7a7Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a8Ontraport",
+            "host": "%hostValue8a8Ontraport%",
+            "pointsTo": "%dataValue8a8Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a8Ontraport",
+            "host": "%hostValue9a8Ontraport%",
+            "pointsTo": "%dataValue9a8Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a8Ontraport",
+            "host": "%hostValue10a8Ontraport%",
+            "pointsTo": "%dataValue10a8Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a8Ontraport",
+            "host": "%hostValue11a8Ontraport%",
+            "pointsTo": "%dataValue11a8Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Ontraport",
+            "host": "%hostValue12a9Ontraport%",
+            "pointsTo": "%dataValue12a9Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Ontraport",
+            "host": "%hostValue13a9Ontraport%",
+            "pointsTo": "%dataValue13a9Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Ontraport",
+            "host": "%hostValue14a9Ontraport%",
+            "pointsTo": "%dataValue14a9Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a10Ontraport",
+            "host": "%hostValue15a10Ontraport%",
+            "pointsTo": "%dataValue15a10Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a10Ontraport",
+            "host": "%hostValue16a10Ontraport%",
+            "pointsTo": "%dataValue16a10Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a10Ontraport",
+            "host": "%hostValue17a10Ontraport%",
+            "pointsTo": "%dataValue17a10Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a11Ontraport",
+            "host": "%hostValue18a11Ontraport%",
+            "pointsTo": "%dataValue18a11Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a11Ontraport",
+            "host": "%hostValue19a11Ontraport%",
+            "pointsTo": "%dataValue19a11Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a12Ontraport",
+            "host": "%hostValue20a12Ontraport%",
+            "pointsTo": "%dataValue20a12Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a12Ontraport",
+            "host": "%hostValue21a12Ontraport%",
+            "pointsTo": "%dataValue21a12Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a12Ontraport",
+            "host": "%hostValue22a12Ontraport%",
+            "pointsTo": "%dataValue22a12Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a12Ontraport",
+            "host": "%hostValue23a12Ontraport%",
+            "pointsTo": "%dataValue23a12Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a12Ontraport",
+            "host": "%hostValue24a12Ontraport%",
+            "pointsTo": "%dataValue24a12Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a13Ontraport",
+            "host": "%hostValue25a13Ontraport%",
+            "pointsTo": "%dataValue25a13Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a13Ontraport",
+            "host": "%hostValue26a13Ontraport%",
+            "pointsTo": "%dataValue26a13Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a13Ontraport",
+            "host": "%hostValue27a13Ontraport%",
+            "pointsTo": "%dataValue27a13Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a13Ontraport",
+            "host": "%hostValue28a13Ontraport%",
+            "pointsTo": "%dataValue28a13Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a14Ontraport",
+            "host": "%hostValue29a14Ontraport%",
+            "pointsTo": "%dataValue29a14Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a15Ontraport",
+            "host": "%hostValue30a15Ontraport%",
+            "pointsTo": "%dataValue30a15Ontraport%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a15Ontraport",
+            "host": "%hostValue31a15Ontraport%",
+            "pointsTo": "%dataValue31a15Ontraport%",
+            "ttl": 3600
+        },
+        {
             "type": "CNAME",
             "groupId": "a1Skysnag",
             "host": "%hostCnameSkysnag%",
@@ -3020,6 +3710,36 @@
             "host": "@",
             "ttl": 3600,
             "data": "%txtValueWe_are_appointments%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2We_are_appointments",
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "include:mailgun.org"
+        },
+        {
+            "type": "MX",
+            "groupId": "a3We_are_appointments",
+            "host": "@",
+            "pointsTo": "mxa.mailgun.org",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a4We_are_appointments",
+            "host": "@",
+            "pointsTo": "mxb.mailgun.org",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5We_are_appointments",
+            "host": "%hostCnameWe_are_appointments%",
+            "pointsTo": "%valueCnameWe_are_appointments%",
+            "ttl": 3600
         },
         {
             "type": "TXT",
