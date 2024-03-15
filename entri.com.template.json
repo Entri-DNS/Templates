@@ -1425,7 +1425,7 @@
             "groupId": "a1Neo",
             "host": "@",
             "ttl": 0,
-            "spfRules": "v=spf1 %thirdPartyDomainNeo% -all"
+            "spfRules": "%thirdPartyDomainNeo%"
         },
         {
             "type": "TXT",
@@ -3378,7 +3378,7 @@
             "groupId": "a1Onesignal",
             "host": "%spfHostOnesignal%",
             "ttl": 0,
-            "spfRules": "include:spf.onesignal.email include:mailgun.org ~all"
+            "spfRules": "include:spf.onesignal.email include:mailgun.org"
         },
         {
             "type": "MX",
@@ -3707,7 +3707,7 @@
         {
             "type": "TXT",
             "groupId": "a1We_are_appointments",
-            "host": "@",
+            "host": "%txtHostWe_are_appointments%",
             "ttl": 3600,
             "data": "%txtValueWe_are_appointments%"
         },
