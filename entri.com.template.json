@@ -3256,21 +3256,21 @@
         {
             "type": "CNAME",
             "groupId": "a1Mailchimp",
-            "host": "%sel1Mailchimp%._domainkey",
+            "host": "%sel1Mailchimp%",
             "pointsTo": "%host1Mailchimp%",
             "ttl": 3600
         },
         {
             "type": "CNAME",
             "groupId": "a2Mailchimp",
-            "host": "%sel2Mailchimp%._domainkey",
+            "host": "%sel2Mailchimp%",
             "pointsTo": "%host2Mailchimp%",
             "ttl": 3600
         },
         {
             "type": "TXT",
             "groupId": "a3Mailchimp",
-            "host": "_dmarc",
+            "host": "%host3Mailchimp%",
             "ttl": 3600,
             "data": "%dataMailchimp%",
             "txtConflictMatchingMode": "All"
@@ -3782,6 +3782,189 @@
             "host": "@",
             "pointsTo": "cname.userled.io",
             "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1KajabiAlt",
+            "host": "%hostValue1a1KajabiAlt%",
+            "pointsTo": "%dataValue1a1KajabiAlt%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1KajabiAlt",
+            "host": "%hostValue2a1KajabiAlt%",
+            "pointsTo": "%dataValue2a1KajabiAlt%",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "groupId": "a1KajabiAlt",
+            "host": "%hostValue3a1KajabiAlt%",
+            "pointsTo": "%dataValue3a1KajabiAlt%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a1KajabiAlt",
+            "host": "%hostValue4a1KajabiAlt%",
+            "pointsTo": "%dataValue4a1KajabiAlt%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1KajabiAlt",
+            "host": "%hostValue5a1KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue5a1KajabiAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1KajabiAlt",
+            "host": "%hostValue6a1KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue6a1KajabiAlt%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2KajabiAlt",
+            "host": "%hostValue7a2KajabiAlt%",
+            "pointsTo": "%dataValue7a2KajabiAlt%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2KajabiAlt",
+            "host": "%hostValue8a2KajabiAlt%",
+            "pointsTo": "%dataValue8a2KajabiAlt%",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "groupId": "a2KajabiAlt",
+            "host": "%hostValue9a2KajabiAlt%",
+            "pointsTo": "%dataValue9a2KajabiAlt%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a2KajabiAlt",
+            "host": "%hostValue10a2KajabiAlt%",
+            "pointsTo": "%dataValue10a2KajabiAlt%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2KajabiAlt",
+            "host": "%hostValue11a2KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue11a2KajabiAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2KajabiAlt",
+            "host": "%hostValue12a2KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue12a2KajabiAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2KajabiAlt",
+            "host": "%hostValue13a2KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue13a2KajabiAlt%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3KajabiAlt",
+            "host": "%hostValue14a3KajabiAlt%",
+            "pointsTo": "%dataValue14a3KajabiAlt%",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "groupId": "a3KajabiAlt",
+            "host": "%hostValue15a3KajabiAlt%",
+            "pointsTo": "%dataValue15a3KajabiAlt%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a3KajabiAlt",
+            "host": "%hostValue16a3KajabiAlt%",
+            "pointsTo": "%dataValue16a3KajabiAlt%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3KajabiAlt",
+            "host": "%hostValue17a3KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue17a3KajabiAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3KajabiAlt",
+            "host": "%hostValue18a3KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue18a3KajabiAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3KajabiAlt",
+            "host": "%hostValue19a3KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue19a3KajabiAlt%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4KajabiAlt",
+            "host": "%hostValue20a4KajabiAlt%",
+            "pointsTo": "%dataValue20a4KajabiAlt%",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "groupId": "a4KajabiAlt",
+            "host": "%hostValue21a4KajabiAlt%",
+            "pointsTo": "%dataValue21a4KajabiAlt%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a4KajabiAlt",
+            "host": "%hostValue22a4KajabiAlt%",
+            "pointsTo": "%dataValue22a4KajabiAlt%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4KajabiAlt",
+            "host": "%hostValue23a4KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue23a4KajabiAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4KajabiAlt",
+            "host": "%hostValue24a4KajabiAlt%",
+            "ttl": 3600,
+            "data": "%dataValue24a4KajabiAlt%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5KajabiAlt",
+            "host": "%hostValue25a5KajabiAlt%",
+            "pointsTo": "%dataValue25a5KajabiAlt%",
+            "ttl": 3600
         }
     ]
 }
