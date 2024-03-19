@@ -99,11 +99,11 @@
         },
         {
             "type": "TXT",
-            "host": "%hostTxt3Bily_ai%",
             "groupId": "a3Bily_ai",
-            "data": "%verificationTxt3Bily_ai%",
-            "ttl": 3600
-          },
+            "host": "%hostTxt3Bily_ai%",
+            "ttl": 3600,
+            "data": "%verificationTxt3Bily_ai%"
+        },
         {
             "type": "CNAME",
             "groupId": "a1Bloom",
@@ -3954,46 +3954,45 @@
         },
         {
             "type": "A",
-            "host": "@",
-            "data": "%ipValueWpengine%",
             "groupId": "a1Wpengine",
+            "host": "@",
+            "pointsTo": "%ipValueWpengine%",
             "ttl": 3600
-          },
-          {
+        },
+        {
             "type": "A",
-            "host": "@",
-            "data": "%ipValue2Wpengine%",
             "groupId": "a1Wpengine",
+            "host": "@",
+            "pointsTo": "%ipValue2Wpengine%",
             "ttl": 3600
-          },
-          {
+        },
+        {
             "type": "TXT",
-            "host": "_dmarc",
-            "data": "%dmarcWpengine%",
             "groupId": "a2Wpengine",
-            "ttl": 300
-          },
-          {
+            "host": "_dmarc",
+            "ttl": 300,
+            "data": "%dmarcWpengine%"
+        },
+        {
             "type": "CNAME",
+            "groupId": "a3Wpengine",
             "host": "%hostCnameWpengine%",
             "pointsTo": "%valueCnameWpengine%",
-            "groupId": "a3Wpengine",
             "ttl": 3600
-          },
-          {
+        },
+        {
             "type": "CNAME",
+            "groupId": "a3Wpengine",
             "host": "%hostCname2Wpengine%",
             "pointsTo": "%valueCname2Wpengine%",
-            "groupId": "a3Wpengine",
             "ttl": 3600
-          },
-          {
+        },
+        {
             "type": "CNAME",
-            "host": "%hostCname2Wpengine%",
-            "pointsTo": "%valueCname2Wpengine%",
             "groupId": "a4Wpengine",
+            "host": "%hostCname2Wpengine%",
+            "pointsTo": "%valueCname2Wpengine%",
             "ttl": 3600
-          },
-          
+        }
     ]
 }
