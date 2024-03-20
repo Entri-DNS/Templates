@@ -4375,6 +4375,36 @@
             "host": "%hostValue7a2ActivecampaignAlt%",
             "ttl": 3600,
             "data": "%dataValue7a2ActivecampaignAlt%"
+        },
+        {
+            "type": "TXT",
+            "host": "%dkimHosta1FollowUpBoss%",
+            "ttl": 300,
+            "data": "%dkimValuea1FollowUpBoss%"
+        },
+        {
+            "type": "TXT",
+            "host": "%dmarcHosta1FollowUpBoss%",
+            "ttl": 300,
+            "data": "%dmarcValuea1FollowUpBoss%"
+        },
+        {
+            "type": "SPFM",
+            "host": "%spfHosta1FollowUpBoss%",
+            "ttl": 0,
+            "spfRules": "include:sendgrid.net"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHosta1FollowUpBoss%",
+            "pointsTo": "%cnameValuea1FollowUpBoss%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost2a1FollowUpBoss%",
+            "pointsTo": "%cnameValue2a1FollowUpBoss%",
+            "ttl": 3600
         }
     ]
 }
