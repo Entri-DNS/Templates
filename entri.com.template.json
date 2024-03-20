@@ -4405,6 +4405,27 @@
             "host": "%cnameHost2a1FollowUpBoss%",
             "pointsTo": "%cnameValue2a1FollowUpBoss%",
             "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1NostraAlt",
+            "host": "%hostValue1a1NostraAlt%",
+            "ttl": 3600,
+            "data": "%dataValue1a1NostraAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2NostraAlt",
+            "host": "%hostValue2a2NostraAlt%",
+            "ttl": 3600,
+            "data": "%dataValue2a2NostraAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2NostraAlt",
+            "host": "%hostValue3a2NostraAlt%",
+            "ttl": 3600,
+            "data": "%dataValue3a2NostraAlt%"
         }
     ]
 }
