@@ -4379,30 +4379,35 @@
         {
             "type": "TXT",
             "host": "%dkimHosta1FollowUpBoss%",
+            "groupId": "a1FollowUpBoss",
             "ttl": 300,
             "data": "%dkimValuea1FollowUpBoss%"
         },
         {
             "type": "TXT",
             "host": "%dmarcHosta1FollowUpBoss%",
+            "groupId": "a1FollowUpBoss",
             "ttl": 300,
             "data": "%dmarcValuea1FollowUpBoss%"
         },
         {
             "type": "SPFM",
             "host": "%spfHosta1FollowUpBoss%",
+            "groupId": "a1FollowUpBoss",
             "ttl": 0,
             "spfRules": "include:sendgrid.net"
         },
         {
             "type": "CNAME",
             "host": "%cnameHosta1FollowUpBoss%",
+            "groupId": "a1FollowUpBoss",
             "pointsTo": "%cnameValuea1FollowUpBoss%",
             "ttl": 3600
         },
         {
             "type": "CNAME",
             "host": "%cnameHost2a1FollowUpBoss%",
+            "groupId": "a1FollowUpBoss",
             "pointsTo": "%cnameValue2a1FollowUpBoss%",
             "ttl": 3600
         },
