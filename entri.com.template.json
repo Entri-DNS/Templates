@@ -3800,11 +3800,11 @@
             "priority": 10
         },
         {
-            "type": "TXT",
+            "type": "SPFM",
             "groupId": "a1KajabiAlt",
             "host": "%hostValue5a1KajabiAlt%",
             "ttl": 3600,
-            "data": "%dataValue5a1KajabiAlt%"
+            "spfRules": "%dataValue5a1KajabiAlt%"
         },
         {
             "type": "TXT",
@@ -3844,11 +3844,11 @@
             "priority": 10
         },
         {
-            "type": "TXT",
+            "type": "SPFM",
             "groupId": "a2KajabiAlt",
             "host": "%hostValue11a2KajabiAlt%",
             "ttl": 3600,
-            "data": "%dataValue11a2KajabiAlt%"
+            "spfRules": "%dataValue11a2KajabiAlt%"
         },
         {
             "type": "TXT",
@@ -3888,11 +3888,11 @@
             "priority": 10
         },
         {
-            "type": "TXT",
+            "type": "SPFM",
             "groupId": "a3KajabiAlt",
             "host": "%hostValue17a3KajabiAlt%",
             "ttl": 3600,
-            "data": "%dataValue17a3KajabiAlt%"
+            "spfRules": "%dataValue17a3KajabiAlt%"
         },
         {
             "type": "TXT",
@@ -3932,11 +3932,11 @@
             "priority": 10
         },
         {
-            "type": "TXT",
+            "type": "SPFM",
             "groupId": "a4KajabiAlt",
             "host": "%hostValue23a4KajabiAlt%",
             "ttl": 3600,
-            "data": "%dataValue23a4KajabiAlt%"
+            "spfRules": "%dataValue23a4KajabiAlt%"
         },
         {
             "type": "TXT",
@@ -4378,36 +4378,36 @@
         },
         {
             "type": "TXT",
-            "host": "%dkimHosta1FollowUpBoss%",
             "groupId": "a1FollowUpBoss",
+            "host": "%dkimHosta1FollowUpBoss%",
             "ttl": 300,
             "data": "%dkimValuea1FollowUpBoss%"
         },
         {
             "type": "TXT",
-            "host": "%dmarcHosta1FollowUpBoss%",
             "groupId": "a1FollowUpBoss",
+            "host": "%dmarcHosta1FollowUpBoss%",
             "ttl": 300,
             "data": "%dmarcValuea1FollowUpBoss%"
         },
         {
             "type": "SPFM",
-            "host": "%spfHosta1FollowUpBoss%",
             "groupId": "a1FollowUpBoss",
+            "host": "%spfHosta1FollowUpBoss%",
             "ttl": 0,
             "spfRules": "include:sendgrid.net"
         },
         {
             "type": "CNAME",
-            "host": "%cnameHosta1FollowUpBoss%",
             "groupId": "a1FollowUpBoss",
+            "host": "%cnameHosta1FollowUpBoss%",
             "pointsTo": "%cnameValuea1FollowUpBoss%",
             "ttl": 3600
         },
         {
             "type": "CNAME",
-            "host": "%cnameHost2a1FollowUpBoss%",
             "groupId": "a1FollowUpBoss",
+            "host": "%cnameHost2a1FollowUpBoss%",
             "pointsTo": "%cnameValue2a1FollowUpBoss%",
             "ttl": 3600
         },
