@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-provider",
     "serviceName": "ThirdPartyProvider",
-    "version": 4,
+    "version": 5,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4431,6 +4431,118 @@
             "host": "%hostValue3a2NostraAlt%",
             "ttl": 3600,
             "data": "%dataValue3a2NostraAlt%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a160sec",
+            "host": "%host60sec%",
+            "pointsTo": "%cnamePointsTo60sec%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Bento",
+            "host": "%host1Bento%",
+            "pointsTo": "%cnamePointsToBento%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Bento",
+            "host": "%dkimHostBento%",
+            "pointsTo": "%dkimCnamePointsToBento%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Replyagent",
+            "host": "%hostReplyagent%",
+            "pointsTo": "%cnamePointsToReplyagent%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Pixieset",
+            "host": "www",
+            "pointsTo": "%pointstoDomainPixieset%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Pixieset",
+            "host": "%cnameHostPixieset%",
+            "pointsTo": "%cnameValuePixieset%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pixieset",
+            "host": "@",
+            "pointsTo": "%primaryIp1Pixieset%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pixieset",
+            "host": "@",
+            "pointsTo": "%primaryIp2Pixieset%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3Pixieset",
+            "host": "@",
+            "pointsTo": "%primaryIp3Pixieset%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3Pixieset",
+            "host": "@",
+            "pointsTo": "%primaryIp4Pixieset%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3Pixieset",
+            "host": "@",
+            "pointsTo": "%primaryIp5Pixieset%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a4Pixieset",
+            "host": "@",
+            "ttl": 0,
+            "target": "%targetPixieset%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Bilyai",
+            "host": "%hostDomainBilyai%",
+            "pointsTo": "%pointstoDomainBilyai%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Bilyai",
+            "host": "%hostTxtBilyai%",
+            "ttl": 3600,
+            "data": "%verificationTxtBilyai%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Bilyai",
+            "host": "%hostTxt3Bilyai%",
+            "ttl": 3600,
+            "data": "%verificationTxt3Bilyai%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Bilyai",
+            "host": "%hostDomain2Bilyai%",
+            "pointsTo": "%pointstoDomain2Bilyai%",
+            "ttl": 3600
         }
     ]
 }
