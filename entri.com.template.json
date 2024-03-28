@@ -4431,6 +4431,47 @@
             "host": "%hostValue3a2NostraAlt%",
             "ttl": 3600,
             "data": "%dataValue3a2NostraAlt%"
+        },
+        {
+            "type": "CNAME",
+            "host": "%host60sec%",
+            "pointsTo": "%cnamePointsTo60sec%",
+            "ttl": 300,
+            "groupId": "a160sec"
+        },
+        {
+            "type": "CNAME",
+            "host": "%dkimHostBento%",
+            "pointsTo": "%dkimCnamePointsToBento%",
+            "groupId": "a2Bento",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "host": "%host2Solo%",
+            "value": "%ipSolo%",
+            "groupId": "a2Solo",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "host": "%hostReplyagent%",
+            "pointsTo": "%cnamePointsToReplyagent%",
+            "ttl": 300,
+            "groupId": "a1Replyagent"
+        },
+        {
+            "groupId": "a4Pixieset",
+            "type": "REDIR301",
+            "target": "%targetPixieset%",
+            "host": "@"
+        },
+        {
+            "type": "CNAME",
+            "host": "%hostDomain2Bilyai%",
+            "groupId": "a4Bilyai",
+            "pointsTo": "%pointstoDomain2Bilyai%",
+            "ttl": 3600
         }
     ]
 }
