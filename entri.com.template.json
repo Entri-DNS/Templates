@@ -4434,112 +4434,113 @@
         },
         {
             "type": "CNAME",
+            "groupId": "a160sec",
             "host": "%host60sec%",
             "pointsTo": "%cnamePointsTo60sec%",
-            "ttl": 300,
-            "groupId": "a160sec"
+            "ttl": 300
         },
         {
             "type": "CNAME",
+            "groupId": "a1Bento",
             "host": "%host1Bento%",
             "pointsTo": "%cnamePointsToBento%",
-            "groupId": "a1Bento",
             "ttl": 300
         },
         {
             "type": "CNAME",
+            "groupId": "a2Bento",
             "host": "%dkimHostBento%",
             "pointsTo": "%dkimCnamePointsToBento%",
-            "groupId": "a2Bento",
             "ttl": 300
         },
         {
             "type": "CNAME",
+            "groupId": "a1Replyagent",
             "host": "%hostReplyagent%",
             "pointsTo": "%cnamePointsToReplyagent%",
-            "ttl": 300,
-            "groupId": "a1Replyagent"
+            "ttl": 300
         },
         {
             "type": "CNAME",
-            "host": "www",
             "groupId": "a1Pixieset",
+            "host": "www",
             "pointsTo": "%pointstoDomainPixieset%",
             "ttl": 3600
         },
         {
             "type": "CNAME",
-            "host": "%cnameHostPixieset%",
             "groupId": "a1Pixieset",
+            "host": "%cnameHostPixieset%",
             "pointsTo": "%cnameValuePixieset%",
             "ttl": 3600
         },
         {
             "type": "A",
+            "groupId": "a2Pixieset",
             "host": "@",
             "pointsTo": "%primaryIp1Pixieset%",
-            "groupId": "a2Pixieset",
             "ttl": 3600
         },
         {
             "type": "A",
+            "groupId": "a2Pixieset",
             "host": "@",
             "pointsTo": "%primaryIp2Pixieset%",
-            "groupId": "a2Pixieset",
             "ttl": 3600
         },
         {
             "type": "A",
+            "groupId": "a3Pixieset",
             "host": "@",
             "pointsTo": "%primaryIp3Pixieset%",
-            "groupId": "a3Pixieset",
             "ttl": 3600
         },
         {
             "type": "A",
+            "groupId": "a3Pixieset",
             "host": "@",
             "pointsTo": "%primaryIp4Pixieset%",
-            "groupId": "a3Pixieset",
             "ttl": 3600
         },
         {
             "type": "A",
+            "groupId": "a3Pixieset",
             "host": "@",
             "pointsTo": "%primaryIp5Pixieset%",
-            "groupId": "a3Pixieset",
             "ttl": 3600
         },
         {
-            "groupId": "a4Pixieset",
             "type": "REDIR301",
-            "target": "%targetPixieset%",
-            "host": "@"
+            "groupId": "a4Pixieset",
+            "host": "@",
+            "ttl": 0,
+            "target": "%targetPixieset%"
         },
         {
             "type": "CNAME",
-            "host": "%hostDomainBilyai%",
             "groupId": "a1Bilyai",
+            "host": "%hostDomainBilyai%",
             "pointsTo": "%pointstoDomainBilyai%",
             "ttl": 3600
         },
         {
             "type": "TXT",
-            "host": "%hostTxtBilyai%",
             "groupId": "a2Bilyai",
-            "data": "%verificationTxtBilyai%",
-            "ttl": 3600
+            "host": "%hostTxtBilyai%",
+            "ttl": 3600,
+            "data": "%verificationTxtBilyai%"
         },
         {
             "type": "TXT",
-            "host": "%hostTxt3Bilyai%",
             "groupId": "a3Bilyai",
-            "data": "%verificationTxt3Bilyai%",
-            "ttl": 3600
+            "host": "%hostTxt3Bilyai%",
+            "ttl": 3600,
+            "data": "%verificationTxt3Bilyai%"
         },
         {
             "type": "CNAME",
-            "host": "%hostDomain2Bilyai%",
             "groupId": "a4Bilyai",
+            "host": "%hostDomain2Bilyai%",
             "pointsTo": "%pointstoDomain2Bilyai%",
             "ttl": 3600
         }
