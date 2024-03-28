@@ -4455,20 +4455,6 @@
         },
         {
             "type": "CNAME",
-            "host": "%host1Solo%",
-            "pointsTo": "%cnamePointsToSolo%",
-            "groupId": "a1Solo",
-            "ttl": 300
-        },
-        {
-            "type": "A",
-            "host": "%host2Solo%",
-            "value": "%ipSolo%",
-            "groupId": "a2Solo",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
             "host": "%hostReplyagent%",
             "pointsTo": "%cnamePointsToReplyagent%",
             "ttl": 300,
