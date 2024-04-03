@@ -1,0 +1,48 @@
+name: Lint Templates
+
+on:
+  pull_request:
+    paths:
+      - "**.json"
+
+jobs:
+  lint:
+    name: Lint JSON Templates
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: "1.22.0"
+
+      - name: Install dc-template-linter
+        run: go install github.com/Domain-Connect/dc-template-linter@latest
+      - name: Debug $GOPATH/bin contents
+        run: |
+          ls -l $GOPATH/bin
+
+      - name: Run dc-template-linter
+        run: |
+          export GOPATH=$(go env GOPATH)
+          $GOPATH/bin/dc-template-linter -cloudflare -inplace  -loglevel error *.json
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code || echo "::set-output name=has_changes::true"
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name "EntriBot"
+          git config --global user.email "EntriBot@goentri.com"
+          git add .
+          git commit -m "Lint JSON templates"
+          git push origin HEAD:${{ github.head_ref }}
