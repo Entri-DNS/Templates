@@ -66,7 +66,6 @@
             "type": "REDIR301",
             "groupId": "a1Bigcartel",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -129,7 +128,6 @@
             "type": "REDIR301",
             "groupId": "a1Clickfunnels",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -157,7 +155,6 @@
             "type": "REDIR301",
             "groupId": "a3Clickfunnels",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -178,7 +175,6 @@
             "type": "SPFM",
             "groupId": "a4Clickfunnels",
             "host": "@",
-            "ttl": 0,
             "spfRules": "%spfValue%"
         },
         {
@@ -360,7 +356,6 @@
             "type": "REDIR301",
             "groupId": "a14Clickfunnels",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -374,7 +369,6 @@
             "type": "REDIR301",
             "groupId": "a2Clickfunnelsv1",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -388,7 +382,6 @@
             "type": "REDIR301",
             "groupId": "a1Clickmax",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -528,7 +521,6 @@
             "type": "REDIR301",
             "groupId": "a1Eventcreate",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -549,7 +541,6 @@
             "type": "REDIR301",
             "groupId": "a2Eventcreate",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -577,7 +568,6 @@
             "type": "REDIR301",
             "groupId": "a3Eventcreate",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -731,7 +721,6 @@
             "type": "SPFM",
             "groupId": "a1FourthwallSubdomains",
             "host": "support",
-            "ttl": 0,
             "spfRules": "include:_spf.google.com include:mail.zendesk.com include:spf.improvmx.com include:sendgrid.net"
         },
         {
@@ -845,7 +834,6 @@
             "type": "SPFM",
             "groupId": "a1Fourthwall",
             "host": "support",
-            "ttl": 0,
             "spfRules": "include:_spf.google.com include:mail.zendesk.com include:spf.improvmx.com include:sendgrid.net"
         },
         {
@@ -973,7 +961,6 @@
             "type": "REDIR301",
             "groupId": "a2Housecallpro",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -1001,7 +988,6 @@
             "type": "REDIR301",
             "groupId": "a2I360",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -1043,7 +1029,6 @@
             "type": "SPFM",
             "groupId": "a1Instantly",
             "host": "@",
-            "ttl": 0,
             "spfRules": "include:%thirdPartyDomainInstantly%"
         },
         {
@@ -1092,7 +1077,6 @@
             "type": "SPFM",
             "groupId": "a1Kajabi",
             "host": "kjbm",
-            "ttl": 0,
             "spfRules": "include:mailgun.org"
         },
         {
@@ -1122,7 +1106,6 @@
             "type": "REDIR301",
             "groupId": "a2Kajabi",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -1280,7 +1263,6 @@
             "type": "SPFM",
             "groupId": "a1Mailshake",
             "host": "@",
-            "ttl": 0,
             "spfRules": "include:%thirdPartyDomainMailshake%"
         },
         {
@@ -1315,7 +1297,6 @@
             "type": "REDIR301",
             "groupId": "a1Mixo",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -1385,7 +1366,6 @@
             "type": "SPFM",
             "groupId": "a1Moteefe",
             "host": "@",
-            "ttl": 0,
             "spfRules": "mx include:spf.improvmx.com include:mail.zendesk.com"
         },
         {
@@ -1431,7 +1411,6 @@
             "type": "SPFM",
             "groupId": "a1Neo",
             "host": "@",
-            "ttl": 0,
             "spfRules": "%thirdPartyDomainNeo%"
         },
         {
@@ -1460,7 +1439,6 @@
             "type": "SPFM",
             "groupId": "a3Neo",
             "host": "@",
-            "ttl": 0,
             "spfRules": "include:%thirdPartyDomainNeo%"
         },
         {
@@ -1558,7 +1536,6 @@
             "type": "REDIR301",
             "groupId": "a2Podup",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -2100,7 +2077,6 @@
             "type": "REDIR301",
             "groupId": "a1Supertape",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -2240,7 +2216,6 @@
             "type": "REDIR301",
             "groupId": "a1TheCom",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -2261,7 +2236,6 @@
             "type": "REDIR301",
             "groupId": "a1TiinyHost",
             "host": "@",
-            "ttl": 0,
             "target": "%target%"
         },
         {
@@ -3384,7 +3358,6 @@
             "type": "SPFM",
             "groupId": "a1Onesignal",
             "host": "%spfHostOnesignal%",
-            "ttl": 0,
             "spfRules": "include:spf.onesignal.email include:mailgun.org"
         },
         {
@@ -4394,7 +4367,6 @@
             "type": "SPFM",
             "groupId": "a1FollowUpBoss",
             "host": "%spfHosta1FollowUpBoss%",
-            "ttl": 0,
             "spfRules": "include:sendgrid.net"
         },
         {
@@ -4513,7 +4485,6 @@
             "type": "REDIR301",
             "groupId": "a4Pixieset",
             "host": "@",
-            "ttl": 0,
             "target": "%targetPixieset%"
         },
         {
@@ -4543,6 +4514,146 @@
             "host": "%hostDomain2Bilyai%",
             "pointsTo": "%pointstoDomain2Bilyai%",
             "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Inboxally",
+            "host": "%dmarcHostInboxally%",
+            "ttl": 3600,
+            "data": "%dmarcValuetInboxally%"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Bionicwp",
+            "host": "@",
+            "pointsTo": "%ipValue1Bionicwp%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a1Bionicwp",
+            "host": "@",
+            "pointsTo": "%ipValue2Bionicwp%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Bionicwp",
+            "host": "@",
+            "pointsTo": "%ipValue3Bionicwp%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Bionicwp",
+            "host": "@",
+            "pointsTo": "%ipValue4BionicwpBionicwp%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Bionicwp",
+            "host": "%txtHostBionicwp%",
+            "ttl": 300,
+            "data": "%txtValueBionicwp%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Bionicwp",
+            "host": "%hostCnameBionicwp%",
+            "pointsTo": "%valueCnameBionicwp%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Bionicwp",
+            "host": "%hostCname2Bionicwp%",
+            "pointsTo": "%valueCname2Bionicwp%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Klaviyo",
+            "host": "%hostCnameKlaviyo%",
+            "ttl": 3600,
+            "data": "%txtValueKlaviyo%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Klaviyo",
+            "host": "%cnameHost1Klaviyo%",
+            "pointsTo": "%valueCname1Klaviyo%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Klaviyo",
+            "host": "%cnameHost2Klaviyo%",
+            "pointsTo": "%valueCname2Klaviyo%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Klaviyo",
+            "host": "%cnameHost3Klaviyo%",
+            "pointsTo": "%valueCname3Klaviyo%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Klaviyo",
+            "host": "_dmarc",
+            "ttl": 3600,
+            "data": "%txtValue2Klaviyo%"
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Klaviyo",
+            "host": "%nsHost1Klaviyo%",
+            "pointsTo": "%ns1Klaviyo%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Klaviyo",
+            "host": "%nsHost2Klaviyo%",
+            "pointsTo": "%ns2Klaviyo%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Klaviyo",
+            "host": "%nsHost3Klaviyo%",
+            "pointsTo": "%ns3Klaviyo%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Klaviyo",
+            "host": "%nsHost4Klaviyo%",
+            "pointsTo": "%ns4Klaviyo%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a1Solo",
+            "host": "@",
+            "pointsTo": "%ipSolo%",
+            "ttl": 600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Solo",
+            "host": "www",
+            "pointsTo": "%cnameValueSolo%",
+            "ttl": 600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Solo",
+            "host": "%hostTxtSolo%",
+            "ttl": 3600,
+            "data": "%valueTxtSolo%"
         }
     ]
 }

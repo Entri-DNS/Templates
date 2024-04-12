@@ -6,29 +6,30 @@
     "version": 1,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
+    "shared": true,
+    "sharedProviderName": true,
     "syncPubKeyDomain": "goentri.com",
     "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
-    "sharedProviderName": true,
-    "records":[
-    {
-      "type": "CNAME",
-      "host": "www",
-      "pointsTo": "%webSitePointsTo%",
-      "groupId": "a1BigCartelProxy",
-      "ttl": 3600
-    },
-    {
-      "groupId": "a1BigCartelProxy",
-      "type": "REDIR301",
-      "target": "%target%",
-      "host": "@"
-    },
-    {
-      "type": "CNAME",
-      "host": "%subdomain%",
-      "groupId": "a2BigCartelProxy",
-      "pointsTo": "%webSitePointsTo%",
-      "ttl": 3600
-    }
-  ]
+    "records": [
+        {
+            "type": "CNAME",
+            "groupId": "a1BigCartelProxy",
+            "host": "www",
+            "pointsTo": "%webSitePointsTo%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a1BigCartelProxy",
+            "host": "@",
+            "target": "%target%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2BigCartelProxy",
+            "host": "%subdomain%",
+            "pointsTo": "%webSitePointsTo%",
+            "ttl": 3600
+        }
+    ]
 }
