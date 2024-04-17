@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-provider",
     "serviceName": "ThirdPartyProvider",
-    "version": 6,
+    "version": 7,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -1467,20 +1467,6 @@
             "groupId": "a1Optimizing",
             "host": "@",
             "pointsTo": "%mappingValueOptimizing%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Owner",
-            "host": "www",
-            "pointsTo": "@",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a1Owner",
-            "host": "@",
-            "pointsTo": "%ipOwner%",
             "ttl": 3600
         },
         {
@@ -4654,6 +4640,90 @@
             "host": "%hostTxtSolo%",
             "ttl": 3600,
             "data": "%valueTxtSolo%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1OwnerOwner",
+            "host": "www",
+            "pointsTo": "@",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2OwnerOwner",
+            "host": "@",
+            "pointsTo": "%ipOwner%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2OwnerOwner",
+            "host": "@",
+            "pointsTo": "%ip2Owner%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3OwnerOwner",
+            "host": "*",
+            "pointsTo": "%ipOwner%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3OwnerOwner",
+            "host": "*",
+            "pointsTo": "%ip2Owner%",
+            "ttl": 3600
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a4OwnerOwner",
+            "host": "*",
+            "pointsTo": "%aaaaValue1Owner%",
+            "ttl": 3600
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a4OwnerOwner",
+            "host": "*",
+            "pointsTo": "%aaaaValue2Owner%",
+            "ttl": 3600
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a5OwnerOwner",
+            "host": "@",
+            "pointsTo": "%aaaaValue1Owner%",
+            "ttl": 3600
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a5OwnerOwner",
+            "host": "@",
+            "pointsTo": "%aaaaValue2Owner%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8OwnerOwner",
+            "host": "%hostTxtOwner%",
+            "ttl": 3600,
+            "data": "%verificationTxtOwner%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6OwnerOwner",
+            "host": "%hostValue1Owner%",
+            "ttl": 3600,
+            "pointsTo": "%verificationValue1Owner%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7OwnerOwner",
+            "host": "%hostValue2Owner%",
+            "ttl": 3600,
+            "pointsTo": "%verificationValue2Owner%"
         }
     ]
 }
