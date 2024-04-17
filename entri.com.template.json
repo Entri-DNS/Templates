@@ -4715,15 +4715,29 @@
             "type": "CNAME",
             "groupId": "a6Owner",
             "host": "%hostValue1Owner%",
-            "ttl": 3600,
-            "pointsTo": "%verificationValue1Owner%"
+            "pointsTo": "%verificationValue1Owner%",
+            "ttl": 3600
         },
         {
             "type": "CNAME",
             "groupId": "a7Owner",
             "host": "%hostValue2Owner%",
-            "ttl": 3600,
-            "pointsTo": "%verificationValue2Owner%"
+            "pointsTo": "%verificationValue2Owner%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Wix",
+            "host": "@",
+            "pointsTo": "%nsValue1Wix%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Wix",
+            "host": "@",
+            "pointsTo": "%nsValue2Wix%",
+            "ttl": 3600
         }
     ]
 }
