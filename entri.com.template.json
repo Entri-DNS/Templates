@@ -1470,6 +1470,20 @@
             "ttl": 3600
         },
         {
+            "type": "CNAME",
+            "groupId": "a1Owner",
+            "host": "www",
+            "pointsTo": "@",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a1Owner",
+            "host": "@",
+            "pointsTo": "%ipOwner%",
+            "ttl": 3600
+        },
+        {
             "type": "A",
             "groupId": "a1Pitchlane",
             "host": "@",
@@ -2783,36 +2797,6 @@
             "host": "%subdomainWebflow%",
             "pointsTo": "%proxySslUrlWebflow%",
             "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a1Wix",
-            "host": "%websiteHostWix%",
-            "pointsTo": "%mappingValueWix%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Wix",
-            "host": "%CnameHostWix%",
-            "pointsTo": "%webSitePointsToWix%",
-            "ttl": 3600
-        },
-        {
-            "type": "MX",
-            "groupId": "a2Wix",
-            "host": "%mxHost1Wix%",
-            "pointsTo": "%mx1Wix%",
-            "ttl": 3600,
-            "priority": 10
-        },
-        {
-            "type": "MX",
-            "groupId": "a2Wix",
-            "host": "%mxHost2Wix%",
-            "pointsTo": "%mx2Wix%",
-            "ttl": 3600,
-            "priority": 20
         },
         {
             "type": "CNAME",
@@ -4642,88 +4626,48 @@
             "data": "%valueTxtSolo%"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Owner",
-            "host": "www",
-            "pointsTo": "@",
-            "ttl": 3600
-        },
-        {
             "type": "A",
-            "groupId": "a2Owner",
-            "host": "@",
-            "pointsTo": "%ipOwner%",
+            "groupId": "a1Wix",
+            "host": "%websiteHostWixWix%",
+            "pointsTo": "%mappingValueWixWix%",
             "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Owner",
-            "host": "@",
-            "pointsTo": "%ip2Owner%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a3Owner",
-            "host": "*",
-            "pointsTo": "%ipOwner%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a3Owner",
-            "host": "*",
-            "pointsTo": "%ip2Owner%",
-            "ttl": 3600
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a4Owner",
-            "host": "*",
-            "pointsTo": "%aaaaValue1Owner%",
-            "ttl": 3600
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a4Owner",
-            "host": "*",
-            "pointsTo": "%aaaaValue2Owner%",
-            "ttl": 3600
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a5Owner",
-            "host": "@",
-            "pointsTo": "%aaaaValue1Owner%",
-            "ttl": 3600
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a5Owner",
-            "host": "@",
-            "pointsTo": "%aaaaValue2Owner%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a8Owner",
-            "host": "%hostTxtOwner%",
-            "ttl": 3600,
-            "data": "%verificationTxtOwner%"
         },
         {
             "type": "CNAME",
-            "groupId": "a6Owner",
-            "host": "%hostValue1Owner%",
-            "ttl": 3600,
-            "pointsTo": "%verificationValue1Owner%"
+            "groupId": "a1Wix",
+            "host": "%CnameHostWixWix%",
+            "pointsTo": "%webSitePointsToWixWix%",
+            "ttl": 3600
         },
         {
-            "type": "CNAME",
-            "groupId": "a7Owner",
-            "host": "%hostValue2Owner%",
+            "type": "MX",
+            "groupId": "a2Wix",
+            "host": "%mxHost1WixWix%",
+            "pointsTo": "%mx1WixWix%",
             "ttl": 3600,
-            "pointsTo": "%verificationValue2Owner%"
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Wix",
+            "host": "%mxHost2WixWix%",
+            "pointsTo": "%mx2WixWix%",
+            "ttl": 3600,
+            "priority": 20
+        },
+        {
+            "pointsTo": "%nsValue1Wix%",
+            "host": "@",
+            "ttl": 3600,
+            "groupId": "a3Wix",
+            "type": "NS"
+        },
+        {
+            "pointsTo": "%nsValue2Wix%",
+            "host": "@",
+            "ttl": 3600,
+            "groupId": "a3Wix",
+            "type": "NS"
         }
     ]
 }
