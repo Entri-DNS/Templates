@@ -1,0 +1,35 @@
+{
+    "providerId": "goentri.com",
+    "providerName": "Entri",
+    "serviceId": "external-service",
+    "serviceName": "ExternalService",
+    "version": 1,
+    "logoUrl": "https://cdn.goentri.com/logo.svg",
+    "description": "Allows user to easily set up domain using Entri",
+    "shared": true,
+    "sharedProviderName": true,
+    "syncPubKeyDomain": "goentri.com",
+    "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
+    "records": [
+        {
+            "type": "CNAME",
+            "groupId": "a1BigCartelProxy",
+            "host": "www",
+            "pointsTo": "%webSitePointsTo%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a1BigCartelProxy",
+            "host": "@",
+            "target": "%target%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2BigCartelProxy",
+            "host": "%subdomain%",
+            "pointsTo": "%webSitePointsTo%",
+            "ttl": 3600
+        }
+    ]
+}
