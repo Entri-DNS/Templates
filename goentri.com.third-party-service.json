@@ -2679,7 +2679,6 @@
             "pointsTo": "%proxySslUrlWebflow%",
             "ttl": 3600
         },
-        
         {
             "type": "CNAME",
             "groupId": "a1Activecampaign",
