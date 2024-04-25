@@ -201,6 +201,12 @@
         "host": "@",
         "pointsTo": "%nsValue2Wix%",
         "ttl": 3600
+    },
+    {
+        "type": "REDIR301",
+        "groupId": "a14Clickfunnels",
+        "host": "@",
+        "target": "%target%"
     }
     ]
 }
