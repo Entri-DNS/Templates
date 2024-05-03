@@ -3,210 +3,218 @@
     "providerName": "Entri",
     "serviceId": "third-party-solution",
     "serviceName": "thirdPartySolution",
-    "version": 1,
+    "version": 2,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
     "sharedProviderName": true,
-    "hostRequired": true,
     "syncPubKeyDomain": "goentri.com",
     "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
-    "records": [ {
-        "type": "TXT",
-        "groupId": "a1CrispHelpDesk",
-        "host": "_crisp",
-        "ttl": 14400,
-        "data": "%txtCrispHelpDesk%"
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1CrispHelpDesk",
-        "host": "@",
-        "pointsTo": "custom.crisp.help.",
-        "ttl": 3600
-    },
-    {
-        "type": "TXT",
-        "groupId": "a1CrispWatch",
-        "host": "_crisp",
-        "ttl": 14400,
-        "data": "%txtCrispWatch%"
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1CrispWatch",
-        "host": "@",
-        "pointsTo": "custom.crisp.watch.",
-        "ttl": 3600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1DudaSubdomains",
-        "host": "@",
-        "pointsTo": "%mappingValueDudaSubdomains%",
-        "ttl": 3600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1HotmartSubdomains",
-        "host": "@",
-        "pointsTo": "%cnamePointsToHotmartSubdomains%",
-        "ttl": 3600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Jute",
-        "host": "@",
-        "pointsTo": "%mappingValueJute%",
-        "ttl": 300
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Nostra",
-        "host": "@",
-        "pointsTo": "%mappingValueNostra%",
-        "ttl": 3600
-    },
-    {
-        "type": "TXT",
-        "groupId": "a1NostraAlt",
-        "host": "%hostValue1a1NostraAlt%",
-        "ttl": 3600,
-        "data": "%dataValue1a1NostraAlt%"
-    },
-    {
-        "type": "TXT",
-        "groupId": "a2NostraAlt",
-        "host": "%hostValue2a2NostraAlt%",
-        "ttl": 3600,
-        "data": "%dataValue2a2NostraAlt%"
-    },
-    {
-        "type": "TXT",
-        "groupId": "a2NostraAlt",
-        "host": "%hostValue3a2NostraAlt%",
-        "ttl": 3600,
-        "data": "%dataValue3a2NostraAlt%"
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Optimizing",
-        "host": "@",
-        "pointsTo": "%mappingValueOptimizing%",
-        "ttl": 3600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Pitchlane_subdomains",
-        "host": "@",
-        "pointsTo": "%cnamePointstoPitchlane_subdomains%",
-        "ttl": 600
-    },
-    {
-        "type": "TXT",
-        "groupId": "a2Pitchlane_subdomains",
-        "host": "%txtHostPitchlane_subdomains%",
-        "ttl": 3600,
-        "data": "%verificationValuePitchlane_subdomains%"
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Stunning_subdomains",
-        "host": "@",
-        "pointsTo": "%cnamePointsToStunning_subdomains%",
-        "ttl": 3600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Toast_subdomain",
-        "host": "@",
-        "pointsTo": "%cnamePointsToSubdomainToast_subdomain%",
-        "ttl": 3600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Unbounce",
-        "host": "@",
-        "pointsTo": "%mappingValueUnbounce%",
-        "ttl": 600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Vendo_subdomains",
-        "host": "@",
-        "pointsTo": "%mappingValueVendo_subdomains%",
-        "ttl": 600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Contentblocks",
-        "host": "@",
-        "pointsTo": "%valueCnameContentblocks%",
-        "ttl": 3600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Vev",
-        "host": "@",
-        "pointsTo": "domain.vev.page",
-        "ttl": 300
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Userled",
-        "host": "@",
-        "pointsTo": "cname.userled.io",
-        "ttl": 300
-    },
-    {
-        "type": "A",
-        "groupId": "a1Wix",
-        "host": "%websiteHostWix%",
-        "pointsTo": "%mappingValueWix%",
-        "ttl": 3600
-    },
-    {
-        "type": "CNAME",
-        "groupId": "a1Wix",
-        "host": "%CnameHostWix%",
-        "pointsTo": "%webSitePointsToWix%",
-        "ttl": 3600
-    },
-    {
-        "type": "MX",
-        "groupId": "a2Wix",
-        "host": "%mxHost1Wix%",
-        "pointsTo": "%mx1Wix%",
-        "ttl": 3600,
-        "priority": 10
-    },
-    {
-        "type": "MX",
-        "groupId": "a2Wix",
-        "host": "%mxHost2Wix%",
-        "pointsTo": "%mx2Wix%",
-        "ttl": 3600,
-        "priority": 20
-    },
-    {
-        "type": "NS",
-        "groupId": "a3Wix",
-        "host": "@",
-        "pointsTo": "%nsValue1Wix%",
-        "ttl": 3600
-    },
-    {
-        "type": "NS",
-        "groupId": "a3Wix",
-        "host": "@",
-        "pointsTo": "%nsValue2Wix%",
-        "ttl": 3600
-    },
-    {
-        "type": "REDIR301",
-        "groupId": "a14Clickfunnels",
-        "host": "@",
-        "target": "%target%"
-    }
+    "hostRequired": true,
+    "records": [
+        {
+            "type": "TXT",
+            "groupId": "a1CrispHelpDesk",
+            "host": "_crisp",
+            "ttl": 14400,
+            "data": "%txtCrispHelpDesk%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1CrispHelpDesk",
+            "host": "@",
+            "pointsTo": "custom.crisp.help.",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2CrispHelpDesk",
+            "host": "@",
+            "pointsTo": "custom.crisp.help.",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1CrispWatch",
+            "host": "_crisp",
+            "ttl": 14400,
+            "data": "%txtCrispWatch%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1CrispWatch",
+            "host": "@",
+            "pointsTo": "custom.crisp.watch.",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1DudaSubdomains",
+            "host": "@",
+            "pointsTo": "%mappingValueDudaSubdomains%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1HotmartSubdomains",
+            "host": "@",
+            "pointsTo": "%cnamePointsToHotmartSubdomains%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Jute",
+            "host": "@",
+            "pointsTo": "%mappingValueJute%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Nostra",
+            "host": "@",
+            "pointsTo": "%mappingValueNostra%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1NostraAlt",
+            "host": "%hostValue1a1NostraAlt%",
+            "ttl": 3600,
+            "data": "%dataValue1a1NostraAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2NostraAlt",
+            "host": "%hostValue2a2NostraAlt%",
+            "ttl": 3600,
+            "data": "%dataValue2a2NostraAlt%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2NostraAlt",
+            "host": "%hostValue3a2NostraAlt%",
+            "ttl": 3600,
+            "data": "%dataValue3a2NostraAlt%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Optimizing",
+            "host": "@",
+            "pointsTo": "%mappingValueOptimizing%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Pitchlane_subdomains",
+            "host": "@",
+            "pointsTo": "%cnamePointstoPitchlane_subdomains%",
+            "ttl": 600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Pitchlane_subdomains",
+            "host": "%txtHostPitchlane_subdomains%",
+            "ttl": 3600,
+            "data": "%verificationValuePitchlane_subdomains%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Stunning_subdomains",
+            "host": "@",
+            "pointsTo": "%cnamePointsToStunning_subdomains%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Toast_subdomain",
+            "host": "@",
+            "pointsTo": "%cnamePointsToSubdomainToast_subdomain%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Unbounce",
+            "host": "@",
+            "pointsTo": "%mappingValueUnbounce%",
+            "ttl": 600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Vendo_subdomains",
+            "host": "@",
+            "pointsTo": "%mappingValueVendo_subdomains%",
+            "ttl": 600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Contentblocks",
+            "host": "@",
+            "pointsTo": "%valueCnameContentblocks%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Vev",
+            "host": "@",
+            "pointsTo": "domain.vev.page",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Userled",
+            "host": "@",
+            "pointsTo": "cname.userled.io",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "groupId": "a1Wix",
+            "host": "%websiteHostWix%",
+            "pointsTo": "%mappingValueWix%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Wix",
+            "host": "%CnameHostWix%",
+            "pointsTo": "%webSitePointsToWix%",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Wix",
+            "host": "%mxHost1Wix%",
+            "pointsTo": "%mx1Wix%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Wix",
+            "host": "%mxHost2Wix%",
+            "pointsTo": "%mx2Wix%",
+            "ttl": 3600,
+            "priority": 20
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Wix",
+            "host": "@",
+            "pointsTo": "%nsValue1Wix%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Wix",
+            "host": "@",
+            "pointsTo": "%nsValue2Wix%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a14Clickfunnels",
+            "host": "@",
+            "target": "%target%"
+        }
     ]
 }
