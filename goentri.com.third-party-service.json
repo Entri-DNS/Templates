@@ -442,6 +442,20 @@
         },
         {
             "type": "TXT",
+            "groupId": "a3Durable",
+            "host": "%dkimHostDurable%",
+            "ttl": 3600,
+            "data": "%dkimValueDurable%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Durable",
+            "host": "www",
+            "pointsTo": "%mappingValueDurable%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
             "groupId": "a1Durable",
             "host": "%dkimHostDurable%",
             "ttl": 3600,
