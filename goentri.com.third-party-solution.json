@@ -27,6 +27,13 @@
             "ttl": 3600
         },
         {
+            "type": "CNAME",
+            "groupId": "a2CrispHelpDesk",
+            "host": "@",
+            "pointsTo": "custom.crisp.help.",
+            "ttl": 3600
+        },
+        {
             "type": "TXT",
             "groupId": "a1CrispWatch",
             "host": "_crisp",
