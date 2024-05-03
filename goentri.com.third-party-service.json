@@ -2679,7 +2679,6 @@
             "pointsTo": "%proxySslUrlWebflow%",
             "ttl": 3600
         },
-        
         {
             "type": "CNAME",
             "groupId": "a1Activecampaign",
@@ -4548,6 +4547,60 @@
             "host": "%hostValue2Owner%",
             "pointsTo": "%verificationValue2Owner%",
             "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Easydmarc",
+            "host": "_dmarc",
+            "pointsTo": "%dmarcValueEasydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Easydmarc",
+            "host": "_dmarc",
+            "ttl": 3600,
+            "data": "%datadmarcEasydmarc%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Easydmarc",
+            "host": "@",
+            "spfRules": "include:_spf.noraduz_shop._d.easydmarc.info"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Easydmarc",
+            "host": "%cnameHostEasydmarc%",
+            "pointsTo": "%cnameValueEasydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Easydmarc",
+            "host": "%cnameHost1Easydmarc%",
+            "pointsTo": "%cnameValue1Easydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Tidio",
+            "host": "%cnameHostTidio%",
+            "pointsTo": "%cnameValueTidio%",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Tidio",
+            "host": "%spfHostTidio%",
+            "spfRules": "include:mailgun.org"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Tidio",
+            "host": "%dkimHostTidio%",
+            "ttl": 3600,
+            "data": "%dkimValueTidio%"
         }
     ]
 }
