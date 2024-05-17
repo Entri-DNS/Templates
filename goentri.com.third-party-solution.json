@@ -215,6 +215,13 @@
             "groupId": "a14Clickfunnels",
             "host": "@",
             "target": "%target%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Wpengine",
+            "host": "@",
+            "pointsTo": "%valueCnameWpengineWpengine%",
+            "ttl": 3600
         }
     ]
 }
