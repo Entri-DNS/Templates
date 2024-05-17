@@ -441,55 +441,6 @@
             "ttl": 3600
         },
         {
-            "type": "TXT",
-            "groupId": "a3Durable",
-            "host": "%dkimHostDurable%",
-            "ttl": 3600,
-            "data": "%dkimValueDurable%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Durable",
-            "host": "www",
-            "pointsTo": "%mappingValueDurable%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a1Durable",
-            "host": "%dkimHostDurable%",
-            "ttl": 3600,
-            "data": "%dkimValueDurable%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Durable",
-            "host": "www",
-            "pointsTo": "%mappingValueDurable%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a1Durable",
-            "host": "@",
-            "pointsTo": "%primaryIpDurable%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Durable",
-            "host": "www",
-            "pointsTo": "%mappingValueDurable%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Durable",
-            "host": "@",
-            "pointsTo": "%primaryIpDurable%",
-            "ttl": 3600
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Eventcreate",
             "host": "www",
@@ -1960,27 +1911,6 @@
             "host": "@",
             "ttl": 3600,
             "data": "v=spf1 include:amazonses.com include:_spf.google.com ~all"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Stunning",
-            "host": "%cnameHostStunning%",
-            "pointsTo": "%cnamePointsToStunning%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Stunning",
-            "host": "@",
-            "pointsTo": "%primaryIpStunning%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Stunning",
-            "host": "@",
-            "pointsTo": "%primaryIp2Stunning%",
-            "ttl": 3600
         },
         {
             "type": "CNAME",
@@ -3742,48 +3672,6 @@
             "ttl": 3600
         },
         {
-            "type": "A",
-            "groupId": "a1Wpengine",
-            "host": "@",
-            "pointsTo": "%ipValueWpengine%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a1Wpengine",
-            "host": "@",
-            "pointsTo": "%ipValue2Wpengine%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Wpengine",
-            "host": "_dmarc",
-            "ttl": 300,
-            "data": "%dmarcWpengine%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Wpengine",
-            "host": "%hostCnameWpengine%",
-            "pointsTo": "%valueCnameWpengine%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Wpengine",
-            "host": "%hostCname2Wpengine%",
-            "pointsTo": "%valueCname2Wpengine%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Wpengine",
-            "host": "%hostCname2Wpengine%",
-            "pointsTo": "%valueCname2Wpengine%",
-            "ttl": 3600
-        },
-        {
             "type": "CNAME",
             "groupId": "a1AweberAlt",
             "host": "%hostValue1a1AweberAlt%",
@@ -4776,6 +4664,167 @@
             "pointsTo": "%mxValueFollowupboss%",
             "ttl": 3600,
             "priority": 10
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Bookipi",
+            "host": "%cnameHosta1Bookipi%",
+            "pointsTo": "%cnameValue1Bookipi%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a1Wpengine",
+            "host": "@",
+            "pointsTo": "%ipValueWpengine%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a1Wpengine",
+            "host": "@",
+            "pointsTo": "%ipValue2Wpengine%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a6Wpengine",
+            "host": "%arecordHostWpengine%",
+            "pointsTo": "%ipValueWpengine%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a6Wpengine",
+            "host": "%arecordHostWpengine%",
+            "pointsTo": "%ipValue2Wpengine%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Wpengine",
+            "host": "_dmarc",
+            "ttl": 300,
+            "data": "%dmarcWpengine%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Wpengine",
+            "host": "%hostCnameWpengine%",
+            "pointsTo": "%valueCnameWpengine%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Wpengine",
+            "host": "%hostCname2Wpengine%",
+            "pointsTo": "%valueCname2Wpengine%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Wpengine",
+            "host": "%hostCnameWpengine%",
+            "pointsTo": "%valueCname2Wpengine%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Wpengine",
+            "host": "%hostTxtWpengine%",
+            "ttl": 3600,
+            "data": "%verificationTxtWpengine%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Tagmango",
+            "host": "%cnameHostTagmango%",
+            "pointsTo": "%cnamePointsToTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Tagmango",
+            "host": "%cnameHostTagmango2%",
+            "pointsTo": "%cnamePointsToTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3Tagmango",
+            "host": "%arecordHostTagmango%",
+            "pointsTo": "%primaryIpTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Stunning",
+            "host": "%cnameHostStunning%",
+            "pointsTo": "%cnamePointsToStunning%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Stunning",
+            "host": "@",
+            "pointsTo": "%primaryIpStunning%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Stunning",
+            "host": "@",
+            "pointsTo": "%primaryIp2Stunning%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Stunning",
+            "host": "%cnameHostStunning1%",
+            "pointsTo": "%cnamePointsToStunning%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Stunning",
+            "host": "%cnameHostStunning2%",
+            "pointsTo": "%cnamePointsToStunning%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Durable",
+            "host": "%dkimHostDurable%",
+            "ttl": 3600,
+            "data": "%dkimValueDurable%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Durable",
+            "host": "www",
+            "pointsTo": "%mappingValueDurable%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3Durable",
+            "host": "@",
+            "pointsTo": "%primaryIpDurable%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Durable",
+            "host": "www",
+            "pointsTo": "%mappingValueDurable%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a4Durable",
+            "host": "@",
+            "pointsTo": "%primaryIpDurable%",
+            "ttl": 3600
         }
     ]
 }
