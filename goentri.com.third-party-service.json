@@ -4825,6 +4825,20 @@
             "host": "@",
             "pointsTo": "%primaryIpDurable%",
             "ttl": 3600
-        }
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Mystudio",
+            "host": "%hostvalueMystudio%",
+            "ttl": 300,
+            "spfRules": "%spfvalueMystudio%"
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a1Edificecms",
+            "pointsTo": "%ipValueEdificecms%",
+            "ttl": 300
+          }
     ]
 }
