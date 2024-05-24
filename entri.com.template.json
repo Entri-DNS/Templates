@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-provider",
     "serviceName": "ThirdPartyProvider",
-    "version": 6,
+    "version": 7,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4738,6 +4738,26 @@
             "host": "@",
             "pointsTo": "%nsValue2Wix%",
             "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Tidio",
+            "host": "%cnameHostTidio%",
+            "pointsTo": "%cnameValueTidio%",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Tidio",
+            "host": "%spfHostTidio%",
+            "spfRules": "include:mailgun.org"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Tidio",
+            "host": "%dkimHostTidio%",
+            "ttl": 3600,
+            "data": "%dkimValueTidio%"
         }
     ]
 }
