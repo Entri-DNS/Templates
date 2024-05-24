@@ -24,14 +24,25 @@ jobs:
 
       - name: Install dc-template-linter
         run: go install github.com/Domain-Connect/dc-template-linter@latest
+
       - name: Debug $GOPATH/bin contents
         run: |
           ls -l $GOPATH/bin
 
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Update JSON version
+        run: |
+          pr_number=${{ github.event.number }}
+          for file in $(git diff --name-only HEAD^ | grep '.json'); do
+            jq --arg pr_number "$pr_number" '.version = ($pr_number | tonumber)' "$file" > tmp.$$.json && mv tmp.$$.json "$file"
+          done
+
       - name: Run dc-template-linter
         run: |
           export GOPATH=$(go env GOPATH)
-          $GOPATH/bin/dc-template-linter -cloudflare -inplace  -loglevel error *.json
+          $GOPATH/bin/dc-template-linter -inplace  -loglevel error *.json
 
       - name: Check for changes
         id: check_changes
@@ -44,5 +55,5 @@ jobs:
           git config --global user.name "EntriBot"
           git config --global user.email "EntriBot@goentri.com"
           git add .
-          git commit -m "Lint JSON templates"
+          git commit -m "Update JSON version and lint templates"
           git push origin HEAD:${{ github.head_ref }}
