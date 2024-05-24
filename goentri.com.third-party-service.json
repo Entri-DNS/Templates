@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 2,
+    "version": 51,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4825,6 +4825,20 @@
             "host": "@",
             "pointsTo": "%primaryIpDurable%",
             "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Mystudio",
+            "host": "%hostvalueMystudio%",
+            "ttl": 300,
+            "spfRules": "%spfvalueMystudio%"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Edificecms",
+            "host": "@",
+            "pointsTo": "%ipValueEdificecms%",
+            "ttl": 300
         }
     ]
 }
