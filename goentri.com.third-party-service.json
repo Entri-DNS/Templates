@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 51,
+    "version": 52,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4839,6 +4839,63 @@
             "host": "@",
             "pointsTo": "%ipValueEdificecms%",
             "ttl": 300
+        },
+        {
+            "type": "A",
+            "groupId": "a1Wix",
+            "host": "%websiteHostWixWix%",
+            "pointsTo": "%mappingValueWixWix%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Wix",
+            "host": "%CnameHostWixWix%",
+            "pointsTo": "%webSitePointsToWixWix%",
+            "ttl": 3600
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Wix",
+            "host": "%mxHost1WixWix%",
+            "pointsTo": "%mx1WixWix%",
+            "ttl": 3600,
+            "priority": 10
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Wix",
+            "host": "%mxHost2WixWix%",
+            "pointsTo": "%mx2WixWix%",
+            "ttl": 3600,
+            "priority": 20
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Wix",
+            "host": "@",
+            "pointsTo": "%nsValue1Wix%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Wix",
+            "host": "@",
+            "pointsTo": "%nsValue2Wix%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Wix",
+            "host": "%CnameHostWix2Wix%",
+            "pointsTo": "%webSitePointsToWix2Wix%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Wix",
+            "host": "%CnameHostWix3Wix%",
+            "pointsTo": "%webSitePointsToWix2Wix%",
+            "ttl": 3600
         }
     ]
 }
