@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 53,
+    "version": 54,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4842,6 +4842,27 @@
         },
         {
             "type": "A",
+            "groupId": "a1Jottful",
+            "host": "@",
+            "pointsTo": "%mappingValue1Jottful%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Jottful",
+            "host": "@",
+            "pointsTo": "%mappingValue2Jottful%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Jottful",
+            "host": "%CnameHostJottful%",
+            "pointsTo": "%webSitePointsToJottful%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
             "groupId": "a1Wix",
             "host": "%websiteHostWixWix%",
             "pointsTo": "%mappingValueWixWix%",
@@ -4895,27 +4916,6 @@
             "groupId": "a4Wix",
             "host": "%CnameHostWix3Wix%",
             "pointsTo": "%webSitePointsToWix2Wix%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a1Jottful",
-            "host": "@",
-            "pointsTo": "%mappingValue1Jottful%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Jottful",
-            "host": "@",
-            "pointsTo": "%mappingValue2Jottful%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Jottful",
-            "host": "%CnameHostJottful%",
-            "pointsTo": "%webSitePointsToJottful%",
             "ttl": 3600
         }
     ]
