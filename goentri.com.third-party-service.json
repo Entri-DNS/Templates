@@ -4839,6 +4839,41 @@
             "host": "@",
             "pointsTo": "%ipValueEdificecms%",
             "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Wix",
+            "host": "%CnameHostWix2%",
+            "pointsTo": "%webSitePointsToWix2%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Wix",
+            "host": "%CnameHostWix3%",
+            "pointsTo": "%webSitePointsToWix2%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a1Jottful",
+            "host": "@",
+            "pointsTo": "%mappingValue1Jottful%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Jottful",
+            "host": "@",
+            "pointsTo": "%mappingValue2Jottful%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Jottful",
+            "host": "%CnameHostJottful%",
+            "pointsTo": "%webSitePointsToJottful%",
+            "ttl": 3600
         }
     ]
 }
