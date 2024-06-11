@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 55,
+    "version": 56,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4916,6 +4916,34 @@
             "groupId": "a3Jottful",
             "host": "%CnameHostJottful%",
             "pointsTo": "%webSitePointsToJottful%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Valimail",
+            "host": "%hostTxtValimail%",
+            "ttl": 3600,
+            "data": "%txtValueValimail%"
+        },
+        {
+            "type": "NS",
+            "groupId": "a2Valimail",
+            "host": "%nsHost1Valimail%",
+            "pointsTo": "%ns1Valimail%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Valimail",
+            "host": "%nsHost2Valimail%",
+            "pointsTo": "%ns2Valimail%",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "host": "@",
+            "groupId": "a4Valimail",
+            "spfRules": "%include:thirdPartyDomainValimail%",
             "ttl": 3600
         }
     ]
