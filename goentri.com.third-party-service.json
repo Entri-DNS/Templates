@@ -4941,10 +4941,10 @@
         },
         {
             "type": "SPFM",
-            "host": "@",
             "groupId": "a4Valimail",
-            "spfRules": "%include:thirdPartyDomainValimail%",
-            "ttl": 3600
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "%include:thirdPartyDomainValimail%"
         }
     ]
 }
