@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 56,
+    "version": 57,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4874,6 +4874,13 @@
             "host": "%CnameHostJottful%",
             "pointsTo": "%webSitePointsToJottful%",
             "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "host": "%dmarchostEmailindustries%",
+            "pointsTo": "%dmarcvalueEmailindustries%",
+            "ttl": 300,
+            "groupId": "a1Emailindustries"
         }
     ]
 }
