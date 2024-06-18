@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 56,
+    "version": 58,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4879,8 +4879,8 @@
             "type": "TXT",
             "groupId": "a1EmailIndustries",
             "host": "%dmarchostEmailIndustries%",
-            "data": "%dmarcvalueEmailIndustries%",
-            "ttl": 300
+            "ttl": 300,
+            "data": "%dmarcvalueEmailIndustries%"
         },
         {
             "type": "TXT",
@@ -4910,6 +4910,5 @@
             "ttl": 3600,
             "spfRules": "%thirdPartyDomainValimail%"
         }
-
     ]
 }
