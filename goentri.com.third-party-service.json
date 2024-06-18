@@ -4878,8 +4878,8 @@
         {
             "type": "TXT",
             "host": "%dmarchostEmailindustries%",
-            "data": "%dmarcvalueEmailindustries%",
             "ttl": 300,
+            "data": "%dmarcvalueEmailindustries%",
             "groupId": "a1Emailindustries"
         }
     ]
