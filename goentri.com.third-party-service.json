@@ -4874,6 +4874,42 @@
             "host": "%CnameHostJottful%",
             "pointsTo": "%webSitePointsToJottful%",
             "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1EmailIndustries",
+            "host": "%dmarchostEmailIndustries%",
+            "data": "%dmarcvalueEmailIndustries%",
+            "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Valimail",
+            "host": "%hostTxtValimail%",
+            "ttl": 3600,
+            "data": "%txtValueValimail%"
+        },
+        {
+            "type": "NS",
+            "groupId": "a2Valimail",
+            "host": "%nsHost1Valimail%",
+            "pointsTo": "%ns1Valimail%",
+            "ttl": 3600
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Valimail",
+            "host": "%nsHost2Valimail%",
+            "pointsTo": "%ns2Valimail%",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a4Valimail",
+            "host": "@",
+            "ttl": 3600,
+            "spfRules": "%thirdPartyDomainValimail%"
         }
+
     ]
 }
