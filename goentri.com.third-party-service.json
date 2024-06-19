@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 58,
+    "version": 59,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4881,6 +4881,54 @@
             "ttl": 300,
             "data": "%dmarcvalueEmailindustries%",
             "groupId": "a1Emailindustries"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Palisade",
+            "host": "%CnameHostBimiPalisade%",
+            "pointsTo": "%cnamePointsToBimiPalisade%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Palisade",
+            "host": "%txtHostBimiPalisade%",
+            "data": "%txtValuebimiPalisade%",
+            "ttl": 3600
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Palisade",
+            "host": "@",
+            "spfRules": "%include:spfUrlPalisade%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Palisade",
+            "host": "%hostDmarcPalisade%",
+            "ttl": 300,
+            "data": "%valueDmarcPalisade%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Palisade",
+            "host": "%hostDmarcPalisade%",
+            "pointsTo": "%CnameValueDmarcPalisade%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Palisade",
+            "host": "%hostDkimPalisade%",
+            "ttl": 300,
+            "data": "%valueDkimPalisade%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Palisade",
+            "host": "%CnameHostSpfPalisade%",
+            "pointsTo": "%CnameValueSpfPalisade%",
+            "ttl": 3600
         }
     ]
 }
