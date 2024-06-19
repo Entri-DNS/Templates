@@ -4893,8 +4893,8 @@
             "type": "TXT",
             "groupId": "a2Palisade",
             "host": "%txtHostBimiPalisade%",
-            "data": "%txtValuebimiPalisade%",
-            "ttl": 3600
+            "ttl": 3600,
+            "data": "%txtValuebimiPalisade%"
         },
         {
             "type": "SPFM",
