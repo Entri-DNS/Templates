@@ -4842,13 +4842,6 @@
             "ttl": 3600
         },
         {
-            "type": "TXT",
-            "host": "%dmarchostEmailindustries%",
-            "ttl": 300,
-            "data": "%dmarcvalueEmailindustries%",
-            "groupId": "a1Emailindustries"
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Palisade",
             "host": "%CnameHostBimiPalisade%",
@@ -4939,31 +4932,10 @@
         },
         {
             "type": "TXT",
-            "groupId": "a1Valimail",
-            "host": "%hostTxtValimail%",
-            "ttl": 3600,
-            "data": "%txtValueValimail%"
-        },
-        {
-            "type": "NS",
-            "groupId": "a2Valimail",
-            "host": "%nsHost1Valimail%",
-            "pointsTo": "%ns1Valimail%",
-            "ttl": 3600
-        },
-        {
-            "type": "NS",
-            "groupId": "a3Valimail",
-            "host": "%nsHost2Valimail%",
-            "pointsTo": "%ns2Valimail%",
-            "ttl": 3600
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a4Valimail",
-            "host": "@",
-            "ttl": 3600,
-            "spfRules": "%thirdPartyDomainValimail%"
+            "host": "%dmarchostEmailindustries%",
+            "ttl": 300,
+            "data": "%dmarcvalueEmailindustries%",
+            "groupId": "a1Emailindustries"
         }
     ]
 }
