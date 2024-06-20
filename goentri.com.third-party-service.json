@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 61,
+    "version": 62,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4936,6 +4936,13 @@
             "ttl": 300,
             "data": "%dmarcvalueEmailindustries%",
             "groupId": "a1Emailindustries"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Reddway",
+            "host": "%cnameHostReddway%",
+            "pointsTo": "%cnameValueReddway%",
+            "ttl": 300
         }
     ]
 }
