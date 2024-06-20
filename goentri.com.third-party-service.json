@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 59,
+    "version": 60,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4390,40 +4390,6 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Easydmarc",
-            "host": "_dmarc",
-            "pointsTo": "%dmarcValueEasydmarc%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Easydmarc",
-            "host": "_dmarc",
-            "ttl": 3600,
-            "data": "%datadmarcEasydmarc%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a3Easydmarc",
-            "host": "@",
-            "spfRules": "include:_spf.noraduz_shop._d.easydmarc.info"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Easydmarc",
-            "host": "%cnameHostEasydmarc%",
-            "pointsTo": "%cnameValueEasydmarc%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Easydmarc",
-            "host": "%cnameHost1Easydmarc%",
-            "pointsTo": "%cnameValue1Easydmarc%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
             "groupId": "a1Tidio",
             "host": "%cnameHostTidio%",
             "pointsTo": "%cnameValueTidio%",
@@ -4928,6 +4894,47 @@
             "groupId": "a7Palisade",
             "host": "%CnameHostSpfPalisade%",
             "pointsTo": "%CnameValueSpfPalisade%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Easydmarc",
+            "host": "_dmarc",
+            "pointsTo": "%dmarcValueEasydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Easydmarc",
+            "host": "_dmarc",
+            "ttl": 3600,
+            "data": "%datadmarcEasydmarc%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Easydmarc",
+            "host": "@",
+            "spfRules": "include:_spf.noraduz_shop._d.easydmarc.info"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Easydmarc",
+            "host": "%cnameHostEasydmarc%",
+            "pointsTo": "%cnameValueEasydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Easydmarc",
+            "host": "%cnameHost1Easydmarc%",
+            "pointsTo": "%cnameValue1Easydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Easydmarc",
+            "host": "%cnameHost2Easydmarc%",
+            "pointsTo": "%cnameValue2Easydmarc%",
             "ttl": 3600
         }
     ]
