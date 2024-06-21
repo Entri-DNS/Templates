@@ -42,7 +42,9 @@ jobs:
       - name: Run dc-template-linter
         run: |
           export GOPATH=$(go env GOPATH)
-          $GOPATH/bin/dc-template-linter -inplace  -loglevel error *.json
+          for file in $(git diff --name-only --diff-filter=d ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep '\.json$'); do
+            $GOPATH/bin/dc-template-linter -cloudflare -inplace -loglevel error "$file"
+          done
 
       - name: Check for changes
         id: check_changes
