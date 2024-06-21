@@ -4938,13 +4938,6 @@
             "groupId": "a1Emailindustries"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Reddway",
-            "host": "%cnameHostReddway%",
-            "pointsTo": "%cnameValueReddway%",
-            "ttl": 300
-        },
-        {
             "type": "TXT",
             "groupId": "a1Valimail",
             "host": "%hostTxtValimail%",
@@ -4971,6 +4964,13 @@
             "host": "@",
             "ttl": 300,
             "spfRules": "%thirdPartyDomainValimail%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Reddway",
+            "host": "%cnameHostReddway%",
+            "pointsTo": "%cnameValueReddway%",
+            "ttl": 300
         }
     ]
 }
