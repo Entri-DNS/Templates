@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 58,
+    "version": 59,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4424,6 +4424,13 @@
         },
         {
             "type": "CNAME",
+            "groupId": "a6Easydmarc",
+            "host": "%cnameHost2Easydmarc%",
+            "pointsTo": "%cnameValue2Easydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
             "groupId": "a1Tidio",
             "host": "%cnameHostTidio%",
             "pointsTo": "%cnameValueTidio%",
@@ -4886,7 +4893,7 @@
             "type": "TXT",
             "groupId": "a1Valimail",
             "host": "%hostTxtValimail%",
-            "ttl": 3600,
+            "ttl": 300,
             "data": "%txtValueValimail%"
         },
         {
@@ -4894,21 +4901,76 @@
             "groupId": "a2Valimail",
             "host": "%nsHost1Valimail%",
             "pointsTo": "%ns1Valimail%",
-            "ttl": 3600
+            "ttl": 300
         },
         {
             "type": "NS",
             "groupId": "a3Valimail",
             "host": "%nsHost2Valimail%",
             "pointsTo": "%ns2Valimail%",
-            "ttl": 3600
+            "ttl": 300
         },
         {
             "type": "SPFM",
             "groupId": "a4Valimail",
             "host": "@",
-            "ttl": 3600,
+            "ttl": 300,
             "spfRules": "%thirdPartyDomainValimail%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Reddway",
+            "host": "%cnameHostReddway%",
+            "pointsTo": "%cnameValueReddway%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Palisade",
+            "host": "%CnameHostBimiPalisade%",
+            "pointsTo": "%cnamePointsToBimiPalisade%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Palisade",
+            "host": "%txtHostBimiPalisade%",
+            "ttl": 3600,
+            "data": "%txtValuebimiPalisade%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Palisade",
+            "host": "@",
+            "spfRules": "%spfUrlPalisade%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Palisade",
+            "host": "%hostDmarcPalisade%",
+            "ttl": 300,
+            "data": "%valueDmarcPalisade%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Palisade",
+            "host": "%hostDmarcPalisade%",
+            "pointsTo": "%CnameValueDmarcPalisade%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Palisade",
+            "host": "%hostDkimPalisade%",
+            "ttl": 300,
+            "data": "%valueDkimPalisade%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Palisade",
+            "host": "%CnameHostSpfPalisade%",
+            "pointsTo": "%CnameValueSpfPalisade%",
+            "ttl": 3600
         }
     ]
 }
