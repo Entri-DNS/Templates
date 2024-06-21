@@ -4890,6 +4890,48 @@
             "ttl": 3600
         },
         {
+            "type": "TXT",
+            "host": "%dmarchostEmailindustries%",
+            "ttl": 300,
+            "data": "%dmarcvalueEmailindustries%",
+            "groupId": "a1Emailindustries"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Reddway",
+            "host": "%cnameHostReddway%",
+            "pointsTo": "%cnameValueReddway%",
+            "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Valimail",
+            "host": "%hostTxtValimail%",
+            "ttl": 300,
+            "data": "%txtValueValimail%"
+        },
+        {
+            "type": "NS",
+            "groupId": "a2Valimail",
+            "host": "%nsHost1Valimail%",
+            "pointsTo": "%ns1Valimail%",
+            "ttl": 300
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Valimail",
+            "host": "%nsHost2Valimail%",
+            "pointsTo": "%ns2Valimail%",
+            "ttl": 300
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a4Valimail",
+            "host": "@",
+            "ttl": 300,
+            "spfRules": "%thirdPartyDomainValimail%"
+        },
+        {
             "type": "CNAME",
             "groupId": "a1Easydmarc",
             "host": "_dmarc",
@@ -4929,48 +4971,6 @@
             "host": "%cnameHost2Easydmarc%",
             "pointsTo": "%cnameValue2Easydmarc%",
             "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "host": "%dmarchostEmailindustries%",
-            "ttl": 300,
-            "data": "%dmarcvalueEmailindustries%",
-            "groupId": "a1Emailindustries"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a1Valimail",
-            "host": "%hostTxtValimail%",
-            "ttl": 300,
-            "data": "%txtValueValimail%"
-        },
-        {
-            "type": "NS",
-            "groupId": "a2Valimail",
-            "host": "%nsHost1Valimail%",
-            "pointsTo": "%ns1Valimail%",
-            "ttl": 300
-        },
-        {
-            "type": "NS",
-            "groupId": "a3Valimail",
-            "host": "%nsHost2Valimail%",
-            "pointsTo": "%ns2Valimail%",
-            "ttl": 300
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a4Valimail",
-            "host": "@",
-            "ttl": 300,
-            "spfRules": "%thirdPartyDomainValimail%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Reddway",
-            "host": "%cnameHostReddway%",
-            "pointsTo": "%cnameValueReddway%",
-            "ttl": 300
         }
     ]
 }
