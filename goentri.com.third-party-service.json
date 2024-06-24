@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 59,
+    "version": 60,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4970,6 +4970,27 @@
             "groupId": "a7Palisade",
             "host": "%CnameHostSpfPalisade%",
             "pointsTo": "%CnameValueSpfPalisade%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a1Weglot",
+            "host": "%aHostWeglot%",
+            "pointsTo": "%mappingValueWeglot%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Weglot",
+            "host": "%txtHostWeglot%",
+            "data": "%txtValueWeglot%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Weglot",
+            "host": "%CnameHostWeglot%",
+            "pointsTo": "%webSitePointsToWeglot%",
             "ttl": 3600
         }
     ]
