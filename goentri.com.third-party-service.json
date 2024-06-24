@@ -4983,8 +4983,8 @@
             "type": "TXT",
             "groupId": "a2Weglot",
             "host": "%txtHostWeglot%",
-            "data": "%txtValueWeglot%",
-            "ttl": 3600
+            "ttl": 3600,
+            "data": "%txtValueWeglot%"
         },
         {
             "type": "CNAME",
