@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 60,
+    "version": 61,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -370,40 +370,6 @@
             "groupId": "a2Clickfunnelsv1",
             "host": "@",
             "target": "%target%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Clickmax",
-            "host": "www",
-            "pointsTo": "%cnamePointsToClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "REDIR301",
-            "groupId": "a1Clickmax",
-            "host": "@",
-            "target": "%target%"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Clickmax",
-            "host": "@",
-            "pointsTo": "%primaryIpClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Clickmax",
-            "host": "@",
-            "pointsTo": "%primaryIp2Clickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Clickmax",
-            "host": "www",
-            "pointsTo": "%cnamePointsToClickmax%",
-            "ttl": 3600
         },
         {
             "type": "TXT",
@@ -4992,6 +4958,47 @@
             "host": "%CnameHostWeglot%",
             "pointsTo": "%webSitePointsToWeglot%",
             "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Clickmax",
+            "host": "%cnameHostClickmax%",
+            "pointsTo": "%cnamePointsToClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a1Clickmax",
+            "host": "@",
+            "target": "%targetClickmax%"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Clickmax",
+            "host": "@",
+            "pointsTo": "%primaryIpClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Clickmax",
+            "host": "@",
+            "pointsTo": "%primaryIp2ClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Clickmax",
+            "host": "%cnameHostClickmax%",
+            "pointsTo": "%cnamePointsToClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Clickmax",
+            "host": "%dkimHostClickmax%",
+            "ttl": 300,
+            "data": "%dkimValueClickmax%"
         }
     ]
 }
