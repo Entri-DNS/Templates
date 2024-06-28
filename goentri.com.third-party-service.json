@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 60,
+    "version": 61,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4920,69 +4920,6 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Clickmax",
-            "host": "%cnameHostClickmax%",
-            "pointsTo": "%cnamePointsToClickmaxClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "REDIR301",
-            "groupId": "a1Clickmax",
-            "host": "@",
-            "target": "%targetClickmax%"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Clickmax",
-            "host": "@",
-            "pointsTo": "%primaryIpClickmaxClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Clickmax",
-            "host": "@",
-            "pointsTo": "%primaryIp2ClickmaxClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Clickmax",
-            "host": "%cnameHostClickmax%",
-            "pointsTo": "%cnamePointsToClickmaxClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Clickmax",
-            "host": "%dkimHostClickmax%",
-            "ttl": 300,
-            "data": "%dkimValueClickmax%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Freshworks",
-            "host": "%cnameHostFreshworks%",
-            "pointsTo": "%cnameValueFreshworks%",
-            "ttl": 300
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Freshworks",
-            "host": "%txtHostFreshworks%",
-            "ttl": 300,
-            "data": "%txtValueFreshworks%"
-        },
-        {
-            "type": "MX",
-            "groupId": "a3Freshworks",
-            "host": "%mxHostFreshworks%",
-            "pointsTo": "%mxValueFreshworks%",
-            "ttl": 300,
-            "priority": 10
-        },
-        {
-            "type": "CNAME",
             "groupId": "a1Easydmarc",
             "host": "_dmarc",
             "pointsTo": "%dmarcValueEasydmarc%",
@@ -5021,6 +4958,69 @@
             "host": "%cnameHost2Easydmarc%",
             "pointsTo": "%cnameValue2Easydmarc%",
             "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Freshworks",
+            "host": "%cnameHostFreshworks%",
+            "pointsTo": "%cnameValueFreshworks%",
+            "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Freshworks",
+            "host": "%txtHostFreshworks%",
+            "ttl": 300,
+            "data": "%txtValueFreshworks%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a3Freshworks",
+            "host": "%mxHostFreshworks%",
+            "pointsTo": "%mxValueFreshworks%",
+            "ttl": 300,
+            "priority": 10
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Clickmax",
+            "host": "%cnameHostClickmax%",
+            "pointsTo": "%cnamePointsToClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a1Clickmax",
+            "host": "@",
+            "target": "%targetClickmax%"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Clickmax",
+            "host": "@",
+            "pointsTo": "%primaryIpClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Clickmax",
+            "host": "@",
+            "pointsTo": "%primaryIp2ClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Clickmax",
+            "host": "%cnameHostClickmax%",
+            "pointsTo": "%cnamePointsToClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Clickmax",
+            "host": "%dkimHostClickmax%",
+            "ttl": 300,
+            "data": "%dkimValueClickmax%"
         }
     ]
 }
