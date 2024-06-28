@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 60,
+    "version": 61,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5002,23 +5002,23 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Freshwoorks",
-            "host": "%cnameHostFreshwoorks%",
-            "pointsTo": "%cnameValueFreshwoorks%",
+            "groupId": "a1Freshworks",
+            "host": "%cnameHostFreshworks%",
+            "pointsTo": "%cnameValueFreshworks%",
             "ttl": 300
         },
         {
             "type": "TXT",
-            "groupId": "a2Freshwoorks",
-            "host": "%txtHostFreshwoorks%",
+            "groupId": "a2Freshworks",
+            "host": "%txtHostFreshworks%",
             "ttl": 300,
-            "data": "%txtValueFreshwoorks%"
+            "data": "%txtValueFreshworks%"
         },
         {
             "type": "MX",
-            "groupId": "a3Freshwoorks",
-            "host": "%mxHostFreshwoorks%",
-            "pointsTo": "%mxValueFreshwoorks%",
+            "groupId": "a3Freshworks",
+            "host": "%mxHostFreshworks%",
+            "pointsTo": "%mxValueFreshworks%",
             "ttl": 300,
             "priority": 10
         }
