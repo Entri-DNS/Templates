@@ -4898,25 +4898,45 @@
             "ttl": 3600
         },
         {
+            "type": "CNAME",
+            "groupId": "a1Clickmax",
+            "host": "%cnameHostClickmax%",
+            "pointsTo": "%cnamePointsToClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a1Clickmax",
+            "host": "@",
+            "target": "%targetClickmax%"
+        },
+        {
             "type": "A",
-            "groupId": "a1Weglot",
-            "host": "%aHostWeglot%",
-            "pointsTo": "%mappingValueWeglot%",
+            "groupId": "a2Clickmax",
+            "host": "@",
+            "pointsTo": "%primaryIpClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Clickmax",
+            "host": "@",
+            "pointsTo": "%primaryIp2ClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Clickmax",
+            "host": "%cnameHostClickmax%",
+            "pointsTo": "%cnamePointsToClickmaxClickmax%",
             "ttl": 3600
         },
         {
             "type": "TXT",
-            "groupId": "a2Weglot",
-            "host": "%txtHostWeglot%",
-            "ttl": 3600,
-            "data": "%txtValueWeglot%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Weglot",
-            "host": "%CnameHostWeglot%",
-            "pointsTo": "%webSitePointsToWeglot%",
-            "ttl": 3600
+            "groupId": "a3Clickmax",
+            "host": "%dkimHostClickmax%",
+            "ttl": 300,
+            "data": "%dkimValueClickmax%"
         },
         {
             "type": "CNAME",
@@ -4982,45 +5002,25 @@
             "priority": 10
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Clickmax",
-            "host": "%cnameHostClickmax%",
-            "pointsTo": "%cnamePointsToClickmaxClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "REDIR301",
-            "groupId": "a1Clickmax",
-            "host": "@",
-            "target": "%targetClickmax%"
-        },
-        {
             "type": "A",
-            "groupId": "a2Clickmax",
-            "host": "@",
-            "pointsTo": "%primaryIpClickmaxClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Clickmax",
-            "host": "@",
-            "pointsTo": "%primaryIp2ClickmaxClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Clickmax",
-            "host": "%cnameHostClickmax%",
-            "pointsTo": "%cnamePointsToClickmaxClickmax%",
+            "groupId": "a1Weglot",
+            "host": "%aHostWeglot%",
+            "pointsTo": "%mappingValueWeglot%",
             "ttl": 3600
         },
         {
             "type": "TXT",
-            "groupId": "a3Clickmax",
-            "host": "%dkimHostClickmax%",
-            "ttl": 300,
-            "data": "%dkimValueClickmax%"
+            "groupId": "a2Weglot",
+            "host": "%txtHostWeglot%",
+            "ttl": 3600,
+            "data": "%txtValueWeglot%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Weglot",
+            "host": "%CnameHostWeglot%",
+            "pointsTo": "%webSitePointsToWeglot%",
+            "ttl": 3600
         }
     ]
 }
