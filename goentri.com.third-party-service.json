@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 59,
+    "version": 60,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -370,40 +370,6 @@
             "groupId": "a2Clickfunnelsv1",
             "host": "@",
             "target": "%target%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Clickmax",
-            "host": "www",
-            "pointsTo": "%cnamePointsToClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "REDIR301",
-            "groupId": "a1Clickmax",
-            "host": "@",
-            "target": "%target%"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Clickmax",
-            "host": "@",
-            "pointsTo": "%primaryIpClickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a2Clickmax",
-            "host": "@",
-            "pointsTo": "%primaryIp2Clickmax%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Clickmax",
-            "host": "www",
-            "pointsTo": "%cnamePointsToClickmax%",
-            "ttl": 3600
         },
         {
             "type": "TXT",
@@ -4390,47 +4356,6 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Easydmarc",
-            "host": "_dmarc",
-            "pointsTo": "%dmarcValueEasydmarc%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Easydmarc",
-            "host": "_dmarc",
-            "ttl": 3600,
-            "data": "%datadmarcEasydmarc%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a3Easydmarc",
-            "host": "@",
-            "spfRules": "include:_spf.noraduz_shop._d.easydmarc.info"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Easydmarc",
-            "host": "%cnameHostEasydmarc%",
-            "pointsTo": "%cnameValueEasydmarc%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Easydmarc",
-            "host": "%cnameHost1Easydmarc%",
-            "pointsTo": "%cnameValue1Easydmarc%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Easydmarc",
-            "host": "%cnameHost2Easydmarc%",
-            "pointsTo": "%cnameValue2Easydmarc%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
             "groupId": "a1Tidio",
             "host": "%cnameHostTidio%",
             "pointsTo": "%cnameValueTidio%",
@@ -4970,6 +4895,131 @@
             "groupId": "a7Palisade",
             "host": "%CnameHostSpfPalisade%",
             "pointsTo": "%CnameValueSpfPalisade%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Clickmax",
+            "host": "%cnameHostClickmax%",
+            "pointsTo": "%cnamePointsToClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a1Clickmax",
+            "host": "@",
+            "target": "%targetClickmax%"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Clickmax",
+            "host": "@",
+            "pointsTo": "%primaryIpClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Clickmax",
+            "host": "@",
+            "pointsTo": "%primaryIp2ClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Clickmax",
+            "host": "%cnameHostClickmax%",
+            "pointsTo": "%cnamePointsToClickmaxClickmax%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Clickmax",
+            "host": "%dkimHostClickmax%",
+            "ttl": 300,
+            "data": "%dkimValueClickmax%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Easydmarc",
+            "host": "_dmarc",
+            "pointsTo": "%dmarcValueEasydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Easydmarc",
+            "host": "_dmarc",
+            "ttl": 3600,
+            "data": "%datadmarcEasydmarc%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Easydmarc",
+            "host": "@",
+            "spfRules": "%spfRulesEasydmarc%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Easydmarc",
+            "host": "%cnameHostEasydmarc%",
+            "pointsTo": "%cnameValueEasydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Easydmarc",
+            "host": "%cnameHost1Easydmarc%",
+            "pointsTo": "%cnameValue1Easydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Easydmarc",
+            "host": "%cnameHost2Easydmarc%",
+            "pointsTo": "%cnameValue2Easydmarc%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Freshworks",
+            "host": "%cnameHostFreshworks%",
+            "pointsTo": "%cnameValueFreshworks%",
+            "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Freshworks",
+            "host": "%txtHostFreshworks%",
+            "ttl": 300,
+            "data": "%txtValueFreshworks%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a3Freshworks",
+            "host": "%mxHostFreshworks%",
+            "pointsTo": "%mxValueFreshworks%",
+            "ttl": 300,
+            "priority": 10
+        },
+        {
+            "type": "A",
+            "groupId": "a1Weglot",
+            "host": "%aHostWeglot%",
+            "pointsTo": "%mappingValueWeglot%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Weglot",
+            "host": "%txtHostWeglot%",
+            "ttl": 3600,
+            "data": "%txtValueWeglot%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Weglot",
+            "host": "%CnameHostWeglot%",
+            "pointsTo": "%webSitePointsToWeglot%",
             "ttl": 3600
         }
     ]
