@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 60,
+    "version": 61,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4980,6 +4980,27 @@
             "ttl": 3600
         },
         {
+            "type": "A",
+            "groupId": "a1Weglot",
+            "host": "%aHostWeglot%",
+            "pointsTo": "%mappingValueWeglot%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Weglot",
+            "host": "%txtHostWeglot%",
+            "ttl": 3600,
+            "data": "%txtValueWeglot%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Weglot",
+            "host": "%CnameHostWeglot%",
+            "pointsTo": "%webSitePointsToWeglot%",
+            "ttl": 3600
+        },
+        {
             "type": "CNAME",
             "groupId": "a1Freshworks",
             "host": "%cnameHostFreshworks%",
@@ -5002,25 +5023,60 @@
             "priority": 10
         },
         {
-            "type": "A",
-            "groupId": "a1Weglot",
-            "host": "%aHostWeglot%",
-            "pointsTo": "%mappingValueWeglot%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Weglot",
-            "host": "%txtHostWeglot%",
-            "ttl": 3600,
-            "data": "%txtValueWeglot%"
+            "type": "CNAME",
+            "groupId": "a4Freshworks",
+            "host": "%cnameHost2Freshworks%",
+            "pointsTo": "%cnameValue1Freshworks%",
+            "ttl": 300
         },
         {
             "type": "CNAME",
-            "groupId": "a3Weglot",
-            "host": "%CnameHostWeglot%",
-            "pointsTo": "%webSitePointsToWeglot%",
-            "ttl": 3600
+            "groupId": "a5Freshworks",
+            "host": "%cnameHost3Freshworks%",
+            "pointsTo": "%cnameValue2Freshworks%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Freshworks",
+            "host": "%cnameHost4Freshworks%",
+            "pointsTo": "%cnameValue3Freshworks%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Freshworks",
+            "host": "%cnameHost5Freshworks%",
+            "pointsTo": "%cnameValue4Freshworks%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a8Freshworks",
+            "host": "%cnameHost6Freshworks%",
+            "pointsTo": "%cnameValue5Freshworks%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Freshworks",
+            "host": "%cnameHost7Freshworks%",
+            "pointsTo": "%cnameValue6Freshworks%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a10Freshworks",
+            "host": "%cnameHost8Freshworks%",
+            "pointsTo": "%cnameValue7Freshworks%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a11Freshworks",
+            "host": "%cnameHost9Freshworks%",
+            "pointsTo": "%cnameValue8Freshworks%",
+            "ttl": 300
         }
     ]
 }
