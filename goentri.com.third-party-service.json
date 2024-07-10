@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 61,
+    "version": 62,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -4669,27 +4669,6 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Tagmango",
-            "host": "%cnameHostTagmango%",
-            "pointsTo": "%cnamePointsToTagmango%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Tagmango",
-            "host": "%cnameHostTagmango2%",
-            "pointsTo": "%cnamePointsToTagmango%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a3Tagmango",
-            "host": "%arecordHostTagmango%",
-            "pointsTo": "%primaryIpTagmango%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
             "groupId": "a1Stunning",
             "host": "%cnameHostStunning%",
             "pointsTo": "%cnamePointsToStunning%",
@@ -5077,6 +5056,48 @@
             "host": "%cnameHost9Freshworks%",
             "pointsTo": "%cnameValue8Freshworks%",
             "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Tagmango",
+            "host": "%cnameHostTagmangoTagmango%",
+            "pointsTo": "%cnamePointsToTagmangoTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Tagmango",
+            "host": "%cnameHostTagmango2Tagmango%",
+            "pointsTo": "%cnamePointsToTagmangoTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3Tagmango",
+            "host": "%arecordHostTagmango%",
+            "pointsTo": "%primaryIpTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Tagmango",
+            "host": "%cnameHostTagmango3Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango2Tagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Tagmango",
+            "host": "%cnameHostTagmango4Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango3Tagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Tagmango",
+            "host": "%cnameHostTagmango5Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango4Tagmango%",
+            "ttl": 3600
         }
     ]
 }
