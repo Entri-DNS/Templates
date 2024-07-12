@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 62,
+    "version": 61,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5101,23 +5101,23 @@
         },
         {
             "type": "TXT",
-            "host": "%dkimHostOmnisend%",
-            "data": "%dkimValueOmnisend%",
             "groupId": "a1Omnisend",
-            "ttl": 300
+            "host": "%dkimHostOmnisend%",
+            "ttl": 300,
+            "data": "%dkimValueOmnisend%"
         },
         {
             "type": "TXT",
-            "host": "%dmarcHostOmnisend%",
-            "data": "v=DMARC1; p=none;",
             "groupId": "a2Omnisend",
-            "ttl": 300
+            "host": "%dmarcHostOmnisend%",
+            "ttl": 300,
+            "data": "v=DMARC1; p=none;"
         },
         {
             "type": "SPFM",
+            "groupId": "a3Omnisend",
             "host": "%spfHostOmnisend%",
-            "spfRules": "include:mailgun.org ~all",
-            "groupId": "a3Omnisend"
+            "spfRules": "include:mailgun.org ~all"
         }
     ]
 }
