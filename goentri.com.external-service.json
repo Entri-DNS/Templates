@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "external-service",
     "serviceName": "ExternalService",
-    "version": 1,
+    "version": 63,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
