@@ -5120,40 +5120,81 @@
             "spfRules": "%spfValueOmnisend%"
         },
         {
-            "type": "MX",
-            "groupId": "a1Mailersend",
-            "host": "%MxHostMailersend%",
-            "pointsTo": "%MxValueMailersend%",
-            "ttl": 300,
-            "priority": 10
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Mailersend",
-            "host": "%CnameHostMailersend%",
-            "pointsTo": "%CnameValueMailersend%",
+            "type": "A",
+            "groupId": "a1Easyling",
+            "host": "%AHostValueEasyling%",
+            "pointsTo": "%IpValueEasyling%",
             "ttl": 300
         },
         {
             "type": "CNAME",
-            "groupId": "a3Mailersend",
-            "host": "%CnameHostMailersend%",
-            "pointsTo": "%CnameValueMailersend%",
+            "groupId": "a2Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
             "ttl": 300
         },
         {
             "type": "CNAME",
-            "groupId": "a4Mailersend",
-            "host": "%CnameHostMailersend%",
-            "pointsTo": "%CnameValueMailersend%",
+            "groupId": "a3Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
             "ttl": 300
         },
         {
             "type": "TXT",
-            "groupId": "a5Mailersend",
-            "host": "%TxtHostMailersend%",
+            "groupId": "a7Easyling",
+            "host": "%TxtHostEasyling%",
             "ttl": 300,
-            "data": "%TxtValueMailersend%"
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": 300,
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": 300,
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": 300,
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": 300,
+            "data": "%TxtValueEasyling%"
         }
     ]
 }
