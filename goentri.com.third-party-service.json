@@ -5120,25 +5120,40 @@
             "spfRules": "%spfValueOmnisend%"
         },
         {
+            "type": "MX",
+            "groupId": "a1Mailersend",
+            "host": "%MxHostMailersend%",
+            "pointsTo": "%MxValueMailersend%",
+            "ttl": 300,
+            "priority": 10
+        },
+        {
             "type": "CNAME",
-            "groupId": "a1Intercom",
-            "host": "%DkimHostIntercom%",
-            "pointsTo": "%DkimValueIntercom%",
+            "groupId": "a2Mailersend",
+            "host": "%CnameHostMailersend%",
+            "pointsTo": "%CnameValueMailersend%",
             "ttl": 300
         },
         {
             "type": "CNAME",
-            "groupId": "a2Intercom",
-            "host": "%CnameHostIntercom%",
-            "pointsTo": "%CnameValueIntercom%",
+            "groupId": "a3Mailersend",
+            "host": "%CnameHostMailersend%",
+            "pointsTo": "%CnameValueMailersend%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Mailersend",
+            "host": "%CnameHostMailersend%",
+            "pointsTo": "%CnameValueMailersend%",
             "ttl": 300
         },
         {
             "type": "TXT",
-            "groupId": "a3Intercom",
-            "host": "%TxtHostIntercom%",
+            "groupId": "a5Mailersend",
+            "host": "%TxtHostMailersend%",
             "ttl": 300,
-            "data": "%TxtValueIntercom%"
+            "data": "%TxtValueMailersend%"
         }
     ]
 }
