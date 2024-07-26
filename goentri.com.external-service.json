@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "external-service",
     "serviceName": "ExternalService",
-    "version": 1,
+    "version": 63,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -30,6 +30,41 @@
             "host": "%subdomain%",
             "pointsTo": "%webSitePointsTo%",
             "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Lodgify",
+            "host": "%CnameHostLodgify%",
+            "pointsTo": "%CnameValueLodgify%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Lodgify",
+            "host": "%CnameHostLodgify%",
+            "pointsTo": "%CnameValueLodgify%",
+            "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Lodgify",
+            "host": "%TxtHostLodgify%",
+            "ttl": 300,
+            "data": "%TxtValueLodgify%"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Lodgify",
+            "host": "%IPhost1Lodgify%",
+            "pointsTo": "%IPvalueLodgify%",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "groupId": "a5Lodgify",
+            "host": "%IPhost2Lodgify%",
+            "pointsTo": "%IPvalueLodgify%",
+            "ttl": 300
         }
     ]
 }
