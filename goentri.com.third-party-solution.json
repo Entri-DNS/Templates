@@ -16,7 +16,7 @@
             "type": "TXT",
             "groupId": "a1CrispHelpDesk",
             "host": "_crisp",
-            "ttl": 14400,
+            "ttl": "14400",
             "data": "%txtCrispHelpDesk%"
         },
         {
@@ -24,20 +24,20 @@
             "groupId": "a1CrispHelpDesk",
             "host": "@",
             "pointsTo": "custom.crisp.help.",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a2CrispHelpDesk",
             "host": "@",
             "pointsTo": "custom.crisp.help.",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "TXT",
             "groupId": "a1CrispWatch",
             "host": "_crisp",
-            "ttl": 14400,
+            "ttl": "14400",
             "data": "%txtCrispWatch%"
         },
         {
@@ -45,55 +45,55 @@
             "groupId": "a1CrispWatch",
             "host": "@",
             "pointsTo": "custom.crisp.watch.",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1DudaSubdomains",
             "host": "@",
             "pointsTo": "%mappingValueDudaSubdomains%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1HotmartSubdomains",
             "host": "@",
             "pointsTo": "%cnamePointsToHotmartSubdomains%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Jute",
             "host": "@",
             "pointsTo": "%mappingValueJute%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a1Nostra",
             "host": "@",
             "pointsTo": "%mappingValueNostra%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "TXT",
             "groupId": "a1NostraAlt",
             "host": "%hostValue1a1NostraAlt%",
-            "ttl": 3600,
+            "ttl": "3600",
             "data": "%dataValue1a1NostraAlt%"
         },
         {
             "type": "TXT",
             "groupId": "a2NostraAlt",
             "host": "%hostValue2a2NostraAlt%",
-            "ttl": 3600,
+            "ttl": "3600",
             "data": "%dataValue2a2NostraAlt%"
         },
         {
             "type": "TXT",
             "groupId": "a2NostraAlt",
             "host": "%hostValue3a2NostraAlt%",
-            "ttl": 3600,
+            "ttl": "3600",
             "data": "%dataValue3a2NostraAlt%"
         },
         {
@@ -101,20 +101,20 @@
             "groupId": "a1Optimizing",
             "host": "@",
             "pointsTo": "%mappingValueOptimizing%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Pitchlane_subdomains",
             "host": "@",
             "pointsTo": "%cnamePointstoPitchlane_subdomains%",
-            "ttl": 600
+            "ttl": "600"
         },
         {
             "type": "TXT",
             "groupId": "a2Pitchlane_subdomains",
             "host": "%txtHostPitchlane_subdomains%",
-            "ttl": 3600,
+            "ttl": "3600",
             "data": "%verificationValuePitchlane_subdomains%"
         },
         {
@@ -122,93 +122,93 @@
             "groupId": "a1Stunning_subdomains",
             "host": "@",
             "pointsTo": "%cnamePointsToStunning_subdomains%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Toast_subdomain",
             "host": "@",
             "pointsTo": "%cnamePointsToSubdomainToast_subdomain%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Unbounce",
             "host": "@",
             "pointsTo": "%mappingValueUnbounce%",
-            "ttl": 600
+            "ttl": "600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Vendo_subdomains",
             "host": "@",
             "pointsTo": "%mappingValueVendo_subdomains%",
-            "ttl": 600
+            "ttl": "600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Contentblocks",
             "host": "@",
             "pointsTo": "%valueCnameContentblocks%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Vev",
             "host": "@",
             "pointsTo": "domain.vev.page",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a1Userled",
             "host": "@",
             "pointsTo": "cname.userled.io",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "A",
             "groupId": "a1Wix",
             "host": "%websiteHostWix%",
             "pointsTo": "%mappingValueWix%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Wix",
             "host": "%CnameHostWix%",
             "pointsTo": "%webSitePointsToWix%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "MX",
             "groupId": "a2Wix",
             "host": "%mxHost1Wix%",
             "pointsTo": "%mx1Wix%",
-            "ttl": 3600,
-            "priority": 10
+            "ttl": "3600",
+            "priority": "10"
         },
         {
             "type": "MX",
             "groupId": "a2Wix",
             "host": "%mxHost2Wix%",
             "pointsTo": "%mx2Wix%",
-            "ttl": 3600,
-            "priority": 20
+            "ttl": "3600",
+            "priority": "20"
         },
         {
             "type": "NS",
             "groupId": "a3Wix",
             "host": "@",
             "pointsTo": "%nsValue1Wix%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "NS",
             "groupId": "a3Wix",
             "host": "@",
             "pointsTo": "%nsValue2Wix%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "REDIR301",
@@ -221,20 +221,20 @@
             "groupId": "a7Wpengine",
             "host": "@",
             "pointsTo": "%valueCnameWpengineWpengine%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "TXT",
             "groupId": "a1Omnisend",
             "host": "%dkimHostOmnisend%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%dkimValueOmnisend%"
         },
         {
             "type": "TXT",
             "groupId": "a2Omnisend",
             "host": "%dmarcHostOmnisend%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%dmarcValueOmnisend%"
         },
         {
@@ -248,20 +248,20 @@
             "groupId": "a1Intercom",
             "host": "%DkimHostIntercom%",
             "pointsTo": "%DkimValueIntercom%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a2Intercom",
             "host": "%CnameHostIntercom%",
             "pointsTo": "%CnameValueIntercom%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "TXT",
             "groupId": "a3Intercom",
             "host": "%TxtHostIntercom%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueIntercom%"
         },
         {
@@ -269,35 +269,35 @@
             "groupId": "a1Mailersend",
             "host": "%MxHostMailersend%",
             "pointsTo": "%MxValueMailersend%",
-            "ttl": 300,
-            "priority": 10
+            "ttl": "300",
+            "priority": "10"
         },
         {
             "type": "CNAME",
             "groupId": "a2Mailersend",
             "host": "%CnameHostMailersend%",
             "pointsTo": "%CnameValueMailersend%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a3Mailersend",
             "host": "%CnameHostMailersend%",
             "pointsTo": "%CnameValueMailersend%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a4Mailersend",
             "host": "%CnameHostMailersend%",
             "pointsTo": "%CnameValueMailersend%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "TXT",
             "groupId": "a5Mailersend",
             "host": "%TxtHostMailersend%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueMailersend%"
         },
         {
@@ -305,76 +305,76 @@
             "groupId": "a1Easyling",
             "host": "%AHostValueEasyling%",
             "pointsTo": "%IpValueEasyling%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a2Easyling",
             "host": "%CnameHostEasyling%",
             "pointsTo": "%CnameValueEasyling%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a3Easyling",
             "host": "%CnameHostEasyling%",
             "pointsTo": "%CnameValueEasyling%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a4Easyling",
             "host": "%CnameHostEasyling%",
             "pointsTo": "%CnameValueEasyling%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a5Easyling",
             "host": "%CnameHostEasyling%",
             "pointsTo": "%CnameValueEasyling%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a6Easyling",
             "host": "%CnameHostEasyling%",
             "pointsTo": "%CnameValue%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "TXT",
             "groupId": "a7Easyling",
             "host": "%TxtHostEasyling%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueEasyling%"
         },
         {
             "type": "TXT",
             "groupId": "a8Easyling",
             "host": "%TxtHostEasyling%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueEasyling%"
         },
         {
             "type": "TXT",
             "groupId": "a9Easyling",
             "host": "%TxtHostEasyling%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueEasyling%"
         },
         {
             "type": "TXT",
             "groupId": "a10Easyling",
             "host": "%TxtHostEasyling%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueEasyling%"
         },
         {
             "type": "TXT",
             "groupId": "a11Easyling",
             "host": "%TxtHostEasyling%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueEasyling%"
         },
         {
@@ -382,7 +382,7 @@
             "groupId": "a1Mailerlite",
             "host": "%dkimHostMailerlite%",
             "pointsTo": "%dkimValueMailerlite%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "SPFM",
