@@ -2555,41 +2555,6 @@
             "data": "%txtVerilinks%"
         },
         {
-            "type": "A",
-            "groupId": "a1Webflow",
-            "host": "@",
-            "pointsTo": "%primaryIpWebflow%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a1Webflow",
-            "host": "@",
-            "pointsTo": "%primaryIp2Webflow%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Webflow",
-            "host": "www",
-            "pointsTo": "%proxySslUrlWebflow%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Webflow",
-            "host": "%txtValueWebflow%",
-            "ttl": 3600,
-            "data": "%txtWebflow%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Webflow",
-            "host": "%subdomainWebflow%",
-            "pointsTo": "%proxySslUrlWebflow%",
-            "ttl": 3600
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Activecampaign",
             "host": "%hostCname1Activecampaign%",
@@ -5120,53 +5085,53 @@
             "spfRules": "%spfValueOmnisend%"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Beehiiv",
-            "host": "%cnameHost1Beehiiv%",
-            "pointsTo": "%cnameValue1Beehiiv%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Beehiiv",
-            "host": "%cnameHost2Beehiiv%",
-            "pointsTo": "%cnameValue2Beehiiv%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Beehiiv",
-            "host": "%cnameHost3Beehiiv%",
-            "pointsTo": "%cnameValue3Beehiiv%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Beehiiv",
-            "host": "%cnameHost4Beehiiv%",
-            "pointsTo": "%cnameValue4Beehiiv%",
-            "ttl": 300
+            "type": "A",
+            "groupId": "a1Webflow",
+            "host": "@",
+            "pointsTo": "%primaryIpWebflowWebflow%",
+            "ttl": 3600
         },
         {
             "type": "A",
-            "groupId": "a5Beehiiv",
-            "host": "%ipHostBeehiiv%",
-            "pointsTo": "%ipValueBeehiiv%",
-            "ttl": 300
+            "groupId": "a1Webflow",
+            "host": "@",
+            "pointsTo": "%primaryIp2WebflowWebflow%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Webflow",
+            "host": "www",
+            "pointsTo": "%proxySslUrlWebflowWebflow%",
+            "ttl": 3600
         },
         {
             "type": "TXT",
-            "groupId": "a6Beehiiv",
-            "host": "%txtHost1Beehiiv%",
-            "ttl": 300,
-            "data": "%txtValue1Beehiiv%"
+            "groupId": "a2Webflow",
+            "host": "%txtValueWebflowWebflow%",
+            "ttl": 3600,
+            "data": "%txtWebflowWebflow%"
         },
         {
-            "type": "TXT",
-            "groupId": "a7Beehiiv",
-            "host": "%dmarcHostBeehiiv%",
-            "ttl": 300,
-            "data": "%dmarcValueBeehiiv%"
+            "type": "CNAME",
+            "groupId": "a3Webflow",
+            "host": "%subdomainWebflowWebflow%",
+            "pointsTo": "%proxySslUrlWebflowWebflow%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a4Webflow",
+            "host": "@",
+            "pointsTo": "%primaryIp3WebflowWebflow%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Webflow",
+            "host": "www",
+            "pointsTo": "%proxySslUrlWebflow2Webflow%",
+            "ttl": 3600
         }
     ]
 }
