@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 63,
+    "version": 64,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5216,6 +5216,20 @@
             "host": "%TxtHost11Easyling%",
             "ttl": 300,
             "data": "%TxtValue11Easyling%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Swell",
+            "host": "%cnameHostSwell%",
+            "pointsTo": "%cnamePointsToSwellSwell%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Swell",
+            "host": "%cnameHost2Swell%",
+            "pointsTo": "%cnamePointsToSwellSwell%",
+            "ttl": 3600
         }
     ]
 }
