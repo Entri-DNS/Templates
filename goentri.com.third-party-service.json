@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 61,
+    "version": 62,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5118,6 +5118,55 @@
             "groupId": "a3Omnisend",
             "host": "%spfHostOmnisend%",
             "spfRules": "%spfValueOmnisend%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Beehiiv",
+            "host": "%cnameHost1Beehiiv%",
+            "pointsTo": "%cnameValue1Beehiiv%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Beehiiv",
+            "host": "%cnameHost2Beehiiv%",
+            "pointsTo": "%cnameValue2Beehiiv%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Beehiiv",
+            "host": "%cnameHost3Beehiiv%",
+            "pointsTo": "%cnameValue3Beehiiv%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Beehiiv",
+            "host": "%cnameHost4Beehiiv%",
+            "pointsTo": "%cnameValue4Beehiiv%",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "groupId": "a5Beehiiv",
+            "host": "%ipHostBeehiiv%",
+            "pointsTo": "%ipValueBeehiiv%",
+            "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Beehiiv",
+            "host": "%txtHost1Beehiiv%",
+            "ttl": 300,
+            "data": "%txtValue1Beehiiv%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Beehiiv",
+            "host": "%dmarcHostBeehiiv%",
+            "ttl": 300,
+            "data": "%dmarcValueBeehiiv%"
         }
     ]
 }
