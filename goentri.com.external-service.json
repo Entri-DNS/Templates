@@ -34,15 +34,15 @@
         {
             "type": "CNAME",
             "groupId": "a1Lodgify",
-            "host": "%CnameHostLodgify%",
-            "pointsTo": "%CnameValueLodgify%",
+            "host": "%CnameHost1Lodgify%",
+            "pointsTo": "%CnameValue1Lodgify%",
             "ttl": 300
         },
         {
             "type": "CNAME",
             "groupId": "a2Lodgify",
-            "host": "%CnameHostLodgify%",
-            "pointsTo": "%CnameValueLodgify%",
+            "host": "%CnameHost2Lodgify%",
+            "pointsTo": "%CnameValue2Lodgify%",
             "ttl": 300
         },
         {
@@ -65,6 +65,20 @@
             "host": "%IPhost2Lodgify%",
             "pointsTo": "%IPvalueLodgify%",
             "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Swell",
+            "host": "%cnameHostSwell%",
+            "pointsTo": "%cnamePointsToSwell%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Swell",
+            "host": "%cnameHostSwell2%",
+            "pointsTo": "%cnamePointsToSwell%",
+            "ttl": 3600
         }
     ]
 }

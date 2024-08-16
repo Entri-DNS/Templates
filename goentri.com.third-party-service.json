@@ -1872,7 +1872,7 @@
             "ttl": 3600
         },
         {
-            "type": "TXT",
+            "type": "SPFM",
             "groupId": "a1Sprwt",
             "host": "@",
             "ttl": 3600,
@@ -2587,6 +2587,20 @@
             "groupId": "a3Webflow",
             "host": "%subdomainWebflow%",
             "pointsTo": "%proxySslUrlWebflow%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a4Webflow",
+            "host": "@",
+            "pointsTo": "%primaryIp3Webflow%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Webflow",
+            "host": "www",
+            "pointsTo": "%proxySslUrlWebflow2%",
             "ttl": 3600
         },
         {
@@ -5142,83 +5156,6 @@
         },
         {
             "type": "A",
-            "groupId": "a1Easyling",
-            "host": "%AHostValueEasyling%",
-            "pointsTo": "%IpValueEasyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Easyling",
-            "host": "%CnameHostEasyling%",
-            "pointsTo": "%CnameValueEasyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Easyling",
-            "host": "%CnameHost2Easyling%",
-            "pointsTo": "%CnameValue2Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Easyling",
-            "host": "%CnameHost3Easyling%",
-            "pointsTo": "%CnameValue3Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Easyling",
-            "host": "%CnameHost4Easyling%",
-            "pointsTo": "%CnameValue4Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Easyling",
-            "host": "%CnameHost5Easyling%",
-            "pointsTo": "%CnameValue5Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "TXT",
-            "groupId": "a7Easyling",
-            "host": "%TxtHostEasyling%",
-            "ttl": 300,
-            "data": "%TxtValueEasyling%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a8Easyling",
-            "host": "%TxtHost2Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue2Easyling%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a9Easyling",
-            "host": "%TxtHost3Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue3Easyling%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a10Easyling",
-            "host": "%TxtHost4Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue4Easyling%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a11Easyling",
-            "host": "%TxtHost5Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue5Easyling%"
-        },
-        {
-            "type": "A",
             "groupId": "a2Bookipi",
             "host": "%ipHost1Bookipi%",
             "pointsTo": "%hostValue1Bookipi%",
@@ -5369,6 +5306,104 @@
             "host": "%dmarcHostBeehiiv%",
             "ttl": 300,
             "data": "%dmarcValueBeehiiv%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Salesbricks",
+            "host": "%cnameHost1Salesbricks%",
+            "pointsTo": "%cnameValue1Salesbricks%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Salesbricks",
+            "host": "%cnameHost2Salesbricks%",
+            "pointsTo": "%cnameValue2Salesbricks%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Salesbricks",
+            "host": "%cnameHost3Salesbricks%",
+            "pointsTo": "%cnameValue3Salesbricks%",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "groupId": "a1Easyling",
+            "host": "%AHostValueEasyling%",
+            "pointsTo": "%IpValueEasyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Easyling",
+            "host": "%CnameHost2Easyling%",
+            "pointsTo": "%CnameValue2Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Easyling",
+            "host": "%CnameHost3Easyling%",
+            "pointsTo": "%CnameValue3Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Easyling",
+            "host": "%CnameHost4Easyling%",
+            "pointsTo": "%CnameValue4Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Easyling",
+            "host": "%CnameHost5Easyling%",
+            "pointsTo": "%CnameValue5Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Easyling",
+            "host": "%CnameHost6Easyling%",
+            "pointsTo": "%CnameValue6Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Easyling",
+            "host": "%TxtHost7Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue7Easyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Easyling",
+            "host": "%TxtHost8Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue8Easyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Easyling",
+            "host": "%TxtHost9Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue9Easyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10Easyling",
+            "host": "%TxtHost10Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue10Easyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Easyling",
+            "host": "%TxtHost11Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue11Easyling%"
         }
     ]
 }
