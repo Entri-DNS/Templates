@@ -5141,39 +5141,81 @@
             "ttl": 300
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Lodgify",
-            "host": "%CnameHost1Lodgify%",
-            "pointsTo": "%CnameValue1Lodgify%",
+            "type": "A",
+            "groupId": "a1Easyling",
+            "host": "%AHostValueEasyling%",
+            "pointsTo": "%IpValueEasyling%",
             "ttl": 300
         },
         {
             "type": "CNAME",
-            "groupId": "a2Lodgify",
-            "host": "%CnameHost2Lodgify%",
-            "pointsTo": "%CnameValue2Lodgify%",
+            "groupId": "a2Easyling",
+            "host": "%CnameHost2Easyling%",
+            "pointsTo": "%CnameValue2Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Easyling",
+            "host": "%CnameHost3Easyling%",
+            "pointsTo": "%CnameValue3Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Easyling",
+            "host": "%CnameHost4Easyling%",
+            "pointsTo": "%CnameValue4Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Easyling",
+            "host": "%CnameHost5Easyling%",
+            "pointsTo": "%CnameValue5Easyling%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Easyling",
+            "host": "%CnameHost6Easyling%",
+            "pointsTo": "%CnameValue6Easyling%",
             "ttl": 300
         },
         {
             "type": "TXT",
-            "groupId": "a3Lodgify",
-            "host": "%TxtHostLodgify%",
+            "groupId": "a7Easyling",
+            "host": "%TxtHost7Easyling%",
             "ttl": 300,
-            "data": "%TxtValueLodgify%"
+            "data": "%TxtValue7Easyling%"
         },
         {
-            "type": "A",
-            "groupId": "a4Lodgify",
-            "host": "%IPhost1Lodgify%",
-            "pointsTo": "%IPvalueLodgify%",
-            "ttl": 300
+            "type": "TXT",
+            "groupId": "a8Easyling",
+            "host": "%TxtHost8Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue8Easyling%"
         },
         {
-            "type": "A",
-            "groupId": "a5Lodgify",
-            "host": "%IPhost2Lodgify%",
-            "pointsTo": "%IPvalueLodgify%",
-            "ttl": 300
+            "type": "TXT",
+            "groupId": "a9Easyling",
+            "host": "%TxtHost9Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue9Easyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10Easyling",
+            "host": "%TxtHost10Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue10Easyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Easyling",
+            "host": "%TxtHost11Easyling%",
+            "ttl": 300,
+            "data": "%TxtValue11Easyling%"
         }
     ]
 }
