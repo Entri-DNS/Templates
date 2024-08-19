@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 64,
+    "version": 65,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5230,6 +5230,20 @@
             "host": "%cnameHost2Swell%",
             "pointsTo": "%cnamePointsToSwellSwell%",
             "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Zephyrcloud",
+            "host": "%hostArecordZephyrcloud%",
+            "pointsTo": "%ipZephyrcloud%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a1Zephyrcloud",
+            "host": "@",
+            "pointsTo": "%ipZephyrcloud%",
+            "ttl": 3600
         }
     ]
 }
