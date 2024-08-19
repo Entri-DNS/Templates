@@ -5236,14 +5236,14 @@
             "groupId": "a1Zephyrcloud",
             "host": "%hostArecordZephyrcloud%",
             "pointsTo": "%ipZephyrcloud%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "A",
             "groupId": "a1Zephyrcloud",
             "host": "@",
             "pointsTo": "%ipZephyrcloud%",
-            "ttl": 3600
+            "ttl": "3600"
         }
     ]
 }
