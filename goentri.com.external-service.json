@@ -16,7 +16,7 @@
             "groupId": "a1BigCartelProxy",
             "host": "www",
             "pointsTo": "%webSitePointsTo%",
-            "ttl": "3600"
+            "ttl": 3600
         },
         {
             "type": "REDIR301",
@@ -29,27 +29,27 @@
             "groupId": "a2BigCartelProxy",
             "host": "%subdomain%",
             "pointsTo": "%webSitePointsTo%",
-            "ttl": "3600"
+            "ttl": 3600
         },
         {
             "type": "CNAME",
             "groupId": "a1Lodgify",
             "host": "%CnameHost1Lodgify%",
             "pointsTo": "%CnameValue1Lodgify%",
-            "ttl": "300"
+            "ttl": 300
         },
         {
             "type": "CNAME",
             "groupId": "a2Lodgify",
             "host": "%CnameHost2Lodgify%",
             "pointsTo": "%CnameValue2Lodgify%",
-            "ttl": "300"
+            "ttl": 300
         },
         {
             "type": "TXT",
             "groupId": "a3Lodgify",
             "host": "%TxtHostLodgify%",
-            "ttl": "300",
+            "ttl": 300,
             "data": "%TxtValueLodgify%"
         },
         {
@@ -57,28 +57,28 @@
             "groupId": "a4Lodgify",
             "host": "%IPhost1Lodgify%",
             "pointsTo": "%IPvalueLodgify%",
-            "ttl": "300"
+            "ttl": 300
         },
         {
             "type": "A",
             "groupId": "a5Lodgify",
             "host": "%IPhost2Lodgify%",
             "pointsTo": "%IPvalueLodgify%",
-            "ttl": "300"
+            "ttl": 300
         },
         {
             "type": "CNAME",
             "groupId": "a1Swell",
             "host": "%cnameHostSwell%",
             "pointsTo": "%cnamePointsToSwell%",
-            "ttl": "3600"
+            "ttl": 3600
         },
         {
             "type": "CNAME",
             "groupId": "a2Swell",
             "host": "%cnameHostSwell2%",
             "pointsTo": "%cnamePointsToSwell%",
-            "ttl": "3600"
+            "ttl": 3600
         }
     ]
 }
