@@ -1876,7 +1876,7 @@
             "groupId": "a1Sprwt",
             "host": "@",
             "ttl": "3600",
-            "data": "v=spf1 include:amazonses.com include:_spf.google.com ~all"
+            "spfRules": "include:amazonses.com include:_spf.google.com"
         },
         {
             "type": "CNAME",
