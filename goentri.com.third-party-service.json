@@ -5299,7 +5299,7 @@
             "groupId": "a1Mailerlite",
             "host": "%dkimHostMailerlite%",
             "pointsTo": "%dkimValueMailerlite%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "SPFM",
@@ -5312,29 +5312,29 @@
             "groupId": "a3Mailerlite",
             "host": "%websiteHost1Mailerlite%",
             "pointsTo": "%ip1MailerliteMailerlite%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a4Mailerlite",
             "host": "%cnameHostMailerlite%",
             "pointsTo": "%cnameValueMailerlite%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "A",
             "groupId": "a5Mailerlite",
             "host": "%websiteHost2Mailerlite%",
             "pointsTo": "%ip2MailerliteMailerlite%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "MX",
             "groupId": "a6Mailerlite",
             "host": "%mxHostMailerlite%",
             "pointsTo": "%mxValueMailerlite%",
-            "ttl": 300,
-            "priority": 10
+            "ttl": "300",
+            "priority": "10"
         },
         {
             "type": "SPFM",
@@ -5346,7 +5346,7 @@
             "type": "TXT",
             "groupId": "a8Mailerlite",
             "host": "%TxtHostMailerlite%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueMailerlite%"
         },
         {
@@ -5354,35 +5354,35 @@
             "groupId": "a1Mailersend",
             "host": "%MxHostMailersend%",
             "pointsTo": "%MxValueMailersend%",
-            "ttl": 300,
-            "priority": 10
+            "ttl": "300",
+            "priority": "10"
         },
         {
             "type": "CNAME",
             "groupId": "a2Mailersend",
             "host": "%CnameHost1Mailersend%",
             "pointsTo": "%CnameValue1Mailersend%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a3Mailersend",
             "host": "%CnameHost2Mailersend%",
             "pointsTo": "%CnameValue2Mailersend%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a4Mailersend",
             "host": "%CnameHost3Mailersend%",
             "pointsTo": "%CnameValue3Mailersend%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "TXT",
             "groupId": "a5Mailersend",
             "host": "%TxtHostMailersend%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%TxtValueMailersend%"
         },
         {
@@ -5396,7 +5396,7 @@
             "groupId": "a7Mailersend",
             "host": "%websiteHostMailersend%",
             "pointsTo": "%ip1MailerliteMailersend%",
-            "ttl": 300
+            "ttl": "300"
         }
     ]
 }
