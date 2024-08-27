@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 66,
+    "version": 67,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5293,6 +5293,110 @@
             "host": "%cnameHost7Dailyai%",
             "pointsTo": "%cnamePointsTo6Dailyai%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Mailerlite",
+            "host": "%dkimHostMailerlite%",
+            "pointsTo": "%dkimValueMailerlite%",
+            "ttl": 300
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Mailerlite",
+            "host": "%spfHost1Mailerlite%",
+            "spfRules": "%spfValue1Mailerlite%"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Mailerlite",
+            "host": "%websiteHost1Mailerlite%",
+            "pointsTo": "%ip1MailerliteMailerlite%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Mailerlite",
+            "host": "%cnameHostMailerlite%",
+            "pointsTo": "%cnameValueMailerlite%",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "groupId": "a5Mailerlite",
+            "host": "%websiteHost2Mailerlite%",
+            "pointsTo": "%ip2MailerliteMailerlite%",
+            "ttl": 300
+        },
+        {
+            "type": "MX",
+            "groupId": "a6Mailerlite",
+            "host": "%mxHostMailerlite%",
+            "pointsTo": "%mxValueMailerlite%",
+            "ttl": 300,
+            "priority": 10
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a7Mailerlite",
+            "host": "%spfHost2Mailerlite%",
+            "spfRules": "%spfValue2Mailerlite%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Mailerlite",
+            "host": "%TxtHostMailerlite%",
+            "ttl": 300,
+            "data": "%TxtValueMailerlite%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a1Mailersend",
+            "host": "%MxHostMailersend%",
+            "pointsTo": "%MxValueMailersend%",
+            "ttl": 300,
+            "priority": 10
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Mailersend",
+            "host": "%CnameHost1Mailersend%",
+            "pointsTo": "%CnameValue1Mailersend%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Mailersend",
+            "host": "%CnameHost2Mailersend%",
+            "pointsTo": "%CnameValue2Mailersend%",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Mailersend",
+            "host": "%CnameHost3Mailersend%",
+            "pointsTo": "%CnameValue3Mailersend%",
+            "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Mailersend",
+            "host": "%TxtHostMailersend%",
+            "ttl": 300,
+            "data": "%TxtValueMailersend%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a6Mailersend",
+            "host": "%spfHostMailersend%",
+            "spfRules": "%spfValueMailersend%"
+        },
+        {
+            "type": "A",
+            "groupId": "a7Mailersend",
+            "host": "%websiteHostMailersend%",
+            "pointsTo": "%ip1MailerliteMailersend%",
+            "ttl": 300
         }
     ]
 }
