@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 67,
+    "version": 68,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5058,48 +5058,6 @@
             "ttl": 300
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Tagmango",
-            "host": "%cnameHostTagmangoTagmango%",
-            "pointsTo": "%cnamePointsToTagmangoTagmango%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Tagmango",
-            "host": "%cnameHostTagmango2Tagmango%",
-            "pointsTo": "%cnamePointsToTagmangoTagmango%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a3Tagmango",
-            "host": "%arecordHostTagmango%",
-            "pointsTo": "%primaryIpTagmango%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Tagmango",
-            "host": "%cnameHostTagmango3Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango2Tagmango%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Tagmango",
-            "host": "%cnameHostTagmango4Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango3Tagmango%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Tagmango",
-            "host": "%cnameHostTagmango5Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango4Tagmango%",
-            "ttl": 3600
-        },
-        {
             "type": "TXT",
             "groupId": "a1Omnisend",
             "host": "%dkimHostOmnisend%",
@@ -5397,6 +5355,55 @@
             "host": "%websiteHostMailersend%",
             "pointsTo": "%ip1MailerliteMailersend%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Tagmango",
+            "host": "%cnameHostTagmangoTagmango%",
+            "pointsTo": "%cnamePointsToTagmangoTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Tagmango",
+            "host": "%cnameHostTagmango2Tagmango%",
+            "pointsTo": "%cnamePointsToTagmangoTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a3Tagmango",
+            "host": "%arecordHostTagmango%",
+            "pointsTo": "%primaryIpTagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Tagmango",
+            "host": "%cnameHostTagmango3Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango2Tagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Tagmango",
+            "host": "%cnameHostTagmango4Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango3Tagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Tagmango",
+            "host": "%cnameHostTagmango5Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango4Tagmango%",
+            "ttl": 3600
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Tagmango",
+            "host": "%TxtHostTagmango%",
+            "ttl": 300,
+            "data": "%TxtValueTagmango%"
         }
     ]
 }
