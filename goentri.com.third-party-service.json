@@ -45,7 +45,7 @@
             "host": "@",
             "pointsTo": "mxa.mailgun.org",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -53,7 +53,7 @@
             "host": "@",
             "pointsTo": "mxb.mailgun.org",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "CNAME",
@@ -625,7 +625,7 @@
             "host": "support",
             "pointsTo": "mx1.improvmx.com.",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -633,7 +633,7 @@
             "host": "support",
             "pointsTo": "mx2.improvmx.com.",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "A",
@@ -738,7 +738,7 @@
             "host": "support",
             "pointsTo": "mx1.improvmx.com.",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -746,7 +746,7 @@
             "host": "support",
             "pointsTo": "mx2.improvmx.com.",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "A",
@@ -967,7 +967,7 @@
             "host": "kjbm",
             "pointsTo": "mxa.mailgun.org",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -975,7 +975,7 @@
             "host": "kjbm",
             "pointsTo": "mxb.mailgun.org",
             "ttl": "3600",
-            "priority": "20"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "CNAME",
@@ -1038,7 +1038,7 @@
             "host": "kjbm",
             "pointsTo": "mxa.mailgun.org",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -1046,7 +1046,7 @@
             "host": "kjbm",
             "pointsTo": "mxb.mailgun.org",
             "ttl": "3600",
-            "priority": "20"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "CNAME",
@@ -1082,7 +1082,7 @@
             "host": "kjbm",
             "pointsTo": "mxa.mailgun.org",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -1090,7 +1090,7 @@
             "host": "kjbm",
             "pointsTo": "mxb.mailgun.org",
             "ttl": "3600",
-            "priority": "20"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "CNAME",
@@ -1256,7 +1256,7 @@
             "host": "@",
             "pointsTo": "mx1.improvmx.com",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -1264,7 +1264,7 @@
             "host": "@",
             "pointsTo": "mx2.improvmx.com",
             "ttl": "3600",
-            "priority": "20"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "TXT",
@@ -1279,7 +1279,7 @@
             "host": "@",
             "pointsTo": "%mxPointsto1Neo%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -1287,7 +1287,7 @@
             "host": "@",
             "pointsTo": "%mxPointsto2Neo%",
             "ttl": "3600",
-            "priority": "20"
+            "priority":"%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -1315,7 +1315,7 @@
             "host": "@",
             "pointsTo": "%mxPointsto1Neo%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -3106,7 +3106,7 @@
             "host": "%mxHost1Onesignal%",
             "pointsTo": "%mxValue1Onesignal%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -3114,7 +3114,7 @@
             "host": "%mxHost2Onesignal%",
             "pointsTo": "%mxValue2Onesignal%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "A",
@@ -3437,7 +3437,7 @@
             "host": "@",
             "pointsTo": "mxa.mailgun.org",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -3445,7 +3445,7 @@
             "host": "@",
             "pointsTo": "mxb.mailgun.org",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "CNAME",
@@ -3488,7 +3488,7 @@
             "host": "%hostValue3a1KajabiAlt%",
             "pointsTo": "%dataValue3a1KajabiAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -3496,7 +3496,7 @@
             "host": "%hostValue4a1KajabiAlt%",
             "pointsTo": "%dataValue4a1KajabiAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -3532,7 +3532,7 @@
             "host": "%hostValue9a2KajabiAlt%",
             "pointsTo": "%dataValue9a2KajabiAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -3540,7 +3540,7 @@
             "host": "%hostValue10a2KajabiAlt%",
             "pointsTo": "%dataValue10a2KajabiAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -3576,7 +3576,7 @@
             "host": "%hostValue15a3KajabiAlt%",
             "pointsTo": "%dataValue15a3KajabiAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -3584,7 +3584,7 @@
             "host": "%hostValue16a3KajabiAlt%",
             "pointsTo": "%dataValue16a3KajabiAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -3620,7 +3620,7 @@
             "host": "%hostValue21a4KajabiAlt%",
             "pointsTo": "%dataValue21a4KajabiAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -3628,7 +3628,7 @@
             "host": "%hostValue22a4KajabiAlt%",
             "pointsTo": "%dataValue22a4KajabiAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -3832,7 +3832,7 @@
             "host": "%hostValue10a2OnesignalAlt%",
             "pointsTo": "%dataValue10a2OnesignalAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -3840,7 +3840,7 @@
             "host": "%hostValue11a2OnesignalAlt%",
             "pointsTo": "%dataValue11a2OnesignalAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -3883,7 +3883,7 @@
             "host": "%hostValue17a3OnesignalAlt%",
             "pointsTo": "%dataValue17a3OnesignalAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "MX",
@@ -3891,7 +3891,7 @@
             "host": "%hostValue18a3OnesignalAlt%",
             "pointsTo": "%dataValue18a3OnesignalAlt%",
             "ttl": "3600",
-            "priority": "10"
+            "priority":"%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -4609,7 +4609,7 @@
             "host": "%mxHostFollowupboss%",
             "pointsTo": "%mxValueFollowupboss%",
             "ttl": "3600",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "CNAME",
@@ -5013,7 +5013,7 @@
             "host": "%mxHostFreshworks%",
             "pointsTo": "%mxValueFreshworks%",
             "ttl": "300",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "CNAME",
@@ -5174,7 +5174,7 @@
             "host": "%MxHostMailersend%",
             "pointsTo": "%MxValueMailersend%",
             "ttl": "300",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "CNAME",
@@ -5250,7 +5250,7 @@
             "host": "%mxHostMailerlite%",
             "pointsTo": "%mxValueMailerlite%",
             "ttl": "300",
-            "priority": "10"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
