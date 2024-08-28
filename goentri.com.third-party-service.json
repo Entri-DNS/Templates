@@ -5379,31 +5379,31 @@
         },
         {
             "type": "A",
-            "host": "@",
             "groupId": "a1Pressable",
+            "host": "@",
             "pointsTo": "%ipAdress1Pressable%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "A",
             "groupId": "a1Pressable",
             "host": "@",
             "pointsTo": "%ipAdress2Pressable%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "A",
-            "host": "www",
             "groupId": "a2Pressable",
+            "host": "www",
             "pointsTo": "%ipAdress1Pressable%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "A",
             "groupId": "a2Pressable",
             "host": "www",
             "pointsTo": "%ipAdress2Pressable%",
-            "ttl": 3600
+            "ttl": "3600"
         }
     ]
 }
