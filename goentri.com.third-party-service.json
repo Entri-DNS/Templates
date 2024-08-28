@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 68,
+    "version": 69,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -1287,7 +1287,7 @@
             "host": "@",
             "pointsTo": "%mxPointsto2Neo%",
             "ttl": "3600",
-            "priority":"%PriorityValue%"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
@@ -3891,7 +3891,7 @@
             "host": "%hostValue18a3OnesignalAlt%",
             "pointsTo": "%dataValue18a3OnesignalAlt%",
             "ttl": "3600",
-            "priority":"%PriorityValue%"
+            "priority": "%PriorityValue%"
         },
         {
             "type": "SPFM",
