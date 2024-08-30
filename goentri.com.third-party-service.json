@@ -4570,13 +4570,6 @@
             "priority": 10
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Bookipi",
-            "host": "%cnameHosta1Bookipi%",
-            "pointsTo": "%cnameValue1Bookipi%",
-            "ttl": 3600
-        },
-        {
             "type": "A",
             "groupId": "a1Wpengine",
             "host": "@",
@@ -5365,6 +5358,34 @@
         },
         {
             "type": "A",
+            "groupId": "a1Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "www",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "www",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
             "groupId": "a1Zephyrcloud",
             "host": "%hostArecordZephyrcloud%",
             "pointsTo": "%ipZephyrcloud%",
@@ -5378,46 +5399,25 @@
             "ttl": "3600"
         },
         {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
+            "type": "CNAME",
+            "groupId": "a1Bookipi",
+            "host": "%cnameHost1Bookipi%",
+            "pointsTo": "%cnameValue1Bookipi%",
+            "ttl": 3600
         },
         {
             "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
+            "groupId": "a2Bookipi",
+            "host": "%ipHost1Bookipi%",
+            "pointsTo": "%hostValue1Bookipi%",
+            "ttl": 3600
         },
         {
             "type": "A",
-            "groupId": "a1Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
+            "groupId": "a3Bookipi",
+            "host": "%ipHost1Bookipi%",
+            "pointsTo": "%hostValue2Bookipi%",
+            "ttl": 3600
         }
     ]
 }
