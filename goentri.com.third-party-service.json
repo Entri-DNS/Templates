@@ -5407,17 +5407,17 @@
         },
         {
             "type": "A",
-            "host": "@",
             "groupId": "a2Pressable",
+            "host": "@",
             "pointsTo": "%ipAdress1Pressable%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "A",
             "groupId": "a2Pressable",
             "host": "@",
             "pointsTo": "%ipAdress2Pressable%",
-            "ttl": 3600
+            "ttl": "3600"
         }
     ]
 }
