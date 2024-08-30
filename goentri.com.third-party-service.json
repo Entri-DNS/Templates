@@ -5162,17 +5162,52 @@
             "ttl": "3600"
         },
         {
-            "type": "A",
-            "groupId": "a1Zephyrcloud",
-            "host": "%hostArecordZephyrcloud%",
-            "pointsTo": "%ipZephyrcloud%",
+            "type": "CNAME",
+            "groupId": "a1Dailyai",
+            "host": "%cnameHostDailyai%",
+            "pointsTo": "%cnamePointsToDailyai%",
             "ttl": "3600"
         },
         {
-            "type": "A",
-            "groupId": "a1Zephyrcloud",
-            "host": "@",
-            "pointsTo": "%ipZephyrcloud%",
+            "type": "CNAME",
+            "groupId": "a2Dailyai",
+            "host": "%cnameHost2Dailyai%",
+            "pointsTo": "%cnamePointsTo2Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Dailyai",
+            "host": "%cnameHost3Dailyai%",
+            "pointsTo": "%cnamePointsTo3Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Dailyai",
+            "host": "%cnameHost4Dailyai%",
+            "pointsTo": "%cnamePointsTo4Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Dailyai",
+            "host": "%cnameHost5Dailyai%",
+            "pointsTo": "%cnamePointsTo5Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Dailyai",
+            "host": "%cnameHost6Dailyai%",
+            "pointsTo": "%cnamePointsTo6Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Dailyai",
+            "host": "%cnameHost7Dailyai%",
+            "pointsTo": "%cnamePointsTo6Dailyai%",
             "ttl": "3600"
         },
         {
@@ -5357,52 +5392,17 @@
             "ttl": "3600"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Dailyai",
-            "host": "%cnameHostDailyai%",
-            "pointsTo": "%cnamePointsToDailyai%",
+            "type": "A",
+            "groupId": "a1Zephyrcloud",
+            "host": "%hostArecordZephyrcloud%",
+            "pointsTo": "%ipZephyrcloud%",
             "ttl": "3600"
         },
         {
-            "type": "CNAME",
-            "groupId": "a2Dailyai",
-            "host": "%cnameHost2Dailyai%",
-            "pointsTo": "%cnamePointsTo2Dailyai%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Dailyai",
-            "host": "%cnameHost3Dailyai%",
-            "pointsTo": "%cnamePointsTo3Dailyai%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Dailyai",
-            "host": "%cnameHost4Dailyai%",
-            "pointsTo": "%cnamePointsTo4Dailyai%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Dailyai",
-            "host": "%cnameHost5Dailyai%",
-            "pointsTo": "%cnamePointsTo5Dailyai%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Dailyai",
-            "host": "%cnameHost6Dailyai%",
-            "pointsTo": "%cnamePointsTo6Dailyai%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a7Dailyai",
-            "host": "%cnameHost7Dailyai%",
-            "pointsTo": "%cnamePointsTo6Dailyai%",
+            "type": "A",
+            "groupId": "a1Zephyrcloud",
+            "host": "@",
+            "pointsTo": "%ipZephyrcloud%",
             "ttl": "3600"
         }
     ]
