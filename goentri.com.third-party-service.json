@@ -4570,6 +4570,13 @@
             "priority": 10
         },
         {
+            "type": "CNAME",
+            "groupId": "a1Bookipi",
+            "host": "%cnameHosta1Bookipi%",
+            "pointsTo": "%cnameValue1Bookipi%",
+            "ttl": 3600
+        },
+        {
             "type": "A",
             "groupId": "a1Wpengine",
             "host": "@",
@@ -4792,54 +4799,6 @@
             "host": "%cnameHostReddway%",
             "pointsTo": "%cnameValueReddway%",
             "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Palisade",
-            "host": "%CnameHostBimiPalisade%",
-            "pointsTo": "%cnamePointsToBimiPalisade%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Palisade",
-            "host": "%txtHostBimiPalisade%",
-            "ttl": 3600,
-            "data": "%txtValuebimiPalisade%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a3Palisade",
-            "host": "@",
-            "spfRules": "%spfUrlPalisade%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a4Palisade",
-            "host": "%hostDmarcPalisade%",
-            "ttl": 300,
-            "data": "%valueDmarcPalisade%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Palisade",
-            "host": "%hostDmarcPalisade%",
-            "pointsTo": "%CnameValueDmarcPalisade%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a6Palisade",
-            "host": "%hostDkimPalisade%",
-            "ttl": 300,
-            "data": "%valueDkimPalisade%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a7Palisade",
-            "host": "%CnameHostSpfPalisade%",
-            "pointsTo": "%CnameValueSpfPalisade%",
-            "ttl": 3600
         },
         {
             "type": "CNAME",
@@ -5400,23 +5359,50 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Bookipi",
-            "host": "%cnameHost1Bookipi%",
-            "pointsTo": "%cnameValue1Bookipi%",
+            "groupId": "a1Palisade",
+            "host": "%CnameHostBimiPalisade%",
+            "pointsTo": "%cnamePointsToBimiPalisade%",
             "ttl": 3600
         },
         {
-            "type": "A",
-            "groupId": "a2Bookipi",
-            "host": "%ipHost1Bookipi%",
-            "pointsTo": "%hostValue1Bookipi%",
+            "type": "TXT",
+            "groupId": "a2Palisade",
+            "host": "%txtHostBimiPalisade%",
+            "ttl": 3600,
+            "data": "%txtValuebimiPalisade%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Palisade",
+            "host": "@",
+            "spfRules": "%spfUrlPalisade%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Palisade",
+            "host": "%hostDmarcPalisade%",
+            "ttl": 300,
+            "data": "%valueDmarcPalisade%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Palisade",
+            "host": "%hostDmarcPalisade%",
+            "pointsTo": "%CnameValueDmarcPalisade%",
             "ttl": 3600
         },
         {
-            "type": "A",
-            "groupId": "a3Bookipi",
-            "host": "%ipHost1Bookipi%",
-            "pointsTo": "%hostValue2Bookipi%",
+            "type": "TXT",
+            "groupId": "a6Palisade",
+            "host": "%hostDkimPalisade%",
+            "ttl": 300,
+            "data": "%valueDkimPalisade%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Palisade",
+            "host": "%CnameHostSpfPalisade%",
+            "pointsTo": "%CnameValueSpfPalisade%",
             "ttl": 3600
         }
     ]
