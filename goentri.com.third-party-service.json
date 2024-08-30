@@ -5226,6 +5226,83 @@
         },
         {
             "type": "CNAME",
+            "groupId": "a1Tagmango",
+            "host": "%cnameHostTagmangoTagmango%",
+            "pointsTo": "%cnamePointsToTagmangoTagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Tagmango",
+            "host": "%cnameHostTagmango2Tagmango%",
+            "pointsTo": "%cnamePointsToTagmangoTagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Tagmango",
+            "host": "%arecordHostTagmango%",
+            "pointsTo": "%primaryIpTagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Tagmango",
+            "host": "%cnameHostTagmango3Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango2Tagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Tagmango",
+            "host": "%cnameHostTagmango4Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango3Tagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Tagmango",
+            "host": "%cnameHostTagmango5Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango4Tagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Tagmango",
+            "host": "%TxtHostTagmango%",
+            "ttl": "300",
+            "data": "%TxtValueTagmango%"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "www",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "www",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
             "groupId": "a1Mailerlite",
             "host": "%dkimHostMailerlite%",
             "pointsTo": "%dkimValueMailerlite%",
@@ -5327,83 +5404,6 @@
             "host": "%websiteHostMailersend%",
             "pointsTo": "%ip1MailerliteMailersend%",
             "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Tagmango",
-            "host": "%cnameHostTagmangoTagmango%",
-            "pointsTo": "%cnamePointsToTagmangoTagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Tagmango",
-            "host": "%cnameHostTagmango2Tagmango%",
-            "pointsTo": "%cnamePointsToTagmangoTagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a3Tagmango",
-            "host": "%arecordHostTagmango%",
-            "pointsTo": "%primaryIpTagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Tagmango",
-            "host": "%cnameHostTagmango3Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango2Tagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Tagmango",
-            "host": "%cnameHostTagmango4Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango3Tagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Tagmango",
-            "host": "%cnameHostTagmango5Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango4Tagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a7Tagmango",
-            "host": "%TxtHostTagmango%",
-            "ttl": "300",
-            "data": "%TxtValueTagmango%"
         }
     ]
 }
