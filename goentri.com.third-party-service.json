@@ -5237,7 +5237,7 @@
             "host": "%websiteHostMailersend%",
             "pointsTo": "%ip1Mailersend%",
             "ttl": "300"
-        }
+        },
         {
             "type": "CNAME",
             "groupId": "a1Mailerlite",
@@ -5292,7 +5292,7 @@
             "host": "%TxtHostMailerlite%",
             "ttl": "300",
             "data": "%TxtValueMailerlite%"
-        }
+        },
         {
             "type": "CNAME",
             "groupId": "a1Beehiiv",
