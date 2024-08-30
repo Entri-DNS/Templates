@@ -1435,6 +1435,20 @@
             "ttl": "3600"
         },
         {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
             "type": "CNAME",
             "groupId": "a1Prometheus",
             "host": "%customDomain1Prometheus%",
@@ -5115,6 +5129,13 @@
         },
         {
             "type": "TXT",
+            "groupId": "a7Tagmango",
+            "host": "%TxtHostTagmango%",
+            "ttl": "300",
+            "data": "%TxtValueTagmango%"
+        },
+        {
+            "type": "TXT",
             "groupId": "a1Omnisend",
             "host": "%dkimHostOmnisend%",
             "ttl": "300",
@@ -5211,6 +5232,13 @@
             "spfRules": "%spfValueMailersend%"
         },
         {
+            "type": "A",
+            "groupId": "a7Mailersend",
+            "host": "%websiteHostMailersend%",
+            "pointsTo": "%ip1Mailersend%",
+            "ttl": "300"
+        }
+        {
             "type": "CNAME",
             "groupId": "a1Mailerlite",
             "host": "%dkimHostMailerlite%",
@@ -5258,6 +5286,13 @@
             "host": "%spfHost2Mailerlite%",
             "spfRules": "%spfValue2Mailerlite%"
         },
+        {
+            "type": "TXT",
+            "groupId": "a8Mailerlite",
+            "host": "%TxtHostMailerlite%",
+            "ttl": "300",
+            "data": "%TxtValueMailerlite%"
+        }
         {
             "type": "CNAME",
             "groupId": "a1Beehiiv",
@@ -5404,6 +5439,69 @@
             "host": "%TxtHost11Easyling%",
             "ttl": "300",
             "data": "%TxtValue11Easyling%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Dailyai",
+            "host": "%cnameHostDailyai%",
+            "pointsTo": "%cnamePointsToDailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Dailyai",
+            "host": "%cnameHost2Dailyai%",
+            "pointsTo": "%cnamePointsTo2Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Dailyai",
+            "host": "%cnameHost3Dailyai%",
+            "pointsTo": "%cnamePointsTo3Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Dailyai",
+            "host": "%cnameHost4Dailyai%",
+            "pointsTo": "%cnamePointsTo4Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Dailyai",
+            "host": "%cnameHost5Dailyai%",
+            "pointsTo": "%cnamePointsTo5Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Dailyai",
+            "host": "%cnameHost6Dailyai%",
+            "pointsTo": "%cnamePointsTo6Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Dailyai",
+            "host": "%cnameHost7Dailyai%",
+            "pointsTo": "%cnamePointsTo7Dailyai%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Zephyrcloud",
+            "host": "%hostArecordZephyrcloud%",
+            "pointsTo": "%ipZephyrcloud%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Zephyrcloud",
+            "host": "@",
+            "pointsTo": "%ipZephyrcloud%",
+            "ttl": "3600"
         }
     ]
 }
