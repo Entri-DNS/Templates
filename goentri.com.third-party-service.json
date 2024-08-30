@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 70,
+    "version": 71,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5365,34 +5365,6 @@
         },
         {
             "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
             "groupId": "a1Zephyrcloud",
             "host": "%hostArecordZephyrcloud%",
             "pointsTo": "%ipZephyrcloud%",
@@ -5404,6 +5376,48 @@
             "host": "@",
             "pointsTo": "%ipZephyrcloud%",
             "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "www",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "www",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "groupId": "a2Pressable",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": 3600
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": 3600
         }
     ]
 }
