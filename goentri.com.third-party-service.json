@@ -5431,7 +5431,7 @@
             "groupId": "a1Kiwify",
             "host": "%cnameHostKiwify%",
             "pointsTo": "%cnameValueKiwify%",
-            "ttl": 3600
+            "ttl": "3600"
         }
     ]
 }
