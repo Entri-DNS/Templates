@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 74,
+    "version": 75,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5425,6 +5425,13 @@
             "pointsTo": "%cnameValueTripod%",
             "groupId": "a3Tripod",
             "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Kiwify",
+            "host": "%cnameHostKiwify%",
+            "pointsTo": "%cnameValueKiwify%",
+            "ttl": 3600
         }
     ]
 }
