@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 76,
+    "version": 77,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5407,27 +5407,6 @@
         },
         {
             "type": "CNAME",
-            "host": "*",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a1Tripod",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "host": "www",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a2Tripod",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "host": "@",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a3Tripod",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
             "groupId": "a1Kiwify",
             "host": "%cnameHostKiwify%",
             "pointsTo": "%cnameValueKiwify%",
@@ -5452,6 +5431,34 @@
             "groupId": "a1Getresponse",
             "host": "@",
             "spfRules": "%thirdPartyDomainGetresponse%"
+        },
+        {
+            "type": "CNAME",
+            "host": "*",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a1Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a2Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHostTripod%",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a3Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "host": "%hostValueTripod%",
+            "pointsTo": "%ipAddressTripod%",
+            "groupId": "a4Tripod",
+            "ttl": 300
         }
     ]
 }
