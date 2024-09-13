@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 70,
+    "version": 71,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5573,31 +5573,31 @@
         },
         {
             "type": "CNAME",
+            "groupId": "a1Tripod",
             "host": "*",
             "pointsTo": "%cnameValueTripod%",
-            "groupId": "a1Tripod",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
+            "groupId": "a2Tripod",
             "host": "www",
             "pointsTo": "%cnameValueTripod%",
-            "groupId": "a2Tripod",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "CNAME",
+            "groupId": "a3Tripod",
             "host": "%cnameHostTripod%",
             "pointsTo": "%cnameValueTripod%",
-            "groupId": "a3Tripod",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "A",
+            "groupId": "a4Tripod",
             "host": "%hostValueTripod%",
             "pointsTo": "%ipAddressTripod%",
-            "groupId": "a4Tripod",
-            "ttl": 300
+            "ttl": "300"
         }
     ]
 }
