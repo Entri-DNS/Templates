@@ -5464,29 +5464,29 @@
             "type": "TXT",
             "groupId": "a1Wishpond",
             "host": "@",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%wishpondCodeWishpond%"
         },
         {
             "type": "CNAME",
             "groupId": "a2Wishpond",
             "host": "%wishpondHostWishpond%",
-            "ttl": 300,
-            "pointsTo": "%wishpondValueWishpond%"
+            "pointsTo": "%wishpondValueWishpond%",
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a3Wishpond",
             "host": "%dkimHost1Wishpond%",
-            "ttl": 300,
-            "pointsTo": "%dkimValue1Wishpond%"
+            "pointsTo": "%dkimValue1Wishpond%",
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a4Wishpond",
             "host": "%dkimHost2Wishpond%",
-            "ttl": 300,
-            "pointsTo": "%dkimValue2Wishpond%"
+            "pointsTo": "%dkimValue2Wishpond%",
+            "ttl": "300"
         },
         {
             "type": "SPFM",
@@ -5498,7 +5498,7 @@
             "type": "TXT",
             "groupId": "a6Wishpond",
             "host": "%txtHostWishpond%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%txtValueWishpond%"
         }
     ]
