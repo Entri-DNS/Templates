@@ -5406,11 +5406,24 @@
             "ttl": "3600"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Kiwify",
-            "host": "%cnameHostKiwify%",
-            "pointsTo": "%cnameValueKiwify%",
-            "ttl": "3600"
+            "type": "TXT",
+            "groupId": "a2Getresponse",
+            "host": "%dmarcHostGetresponse%",
+            "ttl": "300",
+            "data": "%dmarcValueGetresponse%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Getresponse",
+            "host": "%dkimHostGetresponse%",
+            "ttl": "300",
+            "data": "%dkimValueGetresponse%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Getresponse",
+            "host": "@",
+            "spfRules": "%thirdPartyDomainGetresponse%"
         },
         {
             "type": "CNAME",
@@ -5482,24 +5495,11 @@
             "data": "%txtValueWishpond%"
         },
         {
-            "type": "TXT",
-            "groupId": "a2Getresponse",
-            "host": "%dmarcHostGetresponse%",
-            "ttl": "300",
-            "data": "%dmarcValueGetresponse%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Getresponse",
-            "host": "%dkimHostGetresponse%",
-            "ttl": "300",
-            "data": "%dkimValueGetresponse%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a1Getresponse",
-            "host": "@",
-            "spfRules": "%thirdPartyDomainGetresponse%"
+            "type": "CNAME",
+            "groupId": "a1Kiwify",
+            "host": "%cnameHostKiwify%",
+            "pointsTo": "%cnameValueKiwify%",
+            "ttl": "3600"
         }
     ]
 }
