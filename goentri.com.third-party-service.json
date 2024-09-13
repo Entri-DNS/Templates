@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 77,
+    "version": 78,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5459,6 +5459,47 @@
             "pointsTo": "%ipAddressTripod%",
             "groupId": "a4Tripod",
             "ttl": 300
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Wishpond",
+            "host": "@",
+            "ttl": 300,
+            "data": "%wishpondCodeWishpond%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Wishpond",
+            "host": "%wishpondHostWishpond%",
+            "ttl": 300,
+            "pointsTo": "%wishpondValueWishpond%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Wishpond",
+            "host": "%dkimHost1Wishpond%",
+            "ttl": 300,
+            "pointsTo": "%dkimValue1Wishpond%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Wishpond",
+            "host": "%dkimHost2Wishpond%",
+            "ttl": 300,
+            "pointsTo": "%dkimValue2Wishpond%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a5Wishpond",
+            "host": "@",
+            "spfRules": "%thirdPartyDomainWishpond%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Wishpond",
+            "host": "%txtHostWishpond%",
+            "ttl": 300,
+            "data": "%txtValueWishpond%"
         }
     ]
 }
