@@ -5406,6 +5406,13 @@
             "ttl": "3600"
         },
         {
+            "type": "CNAME",
+            "groupId": "a1Kiwify",
+            "host": "%cnameHostKiwify%",
+            "pointsTo": "%cnameValueKiwify%",
+            "ttl": "3600"
+        },
+        {
             "type": "TXT",
             "groupId": "a2Getresponse",
             "host": "%dmarcHostGetresponse%",
@@ -5424,34 +5431,6 @@
             "groupId": "a1Getresponse",
             "host": "@",
             "spfRules": "%thirdPartyDomainGetresponse%"
-        },
-        {
-            "type": "CNAME",
-            "host": "*",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a1Tripod",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "host": "www",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a2Tripod",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "host": "%cnameHostTripod%",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a3Tripod",
-            "ttl": 300
-        },
-        {
-            "type": "A",
-            "host": "%hostValueTripod%",
-            "pointsTo": "%ipAddressTripod%",
-            "groupId": "a4Tripod",
-            "ttl": 300
         },
         {
             "type": "TXT",
@@ -5496,10 +5475,31 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Kiwify",
-            "host": "%cnameHostKiwify%",
-            "pointsTo": "%cnameValueKiwify%",
-            "ttl": "3600"
+            "host": "*",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a1Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a2Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHostTripod%",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a3Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "host": "%hostValueTripod%",
+            "pointsTo": "%ipAddressTripod%",
+            "groupId": "a4Tripod",
+            "ttl": 300
         }
     ]
 }
