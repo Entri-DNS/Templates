@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 79,
+    "version": 80,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -2527,41 +2527,6 @@
             "data": "%txtVerilinks%"
         },
         {
-            "type": "A",
-            "groupId": "a1Webflow",
-            "host": "@",
-            "pointsTo": "%primaryIpWebflow%",
-            "ttl": 3600
-        },
-        {
-            "type": "A",
-            "groupId": "a1Webflow",
-            "host": "@",
-            "pointsTo": "%primaryIp2Webflow%",
-            "ttl": 3600
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Webflow",
-            "host": "www",
-            "pointsTo": "%proxySslUrlWebflow%",
-            "ttl": 3600
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Webflow",
-            "host": "%txtValueWebflow%",
-            "ttl": 3600,
-            "data": "%txtWebflow%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Webflow",
-            "host": "%subdomainWebflow%",
-            "pointsTo": "%proxySslUrlWebflow%",
-            "ttl": 3600
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Activecampaign",
             "host": "%hostCname1Activecampaign%",
@@ -4570,13 +4535,6 @@
             "priority": 10
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Bookipi",
-            "host": "%cnameHosta1Bookipi%",
-            "pointsTo": "%cnameValue1Bookipi%",
-            "ttl": 3600
-        },
-        {
             "type": "A",
             "groupId": "a1Wpengine",
             "host": "@",
@@ -5023,83 +4981,6 @@
             "ttl": 300
         },
         {
-            "type": "A",
-            "groupId": "a1Easyling",
-            "host": "%AHostValueEasyling%",
-            "pointsTo": "%IpValueEasyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Easyling",
-            "host": "%CnameHost2Easyling%",
-            "pointsTo": "%CnameValue2Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Easyling",
-            "host": "%CnameHost3Easyling%",
-            "pointsTo": "%CnameValue3Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Easyling",
-            "host": "%CnameHost4Easyling%",
-            "pointsTo": "%CnameValue4Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Easyling",
-            "host": "%CnameHost5Easyling%",
-            "pointsTo": "%CnameValue5Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Easyling",
-            "host": "%CnameHost6Easyling%",
-            "pointsTo": "%CnameValue6Easyling%",
-            "ttl": 300
-        },
-        {
-            "type": "TXT",
-            "groupId": "a7Easyling",
-            "host": "%TxtHost7Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue7Easyling%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a8Easyling",
-            "host": "%TxtHost8Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue8Easyling%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a9Easyling",
-            "host": "%TxtHost9Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue9Easyling%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a10Easyling",
-            "host": "%TxtHost10Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue10Easyling%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a11Easyling",
-            "host": "%TxtHost11Easyling%",
-            "ttl": 300,
-            "data": "%TxtValue11Easyling%"
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Swell",
             "host": "%cnameHostSwell%",
@@ -5160,187 +5041,6 @@
             "groupId": "a7Dailyai",
             "host": "%cnameHost7Dailyai%",
             "pointsTo": "%cnamePointsTo6Dailyai%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Mailerlite",
-            "host": "%dkimHostMailerlite%",
-            "pointsTo": "%dkimValueMailerlite%",
-            "ttl": "300"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a2Mailerlite",
-            "host": "%spfHost1Mailerlite%",
-            "spfRules": "%spfValue1Mailerlite%"
-        },
-        {
-            "type": "A",
-            "groupId": "a3Mailerlite",
-            "host": "%websiteHost1Mailerlite%",
-            "pointsTo": "%ip1MailerliteMailerlite%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Mailerlite",
-            "host": "%cnameHostMailerlite%",
-            "pointsTo": "%cnameValueMailerlite%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a5Mailerlite",
-            "host": "%websiteHost2Mailerlite%",
-            "pointsTo": "%ip2MailerliteMailerlite%",
-            "ttl": "300"
-        },
-        {
-            "type": "MX",
-            "groupId": "a6Mailerlite",
-            "host": "%mxHostMailerlite%",
-            "pointsTo": "%mxValueMailerlite%",
-            "ttl": "300",
-            "priority": "10"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a7Mailerlite",
-            "host": "%spfHost2Mailerlite%",
-            "spfRules": "%spfValue2Mailerlite%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a8Mailerlite",
-            "host": "%TxtHostMailerlite%",
-            "ttl": "300",
-            "data": "%TxtValueMailerlite%"
-        },
-        {
-            "type": "MX",
-            "groupId": "a1Mailersend",
-            "host": "%MxHostMailersend%",
-            "pointsTo": "%MxValueMailersend%",
-            "ttl": "300",
-            "priority": "10"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Mailersend",
-            "host": "%CnameHost1Mailersend%",
-            "pointsTo": "%CnameValue1Mailersend%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Mailersend",
-            "host": "%CnameHost2Mailersend%",
-            "pointsTo": "%CnameValue2Mailersend%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Mailersend",
-            "host": "%CnameHost3Mailersend%",
-            "pointsTo": "%CnameValue3Mailersend%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a5Mailersend",
-            "host": "%TxtHostMailersend%",
-            "ttl": "300",
-            "data": "%TxtValueMailersend%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a6Mailersend",
-            "host": "%spfHostMailersend%",
-            "spfRules": "%spfValueMailersend%"
-        },
-        {
-            "type": "A",
-            "groupId": "a7Mailersend",
-            "host": "%websiteHostMailersend%",
-            "pointsTo": "%ip1MailerliteMailersend%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Tagmango",
-            "host": "%cnameHostTagmangoTagmango%",
-            "pointsTo": "%cnamePointsToTagmangoTagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Tagmango",
-            "host": "%cnameHostTagmango2Tagmango%",
-            "pointsTo": "%cnamePointsToTagmangoTagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a3Tagmango",
-            "host": "%arecordHostTagmango%",
-            "pointsTo": "%primaryIpTagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Tagmango",
-            "host": "%cnameHostTagmango3Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango2Tagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Tagmango",
-            "host": "%cnameHostTagmango4Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango3Tagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Tagmango",
-            "host": "%cnameHostTagmango5Tagmango%",
-            "pointsTo": "%cnamePointsToTagmango4Tagmango%",
-            "ttl": "3600"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a7Tagmango",
-            "host": "%TxtHostTagmango%",
-            "ttl": "300",
-            "data": "%TxtValueTagmango%"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress2Pressable%",
             "ttl": "3600"
         },
         {
@@ -5475,31 +5175,345 @@
         },
         {
             "type": "CNAME",
-            "host": "*",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a1Tripod",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "host": "www",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a2Tripod",
-            "ttl": 300
-        },
-        {
-            "type": "CNAME",
-            "host": "%cnameHostTripod%",
-            "pointsTo": "%cnameValueTripod%",
-            "groupId": "a3Tripod",
-            "ttl": 300
+            "groupId": "a1Bookipi",
+            "host": "%cnameHosta1Bookipi%",
+            "pointsTo": "%cnameValue1Bookipi%",
+            "ttl": "3600"
         },
         {
             "type": "A",
+            "groupId": "a1Easyling",
+            "host": "%AHostValueEasyling%",
+            "pointsTo": "%IpValueEasyling%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Easyling",
+            "host": "%CnameHostEasyling%",
+            "pointsTo": "%CnameValueEasyling%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": "300",
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": "300",
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": "300",
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": "300",
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Easyling",
+            "host": "%TxtHostEasyling%",
+            "ttl": "300",
+            "data": "%TxtValueEasyling%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Lodgify",
+            "host": "%CnameHostLodgify%",
+            "pointsTo": "%CnameValueLodgify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Lodgify",
+            "host": "%CnameHostLodgify%",
+            "pointsTo": "%CnameValueLodgify%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Lodgify",
+            "host": "%TxtHostLodgify%",
+            "ttl": "300",
+            "data": "%TxtValueLodgify%"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Lodgify",
+            "host": "%IPhost1Lodgify%",
+            "pointsTo": "%IPvalueLodgify%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a5Lodgify",
+            "host": "%IPhost2Lodgify%",
+            "pointsTo": "%IPvalueLodgify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Mailerlite",
+            "host": "%dkimHostMailerlite%",
+            "pointsTo": "%dkimValueMailerlite%",
+            "ttl": "300"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Mailerlite",
+            "host": "%spfHost1Mailerlite%",
+            "spfRules": "%spfValue1Mailerlite%"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Mailerlite",
+            "host": "%websiteHost1Mailerlite%",
+            "pointsTo": "%ip1MailerliteMailerlite%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Mailerlite",
+            "host": "%cnameHostMailerlite%",
+            "pointsTo": "%cnameValueMailerlite%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a5Mailerlite",
+            "host": "%websiteHost2Mailerlite%",
+            "pointsTo": "%ip2MailerliteMailerlite%",
+            "ttl": "300"
+        },
+        {
+            "type": "MX",
+            "groupId": "a6Mailerlite",
+            "host": "%mxHostMailerlite%",
+            "pointsTo": "%mxValueMailerlite%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a7Mailerlite",
+            "host": "%spfHost2Mailerlite%",
+            "spfRules": "%spfValue2Mailerlite%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a1Mailersend",
+            "host": "%MxHostMailersend%",
+            "pointsTo": "%MxValueMailersend%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Mailersend",
+            "host": "%CnameHost1Mailersend%",
+            "pointsTo": "%CnameValue1Mailersend%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Mailersend",
+            "host": "%CnameHost2Mailersend%",
+            "pointsTo": "%CnameValue2Mailersend%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Mailersend",
+            "host": "%CnameHost3Mailersend%",
+            "pointsTo": "%CnameValue3Mailersend%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Mailersend",
+            "host": "%TxtHostMailersend%",
+            "ttl": "300",
+            "data": "%TxtValueMailersend%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a6Mailersend",
+            "host": "%spfHostMailersend%",
+            "spfRules": "%spfValueMailersend%"
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600",
+            "groupId": "a1Pressable"
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600",
+            "groupId": "a1Pressable"
+        },
+        {
+            "type": "A",
+            "host": "www",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600",
+            "groupId": "a1Pressable"
+        },
+        {
+            "type": "A",
+            "host": "www",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600",
+            "groupId": "a1Pressable"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Tagmango",
+            "host": "%cnameHostTagmangoTagmango%",
+            "pointsTo": "%cnamePointsToTagmangoTagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Tagmango",
+            "host": "%cnameHostTagmango2Tagmango%",
+            "pointsTo": "%cnamePointsToTagmangoTagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Tagmango",
+            "host": "%arecordHostTagmango%",
+            "pointsTo": "%primaryIpTagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Tagmango",
+            "host": "%cnameHostTagmango3Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango2Tagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Tagmango",
+            "host": "%cnameHostTagmango4Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango3Tagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Tagmango",
+            "host": "%cnameHostTagmango5Tagmango%",
+            "pointsTo": "%cnamePointsToTagmango4Tagmango%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Tripod",
+            "host": "*",
+            "pointsTo": "%cnameValueTripod%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Tripod",
+            "host": "www",
+            "pointsTo": "%cnameValueTripod%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Tripod",
+            "host": "%cnameHostTripod%",
+            "pointsTo": "%cnameValueTripod%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Tripod",
             "host": "%hostValueTripod%",
             "pointsTo": "%ipAddressTripod%",
-            "groupId": "a4Tripod",
-            "ttl": 300
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Webflow",
+            "host": "@",
+            "pointsTo": "%primaryIpWebflowWebflow%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Webflow",
+            "host": "@",
+            "pointsTo": "%primaryIp2WebflowWebflow%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Webflow",
+            "host": "www",
+            "pointsTo": "%proxySslUrlWebflowWebflow%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Webflow",
+            "host": "%txtValueWebflowWebflow%",
+            "ttl": "3600",
+            "data": "%txtWebflowWebflow%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Webflow",
+            "host": "%subdomainWebflowWebflow%",
+            "pointsTo": "%proxySslUrlWebflowWebflow%",
+            "ttl": "3600"
         }
     ]
 }
