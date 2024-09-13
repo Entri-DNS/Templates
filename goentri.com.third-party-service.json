@@ -5502,6 +5502,102 @@
             "host": "@",
             "pointsTo": "%ipZephyrcloud%",
             "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Wishpond",
+            "host": "@",
+            "ttl": "300",
+            "data": "%wishpondCodeWishpond%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Wishpond",
+            "host": "%wishpondHostWishpond%",
+            "pointsTo": "%wishpondValueWishpond%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Wishpond",
+            "host": "%dkimHost1Wishpond%",
+            "pointsTo": "%dkimValue1Wishpond%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Wishpond",
+            "host": "%dkimHost2Wishpond%",
+            "pointsTo": "%dkimValue2Wishpond%",
+            "ttl": "300"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a5Wishpond",
+            "host": "@",
+            "spfRules": "%thirdPartyDomainWishpond%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Wishpond",
+            "host": "%txtHostWishpond%",
+            "ttl": "300",
+            "data": "%txtValueWishpond%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Getresponse",
+            "host": "%dmarcHostGetresponse%",
+            "ttl": "300",
+            "data": "%dmarcValueGetresponse%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Getresponse",
+            "host": "%dkimHostGetresponse%",
+            "ttl": "300",
+            "data": "%dkimValueGetresponse%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Getresponse",
+            "host": "@",
+            "spfRules": "%thirdPartyDomainGetresponse%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Kiwify",
+            "host": "%cnameHostKiwify%",
+            "pointsTo": "%cnameValueKiwify%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "host": "*",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a1Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a2Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHostTripod%",
+            "pointsTo": "%cnameValueTripod%",
+            "groupId": "a3Tripod",
+            "ttl": 300
+        },
+        {
+            "type": "A",
+            "host": "%hostValueTripod%",
+            "pointsTo": "%ipAddressTripod%",
+            "groupId": "a4Tripod",
+            "ttl": 300
         }
     ]
 }
