@@ -5413,26 +5413,6 @@
             "ttl": "3600"
         },
         {
-            "type": "TXT",
-            "groupId": "a2Getresponse",
-            "host": "%dmarcHostGetresponse%",
-            "ttl": "300",
-            "data": "%dmarcValueGetresponse%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Getresponse",
-            "host": "%dkimHostGetresponse%",
-            "ttl": "300",
-            "data": "%dkimValueGetresponse%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a1Getresponse",
-            "host": "@",
-            "spfRules": "%thirdPartyDomainGetresponse%"
-        },
-        {
             "type": "CNAME",
             "host": "*",
             "pointsTo": "%cnameValueTripod%",
@@ -5500,6 +5480,26 @@
             "host": "%txtHostWishpond%",
             "ttl": "300",
             "data": "%txtValueWishpond%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Getresponse",
+            "host": "%dmarcHostGetresponse%",
+            "ttl": "300",
+            "data": "%dmarcValueGetresponse%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Getresponse",
+            "host": "%dkimHostGetresponse%",
+            "ttl": "300",
+            "data": "%dkimValueGetresponse%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Getresponse",
+            "host": "@",
+            "spfRules": "%thirdPartyDomainGetresponse%"
         }
     ]
 }
