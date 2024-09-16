@@ -5519,15 +5519,15 @@
             "type": "CNAME",
             "groupId": "a1Stape",
             "host": "%cnameHostStape%",
-            "ttl": 300,
-            "pointsTo": "%cnameValueStape%"
+            "pointsTo": "%cnameValueStape%",
+            "ttl": "300"
         },
         {
             "type": "CNAME",
             "groupId": "a2Stape",
             "host": "%cnameHost2Stape%",
-            "ttl": 300,
-            "pointsTo": "%cnameValue2Stape%"
+            "pointsTo": "%cnameValue2Stape%",
+            "ttl": "300"
         },
         {
             "type": "A",
