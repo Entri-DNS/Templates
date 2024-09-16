@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 80,
+    "version": 81,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5513,6 +5513,34 @@
             "groupId": "a3Webflow",
             "host": "%subdomainWebflowWebflow%",
             "pointsTo": "%proxySslUrlWebflowWebflow%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Stape",
+            "host": "%cnameHostStape%",
+            "ttl": 300,
+            "pointsTo": "%cnameValueStape%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Stape",
+            "host": "%cnameHost2Stape%",
+            "ttl": 300,
+            "pointsTo": "%cnameValue2Stape%"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Stape",
+            "host": "@",
+            "pointsTo": "%ipAdressStape%",
+            "ttl": "3600"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a4Stape",
+            "host": "@",
+            "pointsTo": "%pointsToStape%",
             "ttl": "3600"
         }
     ]
