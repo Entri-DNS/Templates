@@ -5547,8 +5547,8 @@
             "type": "CNAME",
             "groupId": "a1Ycode",
             "host": "%cnameHostYcode%",
-            "ttl": 300,
-            "pointsTo": "%cnameValueYcode%"
+            "pointsTo": "%cnameValueYcode%",
+            "ttl": "300"
         },
         {
             "type": "A",
