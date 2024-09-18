@@ -5625,14 +5625,14 @@
             "groupId": "a1Butternutai",
             "host": "@",
             "pointsTo": "%ip1Butternutai%",
-            "ttl": 300
+            "ttl": "300"
         },
         {
             "type": "A",
             "groupId": "a2Butternutai",
             "host": "www",
             "pointsTo": "%ip1Butternutai%",
-            "ttl": 300
+            "ttl": "300"
         }
     ]
 }
