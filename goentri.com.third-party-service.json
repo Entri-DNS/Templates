@@ -5561,35 +5561,35 @@
             "type": "CNAME",
             "groupId": "a1Haleymarketing",
             "host": "%cnameHostHaleymarketing%",
-            "ttl": 300,
-            "pointsTo": "%cnameValueHaleymarketing%"
+            "pointsTo": "%cnameValueHaleymarketing%",
+            "ttl": "300"
         },
         {
             "type": "A",
             "groupId": "a2Haleymarketing",
             "host": "@",
             "pointsTo": "%ipAdressHaleymarketing%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "A",
             "groupId": "a2Haleymarketing",
             "host": "@",
             "pointsTo": "%ipAdress2Haleymarketing%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "TXT",
             "groupId": "a3Haleymarketing",
             "host": "%txHostHaleymarketing%",
-            "ttl": 3600,
+            "ttl": "3600",
             "data": "%txtValueHaleymarketing%"
         },
         {
             "type": "TXT",
             "groupId": "a4Haleymarketing",
             "host": "%txHost2Haleymarketing%",
-            "ttl": 3600,
+            "ttl": "3600",
             "data": "%txtValue2Haleymarketing%"
         }
     ]
