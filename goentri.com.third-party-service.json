@@ -5626,6 +5626,27 @@
             "host": "%txtHost2Marketingstar%",
             "ttl": "300",
             "data": "%txtValue2Marketingstar%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Mehub",
+            "host": "%host1Mehub%",
+            "pointsTo": "%pointsToMehubMehub%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Mehub",
+            "host": "%host2Mehub%",
+            "pointsTo": "%IpMehubMehub%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Mehub",
+            "host": "%host3Mehub%",
+            "pointsTo": "%IpMehubMehub%",
+            "ttl": "300"
         }
     ]
 }
