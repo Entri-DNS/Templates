@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 72,
+    "version": 71,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5601,38 +5601,17 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Haleymarketing",
-            "host": "%cnameHostHaleymarketing%",
-            "pointsTo": "%cnameValueHaleymarketing%",
+            "groupId": "a1Ycode",
+            "host": "%cnameHostYcode%",
+            "pointsTo": "%cnameValueYcode%",
             "ttl": "300"
         },
         {
             "type": "A",
-            "groupId": "a2Haleymarketing",
+            "groupId": "a2Ycode",
             "host": "@",
-            "pointsTo": "%ipAdressHaleymarketing%",
+            "pointsTo": "%ipAdressYcode%",
             "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Haleymarketing",
-            "host": "@",
-            "pointsTo": "%ipAdress2Haleymarketing%",
-            "ttl": "3600"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Haleymarketing",
-            "host": "%txHostHaleymarketing%",
-            "ttl": "3600",
-            "data": "%txtValueHaleymarketing%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a4Haleymarketing",
-            "host": "%txHost2Haleymarketing%",
-            "ttl": "3600",
-            "data": "%txtValue2Haleymarketing%"
         }
     ]
 }
