@@ -5612,6 +5612,20 @@
             "host": "@",
             "pointsTo": "%ipAdressYcode%",
             "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Marketingstar",
+            "host": "%txtHostMarketingstar%",
+            "ttl": "300",
+            "data": "%txtValueMarketingstar%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Marketingstar",
+            "host": "%txtHost2Marketingstar%",
+            "ttl": "300",
+            "data": "%txtValue2Marketingstar%"
         }
     ]
 }
