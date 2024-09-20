@@ -5689,6 +5689,34 @@
             "host": "@",
             "pointsTo": "%ipAdressYcode%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Stape",
+            "host": "%cnameHostStape%",
+            "pointsTo": "%cnameValueStape%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Stape",
+            "host": "%cnameHost2Stape%",
+            "pointsTo": "%cnameValue2Stape%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Stape",
+            "host": "@",
+            "pointsTo": "%ipAdressStape%",
+            "ttl": "3600"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a4Stape",
+            "host": "@",
+            "pointsTo": "%pointsToStape%",
+            "ttl": "3600"
         }
     ]
 }
