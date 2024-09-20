@@ -5600,20 +5600,6 @@
             "ttl": "300"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Ycode",
-            "host": "%cnameHostYcode%",
-            "pointsTo": "%cnameValueYcode%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Ycode",
-            "host": "@",
-            "pointsTo": "%ipAdressYcode%",
-            "ttl": "3600"
-        },
-        {
             "type": "TXT",
             "groupId": "a1Marketingstar",
             "host": "%txtHostMarketingstar%",
@@ -5689,6 +5675,20 @@
             "host": "www",
             "pointsTo": "%ip1Butternutai%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Ycode",
+            "host": "%cnameHostYcode%",
+            "pointsTo": "%cnameValueYcode%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Ycode",
+            "host": "@",
+            "pointsTo": "%ipAdressYcode%",
+            "ttl": "3600"
         }
     ]
 }
