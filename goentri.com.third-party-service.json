@@ -5724,6 +5724,50 @@
             "host": "%txtHostEdrone%",
             "ttl": "300",
             "data": "%txtValueEdrone%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Resulticks",
+            "host": "%txtHostResulticks%",
+            "ttl": "300",
+            "data": "%txtValueResulticks%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Resulticks",
+            "host": "%txtHost2Resulticks%",
+            "ttl": "300",
+            "data": "%txtValue2Resulticks%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Resulticks",
+            "host": "%txtHost3Resulticks%",
+            "ttl": "300",
+            "data": "%txtValue3Resulticks%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a4Resulticks",
+            "host": "%mxHostResulticks%",
+            "pointsTo": "%mxValueResulticks%",
+            "ttl": "300",
+            "priority": "5"
+        },
+        {
+            "type": "MX",
+            "groupId": "a5Resulticks",
+            "host": "%mxHost2Resulticks%",
+            "pointsTo": "%mxValue2Resulticks%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Resulticks",
+            "host": "%cnameHostResulticks%",
+            "pointsTo": "%cnamePointsToResulticks%",
+            "ttl": "3600"
         }
     ]
 }
