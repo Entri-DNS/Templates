@@ -5635,34 +5635,6 @@
             "ttl": "300"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Edrone",
-            "host": "%cnameHostEdrone%",
-            "pointsTo": "%cnameValueEdrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Edrone",
-            "host": "%cnameHost2Edrone%",
-            "pointsTo": "%cnameValue2Edrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Edrone",
-            "host": "%cnameHost3Edrone%",
-            "pointsTo": "%cnameValue3Edrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a6Edrone",
-            "host": "%txtHostEdrone%",
-            "ttl": "300",
-            "data": "%txtValueEdrone%"
-        },
-        {
             "type": "A",
             "groupId": "a1Butternutai",
             "host": "@",
@@ -5717,6 +5689,41 @@
             "host": "@",
             "pointsTo": "%pointsToStape%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Edrone",
+            "host": "%cnameHostEdrone%",
+            "pointsTo": "%cnameValueEdrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Edrone",
+            "host": "%cnameHost2Edrone%",
+            "pointsTo": "%cnameValue2Edrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Edrone",
+            "host": "%cnameHost3Edrone%",
+            "pointsTo": "%cnameValue3Edrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Edrone",
+            "host": "%txtHost2Edrone%",
+            "ttl": "300",
+            "data": "%txtValue3Edrone%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Edrone",
+            "host": "%txtHostEdrone%",
+            "ttl": "300",
+            "data": "%txtValueEdrone%"
         }
     ]
 }
