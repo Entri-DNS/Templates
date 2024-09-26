@@ -5782,6 +5782,34 @@
             "pointsTo": "%ipAdressBeacons%",
             "ttl": "3600",
             "groupId": "a1Beacons"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Fanflowy",
+            "host": "@",
+            "pointsTo": "%pointstoIpFanflowy%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Fanflowy",
+            "host": "%cnameHost1Fanflowy%",
+            "pointsTo": "%cnamePointsto1Fanflowy%",
+            "ttl": "3600"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Fanflowy",
+            "host": "@",
+            "ttl": "3600",
+            "spfRules": "include:mailgun.org"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Fanflowy",
+            "host": "%dkimhostFanflowy%",
+            "ttl": "3600",
+            "data": "%dkimhostpointstoFanflowy%"
         }
     ]
 }
