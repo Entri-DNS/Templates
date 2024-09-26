@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 79,
+    "version": 80,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5635,34 +5635,6 @@
             "ttl": "300"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Edrone",
-            "host": "%cnameHostEdrone%",
-            "pointsTo": "%cnameValueEdrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Edrone",
-            "host": "%cnameHost2Edrone%",
-            "pointsTo": "%cnameValue2Edrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Edrone",
-            "host": "%cnameHost3Edrone%",
-            "pointsTo": "%cnameValue3Edrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a6Edrone",
-            "host": "%txtHostEdrone%",
-            "ttl": "300",
-            "data": "%txtValueEdrone%"
-        },
-        {
             "type": "A",
             "groupId": "a1Butternutai",
             "host": "@",
@@ -5716,6 +5688,85 @@
             "groupId": "a4Stape",
             "host": "@",
             "pointsTo": "%pointsToStape%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Edrone",
+            "host": "%cnameHostEdrone%",
+            "pointsTo": "%cnameValueEdrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Edrone",
+            "host": "%cnameHost2Edrone%",
+            "pointsTo": "%cnameValue2Edrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Edrone",
+            "host": "%cnameHost3Edrone%",
+            "pointsTo": "%cnameValue3Edrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Edrone",
+            "host": "%txtHost2Edrone%",
+            "ttl": "300",
+            "data": "%txtValue3Edrone%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Edrone",
+            "host": "%txtHostEdrone%",
+            "ttl": "300",
+            "data": "%txtValueEdrone%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Resulticks",
+            "host": "%txtHostResulticks%",
+            "ttl": "300",
+            "data": "%txtValueResulticks%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Resulticks",
+            "host": "%txtHost2Resulticks%",
+            "ttl": "300",
+            "data": "%txtValue2Resulticks%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Resulticks",
+            "host": "%txtHost3Resulticks%",
+            "ttl": "300",
+            "data": "%txtValue3Resulticks%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a4Resulticks",
+            "host": "%mxHostResulticks%",
+            "pointsTo": "%mxValueResulticks%",
+            "ttl": "300",
+            "priority": "5"
+        },
+        {
+            "type": "MX",
+            "groupId": "a5Resulticks",
+            "host": "%mxHost2Resulticks%",
+            "pointsTo": "%mxValue2Resulticks%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Resulticks",
+            "host": "%cnameHostResulticks%",
+            "pointsTo": "%cnamePointsToResulticks%",
             "ttl": "3600"
         }
     ]
