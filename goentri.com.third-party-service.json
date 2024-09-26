@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 80,
+    "version": 81,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5691,41 +5691,6 @@
             "ttl": "3600"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Edrone",
-            "host": "%cnameHostEdrone%",
-            "pointsTo": "%cnameValueEdrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Edrone",
-            "host": "%cnameHost2Edrone%",
-            "pointsTo": "%cnameValue2Edrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Edrone",
-            "host": "%cnameHost3Edrone%",
-            "pointsTo": "%cnameValue3Edrone%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a5Edrone",
-            "host": "%txtHost2Edrone%",
-            "ttl": "300",
-            "data": "%txtValue3Edrone%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a6Edrone",
-            "host": "%txtHostEdrone%",
-            "ttl": "300",
-            "data": "%txtValueEdrone%"
-        },
-        {
             "type": "TXT",
             "groupId": "a1Resulticks",
             "host": "%txtHostResulticks%",
@@ -5768,6 +5733,118 @@
             "host": "%cnameHostResulticks%",
             "pointsTo": "%cnamePointsToResulticks%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Beacons",
+            "host": "%cnameHostBeacons%",
+            "pointsTo": "%cnamePointsToBeacons%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Beacons",
+            "host": "@",
+            "pointsTo": "%ipAdressBeacons%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Fanflowy",
+            "host": "@",
+            "pointsTo": "%pointstoIpFanflowy%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Fanflowy",
+            "host": "%cnameHost1Fanflowy%",
+            "pointsTo": "%cnamePointsto1Fanflowy%",
+            "ttl": "3600"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Fanflowy",
+            "host": "@",
+            "ttl": "3600",
+            "spfRules": "include:mailgun.org"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Fanflowy",
+            "host": "%dkimhostFanflowy%",
+            "ttl": "3600",
+            "data": "%dkimhostpointstoFanflowy%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Edrone",
+            "host": "%cnameHostEdrone%",
+            "pointsTo": "%cnameValueEdrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Edrone",
+            "host": "%cnameHost2Edrone%",
+            "pointsTo": "%cnameValue2Edrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Edrone",
+            "host": "%cnameHost3Edrone%",
+            "pointsTo": "%cnameValue3Edrone%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Edrone",
+            "host": "%txtHost2Edrone%",
+            "ttl": "300",
+            "data": "%txtValue3Edrone%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Edrone",
+            "host": "%txtHostEdrone%",
+            "ttl": "300",
+            "data": "%txtValueEdrone%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Haleymarketing",
+            "host": "%cnameHostHaleymarketing%",
+            "pointsTo": "%cnameValueHaleymarketing%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Haleymarketing",
+            "host": "@",
+            "pointsTo": "%ipAdressHaleymarketing%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Haleymarketing",
+            "host": "@",
+            "pointsTo": "%ipAdress2Haleymarketing%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Haleymarketing",
+            "host": "%txHostHaleymarketing%",
+            "ttl": "3600",
+            "data": "%txtValueHaleymarketing%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Haleymarketing",
+            "host": "%txHost2Haleymarketing%",
+            "ttl": "3600",
+            "data": "%txtValue2Haleymarketing%"
         }
     ]
 }
