@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 80,
+    "version": 81,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5771,17 +5771,17 @@
         },
         {
             "type": "CNAME",
+            "groupId": "a1Beacons",
             "host": "%cnameHostBeacons%",
             "pointsTo": "%cnamePointsToBeacons%",
-            "ttl": "3600",
-            "groupId": "a1Beacons"
+            "ttl": "3600"
         },
         {
             "type": "A",
+            "groupId": "a1Beacons",
             "host": "@",
             "pointsTo": "%ipAdressBeacons%",
-            "ttl": "3600",
-            "groupId": "a1Beacons"
+            "ttl": "3600"
         },
         {
             "type": "A",
