@@ -5735,20 +5735,6 @@
             "ttl": "3600"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Beacons",
-            "host": "%cnameHostBeacons%",
-            "pointsTo": "%cnamePointsToBeacons%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Beacons",
-            "host": "@",
-            "pointsTo": "%ipAdressBeacons%",
-            "ttl": "3600"
-        },
-        {
             "type": "A",
             "groupId": "a1Fanflowy",
             "host": "@",
@@ -5845,6 +5831,34 @@
             "host": "%txHost2Haleymarketing%",
             "ttl": "3600",
             "data": "%txtValue2Haleymarketing%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Beacons",
+            "host": "%cnameHostBeacons%",
+            "pointsTo": "%cnamePointsToBeacons%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Beacons",
+            "host": "@",
+            "pointsTo": "%ipAdressBeacons%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Beacons",
+            "host": "%arecordHostBeacons%",
+            "pointsTo": "%ipAdressBeacons%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Beacons",
+            "host": "%arecordHost2Beacons%",
+            "pointsTo": "%ipAdressBeacons%",
+            "ttl": "3600"
         }
     ]
 }
