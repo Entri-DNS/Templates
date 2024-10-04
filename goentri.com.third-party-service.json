@@ -5885,7 +5885,7 @@
             "groupId": "a5Followupboss",
             "host": "%dkimHosta5Followupboss%",
             "ttl": "300",
-            "data": "%k=rsa; t=s; dmarcValueFollowupboss%"
+            "data": "k=rsa; t=s; %dmarcValueFollowupboss%"
         },
         {
             "type": "CNAME",
