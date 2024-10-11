@@ -5949,6 +5949,40 @@
             "host": "%dkimHostRevenueroll%",
             "ttl": "300",
             "data": "%dkimValueRevenueroll%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Tinyemail",
+            "host": "_dmarc",
+            "ttl": "300",
+            "data": "%datadmarcTinyemail%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Tinyemail",
+            "host": "%spfValueTinyemail%",
+            "spfRules": "%spfRulesTinyemail%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Tinyemail",
+            "host": "%dkimHostTinyemail%",
+            "pointsTo": "%dkimValueTinyemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Tinyemail",
+            "host": "%cnameHostTinyemail%",
+            "pointsTo": "%cnameValueTinyemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Tinyemail",
+            "host": "%txtHostTinyemail%",
+            "ttl": "300",
+            "data": "%txtValueTinyemail%"
         }
     ]
 }
