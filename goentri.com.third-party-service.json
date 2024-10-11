@@ -5867,48 +5867,6 @@
             "data": "%txtValue2Haleymarketing%"
         },
         {
-            "type": "TXT",
-            "groupId": "a1Followupboss",
-            "host": "%dkimHosta1Followupboss%",
-            "ttl": "300",
-            "data": "%dkimValuea1Followupboss%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Followupboss",
-            "host": "%dmarcHosta1Followupboss%",
-            "ttl": "300",
-            "data": "%dmarcValuea1Followupboss%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a3Followupboss",
-            "host": "%spfHosta1Followupboss%",
-            "spfRules": "include:sendgrid.net"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Followupboss",
-            "host": "%cnameHosta1Followupboss%",
-            "pointsTo": "%cnameValuea1Followupboss%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Followupboss",
-            "host": "%cnameHost2a1Followupboss%",
-            "pointsTo": "%cnameValue2a1Followupboss%",
-            "ttl": "3600"
-        },
-        {
-            "type": "MX",
-            "groupId": "a4Followupboss",
-            "host": "%mxHostFollowupboss%",
-            "pointsTo": "%mxValueFollowupboss%",
-            "ttl": "3600",
-            "priority": "10"
-        },
-        {
             "type": "A",
             "groupId": "a1Revenueroll",
             "host": "%subdomain1Revenueroll%",
@@ -5983,6 +5941,90 @@
             "host": "%txtHostTinyemail%",
             "ttl": "300",
             "data": "%txtValueTinyemail%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Followupboss",
+            "host": "%dkimHosta1Followupboss%",
+            "ttl": "300",
+            "data": "%dkimValuea1Followupboss%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Followupboss",
+            "host": "%dmarcHosta1Followupboss%",
+            "ttl": "300",
+            "data": "%dmarcValuea1Followupboss%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Followupboss",
+            "host": "%spfHosta1Followupboss%",
+            "spfRules": "include:sendgrid.net"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Followupboss",
+            "host": "%cnameHosta1Followupboss%",
+            "pointsTo": "%cnameValuea1Followupboss%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Followupboss",
+            "host": "%cnameHost2a1Followupboss%",
+            "pointsTo": "%cnameValue2a1Followupboss%",
+            "ttl": "3600"
+        },
+        {
+            "type": "MX",
+            "groupId": "a4Followupboss",
+            "host": "%mxHostFollowupboss%",
+            "pointsTo": "%mxValueFollowupboss%",
+            "ttl": "3600",
+            "priority": "10"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Followupboss",
+            "host": "%dkimHosta5Followupboss%",
+            "ttl": "300",
+            "data": "%k=rsa; t=s; dmarcValueFollowupboss%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Followupboss",
+            "host": "%cnameHosta61Followupboss%",
+            "pointsTo": "%cnameValue61Followupboss%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Followupboss",
+            "host": "%cnameHosta62Followupboss%",
+            "pointsTo": "%cnameValue62Followupboss%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Followupboss",
+            "host": "%cnameHosta63Followupboss%",
+            "pointsTo": "%cnameValue63Followupboss%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Followupboss",
+            "host": "%cnameHosta64Followupboss%",
+            "pointsTo": "%cnameValue64Followupboss%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Followupboss",
+            "host": "%cnameHosta65Followupboss%",
+            "pointsTo": "%cnameValue65Followupboss%",
+            "ttl": "3600"
         }
     ]
 }
