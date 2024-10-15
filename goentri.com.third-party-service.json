@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 84,
+    "version": 85,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5777,6 +5777,40 @@
             "ttl": "3600"
         },
         {
+            "type": "TXT",
+            "groupId": "a1Tinyemail",
+            "host": "_dmarc",
+            "ttl": "300",
+            "data": "%datadmarcTinyemail%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Tinyemail",
+            "host": "%spfValueTinyemail%",
+            "spfRules": "%spfRulesTinyemail%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Tinyemail",
+            "host": "%dkimHostTinyemail%",
+            "pointsTo": "%dkimValueTinyemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Tinyemail",
+            "host": "%cnameHostTinyemail%",
+            "pointsTo": "%cnameValueTinyemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Tinyemail",
+            "host": "%txtHostTinyemail%",
+            "ttl": "300",
+            "data": "%txtValueTinyemail%"
+        },
+        {
             "type": "CNAME",
             "groupId": "a1Powerdmarc",
             "host": "_dmarc",
@@ -5832,115 +5866,11 @@
             "ttl": "300"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Haleymarketing",
-            "host": "%cnameHostHaleymarketing%",
-            "pointsTo": "%cnameValueHaleymarketing%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Haleymarketing",
-            "host": "%arecordHostHaleymarketing%",
-            "pointsTo": "%ipAdressHaleymarketing%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Haleymarketing",
-            "host": "%arecordHostHaleymarketing%",
-            "pointsTo": "%ipAdress2Haleymarketing%",
-            "ttl": "3600"
-        },
-        {
             "type": "TXT",
-            "groupId": "a3Haleymarketing",
-            "host": "%txHostHaleymarketing%",
-            "ttl": "3600",
-            "data": "%txtValueHaleymarketing%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a4Haleymarketing",
-            "host": "%txHost2Haleymarketing%",
-            "ttl": "3600",
-            "data": "%txtValue2Haleymarketing%"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Revenueroll",
-            "host": "%subdomain1Revenueroll%",
-            "pointsTo": "%ipsubdomain1Revenueroll%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Revenueroll",
-            "host": "%subdomain2Revenueroll%",
-            "pointsTo": "%ipsubdomain2Revenueroll%",
-            "ttl": "300"
-        },
-        {
-            "type": "MX",
-            "groupId": "a3Revenueroll",
-            "host": "%mxHostRevenueroll%",
-            "pointsTo": "%mxValueRevenueroll%",
+            "groupId": "a9Powerdmarc",
+            "host": "%txtHostPowerdmarc%",
             "ttl": "300",
-            "priority": "1"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a4Revenueroll",
-            "host": "%spfHostRevenueroll%",
-            "spfRules": "%spfValueRevenueroll%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a5Revenueroll",
-            "host": "%dmarcHostRevenueroll%",
-            "ttl": "300",
-            "data": "%dmarcValueRevenueroll%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a6Revenueroll",
-            "host": "%dkimHostRevenueroll%",
-            "ttl": "300",
-            "data": "%dkimValueRevenueroll%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a1Tinyemail",
-            "host": "_dmarc",
-            "ttl": "300",
-            "data": "%datadmarcTinyemail%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a2Tinyemail",
-            "host": "%spfValueTinyemail%",
-            "spfRules": "%spfRulesTinyemail%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Tinyemail",
-            "host": "%dkimHostTinyemail%",
-            "pointsTo": "%dkimValueTinyemail%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Tinyemail",
-            "host": "%cnameHostTinyemail%",
-            "pointsTo": "%cnameValueTinyemail%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a5Tinyemail",
-            "host": "%txtHostTinyemail%",
-            "ttl": "300",
-            "data": "%txtValueTinyemail%"
+            "data": "%txtValuePowerdmarc%"
         },
         {
             "type": "TXT",
@@ -5985,46 +5915,53 @@
             "priority": "10"
         },
         {
+            "type": "A",
+            "groupId": "a1Revenueroll",
+            "host": "%subdomainRevenueroll%",
+            "pointsTo": "%ipsubdomainRevenueroll%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Haleymarketing",
+            "host": "%cnameHostHaleymarketing%",
+            "pointsTo": "%cnameValueHaleymarketing%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Haleymarketing",
+            "host": "%arecordHostHaleymarketing%",
+            "pointsTo": "%ipAdressHaleymarketing%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Haleymarketing",
+            "host": "%arecordHostHaleymarketing%",
+            "pointsTo": "%ipAdress2Haleymarketing%",
+            "ttl": "3600"
+        },
+        {
             "type": "TXT",
-            "groupId": "a5Followupboss",
-            "host": "%dkimHosta5Followupboss%",
-            "ttl": "300",
-            "data": "k=rsa; t=s; %dmarcValueFollowupboss%"
+            "groupId": "a3Haleymarketing",
+            "host": "%txHostHaleymarketing%",
+            "ttl": "3600",
+            "data": "%txtValueHaleymarketing%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Haleymarketing",
+            "host": "%txHost2Haleymarketing%",
+            "ttl": "3600",
+            "data": "%txtValue2Haleymarketing%"
         },
         {
             "type": "CNAME",
-            "groupId": "a6Followupboss",
-            "host": "%cnameHosta61Followupboss%",
-            "pointsTo": "%cnameValue61Followupboss%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Followupboss",
-            "host": "%cnameHosta62Followupboss%",
-            "pointsTo": "%cnameValue62Followupboss%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Followupboss",
-            "host": "%cnameHosta63Followupboss%",
-            "pointsTo": "%cnameValue63Followupboss%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Followupboss",
-            "host": "%cnameHosta64Followupboss%",
-            "pointsTo": "%cnameValue64Followupboss%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Followupboss",
-            "host": "%cnameHosta65Followupboss%",
-            "pointsTo": "%cnameValue65Followupboss%",
-            "ttl": "3600"
+            "groupId": "a5Haleymarketing",
+            "host": "%hostCnameFlatteningHaleymarketing%",
+            "pointsTo": "%cnameValueHaleymarketing%",
+            "ttl": "300"
         }
     ]
 }
