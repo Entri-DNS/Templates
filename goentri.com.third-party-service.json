@@ -5915,6 +5915,13 @@
             "priority": "10"
         },
         {
+            "type": "A",
+            "groupId": "a1Revenueroll",
+            "host": "%subdomainRevenueroll%",
+            "pointsTo": "%ipsubdomainRevenueroll%",
+            "ttl": "300"
+        },
+        {
             "type": "CNAME",
             "groupId": "a1Haleymarketing",
             "host": "%cnameHostHaleymarketing%",
@@ -5954,13 +5961,6 @@
             "groupId": "a5Haleymarketing",
             "host": "%hostCnameFlatteningHaleymarketing%",
             "pointsTo": "%cnameValueHaleymarketing%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Revenueroll",
-            "host": "%subdomainRevenueroll%",
-            "pointsTo": "%ipsubdomainRevenueroll%",
             "ttl": "300"
         }
     ]
