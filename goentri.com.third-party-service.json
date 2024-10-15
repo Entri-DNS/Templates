@@ -5958,10 +5958,10 @@
         },
         {
             "type": "A",
+            "groupId": "a1Revenueroll",
             "host": "%subdomainRevenueroll%",
             "pointsTo": "%ipsubdomainRevenueroll%",
-            "ttl": "300",
-            "groupId": "a1Revenueroll"
+            "ttl": "300"
         }
     ]
 }
