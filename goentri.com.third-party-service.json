@@ -5778,61 +5778,6 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Powerdmarc",
-            "host": "_dmarc",
-            "pointsTo": "%dmarcValuePowerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Powerdmarc",
-            "host": "_dmarc",
-            "ttl": "300",
-            "data": "%datadmarcPowerdmarc%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a3Powerdmarc",
-            "host": "%spfValuePowerdmarc%",
-            "spfRules": "%spfRulesPowerdmarc%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Powerdmarc",
-            "host": "%bimiHostPowerdmarc%",
-            "pointsTo": "%bimiValuePowerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Powerdmarc",
-            "host": "%mtaHost1Powerdmarc%",
-            "pointsTo": "%mtaValue1Powerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Powerdmarc",
-            "host": "%mtaHost2Powerdmarc%",
-            "pointsTo": "%mtaValue2Powerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a7Powerdmarc",
-            "host": "%smtpHostPowerdmarc%",
-            "pointsTo": "%smtpValuePowerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "NS",
-            "groupId": "a8Powerdmarc",
-            "host": "%nsHostPowerdmarc%",
-            "pointsTo": "%nsValue1Powerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
             "groupId": "a1Haleymarketing",
             "host": "%cnameHostHaleymarketing%",
             "pointsTo": "%cnameValueHaleymarketing%",
@@ -6025,6 +5970,68 @@
             "host": "%cnameHosta65Followupboss%",
             "pointsTo": "%cnameValue65Followupboss%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Powerdmarc",
+            "host": "_dmarc",
+            "pointsTo": "%dmarcValuePowerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Powerdmarc",
+            "host": "_dmarc",
+            "ttl": "300",
+            "data": "%datadmarcPowerdmarc%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Powerdmarc",
+            "host": "%spfValuePowerdmarc%",
+            "spfRules": "%spfRulesPowerdmarc%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Powerdmarc",
+            "host": "%bimiHostPowerdmarc%",
+            "pointsTo": "%bimiValuePowerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Powerdmarc",
+            "host": "%mtaHost1Powerdmarc%",
+            "pointsTo": "%mtaValue1Powerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Powerdmarc",
+            "host": "%mtaHost2Powerdmarc%",
+            "pointsTo": "%mtaValue2Powerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Powerdmarc",
+            "host": "%smtpHostPowerdmarc%",
+            "pointsTo": "%smtpValuePowerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "NS",
+            "groupId": "a8Powerdmarc",
+            "host": "%nsHostPowerdmarc%",
+            "pointsTo": "%nsValue1Powerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Powerdmarc",
+            "host": "%txtHostPowerdmarc%",
+            "ttl": "300",
+            "data": "%txtValuePowerdmarc%"
         }
     ]
 }
