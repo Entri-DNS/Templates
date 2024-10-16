@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 85,
+    "version": 86,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5962,6 +5962,20 @@
             "host": "%hostCnameFlatteningHaleymarketing%",
             "pointsTo": "%cnameValueHaleymarketing%",
             "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Deckspire",
+            "host": "@",
+            "pointsTo": "%ipAdressDeckspire%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Deckspire",
+            "host": "www",
+            "pointsTo": "%ipAdressDeckspire%",
+            "ttl": "3600"
         }
     ]
 }
