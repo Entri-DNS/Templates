@@ -5816,48 +5816,6 @@
             "ttl": "300"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Haleymarketing",
-            "host": "%cnameHostHaleymarketing%",
-            "pointsTo": "%cnameValueHaleymarketing%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Haleymarketing",
-            "host": "%arecordHostHaleymarketing%",
-            "pointsTo": "%ipAdressHaleymarketing%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Haleymarketing",
-            "host": "%arecordHostHaleymarketing%",
-            "pointsTo": "%ipAdress2Haleymarketing%",
-            "ttl": "3600"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Haleymarketing",
-            "host": "%txHostHaleymarketing%",
-            "ttl": "3600",
-            "data": "%txtValueHaleymarketing%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a4Haleymarketing",
-            "host": "%txHost2Haleymarketing%",
-            "ttl": "3600",
-            "data": "%txtValue2Haleymarketing%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Haleymarketing",
-            "host": "%hostCnameFlatteningHaleymarketing%",
-            "pointsTo": "%cnameValueHaleymarketing%",
-            "ttl": "300"
-        },
-        {
             "type": "A",
             "groupId": "a1Deckspire",
             "host": "@",
@@ -6003,6 +5961,55 @@
             "host": "%txtHost2Powerdmarc%",
             "ttl": "300",
             "data": "%txtValue2Powerdmarc%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Haleymarketing",
+            "host": "%cnameHostHaleymarketing%",
+            "pointsTo": "%cnameValueHaleymarketing%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Haleymarketing",
+            "host": "%arecordHostHaleymarketing%",
+            "pointsTo": "%ipAdressHaleymarketing%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Haleymarketing",
+            "host": "%arecordHostHaleymarketing%",
+            "pointsTo": "%ipAdress2Haleymarketing%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Haleymarketing",
+            "host": "%txHostHaleymarketing%",
+            "ttl": "3600",
+            "data": "%txtValueHaleymarketing%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Haleymarketing",
+            "host": "%txHost2Haleymarketing%",
+            "ttl": "3600",
+            "data": "%txtValue2Haleymarketing%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Haleymarketing",
+            "host": "%hostCnameFlatteningHaleymarketing%",
+            "pointsTo": "%cnameValueHaleymarketing%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a6Haleymarketing",
+            "host": "%arecordHostHaleymarketing%",
+            "pointsTo": "%ipAdressHaleymarketing%",
+            "ttl": "3600"
         }
     ]
 }
