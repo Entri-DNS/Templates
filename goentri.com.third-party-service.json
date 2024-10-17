@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 86,
+    "version": 87,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5642,50 +5642,6 @@
             "ttl": "3600"
         },
         {
-            "type": "TXT",
-            "groupId": "a1Resulticks",
-            "host": "%txtHostResulticks%",
-            "ttl": "300",
-            "data": "%txtValueResulticks%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Resulticks",
-            "host": "%txtHost2Resulticks%",
-            "ttl": "300",
-            "data": "%txtValue2Resulticks%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Resulticks",
-            "host": "%txtHost3Resulticks%",
-            "ttl": "300",
-            "data": "%txtValue3Resulticks%"
-        },
-        {
-            "type": "MX",
-            "groupId": "a4Resulticks",
-            "host": "%mxHostResulticks%",
-            "pointsTo": "%mxValueResulticks%",
-            "ttl": "300",
-            "priority": "5"
-        },
-        {
-            "type": "MX",
-            "groupId": "a5Resulticks",
-            "host": "%mxHost2Resulticks%",
-            "pointsTo": "%mxValue2Resulticks%",
-            "ttl": "300",
-            "priority": "10"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Resulticks",
-            "host": "%cnameHostResulticks%",
-            "pointsTo": "%cnamePointsToResulticks%",
-            "ttl": "3600"
-        },
-        {
             "type": "A",
             "groupId": "a1Fanflowy",
             "host": "@",
@@ -5976,6 +5932,56 @@
             "host": "www",
             "pointsTo": "%ipAdressDeckspire%",
             "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Resulticks",
+            "host": "%txtHostResulticks%",
+            "ttl": "300",
+            "data": "%txtValueResulticks%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Resulticks",
+            "host": "%txtHost2Resulticks%",
+            "ttl": "300",
+            "data": "%txtValue2Resulticks%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Resulticks",
+            "host": "%txtHost3Resulticks%",
+            "ttl": "300",
+            "data": "%txtValue3Resulticks%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a4Resulticks",
+            "host": "%mxHostResulticks%",
+            "pointsTo": "%mxValueResulticks%",
+            "ttl": "300",
+            "priority": "5"
+        },
+        {
+            "type": "MX",
+            "groupId": "a5Resulticks",
+            "host": "%mxHost2Resulticks%",
+            "pointsTo": "%mxValue2Resulticks%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Resulticks",
+            "host": "%cnameHostResulticks%",
+            "pointsTo": "%cnamePointsToResulticks%",
+            "ttl": "3600"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a7Resulticks",
+            "host": "%spfHostResulticks%",
+            "spfRules": "%spfValueResulticks%"
         }
     ]
 }
