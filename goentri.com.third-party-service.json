@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 88,
+    "version": 89,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5767,68 +5767,6 @@
             "data": "%txtValueTinyemail%"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Powerdmarc",
-            "host": "_dmarc",
-            "pointsTo": "%dmarcValuePowerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Powerdmarc",
-            "host": "_dmarc",
-            "ttl": "300",
-            "data": "%datadmarcPowerdmarc%"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a3Powerdmarc",
-            "host": "%spfValuePowerdmarc%",
-            "spfRules": "%spfRulesPowerdmarc%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Powerdmarc",
-            "host": "%bimiHostPowerdmarc%",
-            "pointsTo": "%bimiValuePowerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a5Powerdmarc",
-            "host": "%mtaHost1Powerdmarc%",
-            "pointsTo": "%mtaValue1Powerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Powerdmarc",
-            "host": "%mtaHost2Powerdmarc%",
-            "pointsTo": "%mtaValue2Powerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a7Powerdmarc",
-            "host": "%smtpHostPowerdmarc%",
-            "pointsTo": "%smtpValuePowerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "NS",
-            "groupId": "a8Powerdmarc",
-            "host": "%nsHostPowerdmarc%",
-            "pointsTo": "%nsValue1Powerdmarc%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a9Powerdmarc",
-            "host": "%txtHostPowerdmarc%",
-            "ttl": "300",
-            "data": "%txtValuePowerdmarc%"
-        },
-        {
             "type": "TXT",
             "groupId": "a1Followupboss",
             "host": "%dkimHosta1Followupboss%",
@@ -5989,6 +5927,82 @@
             "host": "signatures",
             "pointsTo": "cname.scribe-mail.com",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Powerdmarc",
+            "host": "_dmarc",
+            "pointsTo": "%dmarcValuePowerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Powerdmarc",
+            "host": "_dmarc",
+            "ttl": "300",
+            "data": "%datadmarcPowerdmarc%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a3Powerdmarc",
+            "host": "%spfValuePowerdmarc%",
+            "spfRules": "%spfRulesPowerdmarc%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Powerdmarc",
+            "host": "%bimiHostPowerdmarc%",
+            "pointsTo": "%bimiValuePowerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Powerdmarc",
+            "host": "%mtaHost1Powerdmarc%",
+            "pointsTo": "%mtaValue1Powerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Powerdmarc",
+            "host": "%mtaHost2Powerdmarc%",
+            "pointsTo": "%mtaValue2Powerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Powerdmarc",
+            "host": "%smtpHostPowerdmarc%",
+            "pointsTo": "%smtpValuePowerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "NS",
+            "groupId": "a8Powerdmarc",
+            "host": "%nsHostPowerdmarc%",
+            "pointsTo": "%nsValue1Powerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Powerdmarc",
+            "host": "%txtHostPowerdmarc%",
+            "ttl": "300",
+            "data": "%txtValuePowerdmarc%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a10Powerdmarc",
+            "host": "%cnameHost2Powerdmarc%",
+            "pointsTo": "%cnameValue2Powerdmarc%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Powerdmarc",
+            "host": "%txtHost2Powerdmarc%",
+            "ttl": "300",
+            "data": "%txtValue2Powerdmarc%"
         }
     ]
 }
