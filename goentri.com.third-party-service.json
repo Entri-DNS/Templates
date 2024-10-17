@@ -5982,6 +5982,13 @@
             "groupId": "a7Resulticks",
             "host": "%spfHostResulticks%",
             "spfRules": "%spfValueResulticks%"
+        },
+        {
+            "type": "CNAME",
+            "host": "signatures",
+            "pointsTo": "cname.scribe-mail.com",
+            "ttl": "300",
+            "groupId": "a1Scribe"
         }
     ]
 }
