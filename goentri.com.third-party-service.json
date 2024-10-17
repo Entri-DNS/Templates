@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 87,
+    "version": 88,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5985,10 +5985,10 @@
         },
         {
             "type": "CNAME",
+            "groupId": "a1Scribe",
             "host": "signatures",
             "pointsTo": "cname.scribe-mail.com",
-            "ttl": "300",
-            "groupId": "a1Scribe"
+            "ttl": "300"
         }
     ]
 }
