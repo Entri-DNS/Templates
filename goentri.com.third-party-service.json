@@ -6072,6 +6072,47 @@
             "host": "%dkimHostReachmail%",
             "ttl": "300",
             "data": "%dkimValueReachmail%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Railsware",
+            "host": "%cnameHost1Railsware%",
+            "pointsTo": "%cnameValue1Railsware%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Railsware",
+            "host": "%dkimHost1Railsware%",
+            "pointsTo": "%dkimValue1Railsware%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Railsware",
+            "host": "%dkimHost2Railsware%",
+            "pointsTo": "%dkimValue2Railsware%",
+            "ttl": "300"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a4Railsware",
+            "host": "%spfHostRailsware%",
+            "spfRules": "%spfValueRailsware%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Railsware",
+            "host": "%dmarcHostRailsware%",
+            "ttl": "300",
+            "data": "%dmarcValueRailsware%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Railsware",
+            "host": "%cnameHost2Railsware%",
+            "pointsTo": "%cnameValue2Railsware%",
+            "ttl": "300"
         }
     ]
 }
