@@ -6113,6 +6113,33 @@
             "host": "%cnameHost2Railsware%",
             "pointsTo": "%cnameValue2Railsware%",
             "ttl": "300"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Hubspot",
+            "host": "%spfHostHubspot%",
+            "spfRules": "%spfValueHubspot%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Hubspot",
+            "host": "%dmarcHostHubspot%",
+            "ttl": "300",
+            "data": "%dmarcValueHubspot%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Hubspot",
+            "host": "%cnameHostHubspot%",
+            "pointsTo": "%cnameValueHubspot%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Hubspot",
+            "host": "%cnameHost2Hubspot%",
+            "pointsTo": "%cnameValue2Hubspot%",
+            "ttl": "300"
         }
     ]
 }
