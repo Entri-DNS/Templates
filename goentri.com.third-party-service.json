@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 91,
+    "version": 92,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5768,13 +5768,6 @@
         },
         {
             "type": "A",
-            "groupId": "a1Revenueroll",
-            "host": "%subdomainRevenueroll%",
-            "pointsTo": "%ipsubdomainRevenueroll%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
             "groupId": "a1Deckspire",
             "host": "@",
             "pointsTo": "%ipAdressDeckspire%",
@@ -6072,6 +6065,116 @@
             "host": "%dkimHostReachmail%",
             "ttl": "300",
             "data": "%dkimValueReachmail%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Railsware",
+            "host": "%cnameHost1Railsware%",
+            "pointsTo": "%cnameValue1Railsware%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Railsware",
+            "host": "%dkimHost1Railsware%",
+            "pointsTo": "%dkimValue1Railsware%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Railsware",
+            "host": "%dkimHost2Railsware%",
+            "pointsTo": "%dkimValue2Railsware%",
+            "ttl": "300"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a4Railsware",
+            "host": "%spfHostRailsware%",
+            "spfRules": "%spfValueRailsware%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Railsware",
+            "host": "%dmarcHostRailsware%",
+            "ttl": "300",
+            "data": "%dmarcValueRailsware%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Railsware",
+            "host": "%cnameHost2Railsware%",
+            "pointsTo": "%cnameValue2Railsware%",
+            "ttl": "300"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Hubspot",
+            "host": "%spfHostHubspot%",
+            "spfRules": "%spfValueHubspot%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Hubspot",
+            "host": "%dmarcHostHubspot%",
+            "ttl": "300",
+            "data": "%dmarcValueHubspot%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Hubspot",
+            "host": "%cnameHostHubspot%",
+            "pointsTo": "%cnameValueHubspot%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Hubspot",
+            "host": "%cnameHost2Hubspot%",
+            "pointsTo": "%cnameValue2Hubspot%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Revenueroll",
+            "host": "%subdomain1Revenueroll%",
+            "pointsTo": "%ipsubdomain1Revenueroll%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Revenueroll",
+            "host": "%subdomain2Revenueroll%",
+            "pointsTo": "%ipsubdomain2Revenueroll%",
+            "ttl": "300"
+        },
+        {
+            "type": "MX",
+            "groupId": "a3Revenueroll",
+            "host": "%mxHostRevenueroll%",
+            "pointsTo": "%mxValueRevenueroll%",
+            "ttl": "300",
+            "priority": "1"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a4Revenueroll",
+            "host": "%spfHostRevenueroll%",
+            "spfRules": "%spfValueRevenueroll%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Revenueroll",
+            "host": "%dmarcHostRevenueroll%",
+            "ttl": "300",
+            "data": "%dmarcValueRevenueroll%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Revenueroll",
+            "host": "%dkimHostRevenueroll%",
+            "ttl": "300",
+            "data": "%dkimValueRevenueroll%"
         }
     ]
 }
