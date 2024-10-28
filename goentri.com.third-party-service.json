@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 92,
+    "version": 93,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -6175,6 +6175,34 @@
             "host": "%dkimHostRevenueroll%",
             "ttl": "300",
             "data": "%dkimValueRevenueroll%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Easymailing",
+            "host": "%cnameHost1Easymailing%",
+            "pointsTo": "%cnameValue1Easymailing%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Easymailing",
+            "host": "%hostCname2Easymailing%",
+            "pointsTo": "%cnameValue2Easymailing%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Easymailing",
+            "host": "%hostCname3Easymailing%",
+            "pointsTo": "%cnameValue3Easymailing%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Easymailing",
+            "host": "%txHostDmatcEasymailing%",
+            "ttl": "3600",
+            "data": "%txtValuecmarcEasymailing%"
         }
     ]
 }
