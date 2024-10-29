@@ -5246,55 +5246,6 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Beehiiv",
-            "host": "%cnameHost1Beehiiv%",
-            "pointsTo": "%cnameValue1Beehiiv%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Beehiiv",
-            "host": "%cnameHost2Beehiiv%",
-            "pointsTo": "%cnameValue2Beehiiv%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Beehiiv",
-            "host": "%cnameHost3Beehiiv%",
-            "pointsTo": "%cnameValue3Beehiiv%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Beehiiv",
-            "host": "%cnameHost4Beehiiv%",
-            "pointsTo": "%cnameValue4Beehiiv%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a5Beehiiv",
-            "host": "%ipHostBeehiiv%",
-            "pointsTo": "%ipValueBeehiiv%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a6Beehiiv",
-            "host": "%txtHost1Beehiiv%",
-            "ttl": "300",
-            "data": "%txtValue1Beehiiv%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a7Beehiiv",
-            "host": "%dmarcHostBeehiiv%",
-            "ttl": "300",
-            "data": "%dmarcValueBeehiiv%"
-        },
-        {
-            "type": "CNAME",
             "groupId": "a1Salesbricks",
             "host": "%cnameHost1Salesbricks%",
             "pointsTo": "%cnameValue1Salesbricks%",
@@ -6203,6 +6154,76 @@
             "host": "%txHostDmatcEasymailing%",
             "ttl": "3600",
             "data": "%txtValuecmarcEasymailing%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Beehiiv",
+            "host": "%cnameHost1Beehiiv%",
+            "pointsTo": "%cnameValue1Beehiiv%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Beehiiv",
+            "host": "%cnameHost2Beehiiv%",
+            "pointsTo": "%cnameValue2Beehiiv%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Beehiiv",
+            "host": "%cnameHost3Beehiiv%",
+            "pointsTo": "%cnameValue3Beehiiv%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Beehiiv",
+            "host": "%cnameHost4Beehiiv%",
+            "pointsTo": "%cnameValue4Beehiiv%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a5Beehiiv",
+            "host": "%ipHostBeehiiv%",
+            "pointsTo": "%ipValueBeehiiv%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Beehiiv",
+            "host": "%txtHost1Beehiiv%",
+            "ttl": "300",
+            "data": "%txtValue1Beehiiv%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Beehiiv",
+            "host": "%dmarcHostBeehiiv%",
+            "ttl": "300",
+            "data": "%dmarcValueBeehiiv%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a8Beehiiv",
+            "host": "%cnameHost8Beehiiv%",
+            "pointsTo": "%cnameValue8Beehiiv%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Beehiiv",
+            "host": "%cnameHost9Beehiiv%",
+            "pointsTo": "%cnameValue9Beehiiv%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a10Beehiiv",
+            "host": "%ipHost10Beehiiv%",
+            "pointsTo": "%ipValue10Beehiiv%",
+            "ttl": "300"
         }
     ]
 }
