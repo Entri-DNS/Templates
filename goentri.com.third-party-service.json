@@ -6224,6 +6224,41 @@
             "host": "%ipHost10Beehiiv%",
             "pointsTo": "%ipValue10Beehiiv%",
             "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Luxurypresence",
+            "host": "@",
+            "pointsTo": "%ipValue1Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Luxurypresence",
+            "host": "@",
+            "pointsTo": "%ipValue2Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Luxurypresence",
+            "host": "www",
+            "pointsTo": "%cnameValue1Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Luxurypresence",
+            "host": "%cnameHost2Luxurypresence%",
+            "pointsTo": "%cnameValue2Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Luxurypresence",
+            "host": "%txtHostLuxurypresence%",
+            "ttl": "300",
+            "data": "%txtValueLuxurypresence%"
         }
     ]
 }
