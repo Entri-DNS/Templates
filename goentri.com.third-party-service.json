@@ -6259,6 +6259,20 @@
             "host": "%txtHostLuxurypresence%",
             "ttl": "300",
             "data": "%txtValueLuxurypresence%"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Taggrs",
+            "host": "sst.taggrs.cloud",
+            "pointsTo": "192.192.192.192",
+            "ttl": "300"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a2Taggrs",
+            "host": "@",
+            "pointsTo": "letsencrypt",
+            "ttl": "300"
         }
     ]
 }
