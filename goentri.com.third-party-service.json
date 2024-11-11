@@ -6259,6 +6259,27 @@
             "host": "%cnameHost10Resulticks%",
             "pointsTo": "%cnamePointsTo10Resulticks%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Meera",
+            "host": "%cnameHost1Meera%",
+            "pointsTo": "%cnameValue1Meera%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Meera",
+            "host": "@",
+            "pointsTo": "%ipValueMeera%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Meera",
+            "host": "@",
+            "pointsTo": "%ipValue10Meera%",
+            "ttl": "300"
         }
     ]
 }
