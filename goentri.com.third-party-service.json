@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 98,
+    "version": 99,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -6261,20 +6261,6 @@
             "data": "%txtValueLuxurypresence%"
         },
         {
-            "type": "A",
-            "groupId": "a1Taggrs",
-            "host": "sst.taggrs.cloud",
-            "pointsTo": "192.192.192.192",
-            "ttl": "300"
-        },
-        {
-            "type": "CAA",
-            "groupId": "a2Taggrs",
-            "host": "@",
-            "pointsTo": "letsencrypt",
-            "ttl": "300"
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Meera",
             "host": "%cnameHost1Meera%",
@@ -6294,6 +6280,34 @@
             "host": "@",
             "pointsTo": "%ipValue10Meera%",
             "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Taggrs",
+            "host": "sst.taggrs.cloud",
+            "pointsTo": "192.192.192.192",
+            "ttl": "300"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a2Taggrs",
+            "host": "@",
+            "pointsTo": "letsencrypt",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Taggrs",
+            "host": "%hostArecordTaggrs%",
+            "pointsTo": "%ipadressTaggrs%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Taggrs",
+            "host": "%cnameHost6Taggrs%",
+            "pointsTo": "%cnamePointsTo6Taggrs%",
+            "ttl": "3600"
         }
     ]
 }
