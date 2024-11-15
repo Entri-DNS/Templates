@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 99,
+    "version": 102,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5732,56 +5732,6 @@
             "ttl": "3600"
         },
         {
-            "type": "TXT",
-            "groupId": "a1Resulticks",
-            "host": "%txtHostResulticks%",
-            "ttl": "300",
-            "data": "%txtValueResulticks%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Resulticks",
-            "host": "%txtHost2Resulticks%",
-            "ttl": "300",
-            "data": "%txtValue2Resulticks%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Resulticks",
-            "host": "%txtHost3Resulticks%",
-            "ttl": "300",
-            "data": "%txtValue3Resulticks%"
-        },
-        {
-            "type": "MX",
-            "groupId": "a4Resulticks",
-            "host": "%mxHostResulticks%",
-            "pointsTo": "%mxValueResulticks%",
-            "ttl": "300",
-            "priority": "5"
-        },
-        {
-            "type": "MX",
-            "groupId": "a5Resulticks",
-            "host": "%mxHost2Resulticks%",
-            "pointsTo": "%mxValue2Resulticks%",
-            "ttl": "300",
-            "priority": "10"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Resulticks",
-            "host": "%cnameHostResulticks%",
-            "pointsTo": "%cnamePointsToResulticks%",
-            "ttl": "3600"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a7Resulticks",
-            "host": "%spfHostResulticks%",
-            "spfRules": "%spfValueResulticks%"
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Scribe",
             "host": "signatures",
@@ -6307,6 +6257,77 @@
             "groupId": "a6Taggrs",
             "host": "%cnameHost6Taggrs%",
             "pointsTo": "%cnamePointsTo6Taggrs%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Resulticks",
+            "host": "%txtHostResulticks%",
+            "ttl": "300",
+            "data": "%txtValueResulticks%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Resulticks",
+            "host": "%txtHost2Resulticks%",
+            "ttl": "300",
+            "data": "%txtValue2Resulticks%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Resulticks",
+            "host": "%txtHost3Resulticks%",
+            "ttl": "300",
+            "data": "%txtValue3Resulticks%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a4Resulticks",
+            "host": "%mxHostResulticks%",
+            "pointsTo": "%mxValueResulticks%",
+            "ttl": "300",
+            "priority": "2"
+        },
+        {
+            "type": "MX",
+            "groupId": "a5Resulticks",
+            "host": "%mxHost2Resulticks%",
+            "pointsTo": "%mxValue2Resulticks%",
+            "ttl": "300",
+            "priority": "2"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Resulticks",
+            "host": "%cnameHost6Resulticks%",
+            "pointsTo": "%cnamePointsTo6Resulticks%",
+            "ttl": "3600"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a7Resulticks",
+            "host": "%spfHostResulticks%",
+            "spfRules": "%spfValueResulticks%"
+        },
+        {
+            "type": "A",
+            "groupId": "a8Resulticks",
+            "host": "@",
+            "pointsTo": "%ipValueResulticks%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Resulticks",
+            "host": "%cnameHost9Resulticks%",
+            "pointsTo": "%cnamePointsTo9Resulticks%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a10Resulticks",
+            "host": "%cnameHost10Resulticks%",
+            "pointsTo": "%cnamePointsTo10Resulticks%",
             "ttl": "3600"
         }
     ]
