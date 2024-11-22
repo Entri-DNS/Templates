@@ -6343,6 +6343,20 @@
             "host": "%cnameHost2Brevo%",
             "pointsTo": "%cnameValue2Brevo%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Invitejet",
+            "host": "%cnameHostInvitejet%",
+            "pointsTo": "%cnameValueInvitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Invitejet",
+            "host": "%cnameHost2Invitejet%",
+            "pointsTo": "%cnameValue2Invitejet%",
+            "ttl": "300"
         }
     ]
 }
