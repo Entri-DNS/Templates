@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 102,
+    "version": 103,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -2700,27 +2700,6 @@
             "host": "www",
             "pointsTo": "hosted-content.aweber.com.",
             "ttl": "3600"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a1Brevo",
-            "host": "%host1a1Brevo%",
-            "ttl": "300",
-            "data": "%brevoCodeBrevo%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Brevo",
-            "host": "%host2a2Brevo%",
-            "ttl": "300",
-            "data": "v=DMARC1;p=none;rua=mailto:rua@dmarc.brevo.com"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Brevo",
-            "host": "%dkimHostBrevo%",
-            "ttl": "300",
-            "data": "%dkimValueBrevo%"
         },
         {
             "type": "CNAME",
@@ -6329,6 +6308,97 @@
             "host": "%cnameHost10Resulticks%",
             "pointsTo": "%cnamePointsTo10Resulticks%",
             "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Brevo",
+            "host": "%host1Brevo%",
+            "ttl": "300",
+            "data": "%brevoCodeBrevoBrevo%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Brevo",
+            "host": "%host2Brevo%",
+            "ttl": "300",
+            "data": "v=DMARC1;p=none;rua=mailto:rua@dmarc.brevo.com"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Brevo",
+            "host": "%dkimHostBrevoBrevo%",
+            "ttl": "300",
+            "data": "%dkimValueBrevoBrevo%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Brevo",
+            "host": "%cnameHostBrevo%",
+            "pointsTo": "%cnameValueBrevo%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Brevo",
+            "host": "%cnameHost2Brevo%",
+            "pointsTo": "%cnameValue2Brevo%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Invitejet",
+            "host": "%cnameHostInvitejet%",
+            "pointsTo": "%cnameValueInvitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Invitejet",
+            "host": "%cnameHost2Invitejet%",
+            "pointsTo": "%cnameValue2Invitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Uppfirst",
+            "host": "@",
+            "pointsTo": "%ipAdress1Uppfirst%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Uppfirst",
+            "host": "www",
+            "pointsTo": "%ipAdress1Uppfirst%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Uppfirst",
+            "host": "www",
+            "pointsTo": "%ipAdress2Uppfirst%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Uppfirst",
+            "host": "@",
+            "pointsTo": "%ipAdress2Uppfirst%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Uppfirst",
+            "host": "%cnameHostUppfirst%",
+            "pointsTo": "%cnameValueUppfirst%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Uppfirst",
+            "host": "%cnameHost2Uppfirst%",
+            "pointsTo": "%cnameValue2Uppfirst%",
+            "ttl": "300"
         }
     ]
 }
