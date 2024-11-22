@@ -6357,6 +6357,48 @@
             "host": "%cnameHost2Invitejet%",
             "pointsTo": "%cnameValue2Invitejet%",
             "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Uppfirst",
+            "host": "@",
+            "pointsTo": "%ipAdress1Uppfirst%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Uppfirst",
+            "host": "www",
+            "pointsTo": "%ipAdress1Uppfirst%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Uppfirst",
+            "host": "www",
+            "pointsTo": "%ipAdress2Uppfirst%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Uppfirst",
+            "host": "@",
+            "pointsTo": "%ipAdress2Uppfirst%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Uppfirst",
+            "host": "%cnameHostUppfirst%",
+            "pointsTo": "%cnameValueUppfirst%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Uppfirst",
+            "host": "%cnameHost2Uppfirst%",
+            "pointsTo": "%cnameValue2Uppfirst%",
+            "ttl": "300"
         }
     ]
 }
