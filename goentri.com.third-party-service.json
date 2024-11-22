@@ -2702,27 +2702,6 @@
             "ttl": "3600"
         },
         {
-            "type": "TXT",
-            "groupId": "a1Brevo",
-            "host": "%host1a1Brevo%",
-            "ttl": "300",
-            "data": "%brevoCodeBrevo%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Brevo",
-            "host": "%host2a2Brevo%",
-            "ttl": "300",
-            "data": "v=DMARC1;p=none;rua=mailto:rua@dmarc.brevo.com"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a3Brevo",
-            "host": "%dkimHostBrevo%",
-            "ttl": "300",
-            "data": "%dkimValueBrevo%"
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Buddi",
             "host": "%hostCnameBuddi%",
@@ -6329,6 +6308,41 @@
             "host": "%cnameHost10Resulticks%",
             "pointsTo": "%cnamePointsTo10Resulticks%",
             "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Brevo",
+            "host": "%host1Brevo%",
+            "ttl": "300",
+            "data": "%brevoCodeBrevoBrevo%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Brevo",
+            "host": "%host2Brevo%",
+            "ttl": "300",
+            "data": "v=DMARC1;p=none;rua=mailto:rua@dmarc.brevo.com"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Brevo",
+            "host": "%dkimHostBrevoBrevo%",
+            "ttl": "300",
+            "data": "%dkimValueBrevoBrevo%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Brevo",
+            "host": "%cnameHostBrevo%",
+            "pointsTo": "%cnameValueBrevo%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Brevo",
+            "host": "%cnameHost2Brevo%",
+            "pointsTo": "%cnameValue2Brevo%",
+            "ttl": "300"
         }
     ]
 }
