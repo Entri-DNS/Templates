@@ -6476,6 +6476,13 @@
             "host": "%txtHost1Invitejet%",
             "ttl": "300",
             "data": "%txtValue1Invitejet%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Teepublic",
+            "host": "%cnameHostTeepublic%",
+            "pointsTo": "%cnameValueTeepublic%",
+            "ttl": "3600"
         }
     ]
 }
