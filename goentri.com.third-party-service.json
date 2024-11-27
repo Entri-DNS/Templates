@@ -6399,6 +6399,34 @@
             "host": "%cnameHost2Uppfirst%",
             "pointsTo": "%cnameValue2Uppfirst%",
             "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Createapp",
+            "host": "@",
+            "pointsTo": "%ip1Createapp%",
+            "ttl": "600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Createapp",
+            "host": "@",
+            "pointsTo": "%ip2Createapp%",
+            "ttl": "600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Createapp",
+            "host": "%hostTxt1Createapp%",
+            "ttl": "3600",
+            "data": "%valueTxt1Createapp%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Createapp",
+            "host": "%hostTxt2Createapp%",
+            "ttl": "3600",
+            "data": "%valueTxt2Createapp%"
         }
     ]
 }
