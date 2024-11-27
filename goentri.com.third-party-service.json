@@ -6455,6 +6455,13 @@
             "host": "%txtHost1Reffle%",
             "ttl": "300",
             "data": "%txtValue1Reffle%"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a1Ecwid",
+            "host": "@",
+            "pointsTo": "letsencrypt",
+            "ttl": "300"
         }
     ]
 }
