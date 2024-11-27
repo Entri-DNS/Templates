@@ -6345,20 +6345,6 @@
             "ttl": "300"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Invitejet",
-            "host": "%cnameHostInvitejet%",
-            "pointsTo": "%cnameValueInvitejet%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Invitejet",
-            "host": "%cnameHost2Invitejet%",
-            "pointsTo": "%cnameValue2Invitejet%",
-            "ttl": "300"
-        },
-        {
             "type": "A",
             "groupId": "a1Uppfirst",
             "host": "@",
@@ -6462,6 +6448,34 @@
             "host": "@",
             "pointsTo": "letsencrypt",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Invitejet",
+            "host": "%cnameHostInvitejet%",
+            "pointsTo": "%cnameValueInvitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Invitejet",
+            "host": "%cnameHost2Invitejet%",
+            "pointsTo": "%cnameValue2Invitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Invitejet",
+            "host": "%cnameHost3Invitejet%",
+            "pointsTo": "%cnameValue3Invitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Invitejet",
+            "host": "%txtHost1Invitejet%",
+            "ttl": "300",
+            "data": "%txtValue1Invitejet%"
         }
     ]
 }
