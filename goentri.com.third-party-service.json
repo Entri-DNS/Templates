@@ -6427,6 +6427,34 @@
             "host": "%hostTxt2Createapp%",
             "ttl": "3600",
             "data": "%valueTxt2Createapp%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Reffle",
+            "host": "%cnameHost1Reffle%",
+            "pointsTo": "%cnamePointsTo1Reffle%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Reffle",
+            "host": "@",
+            "pointsTo": "%primaryIp1Reffle%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Reffle",
+            "host": "@",
+            "pointsTo": "%primaryIp2Reffle%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Reffle",
+            "host": "%txtHost1Reffle%",
+            "ttl": "300",
+            "data": "%txtValue1Reffle%"
         }
     ]
 }
