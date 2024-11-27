@@ -637,119 +637,6 @@
         },
         {
             "type": "A",
-            "groupId": "a1Fourthwall",
-            "host": "@",
-            "pointsTo": "%ipFourthwall%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "www",
-            "pointsTo": "@",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "%sendgridHostFourthwall%",
-            "pointsTo": "%sendgridValueFourthwall%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "%sendgridHostDomainKey1Fourthwall%",
-            "pointsTo": "%sendgridHostDomainKeyValue1Fourthwall%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "%sendgridHostDomainKey2Fourthwall%",
-            "pointsTo": "%sendgridHostDomainKeyValue2Fourthwall%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "zendesk1._domainkey.support",
-            "pointsTo": "zendesk1._domainkey.zendesk.com.",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "zendesk2._domainkey.support",
-            "pointsTo": "zendesk2._domainkey.zendesk.com.",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "zendesk1.support",
-            "pointsTo": "mail1.zendesk.com.",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "zendesk2.support",
-            "pointsTo": "mail2.zendesk.com.",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "zendesk3.support",
-            "pointsTo": "mail3.zendesk.com.",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Fourthwall",
-            "host": "zendesk4.support",
-            "pointsTo": "mail4.zendesk.com.",
-            "ttl": "3600"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a1Fourthwall",
-            "host": "zendeskverification.support",
-            "ttl": "3600",
-            "data": "%zendeskverificationFourthwall%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a1Fourthwall",
-            "host": "_dmarc.support",
-            "ttl": "3600",
-            "data": "v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@fourthwall.com"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a1Fourthwall",
-            "host": "support",
-            "spfRules": "include:_spf.google.com include:mail.zendesk.com include:spf.improvmx.com include:sendgrid.net"
-        },
-        {
-            "type": "MX",
-            "groupId": "a1Fourthwall",
-            "host": "support",
-            "pointsTo": "mx1.improvmx.com.",
-            "ttl": "3600",
-            "priority": "10"
-        },
-        {
-            "type": "MX",
-            "groupId": "a1Fourthwall",
-            "host": "support",
-            "pointsTo": "mx2.improvmx.com.",
-            "ttl": "3600",
-            "priority": "10"
-        },
-        {
-            "type": "A",
             "groupId": "a1Gamma",
             "host": "@",
             "pointsTo": "%primaryIpGamma%",
@@ -1407,48 +1294,6 @@
             "ttl": "3600"
         },
         {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a1Pressable",
-            "host": "www",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress1Pressable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Pressable",
-            "host": "@",
-            "pointsTo": "%ipAdress2Pressable%",
-            "ttl": "3600"
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Prometheus",
             "host": "%customDomain1Prometheus%",
@@ -1559,23 +1404,6 @@
             "host": "www",
             "pointsTo": "%ipRebrandly%",
             "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a1Sendmarc",
-            "host": "_dmarc",
-            "pointsTo": "%cnamePointsToSendmarc%",
-            "ttl": "3600"
-        },
-        {
-            "type": "SPFM",
-            "groupId": "a2Sendmarc",
-            "essential": "OnApply",
-            "host": "@",
-            "ttl": "3600",
-            "txtConflictMatchingMode": "Prefix",
-            "txtConflictMatchingPrefix": "v=spf1",
-            "spfRules": "%thirdPartyDomainSendmarc%"
         },
         {
             "type": "A",
@@ -4661,41 +4489,6 @@
             "ttl": "3600"
         },
         {
-            "type": "TXT",
-            "groupId": "a1Durable",
-            "host": "%dkimHostDurable%",
-            "ttl": "3600",
-            "data": "%dkimValueDurable%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Durable",
-            "host": "www",
-            "pointsTo": "%mappingValueDurable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a3Durable",
-            "host": "@",
-            "pointsTo": "%primaryIpDurable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Durable",
-            "host": "www",
-            "pointsTo": "%mappingValueDurable%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a4Durable",
-            "host": "@",
-            "pointsTo": "%primaryIpDurable%",
-            "ttl": "3600"
-        },
-        {
             "type": "SPFM",
             "groupId": "a1Mystudio",
             "host": "%hostvalueMystudio%",
@@ -6540,6 +6333,374 @@
             "pointsTo": "%mxValue1Cymbal%",
             "ttl": "3600",
             "priority": "10"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Durable",
+            "host": "%dkimHostDurableDurable%",
+            "ttl": "3600",
+            "data": "%dkimValueDurableDurable%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Durable",
+            "host": "www",
+            "pointsTo": "%mappingValueDurableDurable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Durable",
+            "host": "@",
+            "pointsTo": "%primaryIpDurableDurable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Durable",
+            "host": "www",
+            "pointsTo": "%mappingValueDurableDurable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Durable",
+            "host": "@",
+            "pointsTo": "%primaryIpDurableDurable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Durable",
+            "host": "%cnameHostDurable2Durable%",
+            "pointsTo": "%mappingValueDurable2Durable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%ipFourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHostFourthwall%",
+            "pointsTo": "%cnameValueFourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%sendgridHostFourthwall%",
+            "pointsTo": "%sendgridValueFourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%sendgridHostDomainKey1Fourthwall%",
+            "pointsTo": "%sendgridHostDomainKeyValue1Fourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%sendgridHostDomainKey2Fourthwall%",
+            "pointsTo": "%sendgridHostDomainKeyValue2Fourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost1Fourthwall%",
+            "pointsTo": "%cnameValue1Fourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost2Fourthwall%",
+            "pointsTo": "%cnameValue2Fourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost3Fourthwall%",
+            "pointsTo": "%cnameValue3Fourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost4Fourthwall%",
+            "pointsTo": "%cnameValue4Fourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost5Fourthwall%",
+            "pointsTo": "%cnameValue5Fourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "CNAME",
+            "host": "%cnameHost6Fourthwall%",
+            "pointsTo": "%cnameValue6Fourthwall%",
+            "ttl": "3600",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "TXT",
+            "host": "%txtHost1Fourthwall%",
+            "ttl": "3600",
+            "data": "%txtValue1Fourthwall%",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "TXT",
+            "host": "_dmarc.support",
+            "ttl": "3600",
+            "data": "v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@fourthwall.com",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "SPFM",
+            "host": "support",
+            "spfRules": "include:_spf.google.com include:mail.zendesk.com include:spf.improvmx.com include:sendgrid.net",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "MX",
+            "host": "support",
+            "pointsTo": "mx1.improvmx.com.",
+            "ttl": "3600",
+            "priority": "10",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "MX",
+            "host": "support",
+            "pointsTo": "mx2.improvmx.com.",
+            "ttl": "3600",
+            "priority": "10",
+            "groupId": "a1Fourthwall"
+        },
+        {
+            "type": "A",
+            "host": "@",
+            "pointsTo": "%ipFourthwallsubdomains%",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "www",
+            "pointsTo": "@",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "%sendgridHostFourthwallsubdomains%",
+            "pointsTo": "%sendgridValueFourthwallsubdomains%",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "%sendgridHostDomainKey1Fourthwallsubdomains%",
+            "pointsTo": "%sendgridHostDomainKeyValue1Fourthwallsubdomains%",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "%sendgridHostDomainKey2Fourthwallsubdomains%",
+            "pointsTo": "%sendgridHostDomainKeyValue2Fourthwallsubdomains%",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "zendesk1._domainkey.support",
+            "pointsTo": "zendesk1._domainkey.zendesk.com.",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "zendesk2._domainkey.support",
+            "pointsTo": "zendesk2._domainkey.zendesk.com.",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "zendesk1.support",
+            "pointsTo": "mail1.zendesk.com.",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "zendesk2.support",
+            "pointsTo": "mail2.zendesk.com.",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "zendesk3.support",
+            "pointsTo": "mail3.zendesk.com.",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "CNAME",
+            "host": "zendesk4.support",
+            "pointsTo": "mail4.zendesk.com.",
+            "ttl": 3600,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "TXT",
+            "host": "zendeskverification.support",
+            "ttl": 3600,
+            "data": "%zendeskverificationFourthwallsubdomains%",
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "TXT",
+            "host": "_dmarc.support",
+            "ttl": 3600,
+            "data": "v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@fourthwall.com",
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "SPFM",
+            "host": "support",
+            "spfRules": "include:_spf.google.com include:mail.zendesk.com include:spf.improvmx.com include:sendgrid.net",
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "MX",
+            "host": "support",
+            "pointsTo": "mx1.improvmx.com.",
+            "ttl": 3600,
+            "priority": 10,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "MX",
+            "host": "support",
+            "pointsTo": "mx2.improvmx.com.",
+            "ttl": 3600,
+            "priority": 10,
+            "groupId": "a1Fourthwallsubdomains"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "www",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Pressable",
+            "host": "www",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Pressable",
+            "host": "@",
+            "pointsTo": "%ipAdress2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Pressable",
+            "host": "%Cnamehost1Pressable%",
+            "pointsTo": "%Cnamevalue1Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Pressable",
+            "host": "%Cnamehost2Pressable%",
+            "pointsTo": "%Cnamevalue2Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Pressable",
+            "host": "%Cnamehost3Pressable%",
+            "pointsTo": "%Cnamevalue3Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Pressable",
+            "host": "%Cnamehost4Pressable%",
+            "pointsTo": "%Cnamevalue4Pressable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Sendmarc",
+            "host": "_dmarc",
+            "pointsTo": "%cnamePointsToSendmarcSendmarc%",
+            "ttl": "3600"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Sendmarc",
+            "essential": "OnApply",
+            "host": "@",
+            "ttl": "3600",
+            "txtConflictMatchingMode": "Prefix",
+            "txtConflictMatchingPrefix": "v=spf1",
+            "spfRules": "%thirdPartyDomainSendmarcSendmarc%"
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Sendmarc",
+            "host": "%nsHostSendmarc%",
+            "pointsTo": "%nsValue1Sendmarc%",
+            "ttl": "3600"
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Sendmarc",
+            "host": "%nsHostSendmarc%",
+            "pointsTo": "%nsValue2Sendmarc%"
         }
     ]
 }
