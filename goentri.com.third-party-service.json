@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 103,
+    "version": 104,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -6345,20 +6345,6 @@
             "ttl": "300"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Invitejet",
-            "host": "%cnameHostInvitejet%",
-            "pointsTo": "%cnameValueInvitejet%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Invitejet",
-            "host": "%cnameHost2Invitejet%",
-            "pointsTo": "%cnameValue2Invitejet%",
-            "ttl": "300"
-        },
-        {
             "type": "A",
             "groupId": "a1Uppfirst",
             "host": "@",
@@ -6399,6 +6385,161 @@
             "host": "%cnameHost2Uppfirst%",
             "pointsTo": "%cnameValue2Uppfirst%",
             "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Createapp",
+            "host": "@",
+            "pointsTo": "%ip1Createapp%",
+            "ttl": "600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Createapp",
+            "host": "@",
+            "pointsTo": "%ip2Createapp%",
+            "ttl": "600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Createapp",
+            "host": "%hostTxt1Createapp%",
+            "ttl": "3600",
+            "data": "%valueTxt1Createapp%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Createapp",
+            "host": "%hostTxt2Createapp%",
+            "ttl": "3600",
+            "data": "%valueTxt2Createapp%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Reffle",
+            "host": "%cnameHost1Reffle%",
+            "pointsTo": "%cnamePointsTo1Reffle%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Reffle",
+            "host": "@",
+            "pointsTo": "%primaryIp1Reffle%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Reffle",
+            "host": "@",
+            "pointsTo": "%primaryIp2Reffle%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Reffle",
+            "host": "%txtHost1Reffle%",
+            "ttl": "300",
+            "data": "%txtValue1Reffle%"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a1Ecwid",
+            "host": "@",
+            "pointsTo": "letsencrypt",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Invitejet",
+            "host": "%cnameHostInvitejet%",
+            "pointsTo": "%cnameValueInvitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Invitejet",
+            "host": "%cnameHost2Invitejet%",
+            "pointsTo": "%cnameValue2Invitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Invitejet",
+            "host": "%cnameHost3Invitejet%",
+            "pointsTo": "%cnameValue3Invitejet%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Invitejet",
+            "host": "%txtHost1Invitejet%",
+            "ttl": "300",
+            "data": "%txtValue1Invitejet%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Teepublic",
+            "host": "%cnameHostTeepublic%",
+            "pointsTo": "%cnameValueTeepublic%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Cymbal",
+            "host": "%cnameHostCymbal%",
+            "pointsTo": "%cnamePointsToCymbal%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Cymbal",
+            "host": "%cnameHost2Cymbal%",
+            "pointsTo": "%cnamePointsTo2Cymbal%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Cymbal",
+            "host": "%cnameHost3Cymbal%",
+            "pointsTo": "%cnamePointsTo3Cymbal%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Cymbal",
+            "host": "%cnameHost4Cymbal%",
+            "pointsTo": "%cnamePointsTo4Cymbal%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Cymbal",
+            "host": "%cnameHost5Cymbal%",
+            "pointsTo": "%cnamePointsTo5Cymbal%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Cymbal",
+            "host": "%txtHost1Cymbal%",
+            "ttl": "300",
+            "data": "%txtValue1Cymbal%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Cymbal",
+            "host": "%txtHost2Cymbal%",
+            "ttl": "300",
+            "data": "%txtValue2Cymbal%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a8Cymbal",
+            "host": "%mxHost1Cymbal%",
+            "pointsTo": "%mxValue1Cymbal%",
+            "ttl": "3600",
+            "priority": "10"
         }
     ]
 }
