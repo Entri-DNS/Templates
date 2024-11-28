@@ -6765,6 +6765,20 @@
             "host": "%dmarcHostCrispemail%",
             "pointsTo": "%dmarcValueCrispemail%",
             "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Crispstatus",
+            "host": "%txtHost1Crispstatus%",
+            "ttl": "300",
+            "data": "%txtValue1Crispstatus%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Crispstatus",
+            "host": "%cnameHostCrispstatus%",
+            "pointsTo": "%cnamePointsToCrispstatus%",
+            "ttl": "3600"
         }
     ]
 }
