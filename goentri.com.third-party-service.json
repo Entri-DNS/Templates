@@ -6723,6 +6723,48 @@
             "host": "%CnameHost1Siteblog%",
             "pointsTo": "%CnameValue1Siteblog%",
             "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Crispemail",
+            "host": "%txtHostCrispemail%",
+            "ttl": "300",
+            "data": "%txtValueCrispemail%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Crispemail",
+            "host": "%spfHostCrispemail%",
+            "spfRules": "%spfValueCrispemail%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a3Crispemail",
+            "host": "%MxHostCrispemail%",
+            "pointsTo": "%MxValueCrispemail%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Crispemail",
+            "host": "%CnameHost1Crispemail%",
+            "pointsTo": "%CnameValue1Crispemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Crispemail",
+            "host": "%CnameHost2Crispemail%",
+            "pointsTo": "%CnameValue2Crispemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Crispemail",
+            "host": "%dmarcHostCrispemail%",
+            "pointsTo": "%dmarcValueCrispemail%",
+            "ttl": "300"
         }
     ]
 }
