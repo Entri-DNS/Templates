@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 105,
+    "version": 106,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5164,20 +5164,6 @@
             "ttl": "3600"
         },
         {
-            "type": "A",
-            "groupId": "a1Zephyrcloud",
-            "host": "%hostArecordZephyrcloud%",
-            "pointsTo": "%ipZephyrcloud%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Zephyrcloud",
-            "host": "@",
-            "pointsTo": "%ipZephyrcloud%",
-            "ttl": "3600"
-        },
-        {
             "type": "TXT",
             "groupId": "a1Wishpond",
             "host": "@",
@@ -5948,41 +5934,6 @@
             "ttl": "300"
         },
         {
-            "type": "A",
-            "groupId": "a1Luxurypresence",
-            "host": "@",
-            "pointsTo": "%ipValue1Luxurypresence%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Luxurypresence",
-            "host": "@",
-            "pointsTo": "%ipValue2Luxurypresence%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Luxurypresence",
-            "host": "www",
-            "pointsTo": "%cnameValue1Luxurypresence%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Luxurypresence",
-            "host": "%cnameHost2Luxurypresence%",
-            "pointsTo": "%cnameValue2Luxurypresence%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a5Luxurypresence",
-            "host": "%txtHostLuxurypresence%",
-            "ttl": "300",
-            "data": "%txtValueLuxurypresence%"
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Meera",
             "host": "%cnameHost1Meera%",
@@ -6701,6 +6652,161 @@
             "groupId": "a3Sendmarc",
             "host": "%nsHostSendmarc%",
             "pointsTo": "%nsValue2Sendmarc%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Siteblog",
+            "host": "%txtHostSiteblog%",
+            "ttl": "300",
+            "data": "%txtValueSiteblog%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Siteblog",
+            "host": "%MxHostSiteblog%",
+            "pointsTo": "%MxValueSiteblog%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Siteblog",
+            "host": "%CnameHost1Siteblog%",
+            "pointsTo": "%CnameValue1Siteblog%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Crispemail",
+            "host": "%txtHostCrispemail%",
+            "ttl": "300",
+            "data": "%txtValueCrispemail%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Crispemail",
+            "host": "%spfHostCrispemail%",
+            "spfRules": "%spfValueCrispemail%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a3Crispemail",
+            "host": "%MxHostCrispemail%",
+            "pointsTo": "%MxValueCrispemail%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Crispemail",
+            "host": "%CnameHost1Crispemail%",
+            "pointsTo": "%CnameValue1Crispemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Crispemail",
+            "host": "%CnameHost2Crispemail%",
+            "pointsTo": "%CnameValue2Crispemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Crispemail",
+            "host": "%dmarcHostCrispemail%",
+            "pointsTo": "%dmarcValueCrispemail%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Crispstatus",
+            "host": "%txtHost1Crispstatus%",
+            "ttl": "300",
+            "data": "%txtValue1Crispstatus%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Crispstatus",
+            "host": "%cnameHostCrispstatus%",
+            "pointsTo": "%cnamePointsToCrispstatus%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Luxurypresence",
+            "host": "@",
+            "pointsTo": "%ipValue1Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Luxurypresence",
+            "host": "@",
+            "pointsTo": "%ipValue2Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Luxurypresence",
+            "host": "www",
+            "pointsTo": "%cnameValue1Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Luxurypresence",
+            "host": "%cnameHost2Luxurypresence%",
+            "pointsTo": "%cnameValue2Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Luxurypresence",
+            "host": "%cnameHost3Luxurypresence%",
+            "pointsTo": "%cnameValue3Luxurypresence%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Luxurypresence",
+            "host": "%txtHost1Luxurypresence%",
+            "ttl": "300",
+            "data": "%txtValue1Luxurypresence%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Luxurypresence",
+            "host": "%txtHost2Luxurypresence%",
+            "ttl": "300",
+            "data": "%txtValue2Luxurypresence%"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Zephyrcloud",
+            "host": "%hostArecordZephyrcloud%",
+            "pointsTo": "%ipZephyrcloud%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Zephyrcloud",
+            "host": "@",
+            "pointsTo": "%ip2Zephyrcloud%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Zephyrcloud",
+            "host": "%cnameHost1Zephyrcloud%",
+            "pointsTo": "%cnameValue1Zephyrcloud%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Zephyrcloud",
+            "host": "%cnameHost2Zephyrcloud%",
+            "pointsTo": "%cnameValue2Zephyrcloud%",
+            "ttl": "3600"
         }
     ]
 }
