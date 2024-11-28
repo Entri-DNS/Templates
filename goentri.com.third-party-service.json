@@ -6701,6 +6701,28 @@
             "groupId": "a3Sendmarc",
             "host": "%nsHostSendmarc%",
             "pointsTo": "%nsValue2Sendmarc%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Siteblog",
+            "host": "%txtHostSiteblog%",
+            "ttl": "300",
+            "data": "%txtValueSiteblog%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Siteblog",
+            "host": "%MxHostSiteblog%",
+            "pointsTo": "%MxValueSiteblog%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Siteblog",
+            "host": "%CnameHost1Siteblog%",
+            "pointsTo": "%CnameValue1Siteblog%",
+            "ttl": "300"
         }
     ]
 }
