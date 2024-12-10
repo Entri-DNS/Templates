@@ -5323,34 +5323,6 @@
             "ttl": "3600"
         },
         {
-            "type": "CNAME",
-            "groupId": "a1Stape",
-            "host": "%cnameHostStape%",
-            "pointsTo": "%cnameValueStape%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a2Stape",
-            "host": "%cnameHost2Stape%",
-            "pointsTo": "%cnameValue2Stape%",
-            "ttl": "300"
-        },
-        {
-            "type": "A",
-            "groupId": "a3Stape",
-            "host": "@",
-            "pointsTo": "%ipAdressStape%",
-            "ttl": "3600"
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a4Stape",
-            "host": "@",
-            "pointsTo": "%pointsToStape%",
-            "ttl": "3600"
-        },
-        {
             "type": "A",
             "groupId": "a1Fanflowy",
             "host": "@",
@@ -6813,6 +6785,34 @@
             "groupId": "a9Cymbal",
             "host": "%spfHostCymbal%",
             "spfRules": "%spfValueCymbal%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Stape",
+            "host": "%cnameHostStape%",
+            "ttl": 300,
+            "pointsTo": "%cnameValueStape%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Stape",
+            "host": "%cnameHost2Stape%",
+            "ttl": 300,
+            "pointsTo": "%cnameValue2Stape%"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Stape",
+            "host": "%aRecordHostStape%",
+            "pointsTo": "%ipAdressStape%",
+            "ttl": 3600
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a4Stape",
+            "host": "%aaaaRecordHostStape%",
+            "pointsTo": "%pointsToStape%",
+            "ttl": 3600
         }
     ]
 }
