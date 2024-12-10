@@ -5739,33 +5739,6 @@
             "ttl": "300"
         },
         {
-            "type": "SPFM",
-            "groupId": "a1Hubspot",
-            "host": "%spfHostHubspot%",
-            "spfRules": "%spfValueHubspot%"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a2Hubspot",
-            "host": "%dmarcHostHubspot%",
-            "ttl": "300",
-            "data": "%dmarcValueHubspot%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Hubspot",
-            "host": "%cnameHostHubspot%",
-            "pointsTo": "%cnameValueHubspot%",
-            "ttl": "300"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a4Hubspot",
-            "host": "%cnameHost2Hubspot%",
-            "pointsTo": "%cnameValue2Hubspot%",
-            "ttl": "300"
-        },
-        {
             "type": "A",
             "groupId": "a1Revenueroll",
             "host": "%subdomain1Revenueroll%",
@@ -6812,6 +6785,54 @@
             "groupId": "a4Stape",
             "host": "%aRecordHostStape%",
             "pointsTo": "%pointsToStape%",
+            "ttl": "3600"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Hubspot",
+            "host": "%spfHostHubspot%",
+            "spfRules": "%spfValueHubspot%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Hubspot",
+            "host": "%dmarcHostHubspot%",
+            "ttl": "300",
+            "data": "%dmarcValueHubspot%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Hubspot",
+            "host": "%cnameHostHubspot%",
+            "pointsTo": "%cnameValueHubspot%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Hubspot",
+            "host": "%cnameHost2Hubspot%",
+            "pointsTo": "%cnameValue2Hubspot%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Hubspot",
+            "host": "%txtHost2Hubspot%",
+            "ttl": "300",
+            "data": "%txtValue2Hubspot%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Hubspot",
+            "host": "%txtHost3Hubspot%",
+            "ttl": "300",
+            "data": "%txtValue3Hubspot%"
+        },
+        {
+            "type": "A",
+            "groupId": "a7Hubspot",
+            "host": "%aHost1Hubspot%",
+            "pointsTo": "%ipAdress1Hubspot%",
             "ttl": "3600"
         }
     ]
