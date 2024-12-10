@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 109,
+    "version": 110,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -6834,6 +6834,27 @@
             "host": "%aHost1Hubspot%",
             "pointsTo": "%ipAdress1Hubspot%",
             "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a8Hubspot",
+            "host": "%aHost2Hubspot%",
+            "pointsTo": "%ipAdress2Hubspot%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a9Hubspot",
+            "host": "%cnameHost3Hubspot%",
+            "pointsTo": "%cnameValue3Hubspot%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a10Hubspot",
+            "host": "%cnameHost4Hubspot%",
+            "pointsTo": "%cnameValue4Hubspot%",
+            "ttl": "300"
         }
     ]
 }
