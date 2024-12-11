@@ -6855,6 +6855,14 @@
             "host": "%cnameHost4Hubspot%",
             "pointsTo": "%cnameValue4Hubspot%",
             "ttl": "300"
+        },
+        {
+            "type": "MX",
+            "groupId": "a11Hubspot",
+            "host": "%mxHostHubspot%",
+            "pointsTo": "%mxValueHubspot%",
+            "ttl": "300",
+            "priority": "10"
         }
     ]
 }
