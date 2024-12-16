@@ -6515,28 +6515,6 @@
         },
         {
             "type": "TXT",
-            "groupId": "a1Siteblog",
-            "host": "%txtHostSiteblog%",
-            "ttl": "300",
-            "data": "%txtValueSiteblog%"
-        },
-        {
-            "type": "MX",
-            "groupId": "a2Siteblog",
-            "host": "%MxHostSiteblog%",
-            "pointsTo": "%MxValueSiteblog%",
-            "ttl": "300",
-            "priority": "10"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Siteblog",
-            "host": "%CnameHost1Siteblog%",
-            "pointsTo": "%CnameValue1Siteblog%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
             "groupId": "a1Crispemail",
             "host": "%txtHostCrispemail%",
             "ttl": "300",
@@ -6919,6 +6897,71 @@
             "host": "%ipHostJobber%",
             "pointsTo": "%ipValue2Jobber%",
             "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Siteblog",
+            "host": "%txtHostSiteblog%",
+            "ttl": "300",
+            "data": "%txtValueSiteblog%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Siteblog",
+            "host": "%MxHostSiteblog%",
+            "pointsTo": "%MxValueSiteblog%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Siteblog",
+            "host": "%CnameHost1Siteblog%",
+            "pointsTo": "%CnameValue1Siteblog%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Siteblog",
+            "host": "@",
+            "ttl": "3600",
+            "data": "%txtValueSiteblog%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a7Siteblog",
+            "host": "@",
+            "pointsTo": "%MxValueSiteblog%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a8Siteblog",
+            "host": "@",
+            "ttl": "300",
+            "spfRules": "%spfRulesSiteblog%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Siteblog",
+            "host": "%txtHostSiteblog%",
+            "ttl": "3600",
+            "data": "%txtValueSiteblog%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10Siteblog",
+            "host": "%txtHost2Siteblog%",
+            "ttl": "3600",
+            "data": "%txtValue2Siteblog%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Siteblog",
+            "host": "%txtHostSiteblog%",
+            "ttl": "3600",
+            "data": "%txtValue3Siteblog%"
         }
     ]
 }
