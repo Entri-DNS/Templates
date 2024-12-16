@@ -6863,6 +6863,20 @@
             "pointsTo": "%mxValueHubspot%",
             "ttl": "300",
             "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Swell",
+            "host": "%cnameHostSwell%",
+            "pointsTo": "%cnamePointsToSwellSwell%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Swell",
+            "host": "%cnameHost2Swell%",
+            "pointsTo": "%cnamePointsToSwellSwell%",
+            "ttl": "3600"
         }
     ]
 }
