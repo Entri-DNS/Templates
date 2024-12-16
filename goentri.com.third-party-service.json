@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 112,
+    "version": 113,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -6515,28 +6515,6 @@
         },
         {
             "type": "TXT",
-            "groupId": "a1Siteblog",
-            "host": "%txtHostSiteblog%",
-            "ttl": "300",
-            "data": "%txtValueSiteblog%"
-        },
-        {
-            "type": "MX",
-            "groupId": "a2Siteblog",
-            "host": "%MxHostSiteblog%",
-            "pointsTo": "%MxValueSiteblog%",
-            "ttl": "300",
-            "priority": "10"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a3Siteblog",
-            "host": "%CnameHost1Siteblog%",
-            "pointsTo": "%CnameValue1Siteblog%",
-            "ttl": "300"
-        },
-        {
-            "type": "TXT",
             "groupId": "a1Crispemail",
             "host": "%txtHostCrispemail%",
             "ttl": "300",
@@ -6877,6 +6855,113 @@
             "host": "%cnameHost2Swell%",
             "pointsTo": "%cnamePointsToSwellSwell%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Birdseye",
+            "host": "%cnameHost1Birdseye%",
+            "pointsTo": "%cnamePointsto1Birdseye%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Birdseye",
+            "host": "%cnameHost2Birdseye%",
+            "pointsTo": "%cnamePointsto2Birdseye%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Birdseye",
+            "host": "%cnameHost3Birdseye%",
+            "pointsTo": "%cnamePointsto3Birdseye%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Jobber",
+            "host": "%cnameHost1Jobber%",
+            "pointsTo": "%cnamePointsto1Jobber%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Jobber",
+            "host": "%ipHostJobber%",
+            "pointsTo": "%ipValue1Jobber%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Jobber",
+            "host": "%ipHostJobber%",
+            "pointsTo": "%ipValue2Jobber%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a1Siteblog",
+            "host": "%txtHostSiteblog%",
+            "ttl": "300",
+            "data": "%txtValueSiteblog%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a2Siteblog",
+            "host": "%MxHostSiteblog%",
+            "pointsTo": "%MxValueSiteblog%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Siteblog",
+            "host": "%CnameHost1Siteblog%",
+            "pointsTo": "%CnameValue1Siteblog%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a5Siteblog",
+            "host": "@",
+            "ttl": "3600",
+            "data": "%txtValueSiteblog%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a7Siteblog",
+            "host": "@",
+            "pointsTo": "%MxValueSiteblog%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a8Siteblog",
+            "host": "@",
+            "ttl": "300",
+            "spfRules": "%spfRulesSiteblog%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Siteblog",
+            "host": "%txtHostSiteblog%",
+            "ttl": "3600",
+            "data": "%txtValueSiteblog%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10Siteblog",
+            "host": "%txtHost2Siteblog%",
+            "ttl": "3600",
+            "data": "%txtValue2Siteblog%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Siteblog",
+            "host": "%txtHostSiteblog%",
+            "ttl": "3600",
+            "data": "%txtValue3Siteblog%"
         }
     ]
 }
