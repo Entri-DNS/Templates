@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 112,
+    "version": 113,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -6883,28 +6883,28 @@
             "groupId": "a1Birdseye",
             "host": "%cnameHost1Birdseye%",
             "pointsTo": "%cnamePointsto1Birdseye%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a2Birdseye",
             "host": "%cnameHost2Birdseye%",
             "pointsTo": "%cnamePointsto2Birdseye%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a3Birdseye",
             "host": "%cnameHost3Birdseye%",
             "pointsTo": "%cnamePointsto3Birdseye%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a1Jobber",
             "host": "%cnameHost1Jobber%",
             "pointsTo": "%cnamePointsto1Jobber%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "A",
