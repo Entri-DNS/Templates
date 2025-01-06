@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 113,
+    "version": 114,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -6962,6 +6962,47 @@
             "host": "%txtHostSiteblog%",
             "ttl": "3600",
             "data": "%txtValue3Siteblog%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Mailprotector",
+            "host": "%spfHostMailprotector%",
+            "spfRules": "%spfValueMailprotector%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Mailprotector",
+            "host": "%dkimHost1Mailprotector%",
+            "pointsTo": "%dkimValue1Mailprotector%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Mailprotector",
+            "host": "%dkimHost2Mailprotector%",
+            "pointsTo": "%dkimValue2Mailprotector%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Dashery",
+            "host": "%cnameHost1Dashery%",
+            "pointsTo": "%cnameValue1Dashery%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Dashery",
+            "host": "%ipHost1Dashery%",
+            "pointsTo": "%hostValue1Dashery%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Dashery",
+            "host": "%ipHost1Dashery%",
+            "pointsTo": "%hostValue2Dashery%",
+            "ttl": "300"
         }
     ]
 }
