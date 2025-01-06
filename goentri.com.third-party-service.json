@@ -6962,6 +6962,26 @@
             "host": "%txtHostSiteblog%",
             "ttl": "3600",
             "data": "%txtValue3Siteblog%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Mailprotector",
+            "host": "%spfHostMailprotector%",
+            "spfRules": "%spfValueMailprotector%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Mailprotector",
+            "host": "%dkimHost1Mailprotector%",
+            "pointsTo": "%dkimValue1Mailprotector%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Mailprotector",
+            "host": "%dkimHost2Mailprotector%",
+            "pointsTo": "%dkimValue2Mailprotector%",
+            "ttl": "300"
         }
     ]
 }
