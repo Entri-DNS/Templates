@@ -6982,6 +6982,27 @@
             "host": "%dkimHost2Mailprotector%",
             "pointsTo": "%dkimValue2Mailprotector%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Dashery",
+            "host": "%cnameHost1Dashery%",
+            "pointsTo": "%cnameValue1Dashery%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Dashery",
+            "host": "%ipHost1Dashery%",
+            "pointsTo": "%hostValue1Dashery%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Dashery",
+            "host": "%ipHost1Dashery%",
+            "pointsTo": "%hostValue2Dashery%",
+            "ttl": "300"
         }
     ]
 }
