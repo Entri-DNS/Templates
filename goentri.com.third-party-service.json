@@ -7017,6 +7017,40 @@
             "host": "%cnameHost12Beehiiv%",
             "pointsTo": "%cnameValue11Beehiiv%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Genesisdigital",
+            "host": "%cnameHostGenesisdigital%",
+            "pointsTo": "%cnameValueGenesisdigital%",
+            "ttl": "300"
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a2Genesisdigital",
+            "host": "@",
+            "target": "%targetGenesisdigital%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Genesisdigital",
+            "host": "%sendgridHostGenesisdigital%",
+            "pointsTo": "%sendgridValueGenesisdigital%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Genesisdigital",
+            "host": "%dkimHost1Genesisdigital%",
+            "pointsTo": "%dkimValue1Genesisdigital%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Genesisdigital",
+            "host": "%dkimHost2Genesisdigital%",
+            "pointsTo": "%dkimValue2Genesisdigital%",
+            "ttl": "300"
         }
     ]
 }
