@@ -7051,6 +7051,104 @@
             "host": "%dkimHost2Genesisdigital%",
             "pointsTo": "%dkimValue2Genesisdigital%",
             "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Expertsender",
+            "host": "%ipHost1Expertsender%",
+            "pointsTo": "%ipValue1Expertsender%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Expertsender",
+            "host": "%ipHost2Expertsender%",
+            "pointsTo": "%ipValue1Expertsender%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Expertsender",
+            "host": "%ipHost3Expertsender%",
+            "pointsTo": "%ipValue1Expertsender%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Expertsender",
+            "host": "%ipHost4Expertsender%",
+            "pointsTo": "%ipValue2Expertsender%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a5Expertsender",
+            "host": "%ipHost5Expertsender%",
+            "pointsTo": "%ipValue2Expertsender%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Expertsender",
+            "host": "%cnameHost6Expertsender%",
+            "pointsTo": "%cnameValue6Expertsender%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a7Expertsender",
+            "host": "%dmarcHostExpertsender%",
+            "ttl": "300",
+            "data": "%dmarcValueExpertsender%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a8Expertsender",
+            "host": "%ipHost1Expertsender%",
+            "spfRules": "%spfValueExpertsender%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a9Expertsender",
+            "host": "@",
+            "spfRules": "%spfValueExpertsender%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10Expertsender",
+            "host": "%googleVerificationHostExpertsender%",
+            "ttl": "300",
+            "data": "%googleVerificationValueExpertsender%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Expertsender",
+            "host": "%yahooVerificationHostExpertsender%",
+            "ttl": "300",
+            "data": "%yahooVerificationValueExpertsender%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a12Expertsender",
+            "host": "%dkimHost1Expertsender%",
+            "ttl": "300",
+            "data": "%dkimValue1Expertsender%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a13Expertsender",
+            "host": "%ipHost1Expertsender%",
+            "pointsTo": "%mxValueExpertsender%",
+            "ttl": "300",
+            "priority": "20"
+        },
+        {
+            "type": "MX",
+            "groupId": "a14Expertsender",
+            "host": "%ipHost2Expertsender%",
+            "pointsTo": "%mxValueExpertsender%",
+            "ttl": "300",
+            "priority": "10"
         }
     ]
 }
