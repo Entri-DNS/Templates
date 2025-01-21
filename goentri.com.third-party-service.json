@@ -7184,6 +7184,27 @@
             "host": "%IPhost2Lodgify%",
             "pointsTo": "%IPvalueLodgify%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Lolo",
+            "host": "%cnameHost1Lolo%",
+            "pointsTo": "%cnameValue1Lolo%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Lolo",
+            "host": "%cnameHost2Lolo%",
+            "pointsTo": "%cnameValue2Lolo%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Lolo",
+            "host": "%cnameHost3Lolo%",
+            "pointsTo": "%cnameValue3Lolo%",
+            "ttl": "3600"
         }
     ]
 }
