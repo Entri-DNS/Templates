@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 116,
+    "version": 117,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -7149,6 +7149,62 @@
             "pointsTo": "%mxValueExpertsender%",
             "ttl": "300",
             "priority": "10"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Lodgify",
+            "host": "%CnameHost1Lodgify%",
+            "pointsTo": "%CnameValue1Lodgify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Lodgify",
+            "host": "%CnameHost2Lodgify%",
+            "pointsTo": "%CnameValue2Lodgify%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Lodgify",
+            "host": "%TxtHostLodgify%",
+            "ttl": "300",
+            "data": "%TxtValueLodgify%"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Lodgify",
+            "host": "%IPhost1Lodgify%",
+            "pointsTo": "%IPvalueLodgify%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a5Lodgify",
+            "host": "%IPhost2Lodgify%",
+            "pointsTo": "%IPvalueLodgify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Lolo",
+            "host": "%cnameHost1Lolo%",
+            "pointsTo": "%cnameValue1Lolo%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Lolo",
+            "host": "%cnameHost2Lolo%",
+            "pointsTo": "%cnameValue2Lolo%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Lolo",
+            "host": "%cnameHost3Lolo%",
+            "pointsTo": "%cnameValue3Lolo%",
+            "ttl": "3600"
         }
     ]
 }
