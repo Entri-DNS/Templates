@@ -7324,6 +7324,20 @@
             "host": "%cnameHost5Apollo%",
             "pointsTo": "%cnameValue5Apollo%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Voffice",
+            "host": "%cnameHost1Voffice%",
+            "pointsTo": "%cnameValue1Voffice%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Voffice",
+            "host": "%cnameHost2Voffice%",
+            "pointsTo": "%cnameValue2Voffice%",
+            "ttl": "300"
         }
     ]
 }
