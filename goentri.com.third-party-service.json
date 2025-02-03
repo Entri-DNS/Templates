@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 117,
+    "version": 118,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -6034,13 +6034,6 @@
             "data": "%txtValue1Reffle%"
         },
         {
-            "type": "CAA",
-            "groupId": "a1Ecwid",
-            "host": "@",
-            "pointsTo": "letsencrypt",
-            "ttl": "300"
-        },
-        {
             "type": "CNAME",
             "groupId": "a1Invitejet",
             "host": "%cnameHostInvitejet%",
@@ -7205,6 +7198,153 @@
             "host": "%cnameHost3Lolo%",
             "pointsTo": "%cnameValue3Lolo%",
             "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Shopify",
+            "host": "@",
+            "pointsTo": "%ipValueShopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a2Shopify",
+            "host": "@",
+            "pointsTo": "%aaaaValueShopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Shopify",
+            "host": "%cnameHost1Shopify%",
+            "pointsTo": "%cnameValue1Shopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Shopify",
+            "host": "%txtHost1Shopify%",
+            "ttl": "300",
+            "data": "%txtValue1Shopify%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Shopify",
+            "host": "%cnameHost2Shopify%",
+            "pointsTo": "%cnameValue2Shopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Shopify",
+            "host": "%cnameHost3Shopify%",
+            "pointsTo": "%cnameValue3Shopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7Shopify",
+            "host": "%cnameHost4Shopify%",
+            "pointsTo": "%cnameValue4Shopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Shopify",
+            "host": "%dmarcHostShopify%",
+            "ttl": "300",
+            "data": "%dmarcValueShopify%"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a9Shopify",
+            "host": "@",
+            "pointsTo": "%caaValue1Shopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a10Shopify",
+            "host": "@",
+            "pointsTo": "%caaValue2Shopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a11Shopify",
+            "host": "@",
+            "pointsTo": "%caaValue3Shopify%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a12Shopify",
+            "host": "%txtHost2Shopify%",
+            "ttl": "300",
+            "data": "%txtValue2Shopify%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Apollo",
+            "host": "%spfHostApollo%",
+            "ttl": "300",
+            "spfRules": "%spfValueApollo%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Apollo",
+            "host": "%dmarcHost1Apollo%",
+            "ttl": "300",
+            "data": "%dmarcValue1Apollo%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Apollo",
+            "host": "%dmarcHost2Apollo%",
+            "ttl": "300",
+            "data": "%dmarcValue2Apollo%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Apollo",
+            "host": "%cnameHost4Apollo%",
+            "pointsTo": "%cnameValue4Apollo%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Apollo",
+            "host": "%cnameHost5Apollo%",
+            "pointsTo": "%cnameValue5Apollo%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Voffice",
+            "host": "%cnameHost1Voffice%",
+            "pointsTo": "%cnameValue1Voffice%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Voffice",
+            "host": "%cnameHost2Voffice%",
+            "pointsTo": "%cnameValue2Voffice%",
+            "ttl": "300"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a1Ecwid",
+            "host": "@",
+            "pointsTo": "letsencrypt",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Ecwid",
+            "host": "@",
+            "pointsTo": "%ipValueEcwid%",
+            "ttl": "1000"
         }
     ]
 }
