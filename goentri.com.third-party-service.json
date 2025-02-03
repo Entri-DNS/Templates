@@ -7289,6 +7289,41 @@
             "host": "%txtHost2Shopify%",
             "ttl": "300",
             "data": "%txtValue2Shopify%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a1Apollo",
+            "host": "%spfHostApollo%",
+            "ttl": "300",
+            "spfRules": "%spfValueApollo%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a2Apollo",
+            "host": "%dmarcHost1Apollo%",
+            "ttl": "300",
+            "data": "%dmarcValue1Apollo%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a3Apollo",
+            "host": "%dmarcHost2Apollo%",
+            "ttl": "300",
+            "data": "%dmarcValue2Apollo%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Apollo",
+            "host": "%cnameHost4Apollo%",
+            "pointsTo": "%cnameValue4Apollo%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Apollo",
+            "host": "%cnameHost5Apollo%",
+            "pointsTo": "%cnameValue5Apollo%",
+            "ttl": "300"
         }
     ]
 }
