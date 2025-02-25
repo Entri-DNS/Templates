@@ -57,3 +57,9 @@ jobs:
           git add .
           git commit -m "Update JSON version and lint templates"
           git push origin HEAD:${{ github.head_ref }}
+      
+      - name: Send notification to SNS Topic
+        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
+        run: |
+          message=$(jq -n --arg pr_number "${{ github.event.number }}" --arg pr_title "${{ github.event.pull_request.title }}" --arg pr_url "${{ github.event.pull_request.html_url }}" '{number: $pr_number, title: $pr_title, url: $pr_url}')
+          aws sns publish --topic-arn ${{ secrets.SNS_TOPIC_ARN }} --message "$message" --region ${{ secrets.AWS_REGION }}
