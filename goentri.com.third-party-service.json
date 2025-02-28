@@ -7345,6 +7345,34 @@
             "host": "@",
             "pointsTo": "%ipValueEcwid%",
             "ttl": "1000"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Lovable",
+            "host": "%subdomainLovable%",
+            "pointsTo": "%pointstoIp1Lovable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Lovable",
+            "host": "www",
+            "pointsTo": "%pointstoIp1Lovable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a3Lovable",
+            "host": "%subdomainLovable%",
+            "pointsTo": "%pointstoIp2Lovable%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a4Lovable",
+            "host": "www",
+            "pointsTo": "%pointstoIp2Lovable%",
+            "ttl": "3600"
         }
     ]
 }
