@@ -7408,6 +7408,27 @@
             "pointsTo": "secure.pageserve.co",
             "ttl": "300",
             "groupId": "a1Instapage"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Forge",
+            "host": "%hostCname1Forge%",
+            "pointsTo": "%valueCname1Forge%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Forge",
+            "host": "@",
+            "pointsTo": "%ipForge%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Forge",
+            "host": "@",
+            "pointsTo": "%ip2Forge%",
+            "ttl": "3600"
         }
     ]
 }
