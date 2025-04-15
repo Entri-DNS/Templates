@@ -7401,6 +7401,13 @@
             "host": "%hostValue4Growthzilla%",
             "ttl": "3600",
             "data": "%dmarcValueGrowthzilla%"
+        },
+        {
+            "type": "CNAME",
+            "host": "%hostInstapage%",
+            "pointsTo": "secure.pageserve.co",
+            "ttl": "300",
+            "groupId": "a1Instapage"
         }
     ]
 }
