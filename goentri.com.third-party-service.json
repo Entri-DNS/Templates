@@ -7429,6 +7429,27 @@
             "host": "@",
             "pointsTo": "%ip2Forge%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Tellscale",
+            "host": "%hostCname1Tellscale%",
+            "pointsTo": "%valueCname1Tellscale%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Tellscale",
+            "host": "@",
+            "pointsTo": "%ipTellscale%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Tellscale",
+            "host": "@",
+            "pointsTo": "%ip2Tellscale%",
+            "ttl": "3600"
         }
     ]
 }
