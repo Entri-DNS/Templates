@@ -7506,6 +7506,13 @@
             "host": "@",
             "pointsTo": "%ipValue1Strategicamerica%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Platelink",
+            "host": "%hostCname1Platelink%",
+            "pointsTo": "%valueCname1Platelink%",
+            "ttl": "300"
         }
     ]
 }
