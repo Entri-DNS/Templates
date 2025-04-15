@@ -7404,10 +7404,10 @@
         },
         {
             "type": "CNAME",
+            "groupId": "a1Instapage",
             "host": "%hostInstapage%",
             "pointsTo": "secure.pageserve.co",
-            "ttl": "300",
-            "groupId": "a1Instapage"
+            "ttl": "300"
         },
         {
             "type": "CNAME",
