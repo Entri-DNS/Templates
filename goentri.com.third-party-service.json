@@ -7373,6 +7373,34 @@
             "host": "www",
             "pointsTo": "%pointstoIp2Lovable%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Growthzilla",
+            "host": "%hostValue1Growthzilla%",
+            "pointsTo": "%cnameValue1Growthzilla%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Growthzilla",
+            "host": "%hostValue2Growthzilla%",
+            "pointsTo": "%cnameValue2Growthzilla%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Growthzilla",
+            "host": "%hostValue3Growthzilla%",
+            "pointsTo": "%cnameValue3Growthzilla%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Growthzilla",
+            "host": "%hostValue4Growthzilla%",
+            "ttl": "3600",
+            "data": "%dmarcValueGrowthzilla%"
         }
     ]
 }
