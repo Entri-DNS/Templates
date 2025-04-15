@@ -7492,6 +7492,20 @@
             "host": "%hostCname4Instant%",
             "pointsTo": "%valueCname5Instant%",
             "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Strategicamerica",
+            "host": "%hostCname1Strategicamerica%",
+            "pointsTo": "%valueCname1Strategicamerica%",
+            "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a2Strategicamerica",
+            "host": "@",
+            "pointsTo": "%ipValue1Strategicamerica%",
+            "ttl": "300"
         }
     ]
 }
