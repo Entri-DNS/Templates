@@ -7513,6 +7513,71 @@
             "host": "%hostCname1Platelink%",
             "pointsTo": "%valueCname1Platelink%",
             "ttl": "300"
+        },
+        {
+            "type": "A",
+            "groupId": "a1Coursecreator360",
+            "host": "%ipHostCoursecreator360%",
+            "pointsTo": "%ipValueCoursecreator360%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Coursecreator360",
+            "host": "%cnameHost1Coursecreator360%",
+            "pointsTo": "%cnameValue1Coursecreator360%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Coursecreator360",
+            "host": "%cnameHost2Coursecreator360%",
+            "pointsTo": "%cnameValue2Coursecreator360%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Coursecreator360",
+            "host": "%cnameHost3Coursecreator360%",
+            "pointsTo": "%cnameValue3Coursecreator360%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Coursecreator360",
+            "host": "%cnameHost4Coursecreator360%",
+            "pointsTo": "%cnameValue4Coursecreator360%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a6Coursecreator360",
+            "host": "%dmarcHost1Coursecreator360%",
+            "ttl": "300",
+            "data": "%dmarcValue1Coursecreator360%"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a7Coursecreator360",
+            "host": "reply",
+            "ttl": "3600",
+            "spfRules": "%dataValue4Coursecreator360%"
+        },
+        {
+            "type": "MX",
+            "groupId": "a8Coursecreator360",
+            "host": "%MxHostCoursecreator360%",
+            "pointsTo": "%MxValueCoursecreator360%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "MX",
+            "groupId": "a9Coursecreator360",
+            "host": "%MxHostCoursecreator360%",
+            "pointsTo": "%MxValue2Coursecreator360%",
+            "ttl": "300",
+            "priority": "10"
         }
     ]
 }
