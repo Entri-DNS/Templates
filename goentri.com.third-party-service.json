@@ -7450,6 +7450,48 @@
             "host": "@",
             "pointsTo": "%ip2Tellscale%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Instant",
+            "host": "%hostCname1Instant%",
+            "pointsTo": "%valueCname1Instant%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Instant",
+            "host": "%hostCname2Instant%",
+            "pointsTo": "%valueCname2Instant%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Instant",
+            "host": "%hostCname3Instant%",
+            "pointsTo": "%valueCname3Instant%",
+            "ttl": "300"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a4Instant",
+            "host": "%dmarcHostInstant%",
+            "ttl": "300",
+            "data": "%dmarcValueInstant%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Instant",
+            "host": "%hostCname4Instant%",
+            "pointsTo": "%valueCname4Instant%",
+            "ttl": "300"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Instant",
+            "host": "%hostCname4Instant%",
+            "pointsTo": "%valueCname5Instant%",
+            "ttl": "300"
         }
     ]
 }
