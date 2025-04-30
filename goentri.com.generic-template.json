@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "applicationId",
     "serviceName": "Company Name",
-    "version": 1,
+    "version": 121,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up dkim record using Entri",
     "shared": true,
@@ -16,90 +16,90 @@
             "groupId": "a1",
             "host": "%hostValue1%",
             "pointsTo": "%dataValue1%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a2",
             "host": "%hostValue2%",
             "pointsTo": "%dataValue2%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a3",
             "host": "%hostValue3%",
             "pointsTo": "%dataValue3%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a4",
             "host": "%hostValue4%",
             "pointsTo": "%dataValue4%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a5",
             "host": "%hostValue5%",
             "pointsTo": "%dataValue5%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "CNAME",
             "groupId": "a6",
             "host": "%hostValue6%",
             "pointsTo": "%dataValue6%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "SPFM",
             "groupId": "a7",
             "host": "%spfHost%",
-            "ttl": 300,
+            "ttl": "300",
             "spfRules": "%spfValue%"
         },
         {
             "type": "TXT",
             "groupId": "a8",
             "host": "%dmarcHost1%",
-            "ttl": 3600,
+            "ttl": "3600",
             "data": "%dmarcHost1%"
         },
         {
             "type": "TXT",
             "groupId": "a9",
             "host": "%dmarcHost2%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%dmarcValue2%"
         },
         {
             "type": "TXT",
             "groupId": "a10",
             "host": "%dmarcHost3%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%dmarcValue3%"
         },
         {
             "type": "TXT",
             "groupId": "a11",
             "host": "%dmarcHost4%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%dmarcValue4%"
         },
         {
             "type": "TXT",
             "groupId": "a12",
             "host": "%dmarcHost5%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%dmarcValue5%"
         },
         {
             "type": "TXT",
             "groupId": "a13",
             "host": "%dmarcHost6%",
-            "ttl": 300,
+            "ttl": "300",
             "data": "%dmarcValue6%"
         },
         {
@@ -107,58 +107,58 @@
             "groupId": "a14",
             "host": "%arecordHost%",
             "pointsTo": "%ipAdress%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "A",
             "groupId": "a15",
             "host": "%arecordHost2%",
             "pointsTo": "%ipAdress%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "AAAA",
             "groupId": "a16",
             "host": "%wildcardHost%",
             "pointsTo": "%aaaaValue1%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "AAAA",
             "groupId": "a17",
             "host": "%wildcardHost%",
             "pointsTo": "%aaaaValue2%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "AAAA",
             "groupId": "a18",
             "host": "@",
             "pointsTo": "%aaaaValue1%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "AAAA",
             "groupId": "a19",
             "host": "@",
             "pointsTo": "%aaaaValue2%",
-            "ttl": 3600
+            "ttl": "3600"
         },
         {
             "type": "MX",
             "groupId": "a20",
             "host": "%MxHost1%",
             "pointsTo": "%MxValue1%",
-            "ttl": 3600,
-            "priority": 10
+            "ttl": "3600",
+            "priority": "10"
         },
         {
             "type": "MX",
             "groupId": "a21",
             "host": "%MxHost2%",
             "pointsTo": "%MxValue2%",
-            "ttl": 300,
-            "priority": 10
+            "ttl": "300",
+            "priority": "10"
         }
     ]
 }
