@@ -79,6 +79,71 @@
             "host": "%cnameHostSwell2%",
             "pointsTo": "%cnamePointsToSwell%",
             "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a1learndash",
+            "host": "@",
+            "pointsTo": "%pointstoIplearndash%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2learndash",
+            "host": "%cnameHost2learndash%",
+            "pointsTo": "%dataValue2learndash%",
+            "ttl": "3600"
+        },
+        {
+            "type": "MX",
+            "groupId": "a3learndash",
+            "host": "@",
+            "pointsTo": "%mxValuelearndash%",
+            "ttl": "300",
+            "priority": "10"
+        },
+        {
+            "type": "MX",
+            "groupId": "a4learndash",
+            "host": "@",
+            "pointsTo": "%mxValue2learndash%",
+            "ttl": "300",
+            "priority": "20"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a5learndash",
+            "host": "@",
+            "ttl": "3600",
+            "spfRules": "%spfRuleslearndash%"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6learndash",
+            "host": "%hostValue6learndash%",
+            "pointsTo": "%dataValue6learndash%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a7learndash",
+            "host": "%hostValue7learndash%",
+            "pointsTo": "%dataValue7learndash%",
+            "ttl": "3600"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8learndash",
+            "host": "%hostValue8learndash%",
+            "ttl": "3600",
+            "data": "%dataValue8learndash%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9learndash",
+            "host": "%hostValue9learndash%",
+            "ttl": "3600",
+            "data": "%dataValue9learndash%"
         }
     ]
 }
