@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 118,
+    "version": 123,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -5840,8 +5840,8 @@
             "type": "CAA",
             "groupId": "a2Taggrs",
             "host": "@",
-            "data": "%caaValueTaggrs%",
-            "ttl": "300"
+            "ttl": "300",
+            "data": "%caaValueTaggrs%"
         },
         {
             "type": "A",
@@ -7259,22 +7259,22 @@
             "type": "CAA",
             "groupId": "a9Shopify",
             "host": "@",
-            "data": "%caaValue1Shopify%",
-            "ttl": "300"
+            "ttl": "300",
+            "data": "%caaValue1Shopify%"
         },
         {
             "type": "CAA",
             "groupId": "a10Shopify",
             "host": "@",
-            "data": "%caaValue2Shopify%",
-            "ttl": "300"
+            "ttl": "300",
+            "data": "%caaValue2Shopify%"
         },
         {
             "type": "CAA",
             "groupId": "a11Shopify",
             "host": "@",
-            "data": "%caaValue3Shopify%",
-            "ttl": "300"
+            "ttl": "300",
+            "data": "%caaValue3Shopify%"
         },
         {
             "type": "TXT",
@@ -7336,8 +7336,8 @@
             "type": "CAA",
             "groupId": "a1Ecwid",
             "host": "@",
-            "data": "%caaValueEcwid%",
-            "ttl": "300"
+            "ttl": "300",
+            "data": "%caaValueEcwid%"
         },
         {
             "type": "A",
