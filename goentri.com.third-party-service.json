@@ -5840,7 +5840,7 @@
             "type": "CAA",
             "groupId": "a2Taggrs",
             "host": "@",
-            "pointsTo": "letsencrypt",
+            "data": "%caaValueTaggrs%",
             "ttl": "300"
         },
         {
@@ -7259,21 +7259,21 @@
             "type": "CAA",
             "groupId": "a9Shopify",
             "host": "@",
-            "pointsTo": "%caaValue1Shopify%",
+            "data": "%caaValue1Shopify%",
             "ttl": "300"
         },
         {
             "type": "CAA",
             "groupId": "a10Shopify",
             "host": "@",
-            "pointsTo": "%caaValue2Shopify%",
+            "data": "%caaValue2Shopify%",
             "ttl": "300"
         },
         {
             "type": "CAA",
             "groupId": "a11Shopify",
             "host": "@",
-            "pointsTo": "%caaValue3Shopify%",
+            "data": "%caaValue3Shopify%",
             "ttl": "300"
         },
         {
@@ -7336,7 +7336,7 @@
             "type": "CAA",
             "groupId": "a1Ecwid",
             "host": "@",
-            "pointsTo": "letsencrypt",
+            "data": "%caaValueEcwid%",
             "ttl": "300"
         },
         {
