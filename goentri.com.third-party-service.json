@@ -4100,90 +4100,6 @@
         },
         {
             "type": "CNAME",
-            "groupId": "a1Owner",
-            "host": "www",
-            "pointsTo": "@",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Owner",
-            "host": "@",
-            "pointsTo": "%ipOwner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a2Owner",
-            "host": "@",
-            "pointsTo": "%ip2Owner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a3Owner",
-            "host": "*",
-            "pointsTo": "%ipOwner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "A",
-            "groupId": "a3Owner",
-            "host": "*",
-            "pointsTo": "%ip2Owner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a4Owner",
-            "host": "*",
-            "pointsTo": "%aaaaValue1Owner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a4Owner",
-            "host": "*",
-            "pointsTo": "%aaaaValue2Owner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a5Owner",
-            "host": "@",
-            "pointsTo": "%aaaaValue1Owner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "AAAA",
-            "groupId": "a5Owner",
-            "host": "@",
-            "pointsTo": "%aaaaValue2Owner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "TXT",
-            "groupId": "a8Owner",
-            "host": "%hostTxtOwner%",
-            "ttl": "3600",
-            "data": "%verificationTxtOwner%"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a6Owner",
-            "host": "%hostValue1Owner%",
-            "pointsTo": "%verificationValue1Owner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
-            "groupId": "a7Owner",
-            "host": "%hostValue2Owner%",
-            "pointsTo": "%verificationValue2Owner%",
-            "ttl": "3600"
-        },
-        {
-            "type": "CNAME",
             "groupId": "a1Tidio",
             "host": "%cnameHostTidio%",
             "pointsTo": "%cnameValueTidio%",
@@ -7630,6 +7546,155 @@
             "host": "%cnameHost3Fello%",
             "pointsTo": "%cnameValue3Fello%",
             "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1Owner",
+            "host": "%hostValue1Owner%",
+            "pointsTo": "%dataValue1Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2Owner",
+            "host": "%hostValue2Owner%",
+            "pointsTo": "%dataValue2Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3Owner",
+            "host": "%hostValue3Owner%",
+            "pointsTo": "%dataValue3Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4Owner",
+            "host": "%hostValue4Owner%",
+            "pointsTo": "%dataValue4Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5Owner",
+            "host": "%hostValue5Owner%",
+            "pointsTo": "%dataValue5Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6Owner",
+            "host": "%hostValue6Owner%",
+            "pointsTo": "%dataValue6Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a7Owner",
+            "host": "%spfHostOwner%",
+            "ttl": "300",
+            "spfRules": "%spfValueOwner%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8Owner",
+            "host": "%dmarcHost1Owner%",
+            "ttl": "3600",
+            "data": "%dmarcHost1Owner%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9Owner",
+            "host": "%dmarcHost2Owner%",
+            "ttl": "300",
+            "data": "%dmarcValue2Owner%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10Owner",
+            "host": "%dmarcHost3Owner%",
+            "ttl": "300",
+            "data": "%dmarcValue3Owner%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11Owner",
+            "host": "%dmarcHost4Owner%",
+            "ttl": "300",
+            "data": "%dmarcValue4Owner%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a12Owner",
+            "host": "%dmarcHost5Owner%",
+            "ttl": "300",
+            "data": "%dmarcValue5Owner%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a13Owner",
+            "host": "%dmarcHost6Owner%",
+            "ttl": "300",
+            "data": "%dmarcValue6Owner%"
+        },
+        {
+            "type": "A",
+            "groupId": "a14Owner",
+            "host": "%arecordHostOwner%",
+            "pointsTo": "%ipAdressOwner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "A",
+            "groupId": "a15Owner",
+            "host": "%arecordHost2Owner%",
+            "pointsTo": "%ipAdressOwner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a16Owner",
+            "host": "%wildcardHostOwner%",
+            "pointsTo": "%aaaaValue1Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a17Owner",
+            "host": "%wildcardHostOwner%",
+            "pointsTo": "%aaaaValue2Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a18Owner",
+            "host": "@",
+            "pointsTo": "%aaaaValue1Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a19Owner",
+            "host": "@",
+            "pointsTo": "%aaaaValue2Owner%",
+            "ttl": "3600"
+        },
+        {
+            "type": "MX",
+            "groupId": "a20Owner",
+            "host": "%MxHost1Owner%",
+            "pointsTo": "%MxValue1Owner%",
+            "ttl": "3600",
+            "priority": "10"
+        },
+        {
+            "type": "MX",
+            "groupId": "a21Owner",
+            "host": "%MxHost2Owner%",
+            "pointsTo": "%MxValue2Owner%",
+            "ttl": "300",
+            "priority": "10"
         }
     ]
 }
