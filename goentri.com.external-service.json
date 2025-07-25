@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "external-service",
     "serviceName": "ExternalService",
-    "version": 122,
+    "version": 124,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -113,7 +113,7 @@
         {
             "type": "SPFM",
             "groupId": "a5learndash",
-            "host": "@",
+            "host": "%spfHostlearndash%",
             "ttl": "3600",
             "spfRules": "%spfRuleslearndash%"
         },
