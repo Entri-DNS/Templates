@@ -1,16 +1,16 @@
 {
-    "providerId": "goentri.com",
-    "providerName": "Entri",
-    "serviceId": "third-party-integration",
-    "serviceName": "ThirdPartyIntegration",
-    "version": 1,
-    "logoUrl": "https://cdn.goentri.com/logo.svg",
-    "description": "This template is used for apps that needs ttl to be set as 'auto'",
-    "shared": true,
-    "sharedProviderName": true,
-    "syncPubKeyDomain": "goentri.com",
-    "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
-    "records": [
+  "providerId": "goentri.com",
+  "providerName": "Entri",
+  "serviceId": "third-party-integration",
+  "serviceName": "ThirdPartyIntegration",
+  "version": 125,
+  "logoUrl": "https://cdn.goentri.com/logo.svg",
+  "description": "This template is used for apps that needs ttl to be set as 'auto'",
+  "shared": true,
+  "sharedProviderName": true,
+  "syncPubKeyDomain": "goentri.com",
+  "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
+  "records": [
     {
       "type": "CNAME",
       "groupId": "a1Sendmarc",
