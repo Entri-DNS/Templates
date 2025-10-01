@@ -1,42 +1,43 @@
 {
-  "providerId": "goentri.com",
-  "providerName": "Entri",
-  "serviceId": "third-party-integration",
-  "serviceName": "ThirdPartyIntegration",
-  "version": 125,
-  "logoUrl": "https://cdn.goentri.com/logo.svg",
-  "description": "This template is used for apps that needs ttl to be set as 'auto'",
-  "shared": true,
-  "sharedProviderName": true,
-  "syncPubKeyDomain": "goentri.com",
-  "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
-  "records": [
-    {
-      "type": "CNAME",
-      "groupId": "a1Sendmarc",
-      "host": "%dmarcHostSendmarc%",
-      "pointsTo": "%cnamePointsToSendmarc%",
-      "ttl": "3600"
-    },
-    {
-      "type": "SPFM",
-      "groupId": "a2Sendmarc",
-      "host": "@",
-      "ttl": "3600",
-      "spfRules": "%thirdPartyDomainSendmarc%"
-    },
-    {
-      "type": "NS",
-      "groupId": "a3Sendmarc",
-      "host": "%nsHostSendmarc%",
-      "pointsTo": "%nsValue1Sendmarc%",
-      "ttl": "3600"
-    },
-    {
-      "type": "NS",
-      "groupId": "a3Sendmarc",
-      "host": "%nsHostSendmarc%",
-      "pointsTo": "%nsValue2Sendmarc%"
-    }
-  ]
+    "providerId": "goentri.com",
+    "providerName": "Entri",
+    "serviceId": "third-party-integration",
+    "serviceName": "ThirdPartyIntegration",
+    "version": 2,
+    "logoUrl": "https://cdn.goentri.com/logo.svg",
+    "description": "This template is used for apps that needs ttl to be set as 'auto'",
+    "shared": true,
+    "sharedProviderName": true,
+    "syncPubKeyDomain": "goentri.com",
+    "syncRedirectDomain": "api.goentri.com,goentri.com,entri.com,app.entri.com,app.goentri.com",
+    "records": [
+        {
+            "type": "CNAME",
+            "groupId": "a1Sendmarc",
+            "host": "%dmarcHostSendmarc%",
+            "pointsTo": "%cnamePointsToSendmarc%",
+            "ttl": "3600"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a2Sendmarc",
+            "host": "@",
+            "ttl": "3600",
+            "spfRules": "%thirdPartyDomainSendmarc%"
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Sendmarc",
+            "host": "%nsHostSendmarc%",
+            "pointsTo": "%nsValue1Sendmarc%",
+            "ttl": "3600"
+        },
+        {
+            "type": "NS",
+            "groupId": "a3Sendmarc",
+            "host": "%nsHostSendmarc%",
+            "pointsTo": "%nsValue2Sendmarc%",
+            "ttl": "3600"
+        }
+    ]
 }
