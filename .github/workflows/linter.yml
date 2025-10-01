@@ -42,7 +42,7 @@ jobs:
       - name: Run dc-template-linter with debug
         run: |
           export GOPATH=$(go env GOPATH)
-          $GOPATH/bin/dc-template-linter -inplace -loglevel error *.json || echo "Linting failed with exit code $?"
+          $GOPATH/bin/dc-template-linter --inplace -loglevel error *.json || echo "Linting failed with exit code $?"
 
       - name: Check for changes
         id: check_changes
