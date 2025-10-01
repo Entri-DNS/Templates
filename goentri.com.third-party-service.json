@@ -3,13 +3,13 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 123,
+    "version": 124,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
     "sharedProviderName": true,
     "syncPubKeyDomain": "goentri.com",
-    "syncRedirectDomain": "api.goentri.com, goentri.com, entri.com, app.entri.com,app.goentri.com",
+    "syncRedirectDomain": "api.goentri.com,goentri.com,entri.com,app.entri.com,app.goentri.com",
     "records": [
         {
             "type": "A",
