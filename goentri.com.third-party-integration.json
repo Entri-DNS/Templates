@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-integration",
     "serviceName": "ThirdPartyIntegration",
-    "version": 2,
+    "version": 127,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "This template is used for apps that needs ttl to be set as 'auto'",
     "shared": true,
@@ -16,13 +16,13 @@
             "groupId": "a1Sendmarc",
             "host": "%dmarcHostSendmarc%",
             "pointsTo": "%cnamePointsToSendmarc%",
-            "ttl": "3600"
+            "ttl": "1"
         },
         {
             "type": "SPFM",
             "groupId": "a2Sendmarc",
             "host": "@",
-            "ttl": "3600",
+            "ttl": "1",
             "spfRules": "%thirdPartyDomainSendmarc%"
         },
         {
@@ -30,14 +30,14 @@
             "groupId": "a3Sendmarc",
             "host": "%nsHostSendmarc%",
             "pointsTo": "%nsValue1Sendmarc%",
-            "ttl": "3600"
+            "ttl": "1"
         },
         {
             "type": "NS",
             "groupId": "a3Sendmarc",
             "host": "%nsHostSendmarc%",
             "pointsTo": "%nsValue2Sendmarc%",
-            "ttl": "3600"
+            "ttl": "1"
         }
     ]
 }
