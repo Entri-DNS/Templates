@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-integration",
     "serviceName": "ThirdPartyIntegration",
-    "version": 2,
+    "version": 127,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "This template is used for apps that needs ttl to be set as 'auto'",
     "shared": true,
