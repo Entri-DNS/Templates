@@ -3,7 +3,7 @@
     "providerName": "Entri",
     "serviceId": "third-party-service",
     "serviceName": "ThirdPartyService",
-    "version": 124,
+    "version": 128,
     "logoUrl": "https://cdn.goentri.com/logo.svg",
     "description": "Allows user to easily set up domain using Entri",
     "shared": true,
@@ -2595,7 +2595,7 @@
         {
             "type": "CNAME",
             "groupId": "a1Etherealengine",
-            "host": "_7a1acf92f8f753299325c777bff623c6 ",
+            "host": "_7a1acf92f8f753299325c777bff623c6",
             "pointsTo": "_bc3887e35be16e98c3616b2bebd73c13.mhbtsbpdnt.acm-validations.aws.",
             "ttl": "3600"
         },
