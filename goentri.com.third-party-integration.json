@@ -38,6 +38,217 @@
             "host": "%nsHostSendmarc%",
             "pointsTo": "%nsValue2Sendmarc%",
             "ttl": "1"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a1",
+            "host": "%hostValue1%",
+            "pointsTo": "%dataValue1%",
+            "ttl": "1"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a2",
+            "host": "%hostValue2%",
+            "pointsTo": "%dataValue2%",
+            "ttl": "1"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a3",
+            "host": "%hostValue3%",
+            "pointsTo": "%dataValue3%",
+            "ttl": "1"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a4",
+            "host": "%hostValue4%",
+            "pointsTo": "%dataValue4%",
+            "ttl": "1"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a5",
+            "host": "%hostValue5%",
+            "pointsTo": "%dataValue5%",
+            "ttl": "1"
+        },
+        {
+            "type": "CNAME",
+            "groupId": "a6",
+            "host": "%hostValue6%",
+            "pointsTo": "%dataValue6%",
+            "ttl": "1"
+        },
+        {
+            "type": "SPFM",
+            "groupId": "a7",
+            "host": "%spfHost%",
+            "ttl": "1",
+            "spfRules": "%spfValue%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a8",
+            "host": "%dmarcHost1%",
+            "ttl": "1",
+            "data": "%dmarcValue1%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a9",
+            "host": "%dmarcHost2%",
+            "ttl": "1",
+            "data": "%dmarcValue2%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a10",
+            "host": "%dmarcHost3%",
+            "ttl": "1",
+            "data": "%dmarcValue3%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a11",
+            "host": "%dmarcHost4%",
+            "ttl": "1",
+            "data": "%dmarcValue4%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a12",
+            "host": "%dmarcHost5%",
+            "ttl": "1",
+            "data": "%dmarcValue5%"
+        },
+        {
+            "type": "TXT",
+            "groupId": "a13",
+            "host": "%dmarcHost6%",
+            "ttl": "1",
+            "data": "%dmarcValue6%"
+        },
+        {
+            "type": "A",
+            "groupId": "a14",
+            "host": "%arecordHost%",
+            "pointsTo": "%ipAddres1%",
+            "ttl": "1"
+        },
+        {
+            "type": "A",
+            "groupId": "a15",
+            "host": "%arecordHost2%",
+            "pointsTo": "%ipAdress2%",
+            "ttl": "1"
+        },
+        {
+            "type": "A",
+            "groupId": "a16",
+            "host": "%arecordHost3%",
+            "pointsTo": "%ipAdress3%",
+            "ttl": "1"
+        },
+        {
+            "type": "A",
+            "groupId": "a17",
+            "host": "%arecordHost4%",
+            "pointsTo": "%ipAdress4%",
+            "ttl": "1"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a18",
+            "host": "%wildcardHost1%",
+            "pointsTo": "%aaaaValue1%",
+            "ttl": "1"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a19",
+            "host": "%wildcardHost2%",
+            "pointsTo": "%aaaaValue2%",
+            "ttl": "1"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a20",
+            "host": "%wildcardHost3%",
+            "pointsTo": "%aaaaValue3%",
+            "ttl": "1"
+        },
+        {
+            "type": "AAAA",
+            "groupId": "a21",
+            "host": "%wildcardHost4%",
+            "pointsTo": "%aaaaValue4%",
+            "ttl": "1"
+        },
+        {
+            "type": "MX",
+            "groupId": "a22",
+            "host": "%MxHost1%",
+            "pointsTo": "%MxValue1%",
+            "ttl": "1",
+            "priority": "10"
+        },
+        {
+            "type": "MX",
+            "groupId": "a23",
+            "host": "%MxHost2%",
+            "pointsTo": "%MxValue2%",
+            "ttl": "1",
+            "priority": "10"
+        },
+        {
+            "type": "REDIR301",
+            "groupId": "a24",
+            "host": "@",
+            "target": "%target%"
+        },
+        {
+            "type": "NS",
+            "groupId": "a25",
+            "host": "%nsHost1%",
+            "pointsTo": "%nsValue1%",
+            "ttl": "1"
+        },
+        {
+            "type": "NS",
+            "groupId": "a26",
+            "host": "%nsHost2%",
+            "pointsTo": "%nsValue2%",
+            "ttl": "1"
+        },
+        {
+            "type": "NS",
+            "groupId": "a27",
+            "host": "%nsHost3%",
+            "pointsTo": "%nsValue3%",
+            "ttl": "1"
+        },
+        {
+            "type": "NS",
+            "groupId": "a28",
+            "host": "%nsHost4%",
+            "pointsTo": "%nsValue4%",
+            "ttl": "1"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a29",
+            "host": "%caaHost%",
+            "ttl": "1",
+            "data": "%caaValue1%"
+        },
+        {
+            "type": "CAA",
+            "groupId": "a30",
+            "host": "%caaHost%",
+            "ttl": "1",
+            "data": "%caaValue2%"
         }
     ]
 }
